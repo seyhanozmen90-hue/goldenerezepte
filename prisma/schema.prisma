@@ -1,0 +1,36 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Yerel geliştirme: SQLite
+// Supabase'e geçerken: provider = "postgresql" yap ve .env'i güncelle
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Recipe {
+  id          Int      @id @default(autoincrement())
+  slug        String   @unique
+  title       String
+  description String
+  category    String
+  prepTime    Int
+  cookTime    Int
+  servings    Int
+  difficulty  String
+  imageUrl    String?
+  ingredients String
+  steps       String
+  published   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model User {
+  id       Int    @id @default(autoincrement())
+  email    String @unique
+  password String
+  name     String
+}
