@@ -25,7 +25,8 @@ const CATEGORIES = ["Hauptgerichte", "Vorspeisen", "Desserts", "Suppen", "Salate
 
 const EMPTY_FORM = {
   title: "", description: "", category: "Backen",
-  cookTime: "0", imageUrl: "", ingredients: "", steps: "", published: false,
+  prepTime: "0", cookTime: "0", servings: "4", difficulty: "Einfach",
+  imageUrl: "", ingredients: "", steps: "", published: false,
 };
 
 // ── Serbest metin parser (Notepad formatı) ───────────────────────────────────
