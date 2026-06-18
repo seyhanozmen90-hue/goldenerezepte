@@ -151,7 +151,7 @@ export default function Dashboard() {
     let ingredients = ""; let steps = "";
     try { ingredients = JSON.parse(recipe.ingredients).join("\n"); } catch { ingredients = recipe.ingredients; }
     try { steps = JSON.parse(recipe.steps).join("\n"); } catch { steps = recipe.steps; }
-    setForm({ title: recipe.title, description: recipe.description, category: recipe.category, cookTime: String(recipe.cookTime), imageUrl: recipe.imageUrl ?? "", ingredients, steps, published: recipe.published });
+    setForm({ title: recipe.title, description: recipe.description, category: recipe.category, prepTime: String(recipe.prepTime), cookTime: String(recipe.cookTime), servings: String(recipe.servings), difficulty: recipe.difficulty, imageUrl: recipe.imageUrl ?? "", ingredients, steps, published: recipe.published });
     setMode("manual"); setShowModal(true);
   }
 
