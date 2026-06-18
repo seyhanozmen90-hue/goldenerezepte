@@ -17,7 +17,6 @@ export default function NavBar() {
         <Link href="/rezepte" onClick={close}>Alle Rezepte</Link>
         <Link href="/ueber-uns" onClick={close}>Über uns</Link>
         <Link href="/impressum" onClick={close}>Impressum</Link>
-        <Link href="/admin" className="nav-admin-btn" onClick={close}>Admin</Link>
       </div>
 
       <button
