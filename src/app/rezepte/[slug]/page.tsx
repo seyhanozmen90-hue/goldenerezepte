@@ -4,11 +4,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import NavBar from "@/components/NavBar";
 
-type Props = { params: { slug: string } };
+type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
   const recipe = await prisma.recipe.findUnique({
-    where: { slug: params.slug, published: true },
+    where: { slug, published: true },
   });
   if (!recipe) return { title: "Rezept nicht gefunden – GoldeneRezepte" };
   return {
@@ -24,7 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function RezeptDetailPage({ params }: Props) {
-  const recipe = await prisma.recipe.findUnique({ where: { slug: params.slug, published: true } });
+  const { slug } = await params;
+  const recipe = await prisma.recipe.findUnique({ where: { slug, published: true } });
   if (!recipe) notFound();
 
   const ingredients: string[] = JSON.parse(recipe.ingredients);

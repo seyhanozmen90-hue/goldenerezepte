@@ -3,22 +3,26 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 
-export async function GET(_req: NextRequest, { params }: { params: { id: string } }) {
+type Context = { params: Promise<{ id: string }> };
+
+export async function GET(_req: NextRequest, context: Context) {
   const session = await getServerSession(authOptions);
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
-  const recipe = await prisma.recipe.findUnique({ where: { id: Number(params.id) } });
+  const { id } = await context.params;
+  const recipe = await prisma.recipe.findUnique({ where: { id: Number(id) } });
   if (!recipe) return NextResponse.json({ error: "Not found" }, { status: 404 });
   return NextResponse.json(recipe);
 }
 
-export async function PUT(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PUT(req: NextRequest, context: Context) {
   const session = await getServerSession(authOptions);
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
+  const { id } = await context.params;
   const body = await req.json();
   const recipe = await prisma.recipe.update({
-    where: { id: Number(params.id) },
+    where: { id: Number(id) },
     data: {
       title: body.title,
       description: body.description,
@@ -36,22 +40,24 @@ export async function PUT(req: NextRequest, { params }: { params: { id: string }
   return NextResponse.json(recipe);
 }
 
-export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PATCH(req: NextRequest, context: Context) {
   const session = await getServerSession(authOptions);
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
+  const { id } = await context.params;
   const body = await req.json();
   const recipe = await prisma.recipe.update({
-    where: { id: Number(params.id) },
+    where: { id: Number(id) },
     data: body,
   });
   return NextResponse.json(recipe);
 }
 
-export async function DELETE(_req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(_req: NextRequest, context: Context) {
   const session = await getServerSession(authOptions);
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
-  await prisma.recipe.delete({ where: { id: Number(params.id) } });
+  const { id } = await context.params;
+  await prisma.recipe.delete({ where: { id: Number(id) } });
   return NextResponse.json({ ok: true });
 }
