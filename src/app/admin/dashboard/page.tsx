@@ -352,7 +352,7 @@ Pişirme: 30
                   </div>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
                     <label className="form-label">Açıklama</label>
-                    <input className="form-input" value={form.description} onChange={(e) => setForm({ ...form, description: e.target.value })} />
+                    <textarea className="form-textarea" style={{ minHeight: "80px" }} value={form.description} onChange={(e) => setForm({ ...form, description: e.target.value })} />
                   </div>
                   <div className="form-group">
                     <label className="form-label">Kategori</label>
