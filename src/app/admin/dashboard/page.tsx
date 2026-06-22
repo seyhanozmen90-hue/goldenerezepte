@@ -130,6 +130,7 @@ export default function Dashboard() {
   const [saving, setSaving]         = useState(false);
   const [msg, setMsg]               = useState("");
   const [uploading, setUploading]   = useState(false);
+  const [filterCat, setFilterCat]   = useState("Alle");
 
   useEffect(() => {
     if (status === "unauthenticated") router.push("/admin");
@@ -236,9 +237,30 @@ export default function Dashboard() {
           <div style={{ marginBottom: "1.5rem", padding: "0.75rem 1rem", borderRadius: "8px", background: "var(--card)", border: "1px solid var(--border)", fontFamily: "system-ui, sans-serif", fontSize: "0.9rem" }}>{msg}</div>
         )}
 
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.5rem" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
           <h2 style={{ fontSize: "1.1rem", fontWeight: 700 }}>Tarifleri Yönet</h2>
           <button className="btn btn-primary" style={{ fontSize: "0.85rem", padding: "0.6rem 1.25rem" }} onClick={openCreate}>+ Yeni Tarif</button>
+        </div>
+
+        {/* Kategori filtresi */}
+        <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
+          {["Alle", ...CATEGORIES].map((c) => (
+            <button
+              key={c}
+              onClick={() => setFilterCat(c)}
+              style={{
+                padding: "0.35rem 0.9rem",
+                borderRadius: "20px",
+                border: "1px solid var(--border)",
+                background: filterCat === c ? "var(--gold)" : "var(--card)",
+                color: filterCat === c ? "#000" : "var(--muted)",
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "0.82rem",
+                cursor: "pointer",
+                fontWeight: filterCat === c ? 700 : 400,
+              }}
+            >{c}</button>
+          ))}
         </div>
 
         {recipes.length === 0 ? (
@@ -248,7 +270,7 @@ export default function Dashboard() {
             <table className="admin-table">
               <thead><tr><th>Başlık</th><th>Kategori</th><th>Durum</th><th>İşlemler</th></tr></thead>
               <tbody>
-                {recipes.map((r) => (
+                {recipes.filter((r) => filterCat === "Alle" || r.category === filterCat).map((r) => (
                   <tr key={r.id}>
                     <td><Link href={`/rezepte/${r.slug}`} style={{ color: "var(--gold)" }} target="_blank">{r.title}</Link></td>
                     <td><span className="badge badge-gold">{r.category}</span></td>
