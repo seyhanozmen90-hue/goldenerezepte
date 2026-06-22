@@ -28,7 +28,7 @@ export default async function HomePage() {
 
       <section className="hero">
         <h1>Goldene <em>Rezepte</em> für jeden Tag</h1>
-        <p>Schnell, einfach und zum Verlieben – über 100 Rezepte, die wirklich gelingen.</p>
+        <p>Schnell, einfach und zum Verlieben – Rezepte, die wirklich gelingen.</p>
         <Link href="/rezepte" className="btn btn-primary">Jetzt kochen →</Link>
       </section>
 
