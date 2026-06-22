@@ -32,6 +32,39 @@ export default async function HomePage() {
         <Link href="/rezepte" className="btn btn-primary">Jetzt kochen →</Link>
       </section>
 
+      {/* Kategorien Section */}
+      <div style={{ background: "var(--bg2)", borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}>
+        <div className="container section" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
+          <h2 className="section-title">Kategorien</h2>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(130px, 1fr))", gap: "1rem", marginTop: "1.5rem" }}>
+            {CATEGORIES.slice(1).map((c) => (
+              <Link
+                key={c}
+                href={`/rezepte?kategorie=${encodeURIComponent(c)}`}
+                style={{
+                  background: "var(--card)",
+                  border: "1px solid var(--border)",
+                  borderRadius: "var(--radius)",
+                  padding: "1.25rem 1rem",
+                  textAlign: "center",
+                  fontFamily: "system-ui, sans-serif",
+                  fontSize: "0.9rem",
+                  color: "var(--muted)",
+                  transition: "all 0.2s",
+                  display: "block",
+                }}
+                className="cat-link"
+              >
+                <div style={{ fontSize: "1.75rem", marginBottom: "0.5rem" }}>
+                  {c === "Hauptgerichte" ? "🥩" : c === "Vorspeisen" ? "🥗" : c === "Desserts" ? "🍰" : c === "Suppen" ? "🍲" : c === "Salate" ? "🥬" : "🥐"}
+                </div>
+                {c}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <div className="container section">
         <h2 className="section-title">Neueste Rezepte</h2>
         <p className="section-subtitle">Frisch hinzugefügt aus unserer Sammlung</p>
@@ -73,40 +106,6 @@ export default async function HomePage() {
             <Link href="/rezepte" className="btn btn-outline">Alle Rezepte anzeigen</Link>
           </div>
         )}
-      </div>
-
-      {/* Kategorien Section */}
-      <div style={{ background: "var(--bg2)", borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}>
-        <div className="container section" style={{ paddingTop: "3.5rem", paddingBottom: "3.5rem" }}>
-          <h2 className="section-title">Kategorien</h2>
-          <p className="section-subtitle">Finde das richtige Rezept für jeden Anlass</p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))", gap: "1rem", marginTop: "2rem" }}>
-            {CATEGORIES.slice(1).map((c) => (
-              <Link
-                key={c}
-                href={`/rezepte?kategorie=${encodeURIComponent(c)}`}
-                style={{
-                  background: "var(--card)",
-                  border: "1px solid var(--border)",
-                  borderRadius: "var(--radius)",
-                  padding: "1.5rem 1rem",
-                  textAlign: "center",
-                  fontFamily: "system-ui, sans-serif",
-                  fontSize: "0.9rem",
-                  color: "var(--muted)",
-                  transition: "all 0.2s",
-                  display: "block",
-                }}
-                className="cat-link"
-              >
-                <div style={{ fontSize: "1.75rem", marginBottom: "0.5rem" }}>
-                  {c === "Hauptgerichte" ? "🥩" : c === "Vorspeisen" ? "🥗" : c === "Desserts" ? "🍰" : c === "Suppen" ? "🍲" : c === "Salate" ? "🥬" : "🥐"}
-                </div>
-                {c}
-              </Link>
-            ))}
-          </div>
-        </div>
       </div>
 
       <footer>
