@@ -185,12 +185,12 @@ export default function Dashboard() {
   }
 
   async function deleteRecipe(id: number) {
-    if (!confirm("Rezept wirklich löschen?")) return;
+    if (!confirm("Bu tarifi silmek istediğine emin misin?")) return;
     await fetch(`/api/rezepte/${id}`, { method: "DELETE" });
     loadRecipes();
   }
 
-  if (status === "loading") return <div className="login-page"><div style={{ color: "var(--muted)" }}>Wird geladen...</div></div>;
+  if (status === "loading") return <div className="login-page"><div style={{ color: "var(--muted)" }}>Yükleniyor...</div></div>;
   if (status === "unauthenticated") return null;
 
   const published = recipes.filter((r) => r.published).length;
@@ -200,22 +200,22 @@ export default function Dashboard() {
       <aside className="sidebar">
         <div className="sidebar-logo">🥨 GoldeneRezepte</div>
         <nav className="sidebar-nav">
-          <a href="#" className="active">📋 Rezepte</a>
-          <Link href="/">🏠 Website ansehen</Link>
+          <a href="#" className="active">📋 Tarifler</a>
+          <Link href="/">🏠 Siteyi Gör</Link>
         </nav>
         <div style={{ padding: "1.5rem", marginTop: "auto" }}>
-          <button className="btn btn-outline" style={{ width: "100%", fontSize: "0.82rem" }} onClick={() => signOut({ callbackUrl: "/admin" })}>Abmelden</button>
+          <button className="btn btn-outline" style={{ width: "100%", fontSize: "0.82rem" }} onClick={() => signOut({ callbackUrl: "/admin" })}>Çıkış Yap</button>
         </div>
       </aside>
 
       <main className="dashboard-content">
         <div className="dashboard-title">Dashboard</div>
-        <div className="dashboard-subtitle">Willkommen zurück, {session?.user?.name ?? "Admin"}</div>
+        <div className="dashboard-subtitle">Hoş geldin, {session?.user?.name ?? "Admin"}</div>
 
         <div className="stats-grid">
-          <div className="stat-card"><div className="stat-value">{recipes.length}</div><div className="stat-label">Gesamt</div></div>
-          <div className="stat-card"><div className="stat-value">{published}</div><div className="stat-label">Veröffentlicht</div></div>
-          <div className="stat-card"><div className="stat-value">{recipes.length - published}</div><div className="stat-label">Entwürfe</div></div>
+          <div className="stat-card"><div className="stat-value">{recipes.length}</div><div className="stat-label">Toplam</div></div>
+          <div className="stat-card"><div className="stat-value">{published}</div><div className="stat-label">Yayında</div></div>
+          <div className="stat-card"><div className="stat-value">{recipes.length - published}</div><div className="stat-label">Taslak</div></div>
         </div>
 
         {msg && !showModal && (
@@ -223,27 +223,27 @@ export default function Dashboard() {
         )}
 
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.5rem" }}>
-          <h2 style={{ fontSize: "1.1rem", fontWeight: 700 }}>Rezepte verwalten</h2>
-          <button className="btn btn-primary" style={{ fontSize: "0.85rem", padding: "0.6rem 1.25rem" }} onClick={openCreate}>+ Neues Rezept</button>
+          <h2 style={{ fontSize: "1.1rem", fontWeight: 700 }}>Tarifleri Yönet</h2>
+          <button className="btn btn-primary" style={{ fontSize: "0.85rem", padding: "0.6rem 1.25rem" }} onClick={openCreate}>+ Yeni Tarif</button>
         </div>
 
         {recipes.length === 0 ? (
-          <div className="empty-state"><div className="empty-icon">📝</div><h3>Noch keine Rezepte</h3><p>Klicke auf „Neues Rezept" um zu beginnen.</p></div>
+          <div className="empty-state"><div className="empty-icon">📝</div><h3>Henüz tarif yok</h3><p>Başlamak için "Yeni Tarif" butonuna tıkla.</p></div>
         ) : (
           <div style={{ overflowX: "auto" }}>
             <table className="admin-table">
-              <thead><tr><th>Titel</th><th>Kategorie</th><th>Status</th><th>Aktionen</th></tr></thead>
+              <thead><tr><th>Başlık</th><th>Kategori</th><th>Durum</th><th>İşlemler</th></tr></thead>
               <tbody>
                 {recipes.map((r) => (
                   <tr key={r.id}>
                     <td><Link href={`/rezepte/${r.slug}`} style={{ color: "var(--gold)" }} target="_blank">{r.title}</Link></td>
                     <td><span className="badge badge-gold">{r.category}</span></td>
-                    <td><span className={`badge ${r.published ? "badge-green" : "badge-red"}`}>{r.published ? "Veröffentlicht" : "Entwurf"}</span></td>
+                    <td><span className={`badge ${r.published ? "badge-green" : "badge-red"}`}>{r.published ? "Yayında" : "Taslak"}</span></td>
                     <td>
                       <div style={{ display: "flex", gap: "0.4rem", flexWrap: "wrap" }}>
-                        <button className="btn btn-outline" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => openEdit(r)}>✏️ Bearbeiten</button>
-                        <button className="btn btn-outline" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => togglePublish(r.id, r.published)}>{r.published ? "Zurückziehen" : "Veröffentlichen"}</button>
-                        <button className="btn btn-danger" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => deleteRecipe(r.id)}>Löschen</button>
+                        <button className="btn btn-outline" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => openEdit(r)}>✏️ Düzenle</button>
+                        <button className="btn btn-outline" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => togglePublish(r.id, r.published)}>{r.published ? "Yayından Kaldır" : "Yayınla"}</button>
+                        <button className="btn btn-danger" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => deleteRecipe(r.id)}>Sil</button>
                       </div>
                     </td>
                   </tr>
@@ -257,7 +257,7 @@ export default function Dashboard() {
       {showModal && (
         <div className="modal-overlay" onClick={(e) => { if (e.target === e.currentTarget) closeModal(); }}>
           <div className="modal">
-            <div className="modal-title">{editingId ? "Rezept bearbeiten" : mode === "paste" ? "Tarif Yapıştır" : "Tarif Detayları"}</div>
+            <div className="modal-title">{editingId ? "Tarifi Düzenle" : mode === "paste" ? "Tarif Yapıştır" : "Tarif Detayları"}</div>
 
             {/* ── PASTE MODE ── */}
             {!editingId && mode === "paste" && (
