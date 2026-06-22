@@ -1,6 +1,8 @@
 import { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
 
+export const revalidate = 3600;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const recipes = await prisma.recipe.findMany({
     where: { published: true },
@@ -18,13 +20,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {
       url: "https://goldenerezepte.vercel.app",
       lastModified: new Date(),
-      changeFrequency: "daily",
+      changeFrequency: "daily" as const,
       priority: 1,
     },
     {
       url: "https://goldenerezepte.vercel.app/rezepte",
       lastModified: new Date(),
-      changeFrequency: "daily",
+      changeFrequency: "daily" as const,
       priority: 0.9,
     },
     ...recipeUrls,
