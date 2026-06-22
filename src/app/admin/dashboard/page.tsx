@@ -23,55 +23,41 @@ type Recipe = {
 
 const CATEGORIES = ["Hauptgerichte", "Vorspeisen", "Desserts", "Suppen", "Salate", "Backen"];
 
+const CAT_TR: Record<string, string> = {
+  "Hauptgerichte": "Ana Yemekler",
+  "Vorspeisen": "Başlangıçlar",
+  "Desserts": "Tatlılar",
+  "Suppen": "Çorbalar",
+  "Salate": "Salatalar",
+  "Backen": "Fırın",
+};
+
 const EMPTY_FORM = {
   title: "", description: "", category: "Backen",
   prepTime: "0", cookTime: "0", servings: "4", difficulty: "Einfach",
   imageUrl: "", ingredients: "", steps: "", published: false,
 };
 
-// ── Serbest metin parser (Notepad formatı) ───────────────────────────────────
 function parseFreeText(raw: string): typeof EMPTY_FORM {
   const lines = raw.split("\n").map((l) => l.trim());
-
-  // Başlık = ilk dolu satır
   const title = lines.find((l) => l.length > 0) ?? "";
-
-  // Bölüm sınırlarını bul
   const zutatenIdx    = lines.findIndex((l) => /^zutaten$/i.test(l));
   const zubereitungIdx = lines.findIndex((l) => /^zubereitung$/i.test(l));
-
-  // Açıklama = başlık ile Zutaten arasındaki paragraf(lar)
   let description = "";
   if (zutatenIdx > 0) {
-    description = lines
-      .slice(1, zutatenIdx)
-      .filter((l) => l.length > 0)
-      .join(" ")
-      .trim();
+    description = lines.slice(1, zutatenIdx).filter((l) => l.length > 0).join(" ").trim();
   }
-
-  // Malzemeler = Zutaten ile Zubereitung arasındaki satırlar
   let ingredients = "";
   if (zutatenIdx >= 0 && zubereitungIdx > zutatenIdx) {
-    ingredients = lines
-      .slice(zutatenIdx + 1, zubereitungIdx)
-      .filter((l) => l.length > 0)
-      .join("\n");
+    ingredients = lines.slice(zutatenIdx + 1, zubereitungIdx).filter((l) => l.length > 0).join("\n");
   }
-
-  // Adımlar = Zubereitung'dan sonraki satırlar ("Guten Appetit" hariç)
   let steps = "";
   if (zubereitungIdx >= 0) {
-    steps = lines
-      .slice(zubereitungIdx + 1)
-      .filter((l) => l.length > 0 && !/^guten appetit/i.test(l))
-      .join("\n");
+    steps = lines.slice(zubereitungIdx + 1).filter((l) => l.length > 0 && !/^guten appetit/i.test(l)).join("\n");
   }
-
   return { ...EMPTY_FORM, title, description, ingredients, steps };
 }
 
-// ── Şablon tabanlı parser ────────────────────────────────────────────────────
 function parseTemplateText(raw: string): typeof EMPTY_FORM {
   const get = (key: string) => {
     const m = raw.match(new RegExp(`^${key}\\s*:\\s*(.+)`, "im"));
@@ -85,18 +71,14 @@ function parseTemplateText(raw: string): typeof EMPTY_FORM {
   const difficulty  = get("Zorluk") || get("Schwierigkeit") || "Einfach";
   const imageUrl    = get("Bild") || get("Görsel") || "";
   const description = get("Açıklama") || get("Beschreibung") || "";
-
   const ingBlock  = raw.match(/##\s*(?:Malzemeler|Zutaten)\s*\n([\s\S]*?)(?=##|$)/i)?.[1] ?? "";
   const stepBlock = raw.match(/##\s*(?:Adımlar|Yapılış|Zubereitung)\s*\n([\s\S]*?)(?=##|$)/i)?.[1] ?? "";
-
   const ingredients = ingBlock.split("\n").map((l) => l.replace(/^[-*]\s*/, "").trim()).filter(Boolean).join("\n");
   const steps       = stepBlock.split("\n").map((l) => l.replace(/^\d+[\.\)]\s*/, "").trim()).filter(Boolean).join("\n");
-
   return { title, description, category, prepTime, cookTime, servings, difficulty, imageUrl, ingredients, steps, published: false };
 }
 
 function parseRecipeText(raw: string): typeof EMPTY_FORM {
-  // # ile başlıyorsa şablon formatı, değilse serbest metin
   return raw.trimStart().startsWith("#") ? parseTemplateText(raw) : parseFreeText(raw);
 }
 
@@ -205,7 +187,7 @@ export default function Dashboard() {
     loadRecipes();
   }
 
-  if (status === "loading") return <div className="login-page"><div style={{ color: "var(--muted)" }}>Yükleniyor...</div></div>;
+  if (status === "loading") return <div className="login-page"><div style={{ color: "var(--muted)" }}>Wird geladen... (Yükleniyor...)</div></div>;
   if (status === "unauthenticated") return null;
 
   const published = recipes.filter((r) => r.published).length;
@@ -215,22 +197,22 @@ export default function Dashboard() {
       <aside className="sidebar">
         <div className="sidebar-logo">🥨 GoldeneRezepte</div>
         <nav className="sidebar-nav">
-          <a href="#" className="active">📋 Tarifler</a>
-          <Link href="/">🏠 Siteyi Gör</Link>
+          <a href="#" className="active">📋 Rezepte (Tarifler)</a>
+          <Link href="/">🏠 Zur Website (Siteyi Gör)</Link>
         </nav>
         <div style={{ padding: "1.5rem", marginTop: "auto" }}>
-          <button className="btn btn-outline" style={{ width: "100%", fontSize: "0.82rem" }} onClick={() => signOut({ callbackUrl: "/admin" })}>Çıkış Yap</button>
+          <button className="btn btn-outline" style={{ width: "100%", fontSize: "0.82rem" }} onClick={() => signOut({ callbackUrl: "/admin" })}>Abmelden (Çıkış Yap)</button>
         </div>
       </aside>
 
       <main className="dashboard-content">
         <div className="dashboard-title">Dashboard</div>
-        <div className="dashboard-subtitle">Hoş geldin, {session?.user?.name ?? "Admin"}</div>
+        <div className="dashboard-subtitle">Willkommen, {session?.user?.name ?? "Admin"} (Hoş geldin)</div>
 
         <div className="stats-grid">
-          <div className="stat-card"><div className="stat-value">{recipes.length}</div><div className="stat-label">Toplam</div></div>
-          <div className="stat-card"><div className="stat-value">{published}</div><div className="stat-label">Yayında</div></div>
-          <div className="stat-card"><div className="stat-value">{recipes.length - published}</div><div className="stat-label">Taslak</div></div>
+          <div className="stat-card"><div className="stat-value">{recipes.length}</div><div className="stat-label">Gesamt (Toplam)</div></div>
+          <div className="stat-card"><div className="stat-value">{published}</div><div className="stat-label">Veröffentlicht (Yayında)</div></div>
+          <div className="stat-card"><div className="stat-value">{recipes.length - published}</div><div className="stat-label">Entwurf (Taslak)</div></div>
         </div>
 
         {msg && !showModal && (
@@ -238,48 +220,48 @@ export default function Dashboard() {
         )}
 
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
-          <h2 style={{ fontSize: "1.1rem", fontWeight: 700 }}>Tarifleri Yönet</h2>
-          <button className="btn btn-primary" style={{ fontSize: "0.85rem", padding: "0.6rem 1.25rem" }} onClick={openCreate}>+ Yeni Tarif</button>
+          <h2 style={{ fontSize: "1.1rem", fontWeight: 700 }}>Rezepte verwalten (Tarifleri Yönet)</h2>
+          <button className="btn btn-primary" style={{ fontSize: "0.85rem", padding: "0.6rem 1.25rem" }} onClick={openCreate}>+ Neues Rezept (Yeni Tarif)</button>
         </div>
 
         {/* Kategori filtresi */}
         <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
-          {["Alle", ...CATEGORIES].map((c) => (
+          {[{ de: "Alle", tr: "Hepsi" }, ...CATEGORIES.map((c) => ({ de: c, tr: CAT_TR[c] }))].map(({ de, tr }) => (
             <button
-              key={c}
-              onClick={() => setFilterCat(c)}
+              key={de}
+              onClick={() => setFilterCat(de)}
               style={{
                 padding: "0.35rem 0.9rem",
                 borderRadius: "20px",
                 border: "1px solid var(--border)",
-                background: filterCat === c ? "var(--gold)" : "var(--card)",
-                color: filterCat === c ? "#000" : "var(--muted)",
+                background: filterCat === de ? "var(--gold)" : "var(--card)",
+                color: filterCat === de ? "#000" : "var(--muted)",
                 fontFamily: "system-ui, sans-serif",
                 fontSize: "0.82rem",
                 cursor: "pointer",
-                fontWeight: filterCat === c ? 700 : 400,
+                fontWeight: filterCat === de ? 700 : 400,
               }}
-            >{c}</button>
+            >{de} ({tr})</button>
           ))}
         </div>
 
         {recipes.length === 0 ? (
-          <div className="empty-state"><div className="empty-icon">📝</div><h3>Henüz tarif yok</h3><p>Başlamak için "Yeni Tarif" butonuna tıkla.</p></div>
+          <div className="empty-state"><div className="empty-icon">📝</div><h3>Noch keine Rezepte (Henüz tarif yok)</h3><p>Klicke auf &quot;Neues Rezept&quot; um zu beginnen.</p></div>
         ) : (
           <div style={{ overflowX: "auto" }}>
             <table className="admin-table">
-              <thead><tr><th>Başlık</th><th>Kategori</th><th>Durum</th><th>İşlemler</th></tr></thead>
+              <thead><tr><th>Titel (Başlık)</th><th>Kategorie (Kategori)</th><th>Status (Durum)</th><th>Aktionen (İşlemler)</th></tr></thead>
               <tbody>
                 {recipes.filter((r) => filterCat === "Alle" || r.category === filterCat).map((r) => (
                   <tr key={r.id}>
                     <td><Link href={`/rezepte/${r.slug}`} style={{ color: "var(--gold)" }} target="_blank">{r.title}</Link></td>
-                    <td><span className="badge badge-gold">{r.category}</span></td>
-                    <td><span className={`badge ${r.published ? "badge-green" : "badge-red"}`}>{r.published ? "Yayında" : "Taslak"}</span></td>
+                    <td><span className="badge badge-gold">{r.category} ({CAT_TR[r.category] ?? r.category})</span></td>
+                    <td><span className={`badge ${r.published ? "badge-green" : "badge-red"}`}>{r.published ? "Veröffentlicht (Yayında)" : "Entwurf (Taslak)"}</span></td>
                     <td>
                       <div style={{ display: "flex", gap: "0.4rem", flexWrap: "wrap" }}>
-                        <button className="btn btn-outline" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => openEdit(r)}>✏️ Düzenle</button>
-                        <button className="btn btn-outline" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => togglePublish(r.id, r.published)}>{r.published ? "Yayından Kaldır" : "Yayınla"}</button>
-                        <button className="btn btn-danger" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => deleteRecipe(r.id)}>Sil</button>
+                        <button className="btn btn-outline" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => openEdit(r)}>✏️ Bearbeiten (Düzenle)</button>
+                        <button className="btn btn-outline" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => togglePublish(r.id, r.published)}>{r.published ? "Depublizieren (Kaldır)" : "Veröffentlichen (Yayınla)"}</button>
+                        <button className="btn btn-danger" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => deleteRecipe(r.id)}>Löschen (Sil)</button>
                       </div>
                     </td>
                   </tr>
@@ -293,18 +275,16 @@ export default function Dashboard() {
       {showModal && (
         <div className="modal-overlay">
           <div className="modal" onClick={(e) => e.stopPropagation()}>
-            <div className="modal-title">{editingId ? "Tarifi Düzenle" : mode === "paste" ? "Tarif Yapıştır" : "Tarif Detayları"}</div>
+            <div className="modal-title">{editingId ? "Rezept bearbeiten (Tarifi Düzenle)" : mode === "paste" ? "Rezept einfügen (Tarif Yapıştır)" : "Rezeptdetails (Tarif Detayları)"}</div>
 
             {/* ── PASTE MODE ── */}
             {!editingId && mode === "paste" && (
               <div>
-                {/* Format seçici */}
                 <div style={{ background: "var(--bg)", border: "1px solid var(--border)", borderRadius: "8px", padding: "1rem", marginBottom: "1.25rem" }}>
-                  <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.82rem", color: "var(--muted)", marginBottom: "0.75rem", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.5px" }}>Desteklenen formatlar</div>
+                  <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.82rem", color: "var(--muted)", marginBottom: "0.75rem", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.5px" }}>Unterstützte Formate (Desteklenen Formatlar)</div>
                   <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem" }}>
-                    {/* Format 1 */}
                     <div style={{ background: "var(--bg2)", border: "1px solid var(--border)", borderRadius: "6px", padding: "0.75rem" }}>
-                      <div style={{ fontFamily: "monospace", fontSize: "0.75rem", color: "var(--gold)", marginBottom: "0.4rem" }}>📄 Serbest Metin (Notepad)</div>
+                      <div style={{ fontFamily: "monospace", fontSize: "0.75rem", color: "var(--gold)", marginBottom: "0.4rem" }}>📄 Freitext (Serbest Metin)</div>
                       <div style={{ fontFamily: "monospace", fontSize: "0.72rem", color: "var(--muted)", lineHeight: 1.6, whiteSpace: "pre" }}>{`Tarif Adı
 
 Açıklama metni...
@@ -317,9 +297,8 @@ Zubereitung
 Adım 1.
 Adım 2.`}</div>
                     </div>
-                    {/* Format 2 */}
                     <div style={{ background: "var(--bg2)", border: "1px solid var(--border)", borderRadius: "6px", padding: "0.75rem" }}>
-                      <div style={{ fontFamily: "monospace", fontSize: "0.75rem", color: "var(--gold)", marginBottom: "0.4rem" }}>📋 Şablon Formatı</div>
+                      <div style={{ fontFamily: "monospace", fontSize: "0.75rem", color: "var(--gold)", marginBottom: "0.4rem" }}>📋 Vorlage (Şablon)</div>
                       <div style={{ fontFamily: "monospace", fontSize: "0.72rem", color: "var(--muted)", lineHeight: 1.6, whiteSpace: "pre" }}>{`# Tarif Adı
 Kategorie: Backen
 Hazırlık: 15
@@ -330,19 +309,19 @@ Pişirme: 30
 
 ## Adımlar
 1. Adım 1.`}</div>
-                      <button onClick={() => navigator.clipboard.writeText(TEMPLATE)} style={{ marginTop: "0.5rem", background: "none", border: "1px solid var(--border)", borderRadius: "4px", padding: "0.2rem 0.5rem", fontSize: "0.7rem", color: "var(--muted)", cursor: "pointer" }}>Kopyala</button>
+                      <button onClick={() => navigator.clipboard.writeText(TEMPLATE)} style={{ marginTop: "0.5rem", background: "none", border: "1px solid var(--border)", borderRadius: "4px", padding: "0.2rem 0.5rem", fontSize: "0.7rem", color: "var(--muted)", cursor: "pointer" }}>Kopieren (Kopyala)</button>
                     </div>
                   </div>
                 </div>
 
                 <div className="form-group">
-                  <label className="form-label">Tarif metnini yapıştırın *</label>
+                  <label className="form-label">Rezepttext einfügen (Tarif metnini yapıştırın) *</label>
                   <textarea
                     className="form-textarea"
                     style={{ minHeight: "200px", fontFamily: "system-ui, sans-serif", fontSize: "0.88rem" }}
                     value={pasteText}
                     onChange={(e) => { setPasteText(e.target.value); setParseError(""); }}
-                    placeholder="Notepad'den kopyaladığınız tarifi buraya yapıştırın..."
+                    placeholder="Kopierten Text hier einfügen... (Kopyalanan metni buraya yapıştırın...)"
                   />
                 </div>
 
@@ -351,8 +330,8 @@ Pişirme: 30
                 )}
 
                 <div className="modal-actions">
-                  <button type="button" className="btn btn-outline" onClick={closeModal}>İptal</button>
-                  <button type="button" className="btn btn-primary" onClick={handleParsePaste}>Ayrıştır ve Devam Et →</button>
+                  <button type="button" className="btn btn-outline" onClick={closeModal}>Abbrechen (İptal)</button>
+                  <button type="button" className="btn btn-primary" onClick={handleParsePaste}>Analysieren und weiter (Ayrıştır ve Devam Et) →</button>
                 </div>
               </div>
             )}
@@ -362,55 +341,55 @@ Pişirme: 30
               <form onSubmit={handleSave}>
                 {!editingId && (
                   <div style={{ marginBottom: "1.25rem" }}>
-                    <button type="button" onClick={() => { setMode("paste"); setParseError(""); }} style={{ background: "none", border: "none", color: "var(--gold)", fontFamily: "system-ui, sans-serif", fontSize: "0.85rem", cursor: "pointer", padding: 0 }}>← Geri</button>
-                    <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.82rem", color: "var(--muted)", marginLeft: "0.75rem" }}>Tarif ayrıştırıldı — kontrol edip kaydet.</span>
+                    <button type="button" onClick={() => { setMode("paste"); setParseError(""); }} style={{ background: "none", border: "none", color: "var(--gold)", fontFamily: "system-ui, sans-serif", fontSize: "0.85rem", cursor: "pointer", padding: 0 }}>← Zurück (Geri)</button>
+                    <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.82rem", color: "var(--muted)", marginLeft: "0.75rem" }}>Rezept analysiert — bitte prüfen und speichern. (Tarif ayrıştırıldı — kontrol edip kaydet.)</span>
                   </div>
                 )}
 
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
-                    <label className="form-label">Başlık *</label>
+                    <label className="form-label">Titel (Başlık) *</label>
                     <input className="form-input" value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} required />
                   </div>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
-                    <label className="form-label">Açıklama</label>
+                    <label className="form-label">Beschreibung (Açıklama)</label>
                     <textarea className="form-textarea" style={{ minHeight: "80px" }} value={form.description} onChange={(e) => setForm({ ...form, description: e.target.value })} />
                   </div>
                   <div className="form-group">
-                    <label className="form-label">Kategori</label>
+                    <label className="form-label">Kategorie (Kategori)</label>
                     <select className="form-select" value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })}>
-                      {CATEGORIES.map((c) => <option key={c}>{c}</option>)}
+                      {CATEGORIES.map((c) => <option key={c} value={c}>{c} ({CAT_TR[c]})</option>)}
                     </select>
                   </div>
                   <div className="form-group">
-                    <label className="form-label">Pişirme süresi (dk.)</label>
+                    <label className="form-label">Kochzeit in Min. (Pişirme süresi dk.)</label>
                     <input className="form-input" type="number" min="0" value={form.cookTime} onChange={(e) => setForm({ ...form, cookTime: e.target.value })} required />
                   </div>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
-                    <label className="form-label">Görsel</label>
+                    <label className="form-label">Bild (Görsel)</label>
                     <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
-                      <input className="form-input" type="url" value={form.imageUrl} onChange={(e) => setForm({ ...form, imageUrl: e.target.value })} placeholder="https://... veya aşağıdan yükle" />
+                      <input className="form-input" type="url" value={form.imageUrl} onChange={(e) => setForm({ ...form, imageUrl: e.target.value })} placeholder="https://... oder unten hochladen (veya aşağıdan yükle)" />
                       <label style={{ cursor: "pointer", whiteSpace: "nowrap" }}>
                         <span className="btn btn-outline" style={{ fontSize: "0.8rem", padding: "0.5rem 0.9rem" }}>
-                          {uploading ? "Yükleniyor..." : "📁 Dosya Seç"}
+                          {uploading ? "Wird hochgeladen... (Yükleniyor...)" : "📁 Datei wählen (Dosya Seç)"}
                         </span>
                         <input type="file" accept="image/*" style={{ display: "none" }} onChange={handleImageUpload} disabled={uploading} />
                       </label>
                     </div>
-                    {form.imageUrl && <img src={form.imageUrl} alt="önizleme" style={{ marginTop: "0.5rem", maxHeight: "120px", borderRadius: "8px", objectFit: "cover" }} />}
+                    {form.imageUrl && <img src={form.imageUrl} alt="Vorschau" style={{ marginTop: "0.5rem", maxHeight: "120px", borderRadius: "8px", objectFit: "cover" }} />}
                   </div>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
-                    <label className="form-label">Malzemeler (her satıra bir tane) *</label>
+                    <label className="form-label">Zutaten – eine pro Zeile (Malzemeler – her satıra bir tane) *</label>
                     <textarea className="form-textarea" value={form.ingredients} onChange={(e) => setForm({ ...form, ingredients: e.target.value })} required />
                   </div>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
-                    <label className="form-label">Yapılış (her satıra bir adım) *</label>
+                    <label className="form-label">Zubereitung – ein Schritt pro Zeile (Yapılış – her satıra bir adım) *</label>
                     <textarea className="form-textarea" value={form.steps} onChange={(e) => setForm({ ...form, steps: e.target.value })} required />
                   </div>
                   <div className="form-group">
                     <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", cursor: "pointer", fontFamily: "system-ui, sans-serif", fontSize: "0.9rem", color: "var(--muted)" }}>
                       <input type="checkbox" checked={form.published} onChange={(e) => setForm({ ...form, published: e.target.checked })} />
-                      {editingId ? "Yayında" : "Hemen yayınla"}
+                      {editingId ? "Veröffentlicht (Yayında)" : "Sofort veröffentlichen (Hemen Yayınla)"}
                     </label>
                   </div>
                 </div>
@@ -418,9 +397,9 @@ Pişirme: 30
                 {msg && <div style={{ marginTop: "1rem", padding: "0.6rem 0.9rem", borderRadius: "6px", background: "var(--bg)", fontFamily: "system-ui, sans-serif", fontSize: "0.88rem" }}>{msg}</div>}
 
                 <div className="modal-actions">
-                  <button type="button" className="btn btn-outline" onClick={closeModal}>İptal</button>
+                  <button type="button" className="btn btn-outline" onClick={closeModal}>Abbrechen (İptal)</button>
                   <button type="submit" className="btn btn-primary" disabled={saving}>
-                    {saving ? "Kaydediliyor..." : editingId ? "Değişiklikleri Kaydet" : "Tarifi Kaydet"}
+                    {saving ? "Wird gespeichert... (Kaydediliyor...)" : editingId ? "Änderungen speichern (Değişiklikleri Kaydet)" : "Rezept speichern (Tarifi Kaydet)"}
                   </button>
                 </div>
               </form>
