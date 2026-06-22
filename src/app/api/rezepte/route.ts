@@ -9,7 +9,9 @@ export async function GET() {
     where: { published: true },
     orderBy: { createdAt: "desc" },
   });
-  return NextResponse.json(recipes);
+  return NextResponse.json(recipes, {
+    headers: { "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300" },
+  });
 }
 
 export async function POST(req: NextRequest) {

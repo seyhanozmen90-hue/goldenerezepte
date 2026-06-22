@@ -7,6 +7,12 @@ import NavBar from "@/components/NavBar";
 
 export const revalidate = 3600;
 
+export async function generateStaticParams() {
+  const { prisma: db } = await import("@/lib/prisma");
+  const recipes = await db.recipe.findMany({ where: { published: true }, select: { slug: true } });
+  return recipes.map((r) => ({ slug: r.slug }));
+}
+
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -41,7 +47,7 @@ export default async function RezeptDetailPage({ params }: Props) {
 
       <div className="recipe-detail-hero">
         {recipe.imageUrl ? (
-          <Image src={recipe.imageUrl} alt={recipe.title} fill priority sizes="100vw" style={{ objectFit: "cover" }} />
+          <Image src={recipe.imageUrl} alt={recipe.title} fill priority unoptimized sizes="100vw" style={{ objectFit: "cover" }} />
         ) : (
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", fontSize: "5rem" }}>🍽️</div>
         )}

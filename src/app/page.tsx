@@ -87,7 +87,7 @@ export default async function HomePage() {
                 <div className="recipe-card">
                   <div className="recipe-card-img">
                     {r.imageUrl ? (
-                      <Image src={r.imageUrl} alt={r.title} fill sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ objectFit: "cover" }} />
+                      <Image src={r.imageUrl} alt={r.title} fill unoptimized sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ objectFit: "cover" }} />
                     ) : "🍽️"}
                   </div>
                   <div className="recipe-card-body">
