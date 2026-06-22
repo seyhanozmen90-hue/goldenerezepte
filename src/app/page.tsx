@@ -27,9 +27,9 @@ export default async function HomePage() {
       <NavBar />
 
       <section className="hero">
-        <h1>Echte <em>Deutsche</em> Küche</h1>
-        <p>Traditionelle Rezepte aus deutschen Haushalten – einfach, authentisch und lecker.</p>
-        <Link href="/rezepte" className="btn btn-primary">Alle Rezepte entdecken</Link>
+        <h1>Goldene <em>Rezepte</em> für jeden Tag</h1>
+        <p>Schnell, einfach und zum Verlieben – über 100 Rezepte, die wirklich gelingen.</p>
+        <Link href="/rezepte" className="btn btn-primary">Jetzt kochen →</Link>
       </section>
 
       <div className="container section">
