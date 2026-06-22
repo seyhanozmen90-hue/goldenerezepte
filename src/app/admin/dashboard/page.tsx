@@ -199,10 +199,8 @@ export default function Dashboard() {
         <nav className="sidebar-nav">
           <a href="#" className="active">📋 Rezepte (Tarifler)</a>
           <Link href="/">🏠 Zur Website (Siteyi Gör)</Link>
+          <a href="#" onClick={(e) => { e.preventDefault(); signOut({ callbackUrl: "/admin" }); }} style={{ marginTop: "auto" }}>🚪 Abmelden (Çıkış Yap)</a>
         </nav>
-        <div style={{ padding: "1.5rem", marginTop: "auto" }}>
-          <button className="btn btn-outline" style={{ width: "100%", fontSize: "0.82rem" }} onClick={() => signOut({ callbackUrl: "/admin" })}>Abmelden (Çıkış Yap)</button>
-        </div>
       </aside>
 
       <main className="dashboard-content">
