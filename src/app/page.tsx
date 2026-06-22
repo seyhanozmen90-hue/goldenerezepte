@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { prisma } from "@/lib/prisma";
 import NavBar from "@/components/NavBar";
+
+export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: "GoldeneRezepte – Authentische Deutsche Küche",
@@ -84,7 +87,7 @@ export default async function HomePage() {
                 <div className="recipe-card">
                   <div className="recipe-card-img">
                     {r.imageUrl ? (
-                      <img src={r.imageUrl} alt={r.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                      <Image src={r.imageUrl} alt={r.title} fill sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ objectFit: "cover" }} />
                     ) : "🍽️"}
                   </div>
                   <div className="recipe-card-body">

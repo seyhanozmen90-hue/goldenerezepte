@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import NavBar from "@/components/NavBar";
+
+export const revalidate = 3600;
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -38,7 +41,7 @@ export default async function RezeptDetailPage({ params }: Props) {
 
       <div className="recipe-detail-hero">
         {recipe.imageUrl ? (
-          <img src={recipe.imageUrl} alt={recipe.title} />
+          <Image src={recipe.imageUrl} alt={recipe.title} fill priority sizes="100vw" style={{ objectFit: "cover" }} />
         ) : (
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", fontSize: "5rem" }}>🍽️</div>
         )}
