@@ -9,6 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   title: "GoldeneRezepte – Authentische Deutsche Küche",
   description: "Traditionelle Rezepte aus deutschen Haushalten – einfach, authentisch und lecker.",
+  alternates: { canonical: "https://goldenerezepte.vercel.app" },
   openGraph: {
     title: "GoldeneRezepte – Authentische Deutsche Küche",
     description: "Traditionelle Rezepte aus deutschen Haushalten – einfach, authentisch und lecker.",
@@ -130,9 +131,8 @@ export default async function HomePage() {
           <div>
             <div className="footer-title">Info</div>
             <ul className="footer-links">
-              <li><Link href="/impressum">Impressum</Link></li>
-              <li><Link href="/datenschutz">Datenschutz</Link></li>
               <li><Link href="/ueber-uns">Über uns</Link></li>
+              <li><Link href="/impressum">Impressum</Link></li>
               <li><Link href="/datenschutz">Datenschutz</Link></li>
             </ul>
           </div>

@@ -7,6 +7,8 @@ import NavBar from "@/components/NavBar";
 
 export const revalidate = 3600;
 
+const BASE_URL = "https://goldenerezepte.vercel.app";
+
 export async function generateStaticParams() {
   const { prisma: db } = await import("@/lib/prisma");
   const recipes = await db.recipe.findMany({ where: { published: true }, select: { slug: true } });
@@ -17,16 +19,17 @@ type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const recipe = await prisma.recipe.findUnique({
-    where: { slug, published: true },
-  });
+  const recipe = await prisma.recipe.findUnique({ where: { slug, published: true } });
   if (!recipe) return { title: "Rezept nicht gefunden – GoldeneRezepte" };
+  const url = `${BASE_URL}/rezepte/${slug}`;
   return {
     title: `${recipe.title} – GoldeneRezepte`,
     description: recipe.description,
+    alternates: { canonical: url },
     openGraph: {
       title: recipe.title,
       description: recipe.description,
+      url,
       images: recipe.imageUrl ? [{ url: recipe.imageUrl }] : [],
       type: "article",
     },
@@ -41,15 +44,36 @@ export default async function RezeptDetailPage({ params }: Props) {
   const ingredients: string[] = JSON.parse(recipe.ingredients);
   const steps: string[] = JSON.parse(recipe.steps);
 
+  const schemaOrg = {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    name: recipe.title,
+    description: recipe.description,
+    image: recipe.imageUrl ?? undefined,
+    recipeCategory: recipe.category,
+    recipeIngredient: ingredients,
+    recipeInstructions: steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      text: s,
+    })),
+    totalTime: recipe.cookTime ? `PT${recipe.cookTime}M` : undefined,
+    author: { "@type": "Organization", name: "GoldeneRezepte" },
+  };
+
   return (
     <>
       <NavBar />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
+      />
 
       <div className="recipe-detail-hero">
         {recipe.imageUrl ? (
           <Image src={recipe.imageUrl} alt={recipe.title} fill priority unoptimized sizes="100vw" style={{ objectFit: "cover" }} />
         ) : (
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", fontSize: "5rem" }}>🍽️</div>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", fontSize: "5rem" }} aria-label="Kein Bild verfügbar">🍽️</div>
         )}
         <div className="recipe-detail-hero-overlay">
           <div className="recipe-detail-hero-text">
@@ -60,14 +84,11 @@ export default async function RezeptDetailPage({ params }: Props) {
       </div>
 
       <div className="recipe-detail-body">
-
         <p className="recipe-description">{recipe.description}</p>
 
         <h2 className="recipe-section-title">Zutaten</h2>
         <ul className="ingredients-list">
-          {ingredients.map((ing, i) => (
-            <li key={i}>{ing}</li>
-          ))}
+          {ingredients.map((ing, i) => <li key={i}>{ing}</li>)}
         </ul>
 
         <h2 className="recipe-section-title">Zubereitung</h2>
