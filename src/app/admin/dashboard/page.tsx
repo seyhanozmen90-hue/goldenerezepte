@@ -269,8 +269,8 @@ export default function Dashboard() {
       </main>
 
       {showModal && (
-        <div className="modal-overlay" onClick={(e) => { if (e.target === e.currentTarget) closeModal(); }}>
-          <div className="modal">
+        <div className="modal-overlay">
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
             <div className="modal-title">{editingId ? "Tarifi Düzenle" : mode === "paste" ? "Tarif Yapıştır" : "Tarif Detayları"}</div>
 
             {/* ── PASTE MODE ── */}
