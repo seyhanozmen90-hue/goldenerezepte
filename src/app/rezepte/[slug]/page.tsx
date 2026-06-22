@@ -51,12 +51,6 @@ export default async function RezeptDetailPage({ params }: Props) {
       </div>
 
       <div className="recipe-detail-body">
-        <div className="recipe-detail-meta">
-          <div className="recipe-detail-meta-item">
-            <div className="meta-label">Pişirme Süresi</div>
-            <div className="meta-value">{recipe.cookTime} Min.</div>
-          </div>
-        </div>
 
         <p className="recipe-description">{recipe.description}</p>
 

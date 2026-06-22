@@ -113,7 +113,7 @@ export default async function HomePage() {
         <div className="footer-grid">
           <div>
             <div className="footer-logo">GoldeneRezepte</div>
-            <p className="footer-desc">Authentische deutsche Rezepte für jeden Tag. Von der Oma bis zur modernen Küche.</p>
+            <p className="footer-desc">Schnell, einfach und lecker – Rezepte für jeden Tag.</p>
           </div>
           <div>
             <div className="footer-title">Kategorien</div>
