@@ -129,6 +129,7 @@ export default function Dashboard() {
   const [form, setForm]             = useState(EMPTY_FORM);
   const [saving, setSaving]         = useState(false);
   const [msg, setMsg]               = useState("");
+  const [uploading, setUploading]   = useState(false);
 
   useEffect(() => {
     if (status === "unauthenticated") router.push("/admin");
@@ -167,6 +168,19 @@ export default function Dashboard() {
     if (!parsed.ingredients) { setParseError("Malzemeler bulunamadı. Metinde 'Zutaten' başlığı olmalı."); return; }
     if (!parsed.steps)       { setParseError("Adımlar bulunamadı. Metinde 'Zubereitung' başlığı olmalı."); return; }
     setParseError(""); setForm(parsed); setMode("manual");
+  }
+
+  async function handleImageUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    const fd = new FormData();
+    fd.append("file", file);
+    const res = await fetch("/api/upload", { method: "POST", body: fd });
+    const data = await res.json();
+    setUploading(false);
+    if (data.url) setForm((f) => ({ ...f, imageUrl: data.url }));
+    else setMsg("❌ Görsel yüklenemedi: " + data.error);
   }
 
   async function handleSave(e: React.FormEvent) {
@@ -351,8 +365,17 @@ Pişirme: 30
                     <input className="form-input" type="number" min="0" value={form.cookTime} onChange={(e) => setForm({ ...form, cookTime: e.target.value })} required />
                   </div>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
-                    <label className="form-label">Görsel URL</label>
-                    <input className="form-input" type="url" value={form.imageUrl} onChange={(e) => setForm({ ...form, imageUrl: e.target.value })} placeholder="https://..." />
+                    <label className="form-label">Görsel</label>
+                    <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
+                      <input className="form-input" type="url" value={form.imageUrl} onChange={(e) => setForm({ ...form, imageUrl: e.target.value })} placeholder="https://... veya aşağıdan yükle" />
+                      <label style={{ cursor: "pointer", whiteSpace: "nowrap" }}>
+                        <span className="btn btn-outline" style={{ fontSize: "0.8rem", padding: "0.5rem 0.9rem" }}>
+                          {uploading ? "Yükleniyor..." : "📁 Dosya Seç"}
+                        </span>
+                        <input type="file" accept="image/*" style={{ display: "none" }} onChange={handleImageUpload} disabled={uploading} />
+                      </label>
+                    </div>
+                    {form.imageUrl && <img src={form.imageUrl} alt="önizleme" style={{ marginTop: "0.5rem", maxHeight: "120px", borderRadius: "8px", objectFit: "cover" }} />}
                   </div>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
                     <label className="form-label">Malzemeler (her satıra bir tane) *</label>
