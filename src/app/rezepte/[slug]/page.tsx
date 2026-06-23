@@ -76,15 +76,11 @@ export default async function RezeptDetailPage({ params }: Props) {
         ) : (
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", fontSize: "5rem" }} aria-label="Kein Bild verfügbar">🍽️</div>
         )}
-        <div className="recipe-detail-hero-overlay">
-          <div className="recipe-detail-hero-text">
-            <div className="recipe-card-category">{recipe.category}</div>
-            <h1>{recipe.title}</h1>
-          </div>
-        </div>
       </div>
 
       <div className="recipe-detail-body">
+        <div className="recipe-card-category" style={{ marginBottom: "0.5rem" }}>{recipe.category}</div>
+        <h1 style={{ marginBottom: "1.5rem" }}>{recipe.title}</h1>
         <p className="recipe-description">{recipe.description}</p>
 
         <h2 className="recipe-section-title">Zutaten</h2>
