@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import NavBar from "@/components/NavBar";
 
 export const revalidate = 3600;
+export const dynamicParams = true;
 
 const BASE_URL = "https://goldene-rezepte.com";
 
