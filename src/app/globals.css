@@ -321,8 +321,8 @@ nav {
 }
 .recipe-detail-hero img,
 .recipe-detail-hero > span {
-  object-fit: cover;
-  object-position: center 40%;
+  object-fit: contain;
+  object-position: center center;
 }
 .recipe-detail-hero-overlay {
   position: absolute;
