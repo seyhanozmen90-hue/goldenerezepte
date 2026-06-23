@@ -314,7 +314,7 @@ nav {
 
 /* ── RECIPE DETAIL ── */
 .recipe-detail-hero {
-  height: 520px;
+  height: 380px;
   position: relative;
   overflow: hidden;
   background: var(--bg2);
