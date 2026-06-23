@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
+import { revalidatePath } from "next/cache";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 
@@ -37,6 +38,9 @@ export async function PUT(req: NextRequest, context: Context) {
       published: body.published ?? false,
     },
   });
+  revalidatePath(`/rezepte/${recipe.slug}`);
+  revalidatePath("/rezepte");
+  revalidatePath("/");
   return NextResponse.json(recipe);
 }
 
@@ -50,6 +54,9 @@ export async function PATCH(req: NextRequest, context: Context) {
     where: { id: Number(id) },
     data: body,
   });
+  revalidatePath(`/rezepte/${recipe.slug}`);
+  revalidatePath("/rezepte");
+  revalidatePath("/");
   return NextResponse.json(recipe);
 }
 
