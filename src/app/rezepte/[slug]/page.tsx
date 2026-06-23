@@ -72,7 +72,7 @@ export default async function RezeptDetailPage({ params }: Props) {
 
       <div className="recipe-detail-hero">
         {recipe.imageUrl ? (
-          <Image src={recipe.imageUrl} alt={recipe.title} fill priority unoptimized sizes="100vw" style={{ objectFit: "cover", objectPosition: "center 30%" }} />
+          <Image src={recipe.imageUrl} alt={recipe.title} fill priority unoptimized sizes="100vw" style={{ objectFit: "cover", objectPosition: "center center" }} />
         ) : (
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", fontSize: "5rem" }} aria-label="Kein Bild verfügbar">🍽️</div>
         )}
