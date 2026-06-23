@@ -10,7 +10,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   });
 
   const recipeUrls = recipes.map((r) => ({
-    url: `https://goldenerezepte.vercel.app/rezepte/${r.slug}`,
+    url: `https://goldene-rezepte.com/rezepte/${r.slug}`,
     lastModified: r.createdAt,
     changeFrequency: "weekly" as const,
     priority: 0.8,
@@ -18,13 +18,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     {
-      url: "https://goldenerezepte.vercel.app",
+      url: "https://goldene-rezepte.com",
       lastModified: new Date(),
       changeFrequency: "daily" as const,
       priority: 1,
     },
     {
-      url: "https://goldenerezepte.vercel.app/rezepte",
+      url: "https://goldene-rezepte.com/rezepte",
       lastModified: new Date(),
       changeFrequency: "daily" as const,
       priority: 0.9,

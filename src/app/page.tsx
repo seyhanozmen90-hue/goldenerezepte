@@ -9,7 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   title: "GoldeneRezepte – Authentische Deutsche Küche",
   description: "Traditionelle Rezepte aus deutschen Haushalten – einfach, authentisch und lecker.",
-  alternates: { canonical: "https://goldenerezepte.vercel.app" },
+  alternates: { canonical: "https://goldene-rezepte.com" },
   openGraph: {
     title: "GoldeneRezepte – Authentische Deutsche Küche",
     description: "Traditionelle Rezepte aus deutschen Haushalten – einfach, authentisch und lecker.",

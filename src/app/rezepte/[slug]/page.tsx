@@ -7,7 +7,7 @@ import NavBar from "@/components/NavBar";
 
 export const revalidate = 3600;
 
-const BASE_URL = "https://goldenerezepte.vercel.app";
+const BASE_URL = "https://goldene-rezepte.com";
 
 export async function generateStaticParams() {
   const { prisma: db } = await import("@/lib/prisma");
