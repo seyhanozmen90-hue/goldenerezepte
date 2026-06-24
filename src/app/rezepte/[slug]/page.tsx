@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import NavBar from "@/components/NavBar";
+import ViewTracker from "@/components/ViewTracker";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -70,6 +71,7 @@ export default async function RezeptDetailPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
       />
 
+      <ViewTracker slug={slug} />
       <div className="recipe-detail-hero">
         {recipe.imageUrl ? (
           <Image src={recipe.imageUrl} alt={recipe.title} fill priority unoptimized sizes="100vw" style={{ objectFit: "contain", objectPosition: "center center" }} />

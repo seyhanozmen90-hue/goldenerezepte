@@ -18,6 +18,7 @@ type Recipe = {
   ingredients: string;
   steps: string;
   published: boolean;
+  views: number;
   createdAt: string;
 };
 
@@ -248,13 +249,14 @@ export default function Dashboard() {
         ) : (
           <div style={{ overflowX: "auto" }}>
             <table className="admin-table">
-              <thead><tr><th>Titel (Başlık)</th><th>Kategorie (Kategori)</th><th>Status (Durum)</th><th>Aktionen (İşlemler)</th></tr></thead>
+              <thead><tr><th>Titel (Başlık)</th><th>Kategorie (Kategori)</th><th>Status (Durum)</th><th>Görüntülenme</th><th>Aktionen (İşlemler)</th></tr></thead>
               <tbody>
                 {recipes.filter((r) => filterCat === "Alle" || r.category === filterCat).map((r) => (
                   <tr key={r.id}>
                     <td><Link href={`/rezepte/${r.slug}`} style={{ color: "var(--gold)" }} target="_blank">{r.title}</Link></td>
                     <td><span className="badge badge-gold">{r.category} ({CAT_TR[r.category] ?? r.category})</span></td>
                     <td><span className={`badge ${r.published ? "badge-green" : "badge-red"}`}>{r.published ? "Veröffentlicht (Yayında)" : "Entwurf (Taslak)"}</span></td>
+                    <td style={{ textAlign: "center" }}>👁 {r.views ?? 0}</td>
                     <td>
                       <div style={{ display: "flex", gap: "0.4rem", flexWrap: "wrap" }}>
                         <button className="btn btn-outline" style={{ fontSize: "0.75rem", padding: "0.3rem 0.7rem" }} onClick={() => openEdit(r)}>✏️ Bearbeiten (Düzenle)</button>
