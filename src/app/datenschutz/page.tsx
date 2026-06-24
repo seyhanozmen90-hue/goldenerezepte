@@ -19,7 +19,7 @@ export default function Datenschutz() {
           <p>
             GoldeneRezepte<br />
             Musterstraße 1, 12345 Musterstadt<br />
-            E-Mail: info@goldenerezepte.de
+            E-Mail: goldene.rezepte@gmail.com
           </p>
 
           <h2>2. Erhebung und Speicherung personenbezogener Daten</h2>
@@ -74,7 +74,7 @@ export default function Datenschutz() {
           </ul>
           <p>
             Zur Ausübung Ihrer Rechte wenden Sie sich bitte per E-Mail an:
-            info@goldenerezepte.de
+            goldene.rezepte@gmail.com
           </p>
 
           <h2>6. Beschwerderecht</h2>

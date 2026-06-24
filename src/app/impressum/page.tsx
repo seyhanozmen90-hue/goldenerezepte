@@ -24,7 +24,7 @@ export default function Impressum() {
           </p>
 
           <h2>Kontakt</h2>
-          <p>E-Mail: info@goldenerezepte.de</p>
+          <p>E-Mail: goldene.rezepte@gmail.com</p>
 
           <h2>Verantwortlich für den Inhalt</h2>
           <p>Inhaber GoldeneRezepte (gemäß § 55 Abs. 2 RStV)</p>
