@@ -29,6 +29,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "daily" as const,
       priority: 0.9,
     },
+    {
+      url: "https://goldene-rezepte.com/ueber-uns",
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
+    },
+    {
+      url: "https://goldene-rezepte.com/impressum",
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.3,
+    },
+    {
+      url: "https://goldene-rezepte.com/datenschutz",
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.3,
+    },
     ...recipeUrls,
   ];
 }

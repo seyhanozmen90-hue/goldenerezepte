@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
+import { revalidatePath } from "next/cache";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { slugify } from "@/lib/utils";
@@ -37,5 +38,7 @@ export async function POST(req: NextRequest) {
       published: body.published ?? false,
     },
   });
+  revalidatePath("/rezepte");
+  revalidatePath("/");
   return NextResponse.json(recipe);
 }

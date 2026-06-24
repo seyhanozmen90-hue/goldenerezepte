@@ -12,8 +12,7 @@ export const dynamicParams = true;
 const BASE_URL = "https://goldene-rezepte.com";
 
 export async function generateStaticParams() {
-  const { prisma: db } = await import("@/lib/prisma");
-  const recipes = await db.recipe.findMany({ where: { published: true }, select: { slug: true } });
+  const recipes = await prisma.recipe.findMany({ where: { published: true }, select: { slug: true } });
   return recipes.map((r) => ({ slug: r.slug }));
 }
 
@@ -98,14 +97,13 @@ export default async function RezeptDetailPage({ params }: Props) {
         </ul>
 
         <h2 className="recipe-section-title">Zubereitung</h2>
-        <ol className="steps-list">
+        <ul className="steps-list">
           {steps.map((step, i) => (
-            <li key={i}>
-              <span className="step-num">{i + 1}</span>
+            <li key={i} id={`schritt-${i + 1}`}>
               <span>{step}</span>
             </li>
           ))}
-        </ol>
+        </ul>
 
         <Link href="/rezepte" className="btn btn-outline" style={{ marginTop: "1rem" }}>
           ← Zurück zur Übersicht

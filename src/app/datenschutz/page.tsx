@@ -40,13 +40,29 @@ export default function Datenschutz() {
             Auswertung und zum Betrieb der Website verwendet.
           </p>
 
-          <h2>3. Cookies</h2>
+          <h2>3. Google Analytics</h2>
           <p>
-            Diese Website verwendet ausschließlich technisch notwendige Session-Cookies für
-            den Adminbereich. Es werden keine Tracking- oder Werbe-Cookies eingesetzt.
+            Diese Website verwendet Google Analytics 4, einen Webanalysedienst der Google Ireland Limited,
+            Gordon House, Barrow Street, Dublin 4, Irland. Google Analytics verwendet Cookies und ähnliche
+            Technologien, um die Nutzung der Website zu analysieren. Die dadurch erzeugten Informationen
+            werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
+          </p>
+          <p>
+            Die Nutzung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse
+            an der Analyse und Verbesserung unseres Angebots). Sie können der Datenerfassung durch
+            Google Analytics widersprechen, indem Sie ein Browser-Plugin installieren:
+            <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" style={{ color: "var(--gold)", marginLeft: "0.25rem" }}>
+              Google Analytics Opt-out
+            </a>.
           </p>
 
-          <h2>4. Ihre Rechte</h2>
+          <h2>4. Cookies</h2>
+          <p>
+            Diese Website verwendet technisch notwendige Session-Cookies für den Adminbereich sowie
+            Cookies von Google Analytics zur Websiteanalyse (siehe Abschnitt 3).
+          </p>
+
+          <h2>5. Ihre Rechte</h2>
           <p>Sie haben jederzeit das Recht auf:</p>
           <ul>
             <li>Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO)</li>
@@ -61,13 +77,13 @@ export default function Datenschutz() {
             info@goldenerezepte.de
           </p>
 
-          <h2>5. Beschwerderecht</h2>
+          <h2>6. Beschwerderecht</h2>
           <p>
             Sie haben das Recht, sich bei einer Aufsichtsbehörde zu beschweren. Die
             zuständige Aufsichtsbehörde richtet sich nach Ihrem Bundesland.
           </p>
 
-          <h2>6. Aktualität dieser Datenschutzerklärung</h2>
+          <h2>7. Aktualität dieser Datenschutzerklärung</h2>
           <p>Stand: Juni 2026</p>
         </div>
 

@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 
-export default function Error({ reset }: { error: Error; reset: () => void }) {
+export default function Error({ reset }: { error: Error & { digest?: string }; reset: () => void }) {
   return (
     <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "1.5rem", fontFamily: "system-ui, sans-serif", padding: "2rem", textAlign: "center" }}>
       <div style={{ fontSize: "4rem" }}>🍽️</div>

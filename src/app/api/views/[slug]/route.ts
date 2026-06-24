@@ -11,9 +11,13 @@ export async function POST(_req: NextRequest, context: Context) {
   if (session) return NextResponse.json({ ok: true });
 
   const { slug } = await context.params;
-  await prisma.recipe.update({
-    where: { slug },
-    data: { views: { increment: 1 } },
-  });
+  try {
+    await prisma.recipe.update({
+      where: { slug },
+      data: { views: { increment: 1 } },
+    });
+  } catch {
+    // slug bulunamazsa sessizce geç
+  }
   return NextResponse.json({ ok: true });
 }
