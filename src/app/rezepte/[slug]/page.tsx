@@ -46,20 +46,27 @@ export default async function RezeptDetailPage({ params }: Props) {
   const ingredients: string[] = JSON.parse(recipe.ingredients);
   const steps: string[] = JSON.parse(recipe.steps);
 
+  const recipeUrl = `${BASE_URL}/rezepte/${slug}`;
   const schemaOrg = {
     "@context": "https://schema.org",
     "@type": "Recipe",
     name: recipe.title,
     description: recipe.description,
-    image: recipe.imageUrl ?? undefined,
+    image: recipe.imageUrl ? [recipe.imageUrl] : undefined,
     recipeCategory: recipe.category,
+    keywords: recipe.category,
     recipeIngredient: ingredients,
     recipeInstructions: steps.map((s, i) => ({
       "@type": "HowToStep",
       position: i + 1,
+      name: s.split(" ").slice(0, 5).join(" "),
       text: s,
+      url: `${recipeUrl}#schritt-${i + 1}`,
     })),
-    totalTime: recipe.cookTime ? `PT${recipe.cookTime}M` : undefined,
+    prepTime: recipe.prepTime ? `PT${recipe.prepTime}M` : undefined,
+    cookTime: recipe.cookTime ? `PT${recipe.cookTime}M` : undefined,
+    totalTime: (recipe.prepTime || recipe.cookTime) ? `PT${(recipe.prepTime ?? 0) + (recipe.cookTime ?? 0)}M` : undefined,
+    recipeYield: `${recipe.servings} Portionen`,
     author: { "@type": "Organization", name: "GoldeneRezepte" },
   };
 
