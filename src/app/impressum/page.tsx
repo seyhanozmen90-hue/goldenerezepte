@@ -17,10 +17,7 @@ export default function Impressum() {
         <div className="legal-body">
           <h2>Angaben gemäß § 5 TMG</h2>
           <p>
-            <strong style={{ color: "var(--text)" }}>GoldeneRezepte</strong><br />
-            Musterstraße 1<br />
-            12345 Musterstadt<br />
-            Deutschland
+            <strong style={{ color: "var(--text)" }}>GoldeneRezepte</strong>
           </p>
 
           <h2>Kontakt</h2>
