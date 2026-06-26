@@ -10,10 +10,10 @@
   --bg2: #1a1a1a;
   --bg3: #242424;
   --card: #1e1e1e;
-  --border: #333;
-  --text: #f0ece4;
-  --muted: #888;
-  --muted2: #555;
+  --border: #2e2e2e;
+  --text: #ede9e0;
+  --muted: #9a9690;
+  --muted2: #6e6a65;
   --white: #ffffff;
   --radius: 12px;
   --shadow: 0 4px 24px rgba(0,0,0,0.5);
@@ -27,12 +27,39 @@ body {
   font-family: 'Georgia', 'Times New Roman', serif;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.7;
+  line-height: 1.65;
   min-height: 100vh;
+  font-size: 16px;
 }
 
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
+
+/* ── FACEBOOK NAV BUTTONS ── */
+.fb-nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.fb-nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: system-ui, sans-serif;
+  letter-spacing: 0.3px;
+  background: #1877f2;
+  padding: 0.35rem 0;
+  width: 130px;
+  border-radius: 999px;
+  transition: background 0.2s, transform 0.15s;
+  white-space: nowrap;
+}
+.fb-nav-link:hover { background: #1464d0; transform: translateY(-1px); }
 
 /* ── NAV ── */
 nav {
@@ -98,12 +125,12 @@ nav {
 }
 
 .hero h1 {
-  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
   font-weight: 700;
-  line-height: 1.15;
-  margin-bottom: 1.25rem;
+  line-height: 1.2;
+  margin-bottom: 1.1rem;
   color: var(--white);
-  text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+  text-shadow: 0 2px 16px rgba(0,0,0,0.5);
 }
 .hero h1 em {
   font-style: italic;
@@ -111,12 +138,13 @@ nav {
 }
 
 .hero p {
-  font-size: 1.2rem;
-  color: #d0c8bc;
-  max-width: 540px;
-  margin-bottom: 2.5rem;
+  font-size: 1.05rem;
+  color: #ccc8c0;
+  max-width: 520px;
+  margin-bottom: 2.25rem;
   font-family: system-ui, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
 /* ── BUTTONS ── */
@@ -167,29 +195,31 @@ nav {
   padding: 0 2rem;
 }
 
-.section { padding: 5rem 0; }
+.section { padding-top: 5rem; padding-bottom: 5rem; }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: var(--text);
+  letter-spacing: -0.2px;
 }
 .section-title::after {
   content: '';
   display: block;
-  width: 60px;
-  height: 3px;
+  width: 48px;
+  height: 2.5px;
   background: var(--gold);
-  margin-top: 0.6rem;
+  margin-top: 0.55rem;
   border-radius: 2px;
 }
 
 .section-subtitle {
   color: var(--muted);
   font-family: system-ui, sans-serif;
-  margin-bottom: 3rem;
-  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
 }
 
 /* ── CATEGORY FILTER ── */
@@ -279,37 +309,40 @@ nav {
 }
 
 .recipe-card-title {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--text);
-  margin-bottom: 0.5rem;
-  line-height: 1.3;
+  margin-bottom: 0.45rem;
+  line-height: 1.35;
 }
 
 .recipe-card-desc {
-  font-size: 0.88rem;
+  font-size: 0.875rem;
   color: var(--muted);
   font-family: system-ui, sans-serif;
-  line-height: 1.5;
+  line-height: 1.55;
   margin-bottom: 1rem;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  flex: 1;
 }
 
 .recipe-meta {
   display: flex;
-  gap: 0.75rem;
+  gap: 0.6rem;
   flex-wrap: wrap;
+  margin-top: auto;
 }
 .recipe-meta span {
-  font-size: 0.78rem;
+  font-size: 0.775rem;
   font-family: system-ui, sans-serif;
-  color: var(--muted2);
+  color: var(--muted);
   background: var(--bg3);
-  padding: 0.25rem 0.6rem;
+  padding: 0.2rem 0.55rem;
   border-radius: 4px;
+  border: 1px solid var(--border);
 }
 
 /* ── RECIPE DETAIL ── */
@@ -334,8 +367,8 @@ nav {
   padding: 2.5rem;
   text-align: center;
 }
-.recipe-detail-hero-text .recipe-card-category { font-size: 0.85rem; margin-bottom: 0.75rem; }
-.recipe-detail-hero-text h1 { font-size: 1.9rem; color: var(--white); line-height: 1.25; }
+.recipe-detail-hero-text .recipe-card-category { font-size: 0.82rem; margin-bottom: 0.6rem; letter-spacing: 1.2px; }
+.recipe-detail-hero-text h1 { font-size: clamp(1.6rem, 3vw, 2.4rem); color: var(--white); line-height: 1.2; font-weight: 700; }
 
 .recipe-detail-body {
   max-width: 860px;
@@ -369,10 +402,10 @@ nav {
 }
 
 .recipe-description {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--muted);
   font-family: system-ui, sans-serif;
-  line-height: 1.75;
+  line-height: 1.8;
   margin-bottom: 2.5rem;
   padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--border);
@@ -857,8 +890,14 @@ footer {
 
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
+  .container { padding: 0 1.25rem; }
+  .section { padding-top: 3rem; padding-bottom: 3rem; }
+
   nav { padding: 0 1rem; position: relative; }
   .nav-hamburger { display: flex; }
+  .fb-nav-buttons { gap: 0.35rem; }
+  .fb-nav-link { font-size: 0.68rem; padding: 0.28rem 0.65rem; gap: 0.3rem; }
+  .fb-nav-link svg { width: 12px; height: 12px; }
   .nav-links {
     display: none;
     position: absolute;
@@ -874,14 +913,24 @@ footer {
     z-index: 105;
   }
   .nav-links.nav-open { display: flex; }
-  .nav-links a { font-size: 1rem; padding: 0.6rem 0; border-bottom: 1px solid var(--border); }
+  .nav-links a { font-size: 0.95rem; padding: 0.6rem 0; border-bottom: 1px solid var(--border); }
   .nav-links a:last-child { border-bottom: none; margin-top: 0.5rem; }
   .nav-admin-btn { display: inline-block; width: fit-content; margin-top: 0.25rem; }
-  .hero h1 { font-size: 2.2rem; }
+
+  .hero { min-height: 70vh; padding: 3rem 1.25rem; }
+  .hero h1 { font-size: 1.85rem; }
+  .hero p { font-size: 0.95rem; }
+
+  .section-title { font-size: 1.45rem; }
+
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .recipes-grid { grid-template-columns: 1fr; }
+  .recipes-grid { grid-template-columns: 1fr; gap: 1.25rem; }
+  .recipe-detail-body { padding: 2rem 1.25rem 4rem; }
+  .recipe-detail-hero { height: 320px; }
+
   .dashboard-layout { flex-direction: column; }
   .sidebar { width: 100%; height: auto; position: static; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* ── PAGE TRANSITIONS ── */
