@@ -96,9 +96,11 @@ function RezepteContent({ recipes }: { recipes: Recipe[] }) {
                     <div className="recipe-card-category">{r.category}</div>
                     <div className="recipe-card-title">{r.title}</div>
                     <div className="recipe-card-desc">{r.description}</div>
-                    <div className="recipe-meta">
-                      <span>⏱ {r.cookTime} Min.</span>
-                    </div>
+                    {r.cookTime > 0 && (
+                      <div className="recipe-meta">
+                        <span>⏱ {r.cookTime} Min.</span>
+                      </div>
+                    )}
                   </div>
                 </div>
               </Link>
