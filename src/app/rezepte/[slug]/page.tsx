@@ -46,27 +46,34 @@ export default async function RezeptDetailPage({ params }: Props) {
   const steps: string[] = JSON.parse(recipe.steps);
 
   const recipeUrl = `${BASE_URL}/rezepte/${slug}`;
+  const stepImage = recipe.imageUrl ? [{ "@type": "ImageObject", url: recipe.imageUrl }] : undefined;
   const schemaOrg = {
     "@context": "https://schema.org",
     "@type": "Recipe",
     name: recipe.title,
+    url: recipeUrl,
     description: recipe.description,
     image: recipe.imageUrl ? [recipe.imageUrl] : undefined,
     recipeCategory: recipe.category,
-    keywords: recipe.category,
+    recipeCuisine: "Deutsche Küche",
+    keywords: `${recipe.category}, Rezept, Deutsche Küche, Hausmannskost, GoldeneRezepte`,
     recipeIngredient: ingredients,
     recipeInstructions: steps.map((s, i) => ({
       "@type": "HowToStep",
       position: i + 1,
-      name: s.split(" ").slice(0, 5).join(" "),
+      name: s.split(" ").slice(0, 6).join(" ").replace(/[,.]$/, "") || `Schritt ${i + 1}`,
       text: s,
       url: `${recipeUrl}#schritt-${i + 1}`,
+      ...(stepImage ? { image: stepImage } : {}),
     })),
-    prepTime: recipe.prepTime ? `PT${recipe.prepTime}M` : undefined,
-    cookTime: recipe.cookTime ? `PT${recipe.cookTime}M` : undefined,
-    totalTime: (recipe.prepTime || recipe.cookTime) ? `PT${(recipe.prepTime ?? 0) + (recipe.cookTime ?? 0)}M` : undefined,
+    prepTime: `PT${recipe.prepTime ?? 0}M`,
+    cookTime: `PT${recipe.cookTime ?? 0}M`,
+    totalTime: `PT${(recipe.prepTime ?? 0) + (recipe.cookTime ?? 0)}M`,
     recipeYield: `${recipe.servings} Portionen`,
-    author: { "@type": "Organization", name: "GoldeneRezepte" },
+    author: { "@type": "Organization", name: "GoldeneRezepte", url: BASE_URL },
+    publisher: { "@type": "Organization", name: "GoldeneRezepte", url: BASE_URL },
+    datePublished: recipe.createdAt.toISOString().split("T")[0],
+    dateModified: recipe.updatedAt.toISOString().split("T")[0],
   };
 
   return (
