@@ -24,18 +24,20 @@ export default function NavBar() {
           target="_blank"
           rel="noopener noreferrer"
           className="fb-nav-link"
+          aria-label="Facebook Sayfamız"
         >
           <FbIcon />
-          Sayfamız
+          <span className="fb-nav-label">Sayfamız</span>
         </a>
         <a
           href="https://www.facebook.com/groups/27090573917251428"
           target="_blank"
           rel="noopener noreferrer"
           className="fb-nav-link"
+          aria-label="Facebook Topluluğumuz"
         >
           <FbIcon />
-          Topluluğumuz
+          <span className="fb-nav-label">Topluluğumuz</span>
         </a>
       </div>
 

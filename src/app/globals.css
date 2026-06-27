@@ -897,9 +897,10 @@ footer {
   nav { padding: 0 0.75rem; position: relative; gap: 0.4rem; }
   .nav-logo { font-size: 1.2rem; flex-shrink: 0; }
   .nav-hamburger { display: flex; }
-  .fb-nav-buttons { gap: 0.3rem; }
-  .fb-nav-link { font-size: 0.65rem; padding: 0.26rem 0.55rem; gap: 0.25rem; width: auto; }
-  .fb-nav-link svg { width: 11px; height: 11px; flex-shrink: 0; }
+  .fb-nav-buttons { gap: 0.35rem; }
+  .fb-nav-link { width: 32px; height: 32px; padding: 0; border-radius: 50%; justify-content: center; }
+  .fb-nav-link svg { width: 15px; height: 15px; flex-shrink: 0; }
+  .fb-nav-label { display: none; }
   .nav-links {
     display: none;
     position: absolute;
