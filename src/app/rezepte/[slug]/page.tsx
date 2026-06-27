@@ -45,6 +45,13 @@ export default async function RezeptDetailPage({ params }: Props) {
   const ingredients: string[] = JSON.parse(recipe.ingredients);
   const steps: string[] = JSON.parse(recipe.steps);
 
+  const similarRecipes = await prisma.recipe.findMany({
+    where: { published: true, category: recipe.category, slug: { not: slug } },
+    orderBy: { views: "desc" },
+    take: 3,
+    select: { slug: true, title: true, description: true, category: true, cookTime: true, imageUrl: true },
+  });
+
   const recipeUrl = `${BASE_URL}/rezepte/${slug}`;
   const stepImage = recipe.imageUrl ? [{ "@type": "ImageObject", url: recipe.imageUrl }] : undefined;
   const schemaOrg = {
@@ -116,6 +123,40 @@ export default async function RezeptDetailPage({ params }: Props) {
           ← Zurück zur Übersicht
         </Link>
       </div>
+
+      {similarRecipes.length > 0 && (
+        <div style={{ background: "var(--bg2)", borderTop: "1px solid var(--border)", padding: "3rem 0" }}>
+          <div className="container">
+            <h2 className="section-title" style={{ marginBottom: "0.5rem" }}>Ähnliche Rezepte</h2>
+            <p className="section-subtitle">Weitere {recipe.category}-Rezepte, die dir gefallen könnten</p>
+            <div className="recipes-grid">
+              {similarRecipes.map((r) => (
+                <Link href={`/rezepte/${r.slug}`} key={r.slug}>
+                  <div className="recipe-card">
+                    <div className="recipe-card-img">
+                      {r.imageUrl ? (
+                        <Image src={r.imageUrl} alt={r.title} fill unoptimized sizes="400px" style={{ objectFit: "cover" }} />
+                      ) : (
+                        <span>🍽️</span>
+                      )}
+                    </div>
+                    <div className="recipe-card-body">
+                      <div className="recipe-card-category">{r.category}</div>
+                      <div className="recipe-card-title">{r.title}</div>
+                      <div className="recipe-card-desc">{r.description}</div>
+                      {r.cookTime > 0 && (
+                        <div className="recipe-meta">
+                          <span>⏱ {r.cookTime} Min.</span>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
 
       <footer>
         <div className="footer-grid">
