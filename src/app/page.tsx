@@ -7,12 +7,29 @@ import NavBar from "@/components/NavBar";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "GoldeneRezepte – Authentische Deutsche Küche",
-  description: "Traditionelle Rezepte aus deutschen Haushalten – einfach, authentisch und lecker.",
+  title: "Goldene Rezepte für jeden Tag",
+  description: "Schnell, einfach und zum Verlieben – Rezepte, die wirklich gelingen.",
   alternates: { canonical: "https://goldene-rezepte.com" },
   openGraph: {
-    title: "GoldeneRezepte – Authentische Deutsche Küche",
-    description: "Traditionelle Rezepte aus deutschen Haushalten – einfach, authentisch und lecker.",
+    title: "Goldene Rezepte für jeden Tag",
+    description: "Schnell, einfach und zum Verlieben – Rezepte, die wirklich gelingen.",
+    url: "https://goldene-rezepte.com",
+    siteName: "GoldeneRezepte",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200",
+        width: 1200,
+        height: 630,
+        alt: "Goldene Rezepte für jeden Tag",
+      },
+    ],
+    type: "website",
+    locale: "de_DE",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Goldene Rezepte für jeden Tag",
+    description: "Schnell, einfach und zum Verlieben – Rezepte, die wirklich gelingen.",
     images: ["https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200"],
   },
 };
