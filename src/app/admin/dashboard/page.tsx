@@ -253,7 +253,14 @@ export default function Dashboard() {
               <tbody>
                 {recipes.filter((r) => filterCat === "Alle" || r.category === filterCat).map((r) => (
                   <tr key={r.id}>
-                    <td><Link href={`/rezepte/${r.slug}`} style={{ color: "var(--gold)" }} target="_blank">{r.title}</Link></td>
+                    <td>
+                      <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+                        <div style={{ width: "48px", height: "48px", borderRadius: "6px", overflow: "hidden", flexShrink: 0, background: "var(--bg)", border: "1px solid var(--border)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.25rem" }}>
+                          {r.imageUrl ? <img src={r.imageUrl} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : "🍽️"}
+                        </div>
+                        <Link href={`/rezepte/${r.slug}`} style={{ color: "var(--gold)" }} target="_blank">{r.title}</Link>
+                      </div>
+                    </td>
                     <td><span className="badge badge-gold">{r.category} ({CAT_TR[r.category] ?? r.category})</span></td>
                     <td><span className={`badge ${r.published ? "badge-green" : "badge-red"}`}>{r.published ? "Veröffentlicht (Yayında)" : "Entwurf (Taslak)"}</span></td>
                     <td style={{ textAlign: "center" }}>👁 {r.views ?? 0}</td>
