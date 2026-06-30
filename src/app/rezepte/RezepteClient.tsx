@@ -133,7 +133,7 @@ function RezepteContent({ recipes }: { recipes: Recipe[] }) {
         <div className="footer-grid">
           <div>
             <div className="footer-logo">GoldeneRezepte</div>
-            <p className="footer-desc">Authentische deutsche Rezepte für jeden Tag.</p>
+            <p className="footer-desc">Goldene Rezepte für jeden Tag.</p>
           </div>
           <div>
             <div className="footer-title">Kategorien</div>

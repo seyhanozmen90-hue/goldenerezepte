@@ -3,7 +3,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "Goldene Rezepte – Authentische Deutsche Küche",
+  title: "Goldene Rezepte für jeden Tag",
   description: "Traditionelle und moderne deutsche Rezepte für jeden Tag.",
 };
 

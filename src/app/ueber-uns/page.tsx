@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar";
 
 export const metadata: Metadata = {
   title: "Über uns – GoldeneRezepte",
-  description: "Erfahre mehr über GoldeneRezepte – unsere Leidenschaft für authentische deutsche Küche.",
+  description: "Erfahre mehr über GoldeneRezepte – Goldene Rezepte für jeden Tag.",
 };
 
 export default function UeberUns() {
@@ -25,7 +25,7 @@ export default function UeberUns() {
           Über <em style={{ color: "var(--gold)", fontStyle: "italic" }}>GoldeneRezepte</em>
         </h1>
         <p style={{ color: "#c8bfb0", fontFamily: "system-ui, sans-serif", maxWidth: "560px", margin: "0 auto", fontSize: "1.1rem", lineHeight: 1.7 }}>
-          Authentische deutsche Küche – von Generation zu Generation weitergegeben.
+          Goldene Rezepte für jeden Tag – von Generation zu Generation weitergegeben.
         </p>
       </div>
 
@@ -87,7 +87,7 @@ export default function UeberUns() {
         <div className="footer-grid" style={{ maxWidth: "1200px", margin: "0 auto 3rem" }}>
           <div>
             <div className="footer-logo">GoldeneRezepte</div>
-            <p className="footer-desc">Authentische deutsche Rezepte für jeden Tag.</p>
+            <p className="footer-desc">Goldene Rezepte für jeden Tag.</p>
           </div>
           <div>
             <div className="footer-title">Info</div>
