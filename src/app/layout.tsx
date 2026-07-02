@@ -5,6 +5,9 @@ import { Providers } from "./providers";
 export const metadata: Metadata = {
   title: "Goldene Rezepte für jeden Tag",
   description: "Traditionelle und moderne deutsche Rezepte für jeden Tag.",
+  other: {
+    "p:domain_verify": "72810a5c8113459637fa5b5c6cb06786",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
