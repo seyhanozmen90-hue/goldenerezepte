@@ -17,8 +17,8 @@ export default function Datenschutz() {
         <div className="legal-body">
           <h2>1. Verantwortlicher</h2>
           <p>
-            GoldeneRezepte<br />
-            Musterstraße 1, 12345 Musterstadt<br />
+            Seyhan Özmen<br />
+            Karşıyaka, Izmir, Türkei<br />
             E-Mail: goldene.rezepte@gmail.com
           </p>
 
@@ -40,7 +40,17 @@ export default function Datenschutz() {
             Auswertung und zum Betrieb der Website verwendet.
           </p>
 
-          <h2>3. Google Analytics</h2>
+          <h2>3. Einwilligung (Cookie-Banner)</h2>
+          <p>
+            Beim ersten Besuch unserer Website wirst du über ein Cookie-Banner um deine Einwilligung
+            zur Verwendung von Analyse- und Werbe-Cookies gebeten. Solange keine Einwilligung erteilt
+            wurde, werden Google Analytics und etwaige Werbedienste im eingeschränkten Modus betrieben
+            (kein Setzen von Analyse- oder Werbe-Cookies, keine Personalisierung). Du kannst deine
+            Einwilligung jederzeit widerrufen, indem du die Cookies deines Browsers für diese Website
+            löschst und die Seite neu lädst.
+          </p>
+
+          <h2>4. Google Analytics</h2>
           <p>
             Diese Website verwendet Google Analytics 4, einen Webanalysedienst der Google Ireland Limited,
             Gordon House, Barrow Street, Dublin 4, Irland. Google Analytics verwendet Cookies und ähnliche
@@ -48,21 +58,45 @@ export default function Datenschutz() {
             werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
           </p>
           <p>
-            Die Nutzung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse
-            an der Analyse und Verbesserung unseres Angebots). Sie können der Datenerfassung durch
-            Google Analytics widersprechen, indem Sie ein Browser-Plugin installieren:
+            Die Nutzung erfolgt auf Grundlage deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die du
+            über das Cookie-Banner erteilst. Du kannst deine Einwilligung jederzeit widerrufen. Zusätzlich
+            kannst du der Datenerfassung durch Google Analytics widersprechen, indem du ein Browser-Plugin
+            installierst:
             <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" style={{ color: "var(--gold)", marginLeft: "0.25rem" }}>
               Google Analytics Opt-out
             </a>.
           </p>
 
-          <h2>4. Cookies</h2>
+          <h2>5. Google AdSense (Werbung)</h2>
           <p>
-            Diese Website verwendet technisch notwendige Session-Cookies für den Adminbereich sowie
-            Cookies von Google Analytics zur Websiteanalyse (siehe Abschnitt 3).
+            Diese Website nutzt bzw. plant die Nutzung von Google AdSense, einem Werbedienst der
+            Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Google AdSense
+            verwendet Cookies und ähnliche Technologien, um Anzeigen auf Grundlage früherer Besuche
+            auf dieser oder anderen Websites zu schalten. Die Nutzung dieser Cookies ermöglicht es
+            Google und seinen Partnern, dir Anzeigen auf Basis deines Besuchs dieser und/oder anderer
+            Websites im Internet zu präsentieren.
+          </p>
+          <p>
+            Die Nutzung erfolgt ausschließlich auf Grundlage deiner Einwilligung (Art. 6 Abs. 1 lit. a
+            DSGVO) über das Cookie-Banner. Du kannst die personalisierte Werbung deaktivieren, indem du
+            die Website{" "}
+            <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--gold)" }}>
+              Werbeeinstellungen von Google
+            </a>{" "}
+            besuchst. Weitere Informationen zur Verwendung von Daten durch Google findest du unter{" "}
+            <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer" style={{ color: "var(--gold)" }}>
+              policies.google.com/technologies/ads
+            </a>.
           </p>
 
-          <h2>5. Ihre Rechte</h2>
+          <h2>6. Cookies</h2>
+          <p>
+            Diese Website verwendet technisch notwendige Session-Cookies für den Adminbereich sowie,
+            nach erteilter Einwilligung, Cookies von Google Analytics und Google AdSense (siehe
+            Abschnitt 3–5).
+          </p>
+
+          <h2>7. Ihre Rechte</h2>
           <p>Sie haben jederzeit das Recht auf:</p>
           <ul>
             <li>Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO)</li>
@@ -77,14 +111,14 @@ export default function Datenschutz() {
             goldene.rezepte@gmail.com
           </p>
 
-          <h2>6. Beschwerderecht</h2>
+          <h2>8. Beschwerderecht</h2>
           <p>
             Sie haben das Recht, sich bei einer Aufsichtsbehörde zu beschweren. Die
             zuständige Aufsichtsbehörde richtet sich nach Ihrem Bundesland.
           </p>
 
-          <h2>7. Aktualität dieser Datenschutzerklärung</h2>
-          <p>Stand: Juni 2026</p>
+          <h2>9. Aktualität dieser Datenschutzerklärung</h2>
+          <p>Stand: September 2026</p>
         </div>
 
         <Link href="/" className="btn btn-outline" style={{ marginTop: "2rem" }}>

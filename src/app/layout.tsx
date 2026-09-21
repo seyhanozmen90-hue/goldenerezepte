@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
+import CookieConsent from "@/components/CookieConsent";
 
 export const metadata: Metadata = {
   title: "Goldene Rezepte für jeden Tag",
@@ -14,16 +15,25 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="de">
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H6ER0HF6WJ" />
         <script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', {
+            ad_storage: 'denied',
+            analytics_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied'
+          });
+        `}} />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H6ER0HF6WJ" />
+        <script dangerouslySetInnerHTML={{ __html: `
           gtag('js', new Date());
           gtag('config', 'G-H6ER0HF6WJ');
         `}} />
       </head>
       <body>
         <Providers>{children}</Providers>
+        <CookieConsent />
       </body>
     </html>
   );

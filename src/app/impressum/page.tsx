@@ -17,14 +17,16 @@ export default function Impressum() {
         <div className="legal-body">
           <h2>Angaben gemäß § 5 TMG</h2>
           <p>
-            <strong style={{ color: "var(--text)" }}>GoldeneRezepte</strong>
+            <strong style={{ color: "var(--text)" }}>Seyhan Özmen</strong><br />
+            Karşıyaka, Izmir<br />
+            Türkei
           </p>
 
           <h2>Kontakt</h2>
           <p>E-Mail: goldene.rezepte@gmail.com</p>
 
           <h2>Verantwortlich für den Inhalt</h2>
-          <p>Inhaber GoldeneRezepte (gemäß § 55 Abs. 2 RStV)</p>
+          <p>Seyhan Özmen (gemäß § 55 Abs. 2 RStV)</p>
 
           <h2>Haftung für Inhalte</h2>
           <p>
