@@ -18,6 +18,7 @@ export default function Impressum() {
           <h2>Angaben gemäß § 5 TMG</h2>
           <p>
             <strong style={{ color: "var(--text)" }}>Seyhan Özmen</strong><br />
+            1847/3 Sokak No:26, Kat:3<br />
             Karşıyaka, Izmir<br />
             Türkei
           </p>

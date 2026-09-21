@@ -18,6 +18,7 @@ export default function Datenschutz() {
           <h2>1. Verantwortlicher</h2>
           <p>
             Seyhan Özmen<br />
+            1847/3 Sokak No:26, Kat:3<br />
             Karşıyaka, Izmir, Türkei<br />
             E-Mail: goldene.rezepte@gmail.com
           </p>
