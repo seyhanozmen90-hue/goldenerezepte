@@ -1,0 +1,1026 @@
+[
+ {
+  "id": 1,
+  "slug": "dieses-erdbeer-raffaello-tiramisu-macht-suechtig-cremig-fruchtig-einfach-himmlisch",
+  "data": {
+   "title": "Erdbeer-Raffaello-Tiramisu",
+   "published": false
+  }
+ },
+ {
+  "id": 12,
+  "slug": "diese-schokoladen-baiser-torte-ist-ein-traum-cremig-schokoladig-himmlisch-luftig",
+  "data": {
+   "title": "Schokoladen-Baiser-Torte – cremig, schokoladig & luftig"
+  }
+ },
+ {
+  "id": 13,
+  "slug": "diese-knusprigen-rindfleisch-empanadas-sind-unwiderstehlich-herzhaft-wuerzig-goldbraun-gebacken",
+  "data": {
+   "title": "Rindfleisch-Empanadas – herzhaft, würzig & goldbraun gebacken"
+  }
+ },
+ {
+  "id": 14,
+  "slug": "diese-kartoffel-curry-paeckchen-sind-ein-genuss-wuerzig-knusprig-goldbraun-gebacken",
+  "data": {
+   "title": "Kartoffel-Curry-Päckchen – würzig & knusprig gebacken"
+  }
+ },
+ {
+  "id": 15,
+  "slug": "zutaten",
+  "data": {
+   "title": "Fluffige Dinner Rolls – weiche Brötchen aus Hefeteig"
+  }
+ },
+ {
+  "id": 19,
+  "slug": "diese-mini-pizzen-sind-ein-hit-knusprig-kaesig-einfach-gemacht",
+  "data": {
+   "title": "Mini-Pizzen für Partys und Kindergeburtstage"
+  }
+ },
+ {
+  "id": 22,
+  "slug": "dieser-himbeer-split-kuchen-ohne-backen-ist-himmlisch-cremig-fruchtig-herrlich-erfrischend",
+  "data": {
+   "title": "Himbeer-Split-Kuchen ohne Backen – cremig & fruchtig"
+  }
+ },
+ {
+  "id": 23,
+  "slug": "dieser-quark-puddingkuchen-ist-ein-klassiker-cremig-luftig-in-nur-10-minuten-vorbereitet",
+  "data": {
+   "title": "Quark-Puddingkuchen – cremiger Klassiker, in 10 Minuten vorbereitet"
+  }
+ },
+ {
+  "id": 25,
+  "slug": "dieser-vanillecreme-kuchen-ohne-backen-ist-ein-traum-cremig-zart-herrlich-erfrischend",
+  "data": {
+   "steps": "[\"Vanillecreme vorbereiten\", \"Als erstes aus 550 ml Milch, dem Vanillepuddingpulver und dem Puderzucker einen Vanillepudding nach Packungsanweisung zubereiten.\", \"Den Pudding vollständig abkühlen lassen.\", \"Die Schlagsahne steif schlagen und anschließend vorsichtig unter den kalten Vanillepudding heben, bis eine luftige Vanillecreme entsteht.\", \"Boden vorbereiten\", \"Die Butterkekse fein zerbröseln.\", \"Mit dem Puderzucker und der geschmolzenen Butter vermengen.\", \"Unter ständigem Rühren die Milch hinzufügen, bis eine formbare Masse entsteht.\", \"Eine Springform (ca. 28 cm) mit Backpapier auslegen.\", \"Die Keksmasse gleichmäßig auf dem Boden verteilen und gut andrücken.\", \"Kuchen schichten\", \"Die Vanillecreme gleichmäßig auf dem Keksboden verstreichen.\", \"Optional: Für eine zusätzliche Schicht können einige Butterkekse oder ein dünner Biskuitboden mittig auf die Vanillecreme gelegt werden. Anschließend die restliche Vanillecreme darauf verteilen und glatt streichen.\", \"Sahneschicht zubereiten\", \"Die Schlagsahne zusammen mit Vanillezucker und Puderzucker steif schlagen.\", \"Gleichmäßig auf der Vanillecreme verstreichen.\", \"Kühlen und Servieren\", \"Den Kuchen nach Belieben mit Schokoladenraspeln oder Kakaopulver bestreuen.\", \"Mindestens 3 bis 4 Stunden, am besten über Nacht, im Kühlschrank fest werden lassen.\", \"Vor dem Servieren in Stücke schneiden und gut gekühlt genießen.\"]",
+   "title": "Vanillecreme-Kuchen ohne Backen – cremig & erfrischend"
+  }
+ },
+ {
+  "id": 26,
+  "slug": "diese-erdbeerwellen-mit-pudding-sahne-creme-sind-ein-highlight-fruchtig-cremig-herrlich-schokoladig",
+  "data": {
+   "title": "Erdbeerwellen mit Pudding-Sahne-Creme"
+  }
+ },
+ {
+  "id": 27,
+  "slug": "ueberbackene-hackfleisch-tortillas-wuerzig-saftig-schnell-im-ofen",
+  "data": {
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 28,
+  "slug": "cheeseburger-blaetterteigtaschen-knusprig-saftig-voller-geschmack",
+  "data": {
+   "ingredients": "[\"1 Rolle Blätterteig (ca. 275 g, rechteckig)\", \"250 g Hackfleisch (Rind oder gemischt)\", \"1 kleine Zwiebel (fein gehackt)\", \"100 g geriebener Käse (z. B. Cheddar oder Gouda)\", \"Optional für extra Geschmack:\", \"1–2 EL Ketchup oder Burger-Sauce\", \"Käsescheiben statt geriebenem Käse (für mehr Schmelz und Optik)\", \"1 EL Öl\", \"Salz und Pfeffer\", \"1 TL Paprikapulver (optional)\", \"1 Ei (zum Bestreichen)\"]"
+  }
+ },
+ {
+  "id": 30,
+  "slug": "kokos-pralinen-nur-3-zutaten-in-10-minuten-fertig-absolut-suechtig-machend",
+  "data": {
+   "title": "Kokos-Pralinen mit nur 3 Zutaten – in 10 Minuten fertig"
+  }
+ },
+ {
+  "id": 32,
+  "slug": "diese-kokos-pfirsich-rolle-ist-ein-highlight-luftig-cremig-herrlich-fruchtig",
+  "data": {
+   "title": "Kokos-Pfirsich-Rolle – luftig, cremig & fruchtig"
+  }
+ },
+ {
+  "id": 33,
+  "slug": "dieses-rote-gruetze-dessert-schmilzt-auf-der-zunge",
+  "data": {
+   "title": "Rote Grütze mit Vanillesauce – der fruchtige Dessert-Klassiker"
+  }
+ },
+ {
+  "id": 34,
+  "slug": "dieses-jaegerschnitzel-schmeckt-wie-im-besten-gasthaus-knusprig-saftig-mit-cremiger-champignonsosse",
+  "data": {
+   "title": "Jägerschnitzel mit cremiger Champignonsoße"
+  }
+ },
+ {
+  "id": 35,
+  "slug": "diese-frikadellen-schmecken-wie-bei-oma-aussen-knusprig-innen-wunderbar-saftig",
+  "data": {
+   "title": "Frikadellen nach Omas Art – außen knusprig, innen saftig"
+  }
+ },
+ {
+  "id": 36,
+  "slug": "dieses-hausgemachte-popcorn-ist-der-perfekte-snack-knusprig-frisch-in-wenigen-minuten-fertig",
+  "data": {
+   "title": "Hausgemachtes Popcorn aus dem Topf"
+  }
+ },
+ {
+  "id": 37,
+  "slug": "dieser-zitronenkuchen-begeistert-mit-jedem-bissen-cremig-frisch-unwiderstehlich",
+  "data": {
+   "title": "Zitronenkuchen – cremig, frisch & saftig"
+  }
+ },
+ {
+  "id": 38,
+  "slug": "diese-cremige-tortellini-suppe-will-jeder-ein-zweites-mal-herzhaft-wuerzig-unglaublich-lecker",
+  "data": {
+   "title": "Cremige Tortellini-Suppe – herzhaft & würzig"
+  }
+ },
+ {
+  "id": 40,
+  "slug": "diese-zimtschnecken-mit-frischkaese-frosting-schmecken-besser-als-vom-cinnabon",
+  "data": {
+   "title": "Zimtschnecken mit Frischkäse-Frosting"
+  }
+ },
+ {
+  "id": 41,
+  "slug": "diese-s-mores-riegel-machen-suechtig-schokoladig-knusprig-herrlich-klebrig",
+  "data": {
+   "title": "S'mores-Riegel – schokoladig, knusprig & klebrig"
+  }
+ },
+ {
+  "id": 42,
+  "slug": "dieser-zitronen-himbeer-kaesekuchen-bringt-alle-zum-schwaermen-cremig-fruchtig-herrlich-erfrischend",
+  "data": {
+   "title": "Zitronen-Himbeer-Käsekuchen – cremig & fruchtig"
+  }
+ },
+ {
+  "id": 43,
+  "slug": "diese-creamy-lemon-bars-schmecken-wie-aus-der-konditorei-herrlich-zitronig-cremig-unwiderstehlich",
+  "data": {
+   "title": "Lemon Bars – Zitronenschnitten mit Mürbeteigboden"
+  }
+ },
+ {
+  "id": 44,
+  "slug": "dieses-paprika-zucchini-sahne-haehnchen-macht-suechtig-cremig-saftig-voller-geschmack",
+  "data": {
+   "title": "Paprika-Zucchini-Sahne-Hähnchen – cremig & saftig"
+  }
+ },
+ {
+  "id": 45,
+  "slug": "diese-vanillekekse-mit-marmelade-werden-immer-als-erstes-vernascht-buttrig-zart-herrlich-fruchtig",
+  "data": {
+   "title": "Vanillekekse mit Marmelade – buttrig & zart"
+  }
+ },
+ {
+  "id": 46,
+  "slug": "dieser-3-zutaten-pizzaboden-aus-huettenkaese-ueberrascht-einfach-jeden",
+  "data": {
+   "title": "Pizzaboden aus Hüttenkäse mit nur 3 Zutaten"
+  }
+ },
+ {
+  "id": 47,
+  "slug": "joghurtkuchen-mit-heidelbeeren-saftig-fruchtig-mit-feinem-zuckerguss",
+  "data": {
+   "description": "Locker, weich und voller Beeren – oben ein zarter Guss, der langsam herunterläuft."
+  }
+ },
+ {
+  "id": 49,
+  "slug": "dieses-brot-ist-in-5-minuten-vorbereitet-knusprig-fluffig-unglaublich-gut",
+  "data": {
+   "title": "Einfaches Brot aus der Springform – in 5 Minuten vorbereitet"
+  }
+ },
+ {
+  "id": 50,
+  "slug": "omas-quarkkuchen-in-5-minuten-vorbereitet-ultracremig-leicht-einfach-genial",
+  "data": {
+   "title": "Omas Quarkkuchen – in 5 Minuten vorbereitet, cremig & leicht"
+  }
+ },
+ {
+  "id": 51,
+  "slug": "diese-milch-schnitten-sind-besser-als-gekauft-cremig-weich-einfach-genial",
+  "data": {
+   "title": "Milch-Schnitten selbst gemacht – cremig & weich"
+  }
+ },
+ {
+  "id": 52,
+  "slug": "joghurt-bombe-mit-erdbeer-spiegel-cremig-leicht-perfekt-schnittfest",
+  "data": {
+   "description": "Luftige Joghurtcreme mit fruchtigem Erdbeer-Topping, zart, frisch und wunderbar ausgewogen.",
+   "steps": "[\"Als erstes den Joghurt mit Zucker und Vanillezucker glatt verrühren.\", \"Danach die Sahne mit Sahnesteif steif schlagen und vorsichtig unter den Joghurt heben.\", \"Optional die Gelatine nach Packungsanleitung auflösen und zügig unter die Creme rühren – so wird die Bombe perfekt schnittfest.\", \"Nun ein Sieb mit einem sauberen Küchentuch auslegen und die Masse hineingeben.\", \"Das Sieb auf eine Schüssel setzen und alles für mindestens 12–24 Stunden im Kühlschrank abtropfen lassen.\", \"Anschließend die fest gewordene Masse vorsichtig auf einen Teller stürzen.\", \"Erdbeer-Spiegel\", \"Die Erdbeeren pürieren und mit Zucker kurz aufkochen.\", \"Die Stärke oder den Tortenguss einrühren und kurz köcheln lassen, bis die Masse leicht andickt.\", \"Etwas abkühlen lassen und dann gleichmäßig über die Joghurt-Bombe geben.\", \"Kurz kalt stellen, bis der Spiegel fest ist.\", \"Jetzt anschneiden und genießen.\"]"
+  }
+ },
+ {
+  "id": 54,
+  "slug": "hackfleisch-nudelauflauf-wuerzig-cremig-herrlich-ueberbacken",
+  "data": {
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 55,
+  "slug": "dieses-philly-cheesesteak-sandwich-mit-cremiger-cheddar-sosse-schmeckt-besser-als-im-restaurant",
+  "data": {
+   "title": "Philly Cheesesteak Sandwich mit cremiger Cheddar-Soße"
+  }
+ },
+ {
+  "id": 63,
+  "slug": "so-hast-du-schnitzel-noch-nie-gegessen-einfach-genial",
+  "data": {
+   "description": "Zarte Schnitzel, viel cremige Sauce und eine goldbraune Käsekruste mit Pilzen.",
+   "ingredients": "[\"10 Schweineschnitzel\", \"Salz\", \"Pfeffer\", \"Etwas Öl oder Margarine\", \"800 g Champignons (in Scheiben)\", \"4 Stangen Porree (in Ringe geschnitten)\", \"4 Zwiebeln (gewürfelt)\", \"220 g Speck (gewürfelt)\", \"350 g Schmand\", \"550 ml Sahne\", \"2 Päckchen Jägersauce\", \"Paprikapulver\", \"Curry\", \"Für die Oberfläche\", \"200–250 g geriebener Käse (Gouda oder Emmentaler)\"]",
+   "title": "Überbackene Schnitzel mit Champignons und Porree",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 70,
+  "slug": "mini-pizzen-weicher-hefeteig-mit-wuerziger-tomatensauce-und-goldbraunem-mozzarella",
+  "data": {
+   "ingredients": "[\"Für den Teig\", \"420 g Weizenmehl\", \"3 EL Magermilchpulver\", \"1 EL Zucker\", \"½ EL Salz\", \"1 EL Trockenhefe\", \"3 EL Pflanzenöl\", \"ca. 240 ml lauwarmes Wasser\", \"Für die Pizzasauce\", \"120 ml Pizzasauce oder Tomatensauce\", \"1 TL getrockneter Oregano\", \"½ TL Knoblauchpulver\", \"Für den Belag\", \"200 g geriebener Mozzarella\", \"gegarte Hähnchenbrust, in kleine Würfel geschnitten\", \"schwarze Oliven, in Scheiben\", \"grüne Oliven, in Scheiben\", \"1 rote Zwiebel, in feine Ringe geschnitten\", \"grüne und rote Paprika, gewürfelt\", \"Mais nach Belieben\", \"etwas getrockneter Oregano\"]",
+   "title": "Weiche Mini-Pizzen vom Blech mit Tomatensauce und Mozzarella"
+  }
+ },
+ {
+  "id": 71,
+  "slug": "cremiger-thunfisch-gurkensalat-frisch-proteinreich-und-in-wenigen-minuten-zubereitet",
+  "data": {
+   "category": "Salate"
+  }
+ },
+ {
+  "id": 74,
+  "slug": "cremiger-kokos-kuehlschrankkuchen-mit-butterkeksen-ohne-backen-und-herrlich-zart",
+  "data": {
+   "category": "Desserts"
+  }
+ },
+ {
+  "id": 80,
+  "slug": "boeuf-stroganoff-wie-im-restaurant-zart-cremig-herrlich-saettigend",
+  "data": {
+   "description": "Feine Rinderstreifen in einer würzigen Rahmsauce mit Pilzen und Gurken – ein Klassiker, der immer gelingt."
+  }
+ },
+ {
+  "id": 87,
+  "slug": "cremiger-eiersalat-in-5-minuten-einfach-wuerzig-und-herrlich-lecker",
+  "data": {
+   "category": "Salate"
+  }
+ },
+ {
+  "id": 92,
+  "slug": "ueberbackenes-knoblauchbrot-mit-haehnchen-und-alfredo-sauce-cremig-herzhaft-und-herrlich-kaesig",
+  "data": {
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 97,
+  "slug": "cremiger-tortellinisalat-mit-schinken-und-emmentaler-perfekt-fuer-grillabende",
+  "data": {
+   "category": "Salate"
+  }
+ },
+ {
+  "id": 99,
+  "slug": "cremiger-zucchini-auflauf-mit-schinken-und-mozzarella-herzhaft-kaesig-und-unglaublich-cremig",
+  "data": {
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 105,
+  "slug": "knusprige-haehnchen-burger-aus-dem-ofen-cremig-kaesig-und-schnell-gemacht",
+  "data": {
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 109,
+  "slug": "maulwurfkuchen-vom-blech-unglaublich-saftig-und-herrlich-cremig",
+  "data": {
+   "ingredients": "[\"Für den Schokoladenboden:\", \"4 Eier (Größe M)\", \"200 g Zucker\", \"300 ml Milch\", \"250 ml Sonnenblumenöl\", \"3 EL Backkakao\", \"1½ Päckchen Backpulver\", \"300 g Weizenmehl\", \"Für die Vanillecreme:\", \"1 Liter Milch\", \"200 g Weizenmehl\", \"1 Eigelb\", \"200 g Zucker\", \"1 Päckchen Vanillezucker (optional)\", \"200 ml Schlagsahne\", \"Für die Füllung:\", \"4 große Bananen oder frische Erdbeeren\", \"Schokotropfen nach Belieben\", \"Zum Tränken:\", \"100 ml Milch\", \"Für die Schokoladen-Ganache:\", \"100 ml Schlagsahne\", \"50 g Zartbitterschokolade\"]"
+  }
+ },
+ {
+  "id": 110,
+  "slug": "kreppizza-aus-dem-ofen-schnell-knusprig-und-unglaublich-lecker",
+  "data": {
+   "ingredients": "[\"Für den Teig:\", \"300 ml Milch\", \"120 g Weizenmehl\", \"2 Eier\", \"1 Prise Salz\", \"2 EL Sonnenblumenöl\", \"Für den Belag:\", \"1 rote Spitzpaprika oder Kapia-Paprika, klein gewürfelt\", \"1 grüne Paprika, klein gewürfelt\", \"150 g geriebener Gouda oder Mozzarella\", \"100 g Würstchen, in Scheiben geschnitten\", \"100 g Salami, klein geschnitten\", \"Nach Belieben:\", \"Mais\", \"Champignons\", \"Oliven\", \"Rote Zwiebeln\", \"Oregano\"]"
+  }
+ },
+ {
+  "id": 111,
+  "slug": "knusprige-beef-tacos-mit-frischer-pico-de-gallo-und-cremiger-taco-sosse",
+  "data": {
+   "ingredients": "[\"Für die Hackfleischfüllung:\", \"900 g Rinderhackfleisch\", \"1 Zwiebel, fein gewürfelt\", \"1 Knoblauchzehe, fein gehackt\", \"2 EL Tomatenmark\", \"120 ml Wasser\", \"2 EL Taco-Gewürz (oder nach Geschmack)\", \"Salz und Pfeffer\", \"100–120 g geriebener Mozzarella oder Gouda\", \"12–15 kleine Weizentortillas\", \"Für die Pico de Gallo:\", \"3 Tomaten, fein gewürfelt\", \"1 kleine Zwiebel, fein gewürfelt\", \"2 EL frische Petersilie, gehackt\", \"Saft einer Limette\", \"Salz und Pfeffer\", \"Für die Taco-Soße:\", \"200 g Schmand\", \"2 EL Mayonnaise\", \"2 EL Buttermilch\", \"1 EL Limettensaft\", \"1 TL Taco-Gewürz\", \"1 EL gehackte Petersilie\"]",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 112,
+  "slug": "zitronen-plaetzchen-mit-weisser-schokolade-herrlich-saftig-und-unwiderstehlich-cremig",
+  "data": {
+   "ingredients": "[\"Für den Teig:\", \"125 g weiche Butter\", \"100 ml Sonnenblumenöl\", \"1 Ei\", \"60 g Puderzucker\", \"1 Päckchen Vanillezucker\", \"1 Päckchen Backpulver\", \"1 EL fein abgeriebene Bio-Zitronenschale\", \"ca. 360 g Weizenmehl\", \"Für den Milchsud:\", \"400 ml Milch\", \"100 g weiße Schokolade\", \"2 EL Zucker\", \"1 EL frisch gepresster Zitronensaft\", \"1 TL fein abgeriebene Bio-Zitronenschale\", \"Zum Verzieren:\", \"Geschmolzene weiße Schokolade\", \"Fein geriebene Zitronenschale\", \"Weiße Schokoladenstückchen\"]"
+  }
+ },
+ {
+  "id": 113,
+  "slug": "fluffige-ballon-pfannkuchen-pi-i-aussen-knusprig-innen-luftig",
+  "data": {
+   "ingredients": "[\"Für den Hefeteig:\", \"250 ml lauwarmes Wasser\", \"250 ml lauwarme Milch\", \"2 EL Sonnenblumenöl\", \"1 Ei\", \"1 Päckchen Trockenhefe\", \"1 TL Zucker\", \"1 TL Salz\", \"550–600 g Weizenmehl (je nach Bedarf)\", \"Zum Ausbacken:\", \"Reichlich Sonnenblumenöl\"]"
+  }
+ },
+ {
+  "id": 114,
+  "slug": "mosaikkuchen-mit-himbeeren-und-schokoladen-ganache-ganz-ohne-backen",
+  "data": {
+   "ingredients": "[\"Für den Mosaikkuchen:\", \"2½ Packungen Butterkekse\", \"300 ml Milch\", \"80 g Zucker\", \"3 gehäufte EL Backkakao\", \"4 EL Butter\", \"1 TL Instantkaffee\", \"100 g Vollmilchschokolade\", \"Für die Füllung:\", \"Tiefgekühlte Himbeeren\", \"Gehackte Walnüsse\", \"Für die Schokoladen-Ganache:\", \"200 ml Schlagsahne\", \"190 g Zartbitter- oder Vollmilchschokolade\"]"
+  }
+ },
+ {
+  "id": 115,
+  "slug": "san-sebastian-cheesecake-cremig-einfach-und-wie-im-caf",
+  "data": {
+   "ingredients": "[\"Für den Cheesecake:\", \"600 g Frischkäse (Doppelrahmstufe)\", \"200 ml Schlagsahne\", \"200 g Zucker\", \"3 Eier (Größe M)\", \"2 gehäufte EL Weizenstärke\", \"1 Päckchen Vanillezucker\", \"Nach Belieben:\", \"Schokoladensoße\", \"Frische Beeren\", \"Beerensoße\"]"
+  }
+ },
+ {
+  "id": 116,
+  "slug": "pfirsich-cheesecake-im-glas-cremig-fruchtig-und-ganz-ohne-backen",
+  "data": {
+   "ingredients": "[\"Für 2 Portionen:\", \"250 g griechischer Joghurt (alternativ Skyr oder gut abgetropfter Naturjoghurt)\", \"1 kleiner reifer Pfirsich\", \"1 mittelgroße Nektarine (alternativ 1 weiterer Pfirsich)\", \"1 TL Flohsamenschalenpulver (alternativ 2 Blatt Gelatine oder 1 TL Speisestärke)\", \"1 EL Honig (alternativ Agavendicksaft oder Ahornsirup)\", \"Zum Garnieren:\", \"Zerbröselte Butterkekse (alternativ Haferkekse)\", \"Frische Pfirsich- oder Nektarinenscheiben\"]"
+  }
+ },
+ {
+  "id": 117,
+  "slug": "knuspriger-blaetterteigstrudel-mit-schinken-und-kaese-schnell-einfach-und-unglaublich-lecker",
+  "data": {
+   "ingredients": "[\"Für den Blätterteigstrudel:\", \"1 Rolle Blätterteig aus dem Kühlregal\", \"150 g Kräuterfrischkäse (alternativ Frischkäse natur mit frischen Kräutern)\", \"100 g Kochschinken (alternativ Putenschinken)\", \"100 g geriebener Emmentaler (alternativ Gouda oder Mozzarella)\", \"1 Eigelb zum Bestreichen\", \"Nach Belieben:\", \"Sesam oder Schwarzkümmel zum Bestreuen\"]"
+  }
+ },
+ {
+  "id": 118,
+  "slug": "ueberbackene-schweinemedaillons-auf-toast-mit-champignon-rahm-herzhaft-und-unwiderstehlich-lecker",
+  "data": {
+   "ingredients": "[\"Für die Schweinemedaillons:\", \"700 g Schweinelende\", \"Salz und Pfeffer\", \"2 EL Sonnenblumenöl (alternativ Butterschmalz)\", \"Für die Champignon-Rahmsoße:\", \"600 g Champignons\", \"2 kleine Zwiebeln\", \"200 g Crème fraîche (alternativ Schmand)\", \"Salz und Pfeffer\", \"Außerdem:\", \"4 Scheiben Toastbrot\", \"8 Scheiben Gouda (alternativ Emmentaler oder Edamer)\"]",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 119,
+  "slug": "fluffige-protein-pfannkuchen-in-nur-10-minuten-fertig",
+  "data": {
+   "ingredients": "[\"Für die Pfannkuchen:\", \"1 Ei\", \"65 ml Milch\", \"1 EL Magerquark (alternativ Skyr)\", \"1½ EL Vanillepuddingpulver\", \"Zum Füllen (nach Belieben):\", \"Marmelade\", \"Nuss-Nougat-Creme\", \"Magerquark oder Skyr\", \"Geschmolzene Schokolade\", \"Gemahlener Mohn\", \"Gemahlene Haselnüsse oder Mandeln\"]",
+   "category": "Desserts"
+  }
+ },
+ {
+  "id": 120,
+  "slug": "cremige-thunfisch-spaghetti-mit-knoblauch-schnell-aromatisch-und-unglaublich-lecker",
+  "data": {
+   "ingredients": "[\"Für die Pasta:\", \"300 g Spaghetti\", \"1 Dose Thunfisch im eigenen Saft oder in Öl, abgetropft\", \"1 Zwiebel, fein gewürfelt\", \"1 Knoblauchzehe, fein gehackt\", \"1 EL Olivenöl\", \"100 ml Schlagsahne (alternativ Kochsahne)\", \"1 EL Tomatenmark\", \"3 EL frischer Dill, gehackt (alternativ Petersilie)\", \"Einige frische Basilikumblätter\", \"Salz\", \"Schwarzer Pfeffer\", \"1 Prise Zucker\"]"
+  }
+ },
+ {
+  "id": 121,
+  "slug": "geroestete-paprika-in-knoblauchmarinade-aromatisch-saftig-und-vielseitig",
+  "data": {
+   "ingredients": "[\"Für die eingelegten Paprika:\", \"2 kg rote oder orange Paprika\", \"10 Knoblauchzehen\", \"100 ml Olivenöl\", \"100 ml Apfelessig (alternativ Weißweinessig)\", \"1–2 TL Salz\", \"6–7 Zweige frische Petersilie (alternativ glatte Petersilie)\"]"
+  }
+ },
+ {
+  "id": 122,
+  "slug": "knusprige-blaetterteig-roellchen-mit-kaese-und-speck-einfach-herzhaft-und-unwiderstehlich",
+  "data": {
+   "ingredients": "[\"Für die Blätterteig-Röllchen:\", \"250 g Blätterteig aus dem Kühlregal\", \"75 g knusprig gebratener Speck (alternativ Kochschinken oder Putenschinken)\", \"100 g geriebener Gouda (alternativ Emmentaler oder Mozzarella)\", \"1 Ei, verquirlt\", \"1 TL getrocknete italienische Kräuter (optional)\", \"Nach Belieben:\", \"Sesam oder Schwarzkümmel zum Bestreuen\"]"
+  }
+ },
+ {
+  "id": 123,
+  "slug": "cremige-haehnchen-pasta-in-sahnesosse-schnell-einfach-und-voller-geschmack",
+  "data": {
+   "ingredients": "[\"Für die Pasta:\", \"300 g Hähnchenbrustfilet, in Streifen geschnitten\", \"250 g Pasta nach Wahl\", \"200 ml Schlagsahne (alternativ Kochsahne)\", \"100 ml Hühnerbrühe\", \"1 kleine Zwiebel, fein gewürfelt\", \"2 Knoblauchzehen, fein gehackt\", \"1 TL Dijon-Senf (alternativ mittelscharfer Senf)\", \"1 TL Zitronensaft\", \"2 EL Olivenöl\", \"½ TL Salz\", \"½ TL schwarzer Pfeffer\", \"½ TL Paprikapulver\", \"Nach Belieben:\", \"50 g geriebener Parmesan (alternativ Grana Padano)\", \"Frische Petersilie\"]",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 124,
+  "slug": "weisse-schokoladen-pralinen-mit-mandeln-zart-cremig-und-einfach-gemacht",
+  "data": {
+   "ingredients": "[\"Für ca. 24 Pralinen:\", \"200 g weiße Schokolade\", \"25 g Butter\", \"125 g gemahlene Mandeln\", \"75 ml Schlagsahne\", \"Einige Tropfen Vanilleextrakt (alternativ 1 Päckchen Vanillezucker)\", \"Zum Wälzen:\", \"Gemahlene Mandeln oder Kokosraspeln (optional)\"]"
+  }
+ },
+ {
+  "id": 125,
+  "slug": "zimtschnecken-kaesekuchen-unglaublich-cremig-mit-knusprigem-zimt-topping",
+  "data": {
+   "ingredients": "[\"Für den Keksboden:\", \"250 g Butterkekse (alternativ Spekulatius)\", \"100 g Butter, geschmolzen\", \"Für die Käsekuchen-Füllung:\", \"450 g Magerquark\", \"750 g Frischkäse (Doppelrahmstufe)\", \"250 ml Schlagsahne\", \"3 Eier (Größe M)\", \"50 ml Sonnenblumenöl (alternativ Rapsöl)\", \"80 g Zucker\", \"1 Päckchen Vanillezucker\", \"1 Päckchen Vanillepuddingpulver\", \"50 g Speisestärke\", \"Für den Zimt-Swirl:\", \"100 g weiche Butter\", \"100 g brauner Zucker\", \"2 EL Zimt\", \"2 EL Weizenmehl\", \"Etwas Zimtzucker zum Bestreuen\"]"
+  }
+ },
+ {
+  "id": 126,
+  "slug": "apfel-haferflocken-kekse-ohne-mehl-weich-saftig-und-in-15-minuten-fertig",
+  "data": {
+   "ingredients": "[\"Für die Apfelkekse:\", \"2 Äpfel\", \"200 g Haferflocken\", \"2 Eier (Größe M)\", \"2 EL Honig (alternativ Ahornsirup oder Agavendicksaft)\", \"1 TL Zimt\", \"1 TL Backpulver\", \"1 Prise Salz\", \"Nach Belieben:\", \"2 EL Rosinen\", \"2 EL gehackte Walnüsse (alternativ Mandeln oder Haselnüsse)\", \"1–2 EL Naturjoghurt oder Magerquark für besonders saftige Kekse\"]"
+  }
+ },
+ {
+  "id": 127,
+  "slug": "zimt-kaesekuchen-herrlich-cremig-mit-feinem-zimt-swirl",
+  "data": {
+   "ingredients": "[\"Für den Keksboden:\", \"200 g Haferkekse (alternativ Butterkekse)\", \"100 g Butter, geschmolzen\", \"Für die Käsekuchen-Füllung:\", \"250 g Magerquark\", \"400 g Doppelrahmfrischkäse\", \"2 Eier (Größe M)\", \"100 ml Schlagsahne\", \"80 g Zucker\", \"Für den Zimt-Swirl:\", \"40 g Butter\", \"20 g Ceylon-Zimt (alternativ herkömmlicher gemahlener Zimt)\", \"1 Päckchen Bourbon-Vanillezucker (alternativ Vanillezucker)\", \"Nach Belieben:\", \"Geschlagene Sahne zum Servieren\"]"
+  }
+ },
+ {
+  "id": 128,
+  "slug": "quark-haferflocken-taler-aussen-goldbraun-innen-herrlich-weich",
+  "data": {
+   "ingredients": "[\"Für die Quark-Haferflocken-Taler:\", \"250 g Magerquark\", \"100 g Haferflocken\", \"2 Eier (Größe M)\", \"50 g Honig (alternativ Ahornsirup oder Agavendicksaft)\", \"1 TL Vanilleextrakt (alternativ 1 Päckchen Vanillezucker)\", \"1 TL Backpulver\", \"1 Prise Salz\", \"½ TL Zimt\", \"Etwas Sonnenblumenöl (alternativ Rapsöl oder Butter) zum Braten\", \"Bei Bedarf 1–2 EL Milch\", \"Zum Servieren nach Belieben:\", \"Frische Beeren\", \"Apfelmus\", \"Naturjoghurt oder Skyr\", \"Nussmus\", \"Ahornsirup\"]"
+  }
+ },
+ {
+  "id": 129,
+  "slug": "knuspriger-backfisch-wie-im-restaurant-einfacher-teig-ohne-ei-und-milch",
+  "data": {
+   "ingredients": "[\"Für den Backteig:\", \"95 g Weizenmehl (Type 405)\", \"2 EL Speisestärke\", \"¼ TL Natron\", \"¼ TL Backpulver\", \"¼ TL Salz\", \"180 ml eiskaltes Wasser\", \"Für den Fisch:\", \"ca. 500–600 g festes weißes Fischfilet, z. B. Kabeljau, Seelachs oder Schellfisch\", \"Etwas Salz und Pfeffer\", \"1–2 EL Mehl zum Bestäuben\", \"Ausreichend Sonnenblumenöl (alternativ Rapsöl) zum Frittieren\", \"Zum Servieren:\", \"Remouladensoße oder Sauce Tartare\", \"Zitronenspalten\"]"
+  }
+ },
+ {
+  "id": 130,
+  "slug": "apfelkuchen-vom-blech-mit-zimt-und-zuckerguss-saftig-schnell-und-herrlich-einfach",
+  "data": {
+   "ingredients": "[\"Für den Teig:\", \"350 g Weizenmehl (Type 405)\", \"180 g Zucker\", \"1 Päckchen Backpulver\", \"1 TL Zimt\", \"1 Päckchen Vanillezucker\", \"1 Prise Salz\", \"200 g Schmand (alternativ saure Sahne)\", \"3 Eier (Größe M)\", \"60 ml Wasser\", \"115 g Butter, geschmolzen\", \"Für die Apfelschicht:\", \"ca. 600 g Apfelkuchenfüllung aus dem Glas oder der Dose (alternativ Apfelkompott mit Stückchen)\", \"Für den Zuckerguss:\", \"120 g Puderzucker\", \"1–2 EL Milch\"]"
+  }
+ },
+ {
+  "id": 131,
+  "slug": "zartes-rindergulasch-aus-dem-slow-cooker-butterweich-und-herrlich-wuerzig",
+  "data": {
+   "ingredients": "[\"Für das Rindergulasch:\", \"900 g Rindergulasch oder Rinderschmorfleisch\", \"1 Päckchen Zwiebelsuppenpulver (alternativ 2 Zwiebeln, fein gewürfelt, plus 1 TL Gemüsebrühepulver)\", \"400 g Champignoncremesuppe aus der Dose (alternativ 250 g Champignons und 200 ml Kochsahne)\", \"400 ml Rinderbrühe\", \"2 EL Worcestersoße (alternativ 1 EL Sojasoße plus 1 TL Balsamico)\", \"Salz nach Geschmack\", \"Schwarzer Pfeffer nach Geschmack\", \"Nach Belieben:\", \"Frische Petersilie zum Garnieren\", \"Kartoffelpüree, Spätzle oder Salzkartoffeln zum Servieren\"]"
+  }
+ },
+ {
+  "id": 132,
+  "slug": "leichte-vanillecreme-ohne-butter-perfekt-fuer-cupcakes-und-torten",
+  "data": {
+   "ingredients": "[\"Für die Vanillecreme:\", \"1 Päckchen Vanillepuddingpulver ohne Kochen, ca. 90–100 g (alternativ Paradies Creme Vanille oder eine vergleichbare Instant-Vanillecreme)\", \"2 EL Puderzucker\", \"120 ml sehr kalte Milch\", \"1 TL Vanilleextrakt (alternativ 1 Päckchen Vanillezucker)\", \"225 g aufgeschlagene Sahne bzw. fertiges Schlagsahne-Topping (alternativ ca. 200 ml Schlagsahne mit 1 Päckchen Sahnesteif)\"]"
+  }
+ },
+ {
+  "id": 133,
+  "slug": "mexikanischer-kaese-dip-extra-cremig-wuerzig-und-in-wenigen-minuten-fertig",
+  "data": {
+   "ingredients": "[\"Für den Käse-Dip:\", \"450 g weißer Schmelzkäse (alternativ Cheddar-Schmelzkäse oder milder Gouda-Schmelzkäse)\", \"160 ml Milch (alternativ Kochsahne für eine besonders cremige Konsistenz)\", \"3–4 EL gehackte grüne Chilis aus dem Glas oder der Dose (alternativ eingelegte Jalapeños)\", \"1 TL gemahlener Kreuzkümmel\", \"1 TL Chipotle-Chilipulver (optional; alternativ geräuchertes Paprikapulver)\", \"Zum Servieren:\", \"Tortilla-Chips\", \"Jalapeño-Ringe nach Belieben\", \"Frischer Koriander oder Petersilie nach Belieben\"]",
+   "category": "Vorspeisen"
+  }
+ },
+ {
+  "id": 134,
+  "slug": "beeren-cobbler-mit-knuspriger-kruste-nur-3-zutaten-und-ohne-butter",
+  "data": {
+   "ingredients": "[\"Für den Beeren-Cobbler:\", \"600 g tiefgekühlte Früchte, z. B. Erdbeeren, Kirschen, Himbeeren oder eine Beerenmischung\", \"240 ml Sprite oder eine andere klare Zitronenlimonade (alternativ Mineralwasser mit Kohlensäure für eine weniger süße Variante)\", \"ca. 430 g helle Kuchen-Backmischung oder Vanillekuchen-Backmischung\", \"Falls keine passende Kuchen-Backmischung erhältlich ist:\", \"Die trockene Backmischung lässt sich ganz einfach selbst herstellen:\", \"300 g Weizenmehl (Type 405)\", \"130 g Zucker\", \"1 Päckchen Backpulver\", \"1 Päckchen Vanillezucker\", \"1 Prise Salz\", \"Alle Zutaten gründlich miteinander vermischen und anschließend wie eine fertige trockene Kuchen-Backmischung verwenden. Keine weiteren Zutaten wie Eier, Milch oder Butter hinzufügen.\", \"Zum Servieren nach Belieben:\", \"Vanilleeis\", \"Geschlagene Sahne\", \"Frische Beeren\"]"
+  }
+ },
+ {
+  "id": 135,
+  "slug": "knuspriger-cracker-salat-mit-ei-und-tomaten-in-10-minuten-fertig",
+  "data": {
+   "ingredients": "[\"Für den Cracker-Salat:\", \"115 g Salzcracker (alternativ Tuc-Cracker oder andere leicht gesalzene Cracker)\", \"1 große Tomate\", \"3 Frühlingszwiebeln\", \"2 hart gekochte Eier\", \"ca. 300 g Mayonnaise\", \"Salz nach Geschmack\", \"Schwarzer Pfeffer nach Geschmack\", \"Nach Belieben:\", \"1 TL mittelscharfer Senf\", \"Frische Petersilie oder Schnittlauch\"]",
+   "category": "Salate"
+  }
+ },
+ {
+  "id": 136,
+  "slug": "weisse-schokoladen-karamell-fudge-cremig-zartschmelzend-und-ohne-backen",
+  "data": {
+   "ingredients": "[\"Für das Fudge:\", \"450 g weiße Schokolade\", \"1 Dose gezuckerte Kondensmilch (ca. 397 g)\", \"30 g Butter\", \"1 Prise Salz\", \"1 TL Vanilleextrakt (alternativ 1 Päckchen Vanillezucker)\", \"100–120 g Karamellcreme oder Karamellsoße (alternativ Dulce de Leche)\"]",
+   "category": "Desserts"
+  }
+ },
+ {
+  "id": 137,
+  "slug": "cremige-zitronenlimonade-mit-vanilleeis-erfrischend-und-in-5-minuten-fertig",
+  "data": {
+   "ingredients": "[\"Für 2 große Gläser:\", \"200 ml Zitronenlimonaden-Konzentrat, gekühlt (alternativ 150 ml Zitronensaft mit 50 ml Zuckersirup)\", \"4 große Kugeln Vanilleeis\", \"100–150 ml eiskaltes Wasser nach Bedarf\", \"Einige Eiswürfel (optional)\", \"Zum Garnieren nach Belieben:\", \"Zitronenscheiben\", \"Etwas abgeriebene Bio-Zitronenschale\", \"Geschlagene Sahne\"]",
+   "category": "Desserts"
+  }
+ },
+ {
+  "id": 138,
+  "slug": "cremige-bauern-suppe-mit-bratwurst-und-kartoffeln-herzhaft-saettigend-und-einfach",
+  "data": {
+   "ingredients": "[\"Für die Bauern-Suppe:\", \"400 g Bratwurst\", \"2 Stangen Lauch\", \"250 g Champignons\", \"2 Paprika, rot oder gelb\", \"2 Möhren\", \"4 mittelgroße Kartoffeln, ca. 600 g\", \"ca. 1 Liter Wasser (alternativ Gemüse- oder Fleischbrühe für mehr Würze)\", \"Salz nach Geschmack\", \"Schwarzer Pfeffer nach Geschmack\", \"Nach Belieben:\", \"100–150 ml Kochsahne für eine besonders cremige Suppe\", \"1 TL Paprikapulver, edelsüß\", \"Frische Petersilie zum Servieren\"]",
+   "category": "Suppen"
+  }
+ },
+ {
+  "id": 139,
+  "slug": "1-teig-5-plaetzchensorten-einfach-gemacht-und-fuer-jeden-geschmack",
+  "data": {
+   "ingredients": "[\"Für den Grundteig:\", \"600 g Butter, kalt\", \"900 g Weizenmehl (Type 405)\", \"300 g Zucker\", \"4 Eier (Größe M)\", \"½ TL Salz\", \"Für die Spitzbuben:\", \"100 g gemahlene Haselnüsse\", \"100 g Himbeerkonfitüre (alternativ Erdbeer- oder Johannisbeerkonfitüre)\", \"Puderzucker zum Bestäuben\", \"Für die Nougatherzen:\", \"50 g Nuss-Nougat-Creme\", \"1–2 EL Weizenmehl bei Bedarf\", \"Zartbitterschokolade zum Verzieren\", \"Für die Walnusstaler:\", \"100 g Walnüsse, fein gemahlen\", \"100 g Aprikosenkonfitüre (alternativ Pfirsichkonfitüre)\", \"Zartbitterschokolade zum Verzieren\", \"Walnusshälften zum Dekorieren\", \"Für die Zimt-Plätzchen:\", \"2 TL gemahlener Zimt\", \"Für die gefüllten Röllchen:\", \"Etwas Weizenmehl zum Ausrollen\", \"Vanillecreme oder Schokoladencreme zum Füllen (optional)\", \"Zartbitterschokolade zum Verzieren (optional)\"]"
+  }
+ },
+ {
+  "id": 140,
+  "slug": "eier-in-cremiger-senfsauce-klassisch-einfach-und-in-20-minuten-fertig",
+  "data": {
+   "ingredients": "[\"Für die Eier:\", \"7 Eier\", \"Für die Senfsauce:\", \"2 EL Butter\", \"4 EL Weizenmehl (Type 405)\", \"300 ml Milch\", \"300 ml Gemüsebrühe\", \"4 EL mittelscharfer Senf\", \"1½ EL Weißweinessig (alternativ Apfelessig)\", \"1 TL Zucker\", \"120 ml Schlagsahne (alternativ Kochsahne)\", \"Salz\", \"Schwarzer Pfeffer\", \"Zum Servieren:\", \"1 EL frische Petersilie, gehackt\", \"Salzkartoffeln oder frisches Brot nach Belieben\"]"
+  }
+ },
+ {
+  "id": 141,
+  "slug": "erdbeer-tiramisu-ohne-backen-herrlich-cremig-fruchtig-und-schnell-gemacht",
+  "data": {
+   "ingredients": "[\"Für das Erdbeer-Tiramisu:\", \"500 g frische Erdbeeren\", \"250 g Mascarpone\", \"250 g Magerquark (alternativ Speisequark mit 20 % Fett)\", \"200 ml Schlagsahne\", \"80 g Zucker\", \"1 Päckchen Vanillezucker\", \"200 g Löffelbiskuits\", \"150–200 ml Orangensaft (alternativ Erdbeersaft)\", \"Für die Dekoration:\", \"Einige frische Erdbeeren\", \"Etwas Erdbeerpüree oder Erdbeersoße (optional)\"]"
+  }
+ },
+ {
+  "id": 142,
+  "slug": "gebackene-bananen-im-knusprigen-teigmantel-schnell-suess-und-in-10-minuten-fertig",
+  "data": {
+   "ingredients": "[\"Für die gebackenen Bananen:\", \"2 große, reife Bananen\", \"100 g Weizenmehl (Type 405)\", \"1 TL Backpulver\", \"1 Prise Salz\", \"1 EL Zucker\", \"ca. 7 EL kaltes Wasser\", \"Sonnenblumenöl zum Ausbacken (alternativ Rapsöl)\", \"Zum Servieren nach Belieben:\", \"Honig (alternativ Ahornsirup)\", \"Etwas gemahlener Zimt\", \"Puderzucker\"]"
+  }
+ },
+ {
+  "id": 143,
+  "slug": "knusprige-flammkuchen-schnecken-mit-schinken-und-schmand-der-perfekte-party-snack",
+  "data": {
+   "ingredients": "[\"Für die Flammkuchen-Schnecken:\", \"1 Rolle Blätterteig aus dem Kühlregal\", \"1 Bund Frühlingszwiebeln (alternativ 2 Schalotten)\", \"200 g Kochschinken, fein gewürfelt (alternativ Schinkenwürfel)\", \"200 g Schmand (alternativ Crème fraîche oder Frischkäse)\", \"Salz nach Geschmack\", \"Schwarzer Pfeffer nach Geschmack\", \"1 TL Kräuter der Provence (optional)\", \"Nach Belieben:\", \"Etwas geriebener Gouda oder Emmentaler zum Überbacken\", \"Frischer Schnittlauch zum Servieren\"]"
+  }
+ },
+ {
+  "id": 144,
+  "slug": "friss-dich-dumm-suppe-mit-hackfleisch-cremig-herzhaft-und-richtig-saettigend",
+  "data": {
+   "ingredients": "[\"Für die Suppe:\", \"500 g gemischtes Hackfleisch\", \"2 Zwiebeln\", \"2 Knoblauchzehen\", \"2 Paprika, rot oder gelb\", \"2 Möhren\", \"300 g Kartoffeln\", \"1 Liter Gemüsebrühe (alternativ Rinderbrühe)\", \"200 g Schmelzkäse (alternativ Frischkäse für eine weniger kräftige Käsenote)\", \"200 ml Schlagsahne (alternativ Kochsahne)\", \"1 TL Paprikapulver, edelsüß\", \"Salz\", \"Schwarzer Pfeffer\", \"Zum Servieren nach Belieben:\", \"Frische Petersilie oder Schnittlauch\", \"Baguette oder Bauernbrot\"]"
+  }
+ },
+ {
+  "id": 145,
+  "slug": "saftiger-pflaumenkuchen-mit-ruehrteig-einfach-fruchtig-und-wunderbar-locker",
+  "data": {
+   "ingredients": "[\"Für den Rührteig:\", \"250 g Weizenmehl (Type 405)\", \"1 Päckchen Backpulver\", \"200 g weiche Butter\", \"150 g Zucker\", \"1 Päckchen Vanillezucker\", \"1 Prise Salz\", \"4 Eier (Größe M)\", \"Für den Belag:\", \"700 g Pflaumen oder Zwetschgen\", \"Zum Servieren:\", \"Puderzucker zum Bestäuben\"]"
+  }
+ },
+ {
+  "id": 146,
+  "slug": "cremiger-obstsalat-mit-joghurt-fruchtig-leicht-und-schnell-gemacht",
+  "data": {
+   "ingredients": "[\"Für den Obstsalat:\", \"500 g Naturjoghurt\", \"120 ml Schlagsahne\", \"150 g frische Erdbeeren\", \"150 g grüne Weintrauben, kernlos\", \"1 mittelgroßer Apfel\", \"2 EL Honig (alternativ Ahornsirup oder Agavendicksaft)\", \"1 TL Vanilleextrakt (alternativ 1 Päckchen Vanillezucker)\", \"Für eine leichtere Variante:\", \"Griechischer Joghurt oder Skyr anstelle der Schlagsahne\", \"Zum Garnieren nach Belieben:\", \"Frische Minze\", \"Gehackte Mandeln oder Walnüsse\", \"Einige frische Erdbeeren\"]"
+  }
+ },
+ {
+  "id": 147,
+  "slug": "kleine-kuchen-im-waffelbecher-saftig-knusprig-und-perfekt-zum-naschen",
+  "data": {
+   "ingredients": "[\"Für ca. 24 Waffelbecher-Küchlein:\", \"100 g weiche Butter (alternativ Margarine)\", \"100 g Zucker\", \"1 Päckchen Vanillezucker\", \"2 Eier (Größe M)\", \"125 g Weizenmehl (Type 405)\", \"½ gestrichener TL Backpulver\", \"24 kleine Waffelbecher mit Schokoglasur\", \"Für die Dekoration:\", \"ca. 100–150 g Zartbitter-Kuvertüre (alternativ Vollmilch-Kuvertüre)\", \"Nach Belieben:\", \"Bunte Zuckerstreusel\", \"Gehackte Haselnüsse\", \"Kokosraspeln\"]"
+  }
+ },
+ {
+  "id": 148,
+  "slug": "knusprige-zucchini-baellchen-aus-dem-ofen-herzhaft-kaesig-und-einfach-gemacht",
+  "data": {
+   "ingredients": "[\"Für die Zucchini-Bällchen:\", \"2 mittelgroße Zucchini, ca. 500–600 g\", \"1 Ei (Größe M)\", \"150 g Semmelbrösel\", \"60 g Parmesan, fein gerieben (alternativ Grana Padano oder geriebener Gouda)\", \"½ TL Salz\", \"½ TL schwarzer Pfeffer\", \"½ TL getrockneter Rosmarin (alternativ italienische Kräuter)\", \"1 EL Olivenöl (optional)\", \"Zum Servieren nach Belieben:\", \"Kräuterquark\", \"Tzatziki\", \"Tomatensoße\", \"Frische Kräuter\"]"
+  }
+ },
+ {
+  "id": 149,
+  "slug": "diese-gebratenen-nudeln-mit-haehnchen-schmecken-besser-als-vom-asia-imbiss",
+  "data": {
+   "title": "Gebratene Nudeln mit Hähnchen nach Asia-Art",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 150,
+  "slug": "dieser-7-tassen-salat-hat-absoluten-suchtfaktor-besser-geht-s-nicht",
+  "data": {
+   "title": "7-Tassen-Salat – geschichteter Partysalat"
+  }
+ },
+ {
+  "id": 151,
+  "slug": "diese-pizzasuppe-ist-so-gut-dass-garantiert-nichts-uebrig-bleibt",
+  "data": {
+   "title": "Pizzasuppe mit Hackfleisch und Gemüse"
+  }
+ },
+ {
+  "id": 152,
+  "slug": "dieses-faule-knoblauchbrot-gelingt-immer-aussen-knusprig-innen-herrlich-weich",
+  "data": {
+   "title": "Faules Knoblauchbrot – außen knusprig, innen weich"
+  }
+ },
+ {
+  "id": 153,
+  "slug": "dieser-paprika-gouda-salat-steht-in-15-minuten-auf-dem-tisch-cremig-herzhaft",
+  "data": {
+   "title": "Paprika-Gouda-Salat – cremig & in 15 Minuten fertig",
+   "category": "Salate"
+  }
+ },
+ {
+  "id": 154,
+  "slug": "diese-schnellen-pizza-baellchen-haben-garantierten-suchtfaktor-aussen-goldbraun-innen-saftig",
+  "data": {
+   "title": "Pizza-Bällchen mit Quark-Öl-Teig, Schinken und Käse"
+  }
+ },
+ {
+  "id": 155,
+  "slug": "diese-quark-pfannkuchen-ohne-mehl-sind-in-5-minuten-fertig-leicht-saettigend",
+  "data": {
+   "title": "Quark-Pfannkuchen mit Puddingpulver – ohne Mehl & in 5 Minuten fertig"
+  }
+ },
+ {
+  "id": 156,
+  "slug": "dieser-gefuellte-blaetterteigstrudel-ist-in-10-minuten-vorbereitet-herzhaft-unwiderstehlich",
+  "data": {
+   "title": "Gefüllter Blätterteigstrudel – in 10 Minuten vorbereitet"
+  }
+ },
+ {
+  "id": 157,
+  "slug": "dieser-raeuberbraten-ist-so-zart-dass-er-auf-der-zunge-zergeht",
+  "data": {
+   "title": "Räuberbraten – zart geschmort & würzig"
+  }
+ },
+ {
+  "id": 158,
+  "slug": "blaubeerkuchen-vom-blech-cremig-fruchtig-einfach-unwiderstehlich",
+  "data": {
+   "description": "Saftiger Boden, fruchtige Heidelbeerschicht und eine luftige Sahnehaube mit feinem Topping – ein Kuchen, der garantiert Eindruck macht."
+  }
+ },
+ {
+  "id": 159,
+  "slug": "schinken-nudeln-mit-schmand-cremig-schnell-immer-gut",
+  "data": {
+   "description": "Einfach, sättigend und voller Geschmack – dieses Gericht steht in wenigen Minuten auf dem Tisch."
+  }
+ },
+ {
+  "id": 160,
+  "slug": "hackfleisch-roellchen-aus-dem-ofen-knusprig-saftig-schnell-gemacht",
+  "data": {
+   "description": "Würzige Hackfleischfüllung im goldbraunen Teig – perfekt als Snack, Abendessen oder für Gäste."
+  }
+ },
+ {
+  "id": 161,
+  "slug": "dieser-kokos-schoko-kuchen-macht-suechtig-saftig-schokoladig-exotisch-gut",
+  "data": {
+   "title": "Kokos-Schoko-Kuchen – saftig & schokoladig"
+  }
+ },
+ {
+  "id": 162,
+  "slug": "dieser-ofenlachs-macht-alle-verrueckt-saftig-voller-geschmack",
+  "data": {
+   "title": "Ofenlachs mit Gemüse und Honig-Senf-Dressing",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 163,
+  "slug": "dieses-pfannen-rezept-macht-alle-verrueckt-knusprig-einfach-genial",
+  "data": {
+   "description": "Außen knusprige Kartoffeln, würziger Leberkäse und in der Mitte ein cremiges Spiegelei.",
+   "steps": "[\"Als erstes die Kartoffeln schälen und in kleine Würfel schneiden.\", \"Danach etwas Öl in einer großen Pfanne erhitzen und die Kartoffeln darin bei mittlerer bis hoher Hitze goldbraun und knusprig anbraten. Dabei gelegentlich wenden.\", \"Nun die Zwiebel würfeln und zu den Kartoffeln geben, kurz mitbraten.\", \"Jetzt den Leberkäse in kleine Würfel schneiden und ebenfalls in die Pfanne geben, bis alles schön gebräunt ist.\", \"Anschließend mit Salz, Pfeffer und Bratkartoffel-Gewürz abschmecken.\", \"Nun den geriebenen Käse darüber streuen und leicht schmelzen lassen.\", \"In der Mitte der Pfanne eine kleine Mulde formen und die Eier vorsichtig hineinschlagen.\", \"Die Hitze reduzieren und die Eier stocken lassen, bis das Eiweiß fest und das Eigelb noch leicht weich ist.\", \"Zum Schluss optional mit frisch gehacktem Schnittlauch bestreuen.\", \"Direkt aus der Pfanne servieren und genießen.\"]",
+   "title": "Bratkartoffeln mit Leberkäse und Spiegelei aus der Pfanne",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 164,
+  "slug": "dieser-erdbeer-gurkensalat-ueberrascht-alle-frisch-leicht-voller-geschmack",
+  "data": {
+   "description": "Süße Erdbeeren, knackige Gurke, salziger Feta und frische Minze – diese Kombination ist einfach genial und perfekt für warme Tage.",
+   "title": "Erdbeer-Gurkensalat – frisch & leicht"
+  }
+ },
+ {
+  "id": 165,
+  "slug": "zitronen-joghurt-torte-cremig-frisch-mit-glaenzendem-zitronenspiegel",
+  "data": {
+   "description": "Cremige Joghurt-Schicht, luftiger Boden und oben ein fruchtiger Zitronenspiegel. Ein erfrischender Traum für jeden Anlass.",
+   "steps": "[\"Als erstes Mehl und Backpulver mischen.\", \"Danach Zucker, Vanillezucker, Eier und Margarine zu einer glatten Masse verrühren und die Mehlmischung unterheben.\", \"Den Teig in eine mit Backpapier ausgelegte Springform geben und im vorgeheizten Ofen bei 175 °C etwa 20–25 Minuten backen. Anschließend vollständig abkühlen lassen.\", \"Für die Creme die Götterspeise mit etwa 50 g Zucker und 250 ml Wasser anrühren, kurz quellen lassen und dann unter Rühren erwärmen (nicht kochen). Danach abkühlen lassen.\", \"Nun die Sahne mit Sahnesteif steif schlagen.\", \"Danach Joghurt und Schmand mit dem restlichen Zucker, Vanillezucker und dem frisch gepressten Zitronensaft glatt rühren.\", \"Jetzt die abgekühlte, noch flüssige Götterspeise unterrühren und die Masse kurz kühl stellen, bis sie leicht zu gelieren beginnt.\", \"Sobald die Creme leicht anzieht, die geschlagene Sahne vorsichtig unterheben.\", \"Den abgekühlten Boden mit einem Tortenring umschließen und die Creme gleichmäßig darauf verteilen. Mindestens 1–2 Stunden kühlen, bis sie stabil ist.\", \"Für den Zitronenspiegel die zweite Götterspeise mit Wasser und Zucker zubereiten, leicht abkühlen lassen (sie darf nicht heiß sein!) und vorsichtig auf die feste Creme gießen.\", \"Die Torte erneut mindestens 2–3 Stunden, am besten über Nacht, kalt stellen.\", \"Zum Schluss mit Sahnetupfen, kleinen Früchten und etwas Minze dekorieren.\"]"
+  }
+ },
+ {
+  "id": 166,
+  "slug": "diese-hackfleisch-gemuese-pfanne-lieben-alle-schnell-wuerzig-unglaublich-lecker",
+  "data": {
+   "description": "Einfach in die Pfanne, kurz anbraten und schon steht ein richtig aromatisches Gericht auf dem Tisch – perfekt für jeden Tag und auch ideal zum Vorbereiten.",
+   "title": "Hackfleisch-Gemüse-Pfanne – schnell & würzig"
+  }
+ },
+ {
+  "id": 167,
+  "slug": "ein-blech-und-alle-sind-gluecklich-das-beste-hackfleisch-rezept-ever",
+  "data": {
+   "description": "Goldbrauner Teig, saftige Füllung und perfekt geschnittene Röllchen.",
+   "ingredients": "[\"1 Rolle Pizzateig (oder Hefeteig)\", \"500 g Hackfleisch (Rind, Schwein oder Lamm)\", \"4 Zwiebeln (gewürfelt)\", \"4 Knoblauchzehen (gehackt)\", \"Salz\", \"Pfeffer\", \"Etwas Öl\", \"Optional:\", \"100–200 g Käse (gerieben, für mehr Saftigkeit)\", \"Frische Petersilie oder Kräuter\"]",
+   "title": "Hackfleisch-Schnecken vom Blech mit Pizzateig",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 168,
+  "slug": "gesuender-geht-s-nicht-diese-apfelplaetzchen-sind-weich-natuerlich-suess",
+  "data": {
+   "description": "Natürlich süß, weich und unglaublich lecker – ein Snack, den man ohne schlechtes Gewissen genießen kann.",
+   "title": "Weiche Apfelplätzchen – natürlich süß"
+  }
+ },
+ {
+  "id": 169,
+  "slug": "dieser-nusszopf-sieht-aus-wie-vom-baecker-fluffig-nussig-mit-feinem-zuckerguss",
+  "data": {
+   "description": "Locker geschichteter Hefeteig, saftige Nussfüllung und oben ein zarter Guss.",
+   "steps": "[\"Als erstes alle Zutaten für den Hefeteig zu einem glatten, geschmeidigen Teig verkneten.\", \"Den Teig abdecken und etwa 30 Minuten an einem warmen Ort gehen lassen, bis er sichtbar aufgegangen ist.\", \"In der Zwischenzeit die Zutaten für die Füllung gut miteinander vermischen.\", \"Nun den Teig auf einer bemehlten Arbeitsfläche zu einem Rechteck ausrollen.\", \"Die Nussfüllung gleichmäßig darauf verstreichen.\", \"Den Teig von der langen Seite her aufrollen und die Rolle längs halbieren.\", \"Die beiden Stränge vorsichtig miteinander verdrehen, sodass die Schichten sichtbar bleiben.\", \"Optional kannst du den Zopf direkt auf ein Backblech legen oder in eine Kastenform geben.\", \"Im vorgeheizten Ofen bei 190 °C etwa 30–40 Minuten backen, bis der Zopf goldbraun ist.\", \"Nach dem Backen kurz abkühlen lassen.\", \"Zum Schluss den Zuckerguss anrühren und locker über den noch leicht warmen Zopf träufeln.\"]",
+   "title": "Nusszopf mit Zuckerguss – fluffig & nussig"
+  }
+ },
+ {
+  "id": 170,
+  "slug": "dieser-kuchen-macht-suechtig-knusprig-cremig-einfach-der-beste",
+  "data": {
+   "description": "Zarter Rührteig, knuspriges Baiser mit Mandeln und eine luftige Cremefüllung – ein Klassiker, den man immer wieder backen will.",
+   "title": "Baiserkuchen mit Mandeln und Sahnefüllung"
+  }
+ },
+ {
+  "id": 171,
+  "slug": "dieses-trilece-sieht-aus-wie-aus-der-konditorei-ultra-saftig-karamellig-perfekt-gemustert",
+  "data": {
+   "description": "Weicher Milchkuchen, vollgesogen mit drei Milchsorten und oben eine glänzende Karamellschicht mit feinem Muster.",
+   "title": "Trilece – Milchkuchen mit Karamellschicht"
+  }
+ },
+ {
+  "id": 172,
+  "slug": "diese-maulwurf-muffins-sind-der-star-auf-jedem-tisch-fluffig-cremig-schokoladig",
+  "data": {
+   "description": "Der Klassiker in Mini: saftiger Schokoteig, süße Banane und eine luftige Sahnehaube – genau wie das Original, nur noch besser portioniert.",
+   "title": "Maulwurf-Muffins – fluffig, cremig & schokoladig"
+  }
+ },
+ {
+  "id": 173,
+  "slug": "dieses-knoblauchbutter-haehnchen-mit-parmesan-pasta-macht-alle-verrueckt-cremig-saftig-wie-im-restaurant",
+  "data": {
+   "description": "Zart gebratenes Hähnchen, aromatische Knoblauchbutter und eine cremige Parmesan-Pasta – ein Familiengericht, das garantiert jeder liebt.",
+   "title": "Knoblauchbutter-Hähnchen mit Parmesan-Pasta",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 174,
+  "slug": "dieser-gyros-auflauf-ist-der-wahnsinn-cremig-wuerzig-perfekt-ueberbacken",
+  "data": {
+   "description": "Saftiges Gyrosfleisch, zarte Kartoffeln und eine unglaublich cremige Sauce mit Hollandaise – ein Ofengericht, das einfach jeder liebt.",
+   "title": "Gyros-Auflauf – cremig, würzig & überbacken",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 175,
+  "slug": "dieses-butter-chicken-mit-knoblauchsauce-macht-suechtig-cremig-wuerzig-perfekt-mit-pommes",
+  "data": {
+   "description": "Zartes Hähnchen in einer intensiv gewürzten, leicht tomatigen Knoblauchsauce und dazu knusprige Pommes.",
+   "title": "Butter Chicken mit Knoblauchsauce und Pommes"
+  }
+ },
+ {
+  "id": 176,
+  "slug": "diese-kartoffelknoedel-gelingen-immer-weich-locker-einfach-gemacht",
+  "data": {
+   "description": "Klassisch, einfach und unglaublich lecker – diese Knödel passen perfekt zu Soßen, Fleisch oder ganz pur mit etwas Butter.",
+   "title": "Kartoffelknödel – weich, locker & gelingsicher",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 177,
+  "slug": "diese-blaetterteig-schinken-kaese-haeppchen-sind-sofort-weg-knusprig-kaesig-perfekt-fuer-gaeste",
+  "data": {
+   "description": "Goldbraun gebacken, außen knusprig und innen herrlich geschmolzen – diese kleinen Häppchen sind einfach unwiderstehlich.",
+   "ingredients": "[\"2 Rollen Blätterteig\", \"200–250 g Schinken (z. B. Kochschinken oder geräuchert)\", \"200–250 g Käse (z. B. Gouda, Emmentaler oder Mozzarella)\", \"1 Ei\", \"1 EL Milch oder Sahne\", \"Sesam oder Schwarzkümmel\", \"Optional: Senf, Frischkäse oder Kräuter\"]",
+   "title": "Blätterteig-Schinken-Käse-Häppchen für Gäste"
+  }
+ },
+ {
+  "id": 178,
+  "slug": "diese-berliner-schrippen-sind-wie-vom-baecker-knusprig-luftig-einfach-genial",
+  "data": {
+   "description": "Außen goldbraun und knusprig, innen weich und locker – diese Brötchen machen wirklich süchtig.",
+   "ingredients": "[\"550 g Weizenmehl (Type 550)\", \"40 g frische Hefe\", \"1 TL Zucker\", \"1 TL Salz\", \"150 ml lauwarme Milch\", \"200 ml Wasser (nach Bedarf)\", \"10 g Butter\"]",
+   "steps": "[\"Als erstes das Mehl in eine große Schüssel geben, eine Mulde hineindrücken und die Hefe hineinbröseln.\", \"Danach Zucker, Salz, Milch, Wasser und Butter hinzufügen und alles zu einem geschmeidigen Hefeteig verkneten.\", \"Den Teig so lange kneten, bis er sich vom Schüsselrand löst.\", \"Nun den Teig abdecken und etwa 30 Minuten an einem warmen Ort gehen lassen.\", \"Anschließend den Teig auf eine bemehlte Arbeitsfläche geben und kurz durchkneten.\", \"Jetzt zu einer Rolle formen und in etwa 15 gleich große Stücke teilen.\", \"Die Stücke zu länglichen Brötchen formen und auf ein mit Backpapier belegtes Blech legen.\", \"Kurz ruhen lassen, dann mit Wasser bestreichen.\", \"Im vorgeheizten Ofen bei 240 °C etwa 15–20 Minuten backen, bis sie goldbraun und knusprig sind.\", \"Tipp: Für extra Kruste vor dem Backen eine Tasse Wasser in den Ofen geben – so entsteht Dampf und die Schrippen werden besonders knusprig.\"]",
+   "title": "Berliner Schrippen wie vom Bäcker – knusprig & luftig"
+  }
+ },
+ {
+  "id": 179,
+  "slug": "dieses-familiengericht-aus-dem-ofen-ist-sofort-weg-cremig-saftig-perfekt-ueberbacken",
+  "data": {
+   "description": "Zarte Kartoffeln, würziges Hackfleisch und eine goldene Käsekruste – ein einfaches Abendessen, das jeder liebt.",
+   "title": "Kartoffel-Hackfleisch-Auflauf mit Käsekruste",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 180,
+  "slug": "selterskuchen-vom-blech-unfassbar-locker-saftig-immer-wieder-gebacken",
+  "data": {
+   "description": "Dieser Kuchen ist ein echter Geheimtipp: dank Sprudelwasser super luftig, herrlich weich und so schnell gemacht, dass er ständig auf dem Tisch landet."
+  }
+ },
+ {
+  "id": 181,
+  "slug": "mini-fruchttoertchen-knusprig-cremig-einfach-unwiderstehlich",
+  "data": {
+   "description": "Diese kleinen Törtchen sind der perfekte Hingucker: buttriger Mürbeteig, feine Vanillecreme und frische Früchte – schneller vernascht, als man sie dekorieren kann."
+  }
+ },
+ {
+  "id": 182,
+  "slug": "thunfisch-blaetterteigtaschen-mit-kaese-knusprig-cremig-voller-geschmack",
+  "data": {
+   "description": "Außen goldbraun und knusprig, innen herrlich cremig und würzig – diese schnellen Blätterteigtaschen sind perfekt als Snack, leichtes Mittagessen oder für Gäste."
+  }
+ },
+ {
+  "id": 183,
+  "slug": "schokokuchen-in-kurzer-zeit-fertig-unglaublich-saftig",
+  "data": {
+   "description": "Ein Traum, megalecker und unglaublich schnell gemacht – dieser Schokokuchen ist außen zart und innen herrlich saftig. Je nach Backzeit wird er entweder fudgy oder locker wie ein klassischer Kuchen."
+  }
+ },
+ {
+  "id": 184,
+  "slug": "pistazien-schokoladen-torte-cremig-samtig-wie-vom-konditor",
+  "data": {
+   "description": "Diese Torte passt perfekt zum Bild: knuspriger Boden, eine ultraglatte Pistazien-Mascarpone-Creme und eine glänzende Schokoladenschicht – intensiv, edel und einfach unwiderstehlich.",
+   "ingredients": "[\"Für den Boden:\", \"200 g Butterkekse\", \"100 g Butter (geschmolzen)\", \"1 EL Zucker\", \"Für die Pistazien-Creme (extra fein & glatt):\", \"250 g Mascarpone\", \"200 ml Schlagsahne\", \"80 g Puderzucker\", \"150 g Pistazien (sehr fein gemahlen oder als Pistazienpaste)\", \"1–2 EL Pistazienpaste (optional, für intensivere Farbe & Geschmack)\", \"Wichtig: Die Pistazien müssen sehr fein gemahlen sein, fast wie Mehl, damit die Creme besonders glatt und cremig wird – keine Stücke!\", \"Für die Schokoladenglasur:\", \"150 g Zartbitterschokolade\", \"100 ml Sahne\", \"1 TL Butter\", \"Für die Dekoration:\", \"Gehackte Pistazien\", \"Optional: ganze Mandeln\"]"
+  }
+ },
+ {
+  "id": 185,
+  "slug": "mafia-topf-wuerzig-cremig-perfekt-zum-vorbereiten",
+  "data": {
+   "description": "Dieser Auflauf hat es in sich: saftiges Hackfleisch, viel Gemüse und eine cremig-würzige Sauce – einmal gemacht, wird er garantiert zum Lieblingsgericht."
+  }
+ },
+ {
+  "id": 186,
+  "slug": "apfelkuchen-in-5-minuten-saftig-fluffig-gelingt-einfach-immer",
+  "data": {
+   "description": "Dieser Kuchen ist ein echter Klassiker für jeden Tag: schnell zusammengerührt, wunderbar saftig und voller Apfelgeschmack – perfekt, wenn es unkompliziert und richtig lecker sein soll."
+  }
+ },
+ {
+  "id": 188,
+  "slug": "ein-geschmack-der-suechtig-macht-cremiger-kartoffel-zwiebel-auflauf",
+  "data": {
+   "title": "Cremiger Kartoffel-Zwiebel-Auflauf – außen goldbraun, innen cremig",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 194,
+  "slug": "moehrenkuchen-mit-frischkaese-frosting-saftig-wuerzig-herrlich-cremig",
+  "data": {
+   "description": "Dieser klassische Möhrenkuchen ist wunderbar saftig und aromatisch. Durch braunen Zucker, Nüsse und feine Gewürze bekommt der Kuchen eine besondere Tiefe im Geschmack. Der Kuchen wird nach dem Backen in der Mitte geteilt und mit Frischkäse-Frosting gefüllt, bevor er oben ebenfalls cremig bestrichen wird."
+  }
+ },
+ {
+  "id": 195,
+  "slug": "hackfleisch-kaese-suppe-cremig-wuerzig-herzhaft-mit-tomaten",
+  "data": {
+   "description": "Diese herzhafte Suppe ist ein echtes Wohlfühlgericht. Würziges Hackfleisch, fruchtige Tomaten und Paprika werden mit geschmolzenem Käse zu einer wunderbar cremigen Suppe kombiniert. Zum Schluss sorgt etwas zusätzlicher Käse für eine besonders aromatische, leicht überbackene Oberfläche.",
+   "category": "Suppen"
+  }
+ },
+ {
+  "id": 196,
+  "slug": "ofenpfannkuchen-mit-gemuese-feta-herzhaft-locker-goldbraun-gebacken",
+  "data": {
+   "steps": "[\"Zuerst den Backofen auf 200 °C Ober-/Unterhitze vorheizen. Ein Backblech mit Backpapier auslegen und das Papier leicht mit 1 EL Öl bestreichen. Dadurch klebt der Pfannkuchen später nicht fest und bekommt am Rand eine schöne goldene Farbe.\", \"Nun das Gemüse vorbereiten. Die Möhren schälen und in sehr feine Streifen schneiden oder grob raspeln. Die rote und gelbe Paprika waschen, entkernen und in dünne Streifen oder kleine Stücke schneiden. Den Feta mit den Händen grob zerbröseln und beiseitestellen.\", \"Jetzt den Teig zubereiten. Dafür Mehl und Backpulver in eine große Schüssel geben. Danach die Eier, Milch, Mineralwasser und Salz hinzufügen. Alles mit einem Schneebesen oder Handmixer so lange verrühren, bis ein glatter, leicht flüssiger Teig entsteht. Es sollten keine Klümpchen mehr zu sehen sein.\", \"Den fertigen Teig gleichmäßig auf das vorbereitete Backblech gießen. Am besten das Blech dabei leicht hin und her bewegen, damit sich der Teig überall gut verteilt.\", \"Anschließend die vorbereiteten Möhren und Paprikastreifen gleichmäßig auf dem Teig verteilen. Danach den zerbröselten Feta darübergeben. Wichtig ist, dass Gemüse und Käse gut verteilt sind, damit später jedes Stück schön belegt ist.\", \"Das Blech in den vorgeheizten Ofen schieben und den Ofenpfannkuchen etwa 20 Minuten backen. Er ist fertig, wenn der Rand leicht goldbraun ist und die Oberfläche schön gebacken aussieht.\", \"Während der Pfannkuchen im Ofen ist, den Dip vorbereiten. Dafür die frischen Kräuter fein hacken und mit dem Schmand verrühren. Mit Salz und Pfeffer abschmecken. Wer möchte, kann noch einen kleinen Spritzer Zitronensaft dazugeben.\", \"Den fertigen Ofenpfannkuchen aus dem Ofen nehmen und kurz 2 bis 3 Minuten ruhen lassen. Danach mit etwas frisch gehackten Kräutern bestreuen und in Stücke oder Tortenstücke schneiden.\", \"Zusammen mit dem Kräuterschmand servieren.\"]",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 198,
+  "slug": "ofenspargel-mit-haehnchenschnitzel-schwarzwaelder-sahnesosse-cremig-knusprig-ein-echtes-festessen",
+  "data": {
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 199,
+  "slug": "hexensuppe-wuerzig-cremig-einfach-magisch-lecker",
+  "data": {
+   "title": "Hexensuppe mit Hackfleisch – würzig & cremig",
+   "category": "Suppen"
+  }
+ },
+ {
+  "id": 200,
+  "slug": "apfel-quark-pfannkuchen-fluffig-fruchtig-in-wenigen-minuten-gemacht",
+  "data": {
+   "category": "Desserts"
+  }
+ },
+ {
+  "id": 201,
+  "slug": "kaese-lauch-suppe-mit-hackfleisch-cremig-wuerzig-echter-suchtfaktor",
+  "data": {
+   "title": "Käse-Lauch-Suppe mit Hackfleisch – cremig & würzig"
+  }
+ },
+ {
+  "id": 203,
+  "slug": "hexensuppe-cremig-wuerzig-herrlich-waermend",
+  "data": {
+   "title": "Hexensuppe mit Hähnchen und Schmelzkäse"
+  }
+ },
+ {
+  "id": 205,
+  "slug": "ueberbackenes-kartoffelgratin-wie-bei-mama-cremig-herzhaft-goldbraun",
+  "data": {
+   "description": "Dieses Kartoffelgratin ist ein echter Klassiker aus der Familienküche. Zarte Kartoffelscheiben, würziger Schinken und eine cremige Sahne-Milch-Mischung werden im Ofen herrlich überbacken. Für extra Röstaromen können die Kartoffeln optional vorher angebraten werden.",
+   "steps": "[\"Die Kartoffeln schälen und in dünne Scheiben (2–3 mm) schneiden.\", \"Optional: Für extra Röstaromen\", \"Die Kartoffelscheiben in einer großen Pfanne mit etwas Öl oder Butter bei mittlerer Hitze 6–8 Minuten leicht anbraten, bis sie an den Rändern goldgelb werden. Sie sollen noch nicht vollständig gar sein. Anschließend kurz abkühlen lassen.\", \"Alternativ können die rohen Scheiben direkt verwendet werden.\", \"Eine Auflaufform leicht einfetten. Optional mit der halbierten Knoblauchzehe ausreiben.\", \"Kartoffeln schichtweise in die Form legen und jede Lage mit Salz, Pfeffer und etwas Muskat würzen. Den Schinken gleichmäßig dazwischen verteilen.\", \"Sahne und Milch vermischen, ebenfalls würzen und gleichmäßig über die Kartoffeln gießen.\", \"Mit geriebenem Käse bestreuen.\", \"Im vorgeheizten Backofen bei 180–190 °C Ober-/Unterhitze etwa 40–50 Minuten backen, bis die Kartoffeln weich sind und die Oberfläche goldbraun ist. Wenn die Kartoffeln vorgebraten wurden, kann sich die Backzeit um 5–10 Minuten verkürzen.\", \"Vor dem Servieren einige Minuten ruhen lassen und mit frischen Kräutern bestreuen.\", \"Cremig im Inneren, goldbraun an der Oberfläche und wunderbar herzhaft.\"]"
+  }
+ },
+ {
+  "id": 206,
+  "slug": "brokkoli-kartoffel-auflauf-cremig-herzhaft-einfach-unglaublich-lecker",
+  "data": {
+   "steps": "[\"Den Brokkoli putzen und in kleine Röschen teilen. Bei TK-Brokkoli kann er direkt gefroren verwendet werden. In eine große Auflaufform geben.\", \"Die Champignons putzen und in Scheiben schneiden. Ebenfalls in die Auflaufform geben.\", \"Die Kartoffeln schälen und in kleine Würfel schneiden und zu dem Gemüse hinzufügen.\", \"In einer Schüssel Crème fraîche, Sahne, Speisestärke, Salz, Pfeffer und etwa ein Drittel des geriebenen Käses gut miteinander verrühren.\", \"Diese Mischung über das Kartoffel-Gemüse geben und alles gründlich vermengen.\", \"Zum Schluss den restlichen geriebenen Gouda gleichmäßig darüberstreuen.\", \"Den Auflauf offen im Ofen backen: bei 160 °C Umluft etwa 80–90 Minuten oder bei 200 °C Ober-/Unterhitze, bis der Käse goldgelb überbacken ist.\", \"Heiß servieren.\"]",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 207,
+  "slug": "quark-oel-teig-hasen-fluffig-zart-herrlich-locker-gebacken",
+  "data": {
+   "description": "Diese süßen Hasen aus Quark-Öl-Teig sind eine schnelle und einfache Alternative zum klassischen Hefeteig. Der Teig muss nicht gehen, ist in wenigen Minuten vorbereitet und wird beim Backen wunderbar weich und locker. Nach dem Backen werden die Hasen mit Butter bestrichen und mit Zucker sowie etwas Puderzucker bestäubt.",
+   "steps": "[\"Den Backofen auf 175 °C Umluft vorheizen und zwei Backbleche mit Backpapier auslegen. Die Butter in einem kleinen Topf oder in der Mikrowelle schmelzen.\", \"Für den Teig Quark, Mehl, Zucker, Vanillezucker, Ei, Öl, Milch, Backpulver, Zitronenabrieb und Salz in eine Schüssel geben. Zuerst mit den Knethaken eines Mixers, anschließend kurz mit den Händen zu einem glatten Teig verkneten. Wichtig ist, den Teig nur kurz zu kneten, damit er schön weich bleibt.\", \"Aus dem Teig kleine Hasen formen. Die geformten Hasen auf die vorbereiteten Backbleche legen.\", \"Die Hasen vor dem Backen mit etwas geschmolzener Butter bestreichen.\", \"Im vorgeheizten Ofen 10–15 Minuten backen, bis sie leicht goldbraun sind.\", \"Die noch warmen Hasen anschließend mit der restlichen geschmolzenen Butter bestreichen und mit Zucker bestreuen. Zum Schluss zusätzlich mit etwas Puderzucker bestäuben, damit sie die typische süße Oberfläche bekommen.\", \"Am besten frisch genießen.\"]"
+  }
+ },
+ {
+  "id": 212,
+  "slug": "moussaka-wuerzig-herzhaft-ein-griechischer-klassiker",
+  "data": {
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 220,
+  "slug": "fettverbrennende-gemuesesuppe-leicht-saettigend-voller-geschmack",
+  "data": {
+   "title": "Leichte Gemüsesuppe – sättigend & voller Geschmack",
+   "category": "Suppen"
+  }
+ },
+ {
+  "id": 221,
+  "slug": "rosenkohl-auflauf-mit-hackfleisch-cremig-herzhaft-selbst-muffel-werden-schwach",
+  "data": {
+   "title": "Rosenkohl-Auflauf mit Hackfleisch – cremig & herzhaft",
+   "category": "Hauptgerichte"
+  }
+ },
+ {
+  "id": 223,
+  "slug": "orangen-schmandkuchen-mit-suchtfaktor-cremig-fruchtig-absolut-gelingsicher",
+  "data": {
+   "title": "Orangen-Schmandkuchen – cremig & fruchtig"
+  }
+ }
+]

@@ -23,6 +23,8 @@ model Recipe {
   imageUrl    String?
   ingredients String
   steps       String
+  tips        String?
+  faq         String?
   published   Boolean  @default(false)
   views       Int      @default(0)
   createdAt   DateTime @default(now())

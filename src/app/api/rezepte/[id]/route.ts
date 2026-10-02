@@ -35,6 +35,8 @@ export async function PUT(req: NextRequest, context: Context) {
       imageUrl: body.imageUrl || null,
       ingredients: body.ingredients,
       steps: body.steps,
+      tips: body.tips ?? null,
+      faq: body.faq ?? null,
       published: body.published ?? false,
     },
   });

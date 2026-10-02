@@ -18,6 +18,21 @@ export async function generateStaticParams() {
 
 type Props = { params: Promise<{ slug: string }> };
 
+// Strips list markers ("•", "-", "👉") and tabs carried over from pasted recipes.
+function cleanLine(line: string): string {
+  return line.replace(/^[\s•\-*·▪👉]+/u, "").replace(/\t/g, " ").trim();
+}
+
+// Ingredient lines like "Für den Teig" or "Zum Servieren:" are group headings, not ingredients.
+function isGroupHeading(line: string): boolean {
+  return !/^\d/.test(line) && (/:$/.test(line) || /^(Für|Zum|Zur|Außerdem)\b/.test(line) || /^Optional$/i.test(line) || /^\(.*\)$/.test(line)) && line.length < 60;
+}
+
+function parseJson<T>(value: string | null): T | null {
+  if (!value) return null;
+  try { return JSON.parse(value) as T; } catch { return null; }
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const recipe = await prisma.recipe.findUnique({ where: { slug, published: true } });
@@ -42,8 +57,10 @@ export default async function RezeptDetailPage({ params }: Props) {
   const recipe = await prisma.recipe.findUnique({ where: { slug, published: true } });
   if (!recipe) notFound();
 
-  const ingredients: string[] = JSON.parse(recipe.ingredients);
-  const steps: string[] = JSON.parse(recipe.steps);
+  const ingredients: string[] = JSON.parse(recipe.ingredients).map(cleanLine).filter(Boolean);
+  const steps: string[] = JSON.parse(recipe.steps).map(cleanLine).filter(Boolean);
+  const tips: string[] = parseJson<string[]>(recipe.tips) ?? [];
+  const faq: { q: string; a: string }[] = parseJson<{ q: string; a: string }[]>(recipe.faq) ?? [];
 
   const similarRecipes = await prisma.recipe.findMany({
     where: { published: true, category: recipe.category, slug: { not: slug } },
@@ -64,7 +81,7 @@ export default async function RezeptDetailPage({ params }: Props) {
     recipeCategory: recipe.category,
     recipeCuisine: "Deutsche Küche",
     keywords: `${recipe.category}, Rezept, Deutsche Küche, Hausmannskost, GoldeneRezepte`,
-    recipeIngredient: ingredients,
+    recipeIngredient: ingredients.filter((ing) => !isGroupHeading(ing)),
     recipeInstructions: steps.map((s, i) => ({
       "@type": "HowToStep",
       position: i + 1,
@@ -73,10 +90,11 @@ export default async function RezeptDetailPage({ params }: Props) {
       url: `${recipeUrl}#schritt-${i + 1}`,
       ...(stepImage ? { image: stepImage } : {}),
     })),
-    prepTime: `PT${recipe.prepTime ?? 0}M`,
-    cookTime: `PT${recipe.cookTime ?? 0}M`,
-    totalTime: `PT${(recipe.prepTime ?? 0) + (recipe.cookTime ?? 0)}M`,
-    recipeYield: `${recipe.servings} Portionen`,
+    // Times and yield are often unset (0); omit them rather than claiming "0 Minuten".
+    ...(recipe.prepTime > 0 ? { prepTime: `PT${recipe.prepTime}M` } : {}),
+    ...(recipe.cookTime > 0 ? { cookTime: `PT${recipe.cookTime}M` } : {}),
+    ...(recipe.prepTime + recipe.cookTime > 0 ? { totalTime: `PT${recipe.prepTime + recipe.cookTime}M` } : {}),
+    ...(recipe.servings > 0 ? { recipeYield: `${recipe.servings} Portionen` } : {}),
     author: { "@type": "Organization", name: "GoldeneRezepte", url: BASE_URL },
     publisher: { "@type": "Organization", name: "GoldeneRezepte", url: BASE_URL },
     datePublished: recipe.createdAt.toISOString().split("T")[0],
@@ -105,9 +123,26 @@ export default async function RezeptDetailPage({ params }: Props) {
         <h1 style={{ marginBottom: "1.5rem" }}>{recipe.title}</h1>
         <p className="recipe-description">{recipe.description}</p>
 
+        {(recipe.prepTime > 0 || recipe.cookTime > 0 || recipe.servings > 0 || recipe.difficulty) && (
+          <div className="recipe-meta" style={{ marginBottom: "1.5rem" }}>
+            {recipe.prepTime > 0 && <span>🔪 Vorbereitung: {recipe.prepTime} Min.</span>}
+            {recipe.cookTime > 0 && <span>⏱ Garzeit: {recipe.cookTime} Min.</span>}
+            {recipe.servings > 0 && <span>🍽 {recipe.servings} Portionen</span>}
+            {recipe.difficulty && <span>📊 {recipe.difficulty}</span>}
+          </div>
+        )}
+
         <h2 className="recipe-section-title">Zutaten</h2>
         <ul className="ingredients-list">
-          {ingredients.map((ing, i) => <li key={i}>{ing}</li>)}
+          {ingredients.map((ing, i) =>
+            isGroupHeading(ing) ? (
+              <li key={i} style={{ listStyle: "none", fontWeight: 700, marginTop: i > 0 ? "1rem" : 0 }}>
+                {ing.replace(/:$/, "")}
+              </li>
+            ) : (
+              <li key={i}>{ing}</li>
+            )
+          )}
         </ul>
 
         <h2 className="recipe-section-title">Zubereitung</h2>
@@ -118,6 +153,27 @@ export default async function RezeptDetailPage({ params }: Props) {
             </li>
           ))}
         </ul>
+
+        {tips.length > 0 && (
+          <>
+            <h2 className="recipe-section-title">Tipps & Variationen</h2>
+            <ul className="ingredients-list">
+              {tips.map((tip, i) => <li key={i}>{tip}</li>)}
+            </ul>
+          </>
+        )}
+
+        {faq.length > 0 && (
+          <>
+            <h2 className="recipe-section-title">Häufige Fragen</h2>
+            {faq.map((item, i) => (
+              <div key={i} style={{ marginBottom: "1.25rem" }}>
+                <h3 style={{ fontSize: "1.05rem", marginBottom: "0.4rem" }}>{item.q}</h3>
+                <p className="recipe-description" style={{ margin: 0 }}>{item.a}</p>
+              </div>
+            ))}
+          </>
+        )}
 
         <Link href="/rezepte" className="btn btn-outline" style={{ marginTop: "1rem" }}>
           ← Zurück zur Übersicht

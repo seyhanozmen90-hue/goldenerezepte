@@ -17,6 +17,8 @@ type Recipe = {
   imageUrl: string | null;
   ingredients: string;
   steps: string;
+  tips: string | null;
+  faq: string | null;
   published: boolean;
   views: number;
   createdAt: string;
@@ -36,8 +38,31 @@ const CAT_TR: Record<string, string> = {
 const EMPTY_FORM = {
   title: "", description: "", category: "Backen",
   prepTime: "0", cookTime: "0", servings: "4", difficulty: "Einfach",
-  imageUrl: "", ingredients: "", steps: "", published: false,
+  imageUrl: "", ingredients: "", steps: "", tips: "", faq: "", published: false,
 };
+
+// Tips are stored as a JSON string array; edited one per line.
+function tipsToText(value: string | null): string {
+  try { return (JSON.parse(value ?? "[]") as string[]).join("\n"); } catch { return ""; }
+}
+
+function textToTips(text: string): string | null {
+  const lines = text.split("\n").map((l) => l.trim()).filter(Boolean);
+  return lines.length ? JSON.stringify(lines) : null;
+}
+
+// FAQ is stored as JSON [{ q, a }]; edited as "Frage | Antwort", one per line.
+function faqToText(value: string | null): string {
+  try { return (JSON.parse(value ?? "[]") as { q: string; a: string }[]).map((f) => `${f.q} | ${f.a}`).join("\n"); } catch { return ""; }
+}
+
+function textToFaq(text: string): string | null {
+  const items = text.split("\n")
+    .map((l) => l.split("|"))
+    .filter((p) => p.length >= 2 && p[0].trim() && p.slice(1).join("|").trim())
+    .map((p) => ({ q: p[0].trim(), a: p.slice(1).join("|").trim() }));
+  return items.length ? JSON.stringify(items) : null;
+}
 
 function parseFreeText(raw: string): typeof EMPTY_FORM {
   const lines = raw.split("\n").map((l) => l.trim());
@@ -76,7 +101,11 @@ function parseTemplateText(raw: string): typeof EMPTY_FORM {
   const stepBlock = raw.match(/##\s*(?:Adımlar|Yapılış|Zubereitung)\s*\n([\s\S]*?)(?=##|$)/i)?.[1] ?? "";
   const ingredients = ingBlock.split("\n").map((l) => l.replace(/^[-*]\s*/, "").trim()).filter(Boolean).join("\n");
   const steps       = stepBlock.split("\n").map((l) => l.replace(/^\d+[\.\)]\s*/, "").trim()).filter(Boolean).join("\n");
-  return { title, description, category, prepTime, cookTime, servings, difficulty, imageUrl, ingredients, steps, published: false };
+  const tipBlock  = raw.match(/##\s*(?:İpuçları|Tipps)\s*\n([\s\S]*?)(?=##|$)/i)?.[1] ?? "";
+  const faqBlock  = raw.match(/##\s*(?:SSS|Häufige Fragen|Fragen)\s*\n([\s\S]*?)(?=##|$)/i)?.[1] ?? "";
+  const tips        = tipBlock.split("\n").map((l) => l.replace(/^[-*]\s*/, "").trim()).filter(Boolean).join("\n");
+  const faq         = faqBlock.split("\n").map((l) => l.replace(/^[-*]\s*/, "").trim()).filter(Boolean).join("\n");
+  return { title, description, category, prepTime, cookTime, servings, difficulty, imageUrl, ingredients, steps, tips, faq, published: false };
 }
 
 function parseRecipeText(raw: string): typeof EMPTY_FORM {
@@ -98,7 +127,13 @@ Bild: https://... (isteğe bağlı)
 
 ## Adımlar
 1. Birinci adım.
-2. İkinci adım.`;
+2. İkinci adım.
+
+## Tipps
+- İpucu, varyasyon veya saklama önerisi (isteğe bağlı)
+
+## SSS
+- Soru? | Cevap (isteğe bağlı)`;
 
 export default function Dashboard() {
   const { data: session, status } = useSession();
@@ -136,7 +171,7 @@ export default function Dashboard() {
     let ingredients = ""; let steps = "";
     try { ingredients = JSON.parse(recipe.ingredients).join("\n"); } catch { ingredients = recipe.ingredients; }
     try { steps = JSON.parse(recipe.steps).join("\n"); } catch { steps = recipe.steps; }
-    setForm({ title: recipe.title, description: recipe.description, category: recipe.category, prepTime: String(recipe.prepTime), cookTime: String(recipe.cookTime), servings: String(recipe.servings), difficulty: recipe.difficulty, imageUrl: recipe.imageUrl ?? "", ingredients, steps, published: recipe.published });
+    setForm({ title: recipe.title, description: recipe.description, category: recipe.category, prepTime: String(recipe.prepTime), cookTime: String(recipe.cookTime), servings: String(recipe.servings), difficulty: recipe.difficulty, imageUrl: recipe.imageUrl ?? "", ingredients, steps, tips: tipsToText(recipe.tips), faq: faqToText(recipe.faq), published: recipe.published });
     setMode("manual"); setShowModal(true);
   }
 
@@ -169,7 +204,7 @@ export default function Dashboard() {
 
   async function handleSave(e: React.FormEvent) {
     e.preventDefault(); setSaving(true); setMsg("");
-    const body = { ...form, prepTime: 0, cookTime: Number(form.cookTime), servings: 0, difficulty: "", ingredients: JSON.stringify(form.ingredients.split("\n").filter(Boolean)), steps: JSON.stringify(form.steps.split("\n").filter(Boolean)) };
+    const body = { ...form, prepTime: 0, cookTime: Number(form.cookTime), servings: 0, difficulty: "", ingredients: JSON.stringify(form.ingredients.split("\n").filter(Boolean)), steps: JSON.stringify(form.steps.split("\n").filter(Boolean)), tips: textToTips(form.tips), faq: textToFaq(form.faq) };
     const url = editingId ? `/api/rezepte/${editingId}` : "/api/rezepte";
     const res = await fetch(url, { method: editingId ? "PUT" : "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
     setSaving(false);
@@ -392,6 +427,14 @@ Pişirme: 30
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
                     <label className="form-label">Zubereitung – ein Schritt pro Zeile (Yapılış – her satıra bir adım) *</label>
                     <textarea className="form-textarea" value={form.steps} onChange={(e) => setForm({ ...form, steps: e.target.value })} required />
+                  </div>
+                  <div className="form-group" style={{ gridColumn: "1/-1" }}>
+                    <label className="form-label">Tipps & Variationen – einer pro Zeile (İpuçları – her satıra bir tane)</label>
+                    <textarea className="form-textarea" style={{ minHeight: "80px" }} value={form.tips} onChange={(e) => setForm({ ...form, tips: e.target.value })} />
+                  </div>
+                  <div className="form-group" style={{ gridColumn: "1/-1" }}>
+                    <label className="form-label">Häufige Fragen – „Frage | Antwort“ pro Zeile (SSS – her satıra „Soru | Cevap“)</label>
+                    <textarea className="form-textarea" style={{ minHeight: "80px" }} value={form.faq} onChange={(e) => setForm({ ...form, faq: e.target.value })} />
                   </div>
                   <div className="form-group">
                     <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", cursor: "pointer", fontFamily: "system-ui, sans-serif", fontSize: "0.9rem", color: "var(--muted)" }}>

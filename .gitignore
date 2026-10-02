@@ -18,3 +18,6 @@ prisma/dev.db-journal
 .DS_Store
 *.pem
 npm-debug.log*
+
+# content-fix DB backups (local only)
+scripts/content-fixes-2026-10/backup-*.json
