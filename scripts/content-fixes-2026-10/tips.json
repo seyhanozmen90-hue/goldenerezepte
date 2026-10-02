@@ -8,9 +8,18 @@
    "Im Kühlschrank hält sich die Suppe gut verschlossen 2–3 Tage. Beim Aufwärmen eventuell etwas Brühe ergänzen, da die Stärke nachdickt."
   ],
   "faq": [
-   {"q": "Welcher Essig passt am besten zur Peking-Suppe?", "a": "Klassisch ist Reisessig, aber heller Branntweinessig oder Apfelessig funktionieren ebenfalls. Wichtig ist die Balance aus Säure, Süße und Schärfe – lieber zum Schluss nachwürzen."},
-   {"q": "Kann man die Suppe einfrieren?", "a": "Ja, allerdings ohne Ei, da es nach dem Auftauen gummiartig wird. Die Suppe einfrieren und die Eier erst beim Aufwärmen frisch einrühren."},
-   {"q": "Warum wird die Suppe nicht sämig?", "a": "Die angerührte Speisestärke muss einmal kurz aufkochen, damit sie bindet. Bei Bedarf noch etwas Stärke mit kaltem Wasser glatt rühren und nachgeben."}
+   {
+    "q": "Welcher Essig passt am besten zur Peking-Suppe?",
+    "a": "Klassisch ist Reisessig, aber heller Branntweinessig oder Apfelessig funktionieren ebenfalls. Wichtig ist die Balance aus Säure, Süße und Schärfe – lieber zum Schluss nachwürzen."
+   },
+   {
+    "q": "Kann man die Suppe einfrieren?",
+    "a": "Ja, allerdings ohne Ei, da es nach dem Auftauen gummiartig wird. Die Suppe einfrieren und die Eier erst beim Aufwärmen frisch einrühren."
+   },
+   {
+    "q": "Warum wird die Suppe nicht sämig?",
+    "a": "Die angerührte Speisestärke muss einmal kurz aufkochen, damit sie bindet. Bei Bedarf noch etwas Stärke mit kaltem Wasser glatt rühren und nachgeben."
+   }
   ]
  },
  "185": {
@@ -22,9 +31,18 @@
    "Reste halten sich abgedeckt 2 Tage im Kühlschrank und lassen sich im Ofen bei 160 °C gut aufwärmen."
   ],
   "faq": [
-   {"q": "Warum heißt das Gericht Mafia-Topf?", "a": "Der Name ist eine Partyrezept-Bezeichnung ohne festen Ursprung. Gemeint ist ein deftiger, würziger Schichtauflauf mit Hackfleisch, Gemüse und einer cremigen Salsa-Soße."},
-   {"q": "Kann ich statt Crème fraîche auch Schmand nehmen?", "a": "Ja, Schmand funktioniert gut. Die Soße wird etwas weniger cremig, aber genauso aromatisch. Saure Sahne eignet sich weniger, da sie beim Backen eher ausflockt."},
-   {"q": "Muss das Hackfleisch vorher angebraten werden?", "a": "Ja, das Anbraten sorgt für Röstaromen und verhindert, dass zu viel Fett und Flüssigkeit in den Auflauf gelangen."}
+   {
+    "q": "Warum heißt das Gericht Mafia-Topf?",
+    "a": "Der Name ist eine Partyrezept-Bezeichnung ohne festen Ursprung. Gemeint ist ein deftiger, würziger Schichtauflauf mit Hackfleisch, Gemüse und einer cremigen Salsa-Soße."
+   },
+   {
+    "q": "Kann ich statt Crème fraîche auch Schmand nehmen?",
+    "a": "Ja, Schmand funktioniert gut. Die Soße wird etwas weniger cremig, aber genauso aromatisch. Saure Sahne eignet sich weniger, da sie beim Backen eher ausflockt."
+   },
+   {
+    "q": "Muss das Hackfleisch vorher angebraten werden?",
+    "a": "Ja, das Anbraten sorgt für Röstaromen und verhindert, dass zu viel Fett und Flüssigkeit in den Auflauf gelangen."
+   }
   ]
  },
  "11": {
@@ -36,9 +54,18 @@
    "In einer gut schließenden Dose bleiben die Muffins 3–4 Tage saftig. Ungeglaserte Muffins lassen sich bis zu 3 Monate einfrieren."
   ],
   "faq": [
-   {"q": "Sind die Eierlikör-Muffins für Kinder geeignet?", "a": "Beim Backen verfliegt nur ein Teil des Alkohols, in der Glasur bleibt er vollständig erhalten. Für Kinder den Eierlikör im Teig durch Milch mit etwas Vanille ersetzen und die Glasur mit Zitronensaft anrühren."},
-   {"q": "Kann ich Dinkelmehl verwenden?", "a": "Ja, Dinkelmehl Type 630 lässt sich 1:1 austauschen. Die Muffins werden dadurch etwas kompakter, bleiben aber saftig."},
-   {"q": "Warum sind meine Muffins eingefallen?", "a": "Meist wurde der Ofen zu früh geöffnet oder die Backzeit war zu kurz. Die ersten 12 Minuten die Ofentür geschlossen lassen."}
+   {
+    "q": "Sind die Eierlikör-Muffins für Kinder geeignet?",
+    "a": "Beim Backen verfliegt nur ein Teil des Alkohols, in der Glasur bleibt er vollständig erhalten. Für Kinder den Eierlikör im Teig durch Milch mit etwas Vanille ersetzen und die Glasur mit Zitronensaft anrühren."
+   },
+   {
+    "q": "Kann ich Dinkelmehl verwenden?",
+    "a": "Ja, Dinkelmehl Type 630 lässt sich 1:1 austauschen. Die Muffins werden dadurch etwas kompakter, bleiben aber saftig."
+   },
+   {
+    "q": "Warum sind meine Muffins eingefallen?",
+    "a": "Meist wurde der Ofen zu früh geöffnet oder die Backzeit war zu kurz. Die ersten 12 Minuten die Ofentür geschlossen lassen."
+   }
   ]
  },
  "189": {
@@ -50,9 +77,18 @@
    "Ungefüllte, glasierte Hälften halten sich in einer Dose 2 Tage. Gefüllt sollten sie am selben Tag gegessen werden."
   ],
   "faq": [
-   {"q": "Was sind Indianer mit Schlag?", "a": "Indianer (auch Mohrenkopf-Gebäck oder Schaumgebäck genannt) sind ein österreichischer Klassiker aus Biskuithalbkugeln, die mit Marillenmarmelade bestrichen, mit Schokolade überzogen und mit Schlagsahne gefüllt werden."},
-   {"q": "Brauche ich eine spezielle Indianerform?", "a": "Nein. Ohne Form kannst du den Teig mit einem Spritzbeutel als runde Tupfen auf ein Backblech mit Backpapier spritzen. Sie werden dann etwas flacher, schmecken aber genauso."},
-   {"q": "Welche Marmelade passt statt Marille?", "a": "Johannisbeer- oder Himbeerkonfitüre bringen eine fruchtig-säuerliche Note, die gut zur Schokolade passt."}
+   {
+    "q": "Was sind Indianer mit Schlag?",
+    "a": "Indianer (auch Mohrenkopf-Gebäck oder Schaumgebäck genannt) sind ein österreichischer Klassiker aus Biskuithalbkugeln, die mit Marillenmarmelade bestrichen, mit Schokolade überzogen und mit Schlagsahne gefüllt werden."
+   },
+   {
+    "q": "Brauche ich eine spezielle Indianerform?",
+    "a": "Nein. Ohne Form kannst du den Teig mit einem Spritzbeutel als runde Tupfen auf ein Backblech mit Backpapier spritzen. Sie werden dann etwas flacher, schmecken aber genauso."
+   },
+   {
+    "q": "Welche Marmelade passt statt Marille?",
+    "a": "Johannisbeer- oder Himbeerkonfitüre bringen eine fruchtig-säuerliche Note, die gut zur Schokolade passt."
+   }
   ]
  },
  "178": {
@@ -64,9 +100,18 @@
    "Gebackene Schrippen lassen sich gut einfrieren. Zum Aufbacken bei 200 °C etwa 5–8 Minuten in den Ofen geben."
   ],
   "faq": [
-   {"q": "Was ist der Unterschied zwischen Schrippe und Brötchen?", "a": "Schrippe ist die Berliner Bezeichnung für ein klassisches Weizenbrötchen mit einem Längsschnitt in der Mitte. Der Name kommt von „schrippen“, einem alten Wort für einritzen."},
-   {"q": "Warum werden meine Brötchen nicht knusprig?", "a": "Meist fehlt der Dampf in den ersten Backminuten oder die Temperatur ist zu niedrig. Der Ofen sollte gut vorgeheizt sein, und die Brötchen nach dem Backen auf einem Gitter abkühlen lassen."},
-   {"q": "Welches Mehl eignet sich am besten?", "a": "Weizenmehl Type 550 hat einen höheren Kleberanteil als Type 405 und sorgt für eine lockere Krume und gute Formstabilität."}
+   {
+    "q": "Was ist der Unterschied zwischen Schrippe und Brötchen?",
+    "a": "Schrippe ist die Berliner Bezeichnung für ein klassisches Weizenbrötchen mit einem Längsschnitt in der Mitte. Der Name kommt von „schrippen“, einem alten Wort für einritzen."
+   },
+   {
+    "q": "Warum werden meine Brötchen nicht knusprig?",
+    "a": "Meist fehlt der Dampf in den ersten Backminuten oder die Temperatur ist zu niedrig. Der Ofen sollte gut vorgeheizt sein, und die Brötchen nach dem Backen auf einem Gitter abkühlen lassen."
+   },
+   {
+    "q": "Welches Mehl eignet sich am besten?",
+    "a": "Weizenmehl Type 550 hat einen höheren Kleberanteil als Type 405 und sorgt für eine lockere Krume und gute Formstabilität."
+   }
   ]
  },
  "217": {
@@ -78,9 +123,18 @@
    "Reste halten sich 2 Tage im Kühlschrank. Beim Aufwärmen einen Schuss Brühe zugeben, da die Nudeln die Soße aufsaugen."
   ],
   "faq": [
-   {"q": "Welche Nudeln passen am besten?", "a": "Kurze Nudeln wie Penne, Fusilli oder Farfalle nehmen die cremige Soße besonders gut auf."},
-   {"q": "Kann ich das Gericht vorbereiten?", "a": "Ja. Am besten Soße und Nudeln getrennt aufbewahren und erst beim Aufwärmen mischen, damit die Nudeln nicht zu weich werden."},
-   {"q": "Geht das auch mit Hähnchen statt Hackfleisch?", "a": "Ja, einfach 450 g Hähnchenbrust in kleine Würfel schneiden und genauso anbraten."}
+   {
+    "q": "Welche Nudeln passen am besten?",
+    "a": "Kurze Nudeln wie Penne, Fusilli oder Farfalle nehmen die cremige Soße besonders gut auf."
+   },
+   {
+    "q": "Kann ich das Gericht vorbereiten?",
+    "a": "Ja. Am besten Soße und Nudeln getrennt aufbewahren und erst beim Aufwärmen mischen, damit die Nudeln nicht zu weich werden."
+   },
+   {
+    "q": "Geht das auch mit Hähnchen statt Hackfleisch?",
+    "a": "Ja, einfach 450 g Hähnchenbrust in kleine Würfel schneiden und genauso anbraten."
+   }
   ]
  },
  "62": {
@@ -92,9 +146,18 @@
    "Im Kühlschrank hält sich der Cheesecake abgedeckt 2–3 Tage."
   ],
   "faq": [
-   {"q": "Kann ich Gelatine statt Sahnesteif verwenden?", "a": "Ja. Für diese Menge etwa 6 Blatt Gelatine einweichen, ausdrücken, in etwas warmer Creme auflösen und dann zügig unter die restliche Masse rühren."},
-   {"q": "Warum wird meine Creme nicht fest?", "a": "Meist war der Frischkäse nicht in Doppelrahmstufe oder der Joghurt nicht gut abgetropft. Auch zu kurzes Kühlen ist ein häufiger Grund."},
-   {"q": "Kann man No-Bake-Cheesecake einfrieren?", "a": "Ohne Topping ja, bis zu 1 Monat. Über Nacht im Kühlschrank auftauen lassen und erst dann das Topping darauf verteilen."}
+   {
+    "q": "Kann ich Gelatine statt Sahnesteif verwenden?",
+    "a": "Ja. Für diese Menge etwa 6 Blatt Gelatine einweichen, ausdrücken, in etwas warmer Creme auflösen und dann zügig unter die restliche Masse rühren."
+   },
+   {
+    "q": "Warum wird meine Creme nicht fest?",
+    "a": "Meist war der Frischkäse nicht in Doppelrahmstufe oder der Joghurt nicht gut abgetropft. Auch zu kurzes Kühlen ist ein häufiger Grund."
+   },
+   {
+    "q": "Kann man No-Bake-Cheesecake einfrieren?",
+    "a": "Ohne Topping ja, bis zu 1 Monat. Über Nacht im Kühlschrank auftauen lassen und erst dann das Topping darauf verteilen."
+   }
   ]
  },
  "188": {
@@ -106,9 +169,18 @@
    "Reste schmecken am nächsten Tag in Stücke geschnitten und in der Pfanne angebraten besonders gut."
   ],
   "faq": [
-   {"q": "Welche Kartoffelsorte eignet sich?", "a": "Vorwiegend festkochende Kartoffeln halten die Form am besten, mehligkochende machen den Auflauf etwas weicher und kompakter."},
-   {"q": "Warum wird der Auflauf wässrig?", "a": "Die Kartoffeln geben beim Reiben viel Flüssigkeit ab. Gut ausdrücken und die Masse direkt verarbeiten, damit sie nicht nachwässert."},
-   {"q": "Wie lange muss der Auflauf backen?", "a": "Je nach Höhe der Form etwa 40–50 Minuten bei 200 °C. Er ist fertig, wenn die Oberfläche goldbraun ist und ein Messer in der Mitte leicht hineingleitet."}
+   {
+    "q": "Welche Kartoffelsorte eignet sich?",
+    "a": "Vorwiegend festkochende Kartoffeln halten die Form am besten, mehligkochende machen den Auflauf etwas weicher und kompakter."
+   },
+   {
+    "q": "Warum wird der Auflauf wässrig?",
+    "a": "Die Kartoffeln geben beim Reiben viel Flüssigkeit ab. Gut ausdrücken und die Masse direkt verarbeiten, damit sie nicht nachwässert."
+   },
+   {
+    "q": "Wie lange muss der Auflauf backen?",
+    "a": "Bei 200 °C etwa 40–45 Minuten. Er ist fertig, wenn die Oberfläche goldbraun ist und ein Messer in der Mitte leicht hineingleitet."
+   }
   ]
  },
  "28": {
@@ -120,9 +192,18 @@
    "Am besten frisch servieren. Reste im Ofen bei 180 °C 5 Minuten aufbacken, damit sie wieder knusprig werden."
   ],
   "faq": [
-   {"q": "Kann ich die Taschen vorbereiten?", "a": "Ja, geformte Taschen lassen sich abgedeckt einige Stunden im Kühlschrank lagern. Erst kurz vor dem Backen mit Ei bestreichen."},
-   {"q": "Welcher Käse eignet sich?", "a": "Cheddar bringt den klassischen Burger-Geschmack, Gouda schmilzt besonders gut. Schmelzkäsescheiben machen die Füllung extra cremig."},
-   {"q": "Kann man sie einfrieren?", "a": "Ungebacken einfrieren und direkt gefroren bei 200 °C backen – die Backzeit verlängert sich um etwa 5–10 Minuten."}
+   {
+    "q": "Kann ich die Taschen vorbereiten?",
+    "a": "Ja, geformte Taschen lassen sich abgedeckt einige Stunden im Kühlschrank lagern. Erst kurz vor dem Backen mit Ei bestreichen."
+   },
+   {
+    "q": "Welcher Käse eignet sich?",
+    "a": "Cheddar bringt den klassischen Burger-Geschmack, Gouda schmilzt besonders gut. Schmelzkäsescheiben machen die Füllung extra cremig."
+   },
+   {
+    "q": "Kann man sie einfrieren?",
+    "a": "Ungebacken einfrieren und direkt gefroren bei 200 °C backen – die Backzeit verlängert sich um etwa 5–10 Minuten."
+   }
   ]
  },
  "126": {
@@ -134,9 +215,18 @@
    "In einer Dose im Kühlschrank halten sich die Kekse 4–5 Tage, eingefroren bis zu 2 Monate."
   ],
   "faq": [
-   {"q": "Sind die Kekse glutenfrei?", "a": "Nur wenn du ausdrücklich als glutenfrei gekennzeichnete Haferflocken verwendest, da normale Haferflocken Spuren von Gluten enthalten können."},
-   {"q": "Welche Äpfel eignen sich?", "a": "Süß-säuerliche Sorten wie Elstar, Boskoop oder Braeburn sorgen für das beste Aroma."},
-   {"q": "Warum sind meine Kekse zu weich?", "a": "Die Kekse sind durch den Apfel von Natur aus weich. Für mehr Festigkeit etwas länger backen oder 1–2 EL Haferflocken mehr verwenden."}
+   {
+    "q": "Sind die Kekse glutenfrei?",
+    "a": "Nur wenn du ausdrücklich als glutenfrei gekennzeichnete Haferflocken verwendest, da normale Haferflocken Spuren von Gluten enthalten können."
+   },
+   {
+    "q": "Welche Äpfel eignen sich?",
+    "a": "Süß-säuerliche Sorten wie Elstar, Boskoop oder Braeburn sorgen für das beste Aroma."
+   },
+   {
+    "q": "Warum sind meine Kekse zu weich?",
+    "a": "Die Kekse sind durch den Apfel von Natur aus weich. Für mehr Festigkeit etwas länger backen oder 1–2 EL Haferflocken mehr verwenden."
+   }
   ]
  },
  "40": {
@@ -148,9 +238,18 @@
    "Ohne Frosting lassen sich die Schnecken bis zu 2 Monate einfrieren und im Ofen kurz aufbacken."
   ],
   "faq": [
-   {"q": "Kann ich den Teig am Vorabend vorbereiten?", "a": "Ja. Die geformten Schnecken abgedeckt über Nacht im Kühlschrank gehen lassen und morgens vor dem Backen 30 Minuten bei Raumtemperatur akklimatisieren lassen."},
-   {"q": "Warum laufen die Zimtschnecken beim Backen aus?", "a": "Die Butter für die Füllung sollte weich, aber nicht flüssig sein. Außerdem die Rolle fest aufrollen und mit der Naht nach unten legen."},
-   {"q": "Kann ich das Frosting ohne Frischkäse machen?", "a": "Ja, eine einfache Glasur aus Puderzucker und etwas Milch oder Zitronensaft funktioniert ebenfalls."}
+   {
+    "q": "Kann ich den Teig am Vorabend vorbereiten?",
+    "a": "Ja. Die geformten Schnecken abgedeckt über Nacht im Kühlschrank gehen lassen und morgens vor dem Backen 30 Minuten bei Raumtemperatur akklimatisieren lassen."
+   },
+   {
+    "q": "Warum laufen die Zimtschnecken beim Backen aus?",
+    "a": "Die Butter für die Füllung sollte weich, aber nicht flüssig sein. Außerdem die Rolle fest aufrollen und mit der Naht nach unten legen."
+   },
+   {
+    "q": "Kann ich das Frosting ohne Frischkäse machen?",
+    "a": "Ja, eine einfache Glasur aus Puderzucker und etwas Milch oder Zitronensaft funktioniert ebenfalls."
+   }
   ]
  },
  "61": {
@@ -162,9 +261,18 @@
    "Hähnchen und Soße halten sich 2 Tage im Kühlschrank. Das Püree beim Aufwärmen mit etwas warmer Milch wieder geschmeidig rühren."
   ],
   "faq": [
-   {"q": "Woran erkenne ich, dass das Hähnchen durch ist?", "a": "Die Kerntemperatur sollte 74 °C erreichen. Ohne Thermometer: Beim Anschneiden ist das Fleisch innen weiß und der austretende Saft klar."},
-   {"q": "Kann ich Hähnchenschenkel verwenden?", "a": "Ja, Hähnchenschenkel ohne Knochen bleiben sogar noch saftiger, brauchen aber ein paar Minuten länger."},
-   {"q": "Welche Bohnen eignen sich?", "a": "Grüne Bohnen frisch oder tiefgekühlt. Kurz blanchieren und dann mit Knoblauch in Butter schwenken."}
+   {
+    "q": "Woran erkenne ich, dass das Hähnchen durch ist?",
+    "a": "Die Kerntemperatur sollte 74 °C erreichen. Ohne Thermometer: Beim Anschneiden ist das Fleisch innen weiß und der austretende Saft klar."
+   },
+   {
+    "q": "Kann ich Hähnchenschenkel verwenden?",
+    "a": "Ja, Hähnchenschenkel ohne Knochen bleiben sogar noch saftiger, brauchen aber ein paar Minuten länger."
+   },
+   {
+    "q": "Welche Bohnen eignen sich?",
+    "a": "Grüne Bohnen frisch oder tiefgekühlt. Kurz blanchieren und dann mit Knoblauch in Butter schwenken."
+   }
   ]
  },
  "186": {
@@ -176,9 +284,18 @@
    "Abgedeckt bleibt der Kuchen bei Raumtemperatur 2–3 Tage saftig."
   ],
   "faq": [
-   {"q": "Welche Backform eignet sich?", "a": "Eine Springform mit 24–26 cm Durchmesser. In einer kleineren Form wird der Kuchen höher und braucht etwas länger."},
-   {"q": "Kann ich das Öl durch Butter ersetzen?", "a": "Ja, mit geschmolzener Butter wird der Kuchen aromatischer. Öl hält ihn dagegen länger saftig."},
-   {"q": "Wie lange muss der Kuchen backen?", "a": "Bei 180 °C Ober-/Unterhitze etwa 35–40 Minuten. Mit der Stäbchenprobe prüfen, ob er durchgebacken ist."}
+   {
+    "q": "Welche Backform eignet sich?",
+    "a": "Eine Springform mit 24–26 cm Durchmesser. In einer kleineren Form wird der Kuchen höher und braucht etwas länger."
+   },
+   {
+    "q": "Kann ich das Öl durch Butter ersetzen?",
+    "a": "Ja, mit geschmolzener Butter wird der Kuchen aromatischer. Öl hält ihn dagegen länger saftig."
+   },
+   {
+    "q": "Wie lange muss der Kuchen backen?",
+    "a": "Bei 180 °C Ober-/Unterhitze etwa 35–40 Minuten. Mit der Stäbchenprobe prüfen, ob er durchgebacken ist."
+   }
   ]
  },
  "56": {
@@ -190,9 +307,18 @@
    "Lauwarm mit einer Kugel Vanilleeis oder einem Klecks Schlagsahne servieren."
   ],
   "faq": [
-   {"q": "Was ist eine Galette?", "a": "Eine Galette ist ein freigeformter, rustikaler Obstkuchen aus Frankreich. Der Teig wird nur über die Füllung geklappt – eine Backform braucht man nicht."},
-   {"q": "Kann ich andere Früchte verwenden?", "a": "Ja, Äpfel, Aprikosen, Pflaumen oder Beeren eignen sich ebenso. Saftige Früchte immer mit etwas Speisestärke mischen."},
-   {"q": "Bei welcher Temperatur wird die Galette gebacken?", "a": "Bei 190 °C Ober-/Unterhitze etwa 30–35 Minuten, bis der Teig goldbraun ist und die Füllung Blasen wirft."}
+   {
+    "q": "Was ist eine Galette?",
+    "a": "Eine Galette ist ein freigeformter, rustikaler Obstkuchen aus Frankreich. Der Teig wird nur über die Füllung geklappt – eine Backform braucht man nicht."
+   },
+   {
+    "q": "Kann ich andere Früchte verwenden?",
+    "a": "Ja, Äpfel, Aprikosen, Pflaumen oder Beeren eignen sich ebenso. Saftige Früchte immer mit etwas Speisestärke mischen."
+   },
+   {
+    "q": "Bei welcher Temperatur wird die Galette gebacken?",
+    "a": "Bei 190 °C Ober-/Unterhitze etwa 30–35 Minuten, bis der Teig goldbraun ist und die Füllung Blasen wirft."
+   }
   ]
  },
  "222": {
@@ -204,9 +330,18 @@
    "Am besten frisch genießen. Reste mit einem Schuss Milch in der Pfanne aufwärmen."
   ],
   "faq": [
-   {"q": "Welcher Thunfisch eignet sich am besten?", "a": "Thunfisch im eigenen Saft ist leichter, Thunfisch in Öl aromatischer. Beide gut abtropfen lassen."},
-   {"q": "Was ist Schlagobers?", "a": "Schlagobers ist der österreichische Begriff für Schlagsahne. Alternativ kann auch Kochsahne verwendet werden."},
-   {"q": "Kann ich Vollkornnudeln verwenden?", "a": "Ja, die Soße passt gut zu Vollkornspaghetti. Die Kochzeit laut Packung beachten."}
+   {
+    "q": "Welcher Thunfisch eignet sich am besten?",
+    "a": "Thunfisch im eigenen Saft ist leichter, Thunfisch in Öl aromatischer. Beide gut abtropfen lassen."
+   },
+   {
+    "q": "Was ist Schlagobers?",
+    "a": "Schlagobers ist der österreichische Begriff für Schlagsahne. Alternativ kann auch Kochsahne verwendet werden."
+   },
+   {
+    "q": "Kann ich Vollkornnudeln verwenden?",
+    "a": "Ja, die Soße passt gut zu Vollkornspaghetti. Die Kochzeit laut Packung beachten."
+   }
   ]
  },
  "195": {
@@ -218,9 +353,18 @@
    "Die Suppe hält sich 2–3 Tage im Kühlschrank und lässt sich gut einfrieren."
   ],
   "faq": [
-   {"q": "Ist die Suppe für Partys geeignet?", "a": "Ja, sie lässt sich gut in großen Mengen vorbereiten und auf kleiner Flamme warmhalten."},
-   {"q": "Welcher Schmelzkäse passt?", "a": "Sahne-Schmelzkäse ist mild, Kräuter-Schmelzkäse bringt mehr Würze. Beide schmelzen gleichmäßig."},
-   {"q": "Kann ich die Suppe einfrieren?", "a": "Ja, bis zu 3 Monate. Nach dem Auftauen einmal kräftig umrühren, falls sich die Konsistenz leicht verändert hat."}
+   {
+    "q": "Ist die Suppe für Partys geeignet?",
+    "a": "Ja, sie lässt sich gut in großen Mengen vorbereiten und auf kleiner Flamme warmhalten."
+   },
+   {
+    "q": "Welcher Schmelzkäse passt?",
+    "a": "Sahne-Schmelzkäse ist mild, Kräuter-Schmelzkäse bringt mehr Würze. Beide schmelzen gleichmäßig."
+   },
+   {
+    "q": "Kann ich die Suppe einfrieren?",
+    "a": "Ja, bis zu 3 Monate. Nach dem Auftauen einmal kräftig umrühren, falls sich die Konsistenz leicht verändert hat."
+   }
   ]
  },
  "187": {
@@ -232,9 +376,18 @@
    "Reste halten sich 1–2 Tage im Kühlschrank."
   ],
   "faq": [
-   {"q": "Kann ich frische oder getrocknete Tortellini verwenden?", "a": "Beides funktioniert. Frische Tortellini aus dem Kühlregal sind in 2–3 Minuten gar, getrocknete brauchen etwa 10–12 Minuten."},
-   {"q": "Kann ich Schmand durch Crème fraîche ersetzen?", "a": "Ja, Crème fraîche ist hitzestabiler und macht die Soße etwas reichhaltiger."},
-   {"q": "Wie scharf ist das Gericht?", "a": "Mit mildem Currypulver ist es kinderfreundlich. Für mehr Schärfe scharfes Currypulver oder etwas Chili verwenden."}
+   {
+    "q": "Kann ich frische oder getrocknete Tortellini verwenden?",
+    "a": "Beides funktioniert. Frische Tortellini aus dem Kühlregal sind in 2–3 Minuten gar, getrocknete brauchen etwa 10–12 Minuten."
+   },
+   {
+    "q": "Kann ich Schmand durch Crème fraîche ersetzen?",
+    "a": "Ja, Crème fraîche ist hitzestabiler und macht die Soße etwas reichhaltiger."
+   },
+   {
+    "q": "Wie scharf ist das Gericht?",
+    "a": "Mit mildem Currypulver ist es kinderfreundlich. Für mehr Schärfe scharfes Currypulver oder etwas Chili verwenden."
+   }
   ]
  },
  "182": {
@@ -246,9 +399,18 @@
    "Am besten warm servieren. Reste im Ofen kurz aufbacken – in der Mikrowelle wird der Blätterteig weich."
   ],
   "faq": [
-   {"q": "Kann ich die Taschen kalt essen?", "a": "Ja, sie schmecken auch kalt gut und eignen sich deshalb für Picknick oder Lunchbox."},
-   {"q": "Welcher Käse passt statt Cheddar?", "a": "Gouda, Emmentaler oder Mozzarella schmelzen ebenfalls gut."},
-   {"q": "Wie lange müssen die Taschen backen?", "a": "Bei 200 °C Ober-/Unterhitze etwa 18–20 Minuten, bis sie goldbraun und aufgegangen sind."}
+   {
+    "q": "Kann ich die Taschen kalt essen?",
+    "a": "Ja, sie schmecken auch kalt gut und eignen sich deshalb für Picknick oder Lunchbox."
+   },
+   {
+    "q": "Welcher Käse passt statt Cheddar?",
+    "a": "Gouda, Emmentaler oder Mozzarella schmelzen ebenfalls gut."
+   },
+   {
+    "q": "Wie lange müssen die Taschen backen?",
+    "a": "Bei 200 °C Ober-/Unterhitze etwa 20–25 Minuten, bis sie goldbraun und knusprig sind."
+   }
   ]
  },
  "219": {
@@ -260,9 +422,18 @@
    "Im Kühlschrank hält sich der Kuchen gut verpackt 4–5 Tage."
   ],
   "faq": [
-   {"q": "Ist der Kuchen wirklich ohne Zucker?", "a": "Er enthält keinen Haushaltszucker. Die Süße kommt aus Bananen, Apfel und Honig – Honig ist allerdings auch eine Zuckerart."},
-   {"q": "Kann ich den Honig weglassen?", "a": "Bei sehr reifen Bananen ja. Der Kuchen wird dann weniger süß, aber trotzdem aromatisch."},
-   {"q": "Wie lange muss der Kuchen backen?", "a": "Bei 170 °C Ober-/Unterhitze etwa 40–45 Minuten. Er sollte goldbraun sein und bei der Stäbchenprobe nur noch leicht feucht."}
+   {
+    "q": "Ist der Kuchen wirklich ohne Zucker?",
+    "a": "Er enthält keinen Haushaltszucker. Die Süße kommt aus Bananen, Apfel und Honig – Honig ist allerdings auch eine Zuckerart."
+   },
+   {
+    "q": "Kann ich den Honig weglassen?",
+    "a": "Bei sehr reifen Bananen ja. Der Kuchen wird dann weniger süß, aber trotzdem aromatisch."
+   },
+   {
+    "q": "Wie lange muss der Kuchen backen?",
+    "a": "Bei 170 °C Ober-/Unterhitze etwa 50 Minuten. Er sollte goldbraun sein und bei der Stäbchenprobe nur noch leicht feucht."
+   }
   ]
  },
  "205": {
@@ -274,9 +445,18 @@
    "Vor dem Anschneiden 10 Minuten ruhen lassen – so lässt sich das Gratin sauber portionieren."
   ],
   "faq": [
-   {"q": "Welche Kartoffeln eignen sich für Gratin?", "a": "Festkochende oder vorwiegend festkochende Kartoffeln behalten ihre Form. Mehligkochende machen das Gratin cremiger, zerfallen aber leichter."},
-   {"q": "Kann ich das Gratin vorbereiten?", "a": "Ja, das fertig gebackene Gratin lässt sich am nächsten Tag abgedeckt bei 160 °C etwa 20 Minuten aufwärmen."},
-   {"q": "Wie lange muss das Gratin backen?", "a": "Bei 180 °C Ober-/Unterhitze etwa 45–55 Minuten, bis die Kartoffeln weich sind und die Oberfläche goldbraun ist."}
+   {
+    "q": "Welche Kartoffeln eignen sich für Gratin?",
+    "a": "Festkochende oder vorwiegend festkochende Kartoffeln behalten ihre Form. Mehligkochende machen das Gratin cremiger, zerfallen aber leichter."
+   },
+   {
+    "q": "Kann ich das Gratin vorbereiten?",
+    "a": "Ja, das fertig gebackene Gratin lässt sich am nächsten Tag abgedeckt bei 160 °C etwa 20 Minuten aufwärmen."
+   },
+   {
+    "q": "Wie lange muss das Gratin backen?",
+    "a": "Bei 180–190 °C Ober-/Unterhitze etwa 40–50 Minuten, bis die Kartoffeln weich sind und die Oberfläche goldbraun ist."
+   }
   ]
  }
 }
