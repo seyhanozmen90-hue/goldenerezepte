@@ -43,7 +43,7 @@ function RezepteContent({ recipes }: { recipes: Recipe[] }) {
   return (
     <div className="container section">
       <h1 className="section-title">Alle Rezepte</h1>
-      <p className="section-subtitle">{recipes.length} Rezepte in unserer Sammlung</p>
+      <p className="section-subtitle">{recipes.length} Rezepte in meiner Sammlung</p>
 
       <div className="search-wrap">
         <span className="search-icon">🔍</span>

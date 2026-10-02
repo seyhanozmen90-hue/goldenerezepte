@@ -7,7 +7,7 @@ export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: "Alle Rezepte – GoldeneRezepte",
-  description: "Durchsuche unsere Sammlung an schnellen, einfachen und leckeren Rezepten.",
+  description: "Durchsuche meine Sammlung an schnellen, einfachen und leckeren Rezepten.",
   alternates: { canonical: "https://goldene-rezepte.com/rezepte" },
 };
 

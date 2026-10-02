@@ -40,7 +40,7 @@ export default function NotFound() {
             marginBottom: "2.5rem",
           }}
         >
-          Diese Seite existiert leider nicht. Vielleicht findest du in unserer Rezeptsammlung
+          Diese Seite existiert leider nicht. Vielleicht findest du in meiner Rezeptsammlung
           etwas Leckeres?
         </p>
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", justifyContent: "center" }}>

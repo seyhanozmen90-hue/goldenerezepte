@@ -39,7 +39,7 @@ export default function Kontakt() {
               rel="noopener noreferrer"
               style={{ color: "var(--gold)" }}
             >
-              unserer Facebook-Seite
+              meiner Facebook-Seite
             </a>
             .
           </p>

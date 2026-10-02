@@ -54,6 +54,19 @@ export default async function HomePage() {
         <Link href="/rezepte" className="btn btn-primary">Jetzt kochen →</Link>
       </section>
 
+      {/* Intro */}
+      <div className="container section" style={{ maxWidth: "760px", paddingTop: "3rem", paddingBottom: "3rem", textAlign: "center" }}>
+        <h2 className="section-title">Hallo, ich bin Seyhan!</h2>
+        <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1.25rem", fontSize: "1rem" }}>
+          Kochen habe ich bei meiner Mutter gelernt, viele deutsche Klassiker bei unseren deutschen
+          Nachbarn. Hier sammle ich alltagstaugliche Rezepte – von Aufläufen und Suppen bis zu Kuchen
+          und Desserts – mit genauen Mengen, Zeiten und Tipps, damit sie dir sicher gelingen.
+        </p>
+        <Link href="/ueber-uns" style={{ display: "inline-block", marginTop: "1rem", color: "var(--gold)", fontFamily: "system-ui, sans-serif" }}>
+          Mehr über mich →
+        </Link>
+      </div>
+
       {/* Kategorien Section */}
       <div style={{ background: "var(--bg2)", borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}>
         <div className="container section" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
@@ -89,7 +102,7 @@ export default async function HomePage() {
 
       <div className="container section">
         <h2 className="section-title">Neueste Rezepte</h2>
-        <p className="section-subtitle">Frisch hinzugefügt aus unserer Sammlung</p>
+        <p className="section-subtitle">Frisch hinzugefügt aus meiner Sammlung</p>
 
         {recipes.length === 0 ? (
           <div className="empty-state">

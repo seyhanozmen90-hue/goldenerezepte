@@ -62,22 +62,23 @@ export default function UeberUns() {
 
         {/* Mission */}
         <div style={{ marginBottom: "4rem" }}>
-          <h2 className="section-title">Unsere Mission</h2>
+          <h2 className="section-title">Worum es hier geht</h2>
           <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1.5rem", fontSize: "1rem" }}>
-            GoldeneRezepte entstand aus einer einfachen Idee: die besten Rezepte der deutschen
-            Küche an einem Ort zu sammeln und für alle zugänglich zu machen. Von herzhaften
-            Hausmannsgerichten bis zu feinen Backwaren – wir bewahren das kulinarische Erbe
-            Deutschlands und machen es alltagstauglich.
+            GoldeneRezepte ist aus einer einfachen Idee entstanden: Rezepte, die im Alltag
+            funktionieren, an einem Ort zu sammeln. Von herzhaften Hausmannsgerichten über Suppen
+            und Aufläufe bis zu Kuchen und Desserts – ohne komplizierte Technik und ohne Zutaten,
+            die man lange suchen muss.
           </p>
           <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1rem", fontSize: "1rem" }}>
-            Jedes Rezept wird sorgfältig zusammengestellt, getestet und mit genauen Angaben
-            versehen – damit es in jeder Küche gelingt, egal ob man Anfänger oder erfahrener
-            Hobbykoch ist.
+            Zu jedem Rezept findest du genaue Mengenangaben, Zeiten, Schritt-für-Schritt-Anleitungen
+            sowie Tipps, Variationen und Antworten auf häufige Fragen – damit es dir gelingt, egal ob
+            du gerade erst anfängst oder schon lange in der Küche stehst. Wenn etwas unklar ist,
+            schreib mir gern über die <Link href="/kontakt" style={{ color: "var(--gold)" }}>Kontaktseite</Link>.
           </p>
         </div>
 
         {/* Werte */}
-        <h2 className="section-title" style={{ marginBottom: "2rem" }}>Unsere Werte</h2>
+        <h2 className="section-title" style={{ marginBottom: "2rem" }}>Was mir wichtig ist</h2>
         <div
           style={{
             display: "grid",
@@ -89,7 +90,7 @@ export default function UeberUns() {
           {[
             { icon: "🏡", title: "Authentizität", text: "Rezepte so, wie sie in deutschen Haushalten wirklich gekocht werden." },
             { icon: "📖", title: "Einfachheit", text: "Klare Anleitungen, verständliche Zutaten – für jeden nachkochbar." },
-            { icon: "🌿", title: "Qualität", text: "Jedes Rezept wird sorgfältig geprüft, bevor es veröffentlicht wird." },
+            { icon: "🌿", title: "Qualität", text: "Genaue Mengen, klare Zeiten und Tipps zu jedem Rezept." },
             { icon: "❤️", title: "Leidenschaft", text: "Kochen ist mehr als Nahrung – es ist Kultur, Familie und Freude." },
           ].map(({ icon, title, text }) => (
             <div

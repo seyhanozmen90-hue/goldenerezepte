@@ -7,6 +7,19 @@ const nextConfig = {
     ],
   },
   compress: true,
+  // No CSP or frame restrictions: AdSense and Google's consent message inject
+  // scripts and iframes that a strict policy would break.
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+        ],
+      },
+    ];
+  },
   async redirects() {
     return [
       // Duplicate recipe, unpublished in favour of the newer version.
