@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { prisma } from "@/lib/prisma";
+import { formatMinutes } from "@/lib/utils";
 import NavBar from "@/components/NavBar";
 
 export const revalidate = 60;
@@ -112,9 +113,9 @@ export default async function HomePage() {
                     <div className="recipe-card-category">{r.category}</div>
                     <div className="recipe-card-title">{r.title}</div>
                     <div className="recipe-card-desc">{r.description}</div>
-                    {r.cookTime > 0 && (
+                    {r.prepTime + r.cookTime > 0 && (
                       <div className="recipe-meta">
-                        <span>⏱ {r.cookTime} Min.</span>
+                        <span>⏱ {formatMinutes(r.prepTime + r.cookTime)}</span>
                       </div>
                     )}
                   </div>
@@ -151,6 +152,7 @@ export default async function HomePage() {
             <div className="footer-title">Info</div>
             <ul className="footer-links">
               <li><Link href="/ueber-uns">Über uns</Link></li>
+              <li><Link href="/kontakt">Kontakt</Link></li>
               <li><Link href="/impressum">Impressum</Link></li>
               <li><Link href="/datenschutz">Datenschutz</Link></li>
             </ul>

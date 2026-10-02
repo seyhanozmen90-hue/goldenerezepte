@@ -5,6 +5,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import NavBar from "@/components/NavBar";
 import ViewTracker from "@/components/ViewTracker";
+import { formatMinutes } from "@/lib/utils";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -66,7 +67,7 @@ export default async function RezeptDetailPage({ params }: Props) {
     where: { published: true, category: recipe.category, slug: { not: slug } },
     orderBy: { views: "desc" },
     take: 3,
-    select: { slug: true, title: true, description: true, category: true, cookTime: true, imageUrl: true },
+    select: { slug: true, title: true, description: true, category: true, prepTime: true, cookTime: true, imageUrl: true },
   });
 
   const recipeUrl = `${BASE_URL}/rezepte/${slug}`;
@@ -128,8 +129,8 @@ export default async function RezeptDetailPage({ params }: Props) {
 
         {(recipe.prepTime > 0 || recipe.cookTime > 0 || recipe.servings > 0 || recipe.difficulty) && (
           <div className="recipe-meta" style={{ marginBottom: "1.5rem" }}>
-            {recipe.prepTime > 0 && <span>🔪 Vorbereitung: {recipe.prepTime} Min.</span>}
-            {recipe.cookTime > 0 && <span>⏱ Garzeit: {recipe.cookTime} Min.</span>}
+            {recipe.prepTime > 0 && <span>🔪 Vorbereitung: {formatMinutes(recipe.prepTime)}</span>}
+            {recipe.cookTime > 0 && <span>⏱ Garzeit: {formatMinutes(recipe.cookTime)}</span>}
             {recipe.servings > 0 && <span>🍽 {recipe.servings} Portionen</span>}
             {recipe.difficulty && <span>📊 {recipe.difficulty}</span>}
           </div>
@@ -203,9 +204,9 @@ export default async function RezeptDetailPage({ params }: Props) {
                       <div className="recipe-card-category">{r.category}</div>
                       <div className="recipe-card-title">{r.title}</div>
                       <div className="recipe-card-desc">{r.description}</div>
-                      {r.cookTime > 0 && (
+                      {r.prepTime + r.cookTime > 0 && (
                         <div className="recipe-meta">
-                          <span>⏱ {r.cookTime} Min.</span>
+                          <span>⏱ {formatMinutes(r.prepTime + r.cookTime)}</span>
                         </div>
                       )}
                     </div>
@@ -227,6 +228,7 @@ export default async function RezeptDetailPage({ params }: Props) {
             <div className="footer-title">Info</div>
             <ul className="footer-links">
               <li><Link href="/ueber-uns">Über uns</Link></li>
+              <li><Link href="/kontakt">Kontakt</Link></li>
               <li><Link href="/impressum">Impressum</Link></li>
               <li><Link href="/datenschutz">Datenschutz</Link></li>
             </ul>

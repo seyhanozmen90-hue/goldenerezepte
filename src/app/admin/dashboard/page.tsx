@@ -171,7 +171,7 @@ export default function Dashboard() {
     let ingredients = ""; let steps = "";
     try { ingredients = JSON.parse(recipe.ingredients).join("\n"); } catch { ingredients = recipe.ingredients; }
     try { steps = JSON.parse(recipe.steps).join("\n"); } catch { steps = recipe.steps; }
-    setForm({ title: recipe.title, description: recipe.description, category: recipe.category, prepTime: String(recipe.prepTime), cookTime: String(recipe.cookTime), servings: String(recipe.servings), difficulty: recipe.difficulty, imageUrl: recipe.imageUrl ?? "", ingredients, steps, tips: tipsToText(recipe.tips), faq: faqToText(recipe.faq), published: recipe.published });
+    setForm({ title: recipe.title, description: recipe.description, category: recipe.category, prepTime: String(recipe.prepTime), cookTime: String(recipe.cookTime), servings: String(recipe.servings), difficulty: recipe.difficulty || "Einfach", imageUrl: recipe.imageUrl ?? "", ingredients, steps, tips: tipsToText(recipe.tips), faq: faqToText(recipe.faq), published: recipe.published });
     setMode("manual"); setShowModal(true);
   }
 
@@ -204,7 +204,7 @@ export default function Dashboard() {
 
   async function handleSave(e: React.FormEvent) {
     e.preventDefault(); setSaving(true); setMsg("");
-    const body = { ...form, prepTime: 0, cookTime: Number(form.cookTime), servings: 0, difficulty: "", ingredients: JSON.stringify(form.ingredients.split("\n").filter(Boolean)), steps: JSON.stringify(form.steps.split("\n").filter(Boolean)), tips: textToTips(form.tips), faq: textToFaq(form.faq) };
+    const body = { ...form, prepTime: Number(form.prepTime), cookTime: Number(form.cookTime), servings: Number(form.servings), ingredients: JSON.stringify(form.ingredients.split("\n").filter(Boolean)), steps: JSON.stringify(form.steps.split("\n").filter(Boolean)), tips: textToTips(form.tips), faq: textToFaq(form.faq) };
     const url = editingId ? `/api/rezepte/${editingId}` : "/api/rezepte";
     const res = await fetch(url, { method: editingId ? "PUT" : "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
     setSaving(false);
@@ -404,8 +404,24 @@ Pişirme: 30
                     </select>
                   </div>
                   <div className="form-group">
-                    <label className="form-label">Kochzeit in Min. (Pişirme süresi dk.)</label>
+                    <label className="form-label">Vorbereitung in Min. (Hazırlık süresi dk.)</label>
+                    <input className="form-input" type="number" min="0" value={form.prepTime} onChange={(e) => setForm({ ...form, prepTime: e.target.value })} required />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Garzeit in Min. (Pişirme süresi dk.)</label>
                     <input className="form-input" type="number" min="0" value={form.cookTime} onChange={(e) => setForm({ ...form, cookTime: e.target.value })} required />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Portionen (Porsiyon)</label>
+                    <input className="form-input" type="number" min="0" value={form.servings} onChange={(e) => setForm({ ...form, servings: e.target.value })} required />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Schwierigkeit (Zorluk)</label>
+                    <select className="form-select" value={form.difficulty} onChange={(e) => setForm({ ...form, difficulty: e.target.value })}>
+                      <option value="Einfach">Einfach (Kolay)</option>
+                      <option value="Mittel">Mittel (Orta)</option>
+                      <option value="Anspruchsvoll">Anspruchsvoll (Zor)</option>
+                    </select>
                   </div>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
                     <label className="form-label">Bild (Görsel)</label>

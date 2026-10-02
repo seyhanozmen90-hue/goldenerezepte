@@ -17,7 +17,7 @@ export default async function RezeptePage() {
     orderBy: { createdAt: "desc" },
     select: {
       id: true, slug: true, title: true, description: true,
-      category: true, cookTime: true, imageUrl: true,
+      category: true, prepTime: true, cookTime: true, imageUrl: true,
     },
   });
 

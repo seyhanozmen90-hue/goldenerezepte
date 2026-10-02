@@ -123,6 +123,7 @@ export default function UeberUns() {
             <div className="footer-title">Info</div>
             <ul className="footer-links">
               <li><Link href="/ueber-uns">Über uns</Link></li>
+              <li><Link href="/kontakt">Kontakt</Link></li>
               <li><Link href="/impressum">Impressum</Link></li>
               <li><Link href="/datenschutz">Datenschutz</Link></li>
             </ul>

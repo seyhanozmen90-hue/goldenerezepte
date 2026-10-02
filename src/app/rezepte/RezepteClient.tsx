@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useSearchParams, useRouter } from "next/navigation";
 import { Suspense } from "react";
+import { formatMinutes } from "@/lib/utils";
 
 const CATEGORIES = ["Alle", "Hauptgerichte", "Vorspeisen", "Desserts", "Suppen", "Salate", "Backen"];
 const PER_PAGE = 12;
@@ -14,6 +15,7 @@ type Recipe = {
   title: string;
   description: string;
   category: string;
+  prepTime: number;
   cookTime: number;
   imageUrl: string | null;
 };
@@ -95,9 +97,9 @@ function RezepteContent({ recipes }: { recipes: Recipe[] }) {
                     <div className="recipe-card-category">{r.category}</div>
                     <div className="recipe-card-title">{r.title}</div>
                     <div className="recipe-card-desc">{r.description}</div>
-                    {r.cookTime > 0 && (
+                    {r.prepTime + r.cookTime > 0 && (
                       <div className="recipe-meta">
-                        <span>⏱ {r.cookTime} Min.</span>
+                        <span>⏱ {formatMinutes(r.prepTime + r.cookTime)}</span>
                       </div>
                     )}
                   </div>
@@ -148,6 +150,7 @@ function RezepteContent({ recipes }: { recipes: Recipe[] }) {
             <div className="footer-title">Info</div>
             <ul className="footer-links">
               <li><Link href="/ueber-uns">Über uns</Link></li>
+              <li><Link href="/kontakt">Kontakt</Link></li>
               <li><Link href="/impressum">Impressum</Link></li>
               <li><Link href="/datenschutz">Datenschutz</Link></li>
             </ul>

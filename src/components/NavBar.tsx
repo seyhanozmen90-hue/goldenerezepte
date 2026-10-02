@@ -35,6 +35,7 @@ export default function NavBar() {
         <Link href="/" onClick={close}>Startseite</Link>
         <Link href="/rezepte" onClick={close}>Alle Rezepte</Link>
         <Link href="/ueber-uns" onClick={close}>Über uns</Link>
+        <Link href="/kontakt" onClick={close}>Kontakt</Link>
         <Link href="/impressum" onClick={close}>Impressum</Link>
       </div>
 
