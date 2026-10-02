@@ -415,14 +415,6 @@ Pişirme: 30
                     <label className="form-label">Portionen (Porsiyon)</label>
                     <input className="form-input" type="number" min="0" value={form.servings} onChange={(e) => setForm({ ...form, servings: e.target.value })} required />
                   </div>
-                  <div className="form-group">
-                    <label className="form-label">Schwierigkeit (Zorluk)</label>
-                    <select className="form-select" value={form.difficulty} onChange={(e) => setForm({ ...form, difficulty: e.target.value })}>
-                      <option value="Einfach">Einfach (Kolay)</option>
-                      <option value="Mittel">Mittel (Orta)</option>
-                      <option value="Anspruchsvoll">Anspruchsvoll (Zor)</option>
-                    </select>
-                  </div>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
                     <label className="form-label">Bild (Görsel)</label>
                     <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>

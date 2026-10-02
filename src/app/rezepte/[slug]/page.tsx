@@ -127,13 +127,11 @@ export default async function RezeptDetailPage({ params }: Props) {
         </p>
         <p className="recipe-description">{recipe.description}</p>
 
-        {(recipe.prepTime > 0 || recipe.cookTime > 0 || recipe.servings > 0 || recipe.difficulty) && (
+        {(recipe.prepTime > 0 || recipe.cookTime > 0 || recipe.servings > 0) && (
           <div className="recipe-meta" style={{ marginBottom: "1.5rem" }}>
             {recipe.prepTime > 0 && <span>🔪 Vorbereitung: {formatMinutes(recipe.prepTime)}</span>}
             {recipe.cookTime > 0 && <span>⏱ Garzeit: {formatMinutes(recipe.cookTime)}</span>}
-            {recipe.servings > 0 && <span>🍽 {recipe.servings} Portionen</span>}
-            {recipe.difficulty && <span>📊 {recipe.difficulty}</span>}
-          </div>
+            {recipe.servings > 0 && <span>🍽 {recipe.servings} Portionen</span>}          </div>
         )}
 
         <h2 className="recipe-section-title">Zutaten</h2>
