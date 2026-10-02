@@ -112,7 +112,7 @@ export default async function RezeptDetailPage({ params }: Props) {
       <ViewTracker slug={slug} />
       <div className="recipe-detail-hero">
         {recipe.imageUrl ? (
-          <Image src={recipe.imageUrl} alt={recipe.title} fill priority unoptimized sizes="100vw" style={{ objectFit: "contain", objectPosition: "center center" }} />
+          <Image src={recipe.imageUrl} alt={recipe.title} fill priority sizes="100vw" style={{ objectFit: "contain", objectPosition: "center center" }} />
         ) : (
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", fontSize: "5rem" }} aria-label="Kein Bild verfügbar">🍽️</div>
         )}
@@ -194,7 +194,7 @@ export default async function RezeptDetailPage({ params }: Props) {
                   <div className="recipe-card">
                     <div className="recipe-card-img">
                       {r.imageUrl ? (
-                        <Image src={r.imageUrl} alt={r.title} fill unoptimized sizes="400px" style={{ objectFit: "cover" }} />
+                        <Image src={r.imageUrl} alt={r.title} fill sizes="400px" style={{ objectFit: "cover" }} />
                       ) : (
                         <span>🍽️</span>
                       )}
