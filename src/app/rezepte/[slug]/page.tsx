@@ -95,7 +95,7 @@ export default async function RezeptDetailPage({ params }: Props) {
     ...(recipe.cookTime > 0 ? { cookTime: `PT${recipe.cookTime}M` } : {}),
     ...(recipe.prepTime + recipe.cookTime > 0 ? { totalTime: `PT${recipe.prepTime + recipe.cookTime}M` } : {}),
     ...(recipe.servings > 0 ? { recipeYield: `${recipe.servings} Portionen` } : {}),
-    author: { "@type": "Organization", name: "GoldeneRezepte", url: BASE_URL },
+    author: { "@type": "Person", name: "Seyhan", url: `${BASE_URL}/ueber-uns` },
     publisher: { "@type": "Organization", name: "GoldeneRezepte", url: BASE_URL },
     datePublished: recipe.createdAt.toISOString().split("T")[0],
     dateModified: recipe.updatedAt.toISOString().split("T")[0],
@@ -120,7 +120,10 @@ export default async function RezeptDetailPage({ params }: Props) {
 
       <div className="recipe-detail-body">
         <div className="recipe-card-category" style={{ marginBottom: "0.5rem" }}>{recipe.category}</div>
-        <h1 style={{ marginBottom: "1.5rem" }}>{recipe.title}</h1>
+        <h1 style={{ marginBottom: "0.75rem" }}>{recipe.title}</h1>
+        <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9rem", color: "var(--muted)", marginBottom: "1.5rem" }}>
+          Von <Link href="/ueber-uns" style={{ color: "var(--gold)" }}>Seyhan</Link>
+        </p>
         <p className="recipe-description">{recipe.description}</p>
 
         {(recipe.prepTime > 0 || recipe.cookTime > 0 || recipe.servings > 0 || recipe.difficulty) && (

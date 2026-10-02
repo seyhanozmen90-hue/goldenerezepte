@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar";
 
 export const metadata: Metadata = {
   title: "Über uns – GoldeneRezepte",
-  description: "Erfahre mehr über GoldeneRezepte – Goldene Rezepte für jeden Tag.",
+  description: "Hallo, ich bin Seyhan – hier erfährst du, wer hinter GoldeneRezepte steckt und woher meine Rezepte kommen.",
 };
 
 export default function UeberUns() {
@@ -30,6 +30,36 @@ export default function UeberUns() {
       </div>
 
       <div className="container section" style={{ maxWidth: "820px" }}>
+        {/* Autor */}
+        <div style={{ marginBottom: "4rem" }}>
+          <h2 className="section-title">Hallo, ich bin Seyhan!</h2>
+          <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1.5rem", fontSize: "1rem" }}>
+            Hinter GoldeneRezepte stecke ich. Ich koche und backe leidenschaftlich gern – die ersten
+            Handgriffe habe ich bei meiner Mutter in der Küche gelernt, und viele deutsche Klassiker
+            haben mir später unsere deutschen Nachbarn gezeigt.
+          </p>
+          <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1rem", fontSize: "1rem" }}>
+            So ist meine Küche eine Mischung aus zwei Welten: türkische Wurzeln, in denen ein reich
+            gedeckter Tisch für Familie und Gäste selbstverständlich ist, und deutsche Hausmannskost,
+            die ich über die Jahre lieben gelernt habe. Deshalb findest du hier neben Kuchen, Aufläufen
+            und Suppen auch Rezepte wie{" "}
+            <Link href="/rezepte/fluffige-ballon-pfannkuchen-pi-i-aussen-knusprig-innen-luftig" style={{ color: "var(--gold)" }}>
+              Pişi
+            </Link>
+            , die fluffigen türkischen Ballon-Pfannkuchen.
+          </p>
+          <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1rem", fontSize: "1rem" }}>
+            Mir ist wichtig, dass jedes Rezept einfach nachzukochen ist – mit Zutaten, die du leicht
+            bekommst. Zu vielen Rezepten schreibe ich dir außerdem Tipps, Variationen und Antworten auf
+            häufige Fragen.
+          </p>
+          <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1rem", fontSize: "1rem" }}>
+            Viel Freude beim Nachkochen!
+            <br />
+            <em style={{ color: "var(--gold)" }}>Seyhan</em>
+          </p>
+        </div>
+
         {/* Mission */}
         <div style={{ marginBottom: "4rem" }}>
           <h2 className="section-title">Unsere Mission</h2>
