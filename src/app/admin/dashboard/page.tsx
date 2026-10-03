@@ -17,6 +17,7 @@ type Recipe = {
   imageUrl: string | null;
   ingredients: string;
   steps: string;
+  story: string | null;
   tips: string | null;
   faq: string | null;
   published: boolean;
@@ -38,7 +39,7 @@ const CAT_TR: Record<string, string> = {
 const EMPTY_FORM = {
   title: "", description: "", category: "Backen",
   prepTime: "0", cookTime: "0", servings: "4", difficulty: "Einfach",
-  imageUrl: "", ingredients: "", steps: "", tips: "", faq: "", published: false,
+  imageUrl: "", ingredients: "", steps: "", story: "", tips: "", faq: "", published: false,
 };
 
 // Tips are stored as a JSON string array; edited one per line.
@@ -105,7 +106,7 @@ function parseTemplateText(raw: string): typeof EMPTY_FORM {
   const faqBlock  = raw.match(/##\s*(?:SSS|Häufige Fragen|Fragen)\s*\n([\s\S]*?)(?=##|$)/i)?.[1] ?? "";
   const tips        = tipBlock.split("\n").map((l) => l.replace(/^[-*]\s*/, "").trim()).filter(Boolean).join("\n");
   const faq         = faqBlock.split("\n").map((l) => l.replace(/^[-*]\s*/, "").trim()).filter(Boolean).join("\n");
-  return { title, description, category, prepTime, cookTime, servings, difficulty, imageUrl, ingredients, steps, tips, faq, published: false };
+  return { title, description, category, prepTime, cookTime, servings, difficulty, imageUrl, ingredients, steps, story: "", tips, faq, published: false };
 }
 
 function parseRecipeText(raw: string): typeof EMPTY_FORM {
@@ -171,7 +172,7 @@ export default function Dashboard() {
     let ingredients = ""; let steps = "";
     try { ingredients = JSON.parse(recipe.ingredients).join("\n"); } catch { ingredients = recipe.ingredients; }
     try { steps = JSON.parse(recipe.steps).join("\n"); } catch { steps = recipe.steps; }
-    setForm({ title: recipe.title, description: recipe.description, category: recipe.category, prepTime: String(recipe.prepTime), cookTime: String(recipe.cookTime), servings: String(recipe.servings), difficulty: recipe.difficulty || "Einfach", imageUrl: recipe.imageUrl ?? "", ingredients, steps, tips: tipsToText(recipe.tips), faq: faqToText(recipe.faq), published: recipe.published });
+    setForm({ title: recipe.title, description: recipe.description, category: recipe.category, prepTime: String(recipe.prepTime), cookTime: String(recipe.cookTime), servings: String(recipe.servings), difficulty: recipe.difficulty || "Einfach", imageUrl: recipe.imageUrl ?? "", ingredients, steps, story: recipe.story ?? "", tips: tipsToText(recipe.tips), faq: faqToText(recipe.faq), published: recipe.published });
     setMode("manual"); setShowModal(true);
   }
 
@@ -435,6 +436,10 @@ Pişirme: 30
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
                     <label className="form-label">Zubereitung – ein Schritt pro Zeile (Yapılış – her satıra bir adım) *</label>
                     <textarea className="form-textarea" value={form.steps} onChange={(e) => setForm({ ...form, steps: e.target.value })} required />
+                  </div>
+                  <div className="form-group" style={{ gridColumn: "1/-1" }}>
+                    <label className="form-label">Wissenswertes – Herkunft/Hintergrund, Absätze mit Leerzeile trennen (Bilgi/Hikâye)</label>
+                    <textarea className="form-textarea" style={{ minHeight: "80px" }} value={form.story} onChange={(e) => setForm({ ...form, story: e.target.value })} />
                   </div>
                   <div className="form-group" style={{ gridColumn: "1/-1" }}>
                     <label className="form-label">Tipps & Variationen – einer pro Zeile (İpuçları – her satıra bir tane)</label>

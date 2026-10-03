@@ -23,6 +23,7 @@ model Recipe {
   imageUrl    String?
   ingredients String
   steps       String
+  story       String?
   tips        String?
   faq         String?
   published   Boolean  @default(false)

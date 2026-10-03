@@ -156,6 +156,15 @@ export default async function RezeptDetailPage({ params }: Props) {
           ))}
         </ul>
 
+        {recipe.story && (
+          <>
+            <h2 className="recipe-section-title">Wissenswertes</h2>
+            {recipe.story.split("\n\n").map((para, i) => (
+              <p key={i} className="recipe-description">{para}</p>
+            ))}
+          </>
+        )}
+
         {tips.length > 0 && (
           <>
             <h2 className="recipe-section-title">Tipps & Variationen</h2>
