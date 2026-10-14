@@ -1,0 +1,55 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\14.10.2026\\226\\Cremiger Spekulatiuskuchen ohne Backen1-Y.png",
+  "recipe": {
+    "slug": "spekulatiuskuchen-ohne-backen",
+    "title": "Spekulatiuskuchen ohne Backen mit Frischkäsecreme",
+    "description": "Ein knuspriger Boden aus Gewürzspekulatius und eine luftige Frischkäse-Sahne-Creme mit Spekulatiusgewürz – ein Kühlschrankkuchen für die Adventszeit, der ganz ohne Ofen gelingt.",
+    "category": "Desserts",
+    "prepTime": 25,
+    "cookTime": 5,
+    "servings": 12,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für den Boden",
+      "300 g Gewürzspekulatius",
+      "125 g Butter",
+      "Für die Creme",
+      "400 g Doppelrahmfrischkäse",
+      "400 ml Schlagsahne (2 Becher à 200 ml), gut gekühlt",
+      "100 g Zucker",
+      "2 Päckchen Vanillezucker",
+      "2 Päckchen Sahnesteif",
+      "1–2 TL Spekulatiusgewürz (je nach Geschmack)",
+      "Optional: Gelatine oder pflanzliches Geliermittel für mehr Festigkeit",
+      "Zum Dekorieren nach Belieben",
+      "Einige ganze Spekulatiuskekse",
+      "Zerbröselter Gewürzspekulatius",
+      "Etwas Zimt"
+    ],
+    "steps": [
+      "Den Boden einer Springform (26 cm) mit Backpapier auslegen.",
+      "Die Spekulatius in einen Gefrierbeutel geben und mit einem Nudelholz fein zerbröseln, alternativ im Mixer zerkleinern.",
+      "Die Butter bei niedriger Hitze schmelzen und gründlich mit den Bröseln vermischen. Die Masse in die Springform geben, gleichmäßig verteilen und mit einem Löffel oder Glasboden fest andrücken. 20–30 Minuten kalt stellen.",
+      "Die gut gekühlte Sahne mit Sahnesteif und Vanillezucker steif schlagen.",
+      "Den Frischkäse in einer zweiten Schüssel mit Zucker und 1 TL Spekulatiusgewürz glatt rühren. Abschmecken und bei Bedarf mehr Gewürz zugeben.",
+      "Die Sahne portionsweise vorsichtig unter die Frischkäsemasse heben, bis eine gleichmäßige, luftige Creme entsteht. Wer den Kuchen besonders schnittfest möchte, rührt jetzt nach Packungsanweisung vorbereitete Gelatine ein – mit Doppelrahmfrischkäse und Sahnesteif ist das meist nicht nötig.",
+      "Die Creme auf den gekühlten Boden geben und mit einem Teigschaber glatt streichen.",
+      "Den Kuchen mindestens 4 Stunden, am besten über Nacht, im Kühlschrank fest werden lassen.",
+      "Vor dem Servieren mit einem Messer am Rand entlangfahren und den Springformrand lösen. Mit Spekulatiusbröseln, ganzen Keksen oder etwas Zimt dekorieren und gut gekühlt servieren."
+    ],
+    "story": "Spekulatius ist ein flaches Gewürzgebäck aus dem Rheinland, Belgien und den Niederlanden, wo es „Speculaas“ heißt. Der Teig wird traditionell in geschnitzte Holzmodel gedrückt, die Figuren wie Windmühlen, Tiere oder den heiligen Nikolaus zeigen. Gebacken und gegessen wird er vor allem rund um den Nikolaustag am 6. Dezember und in der Adventszeit. Typisch sind Zimt, Nelke, Kardamom und Muskat – genau diese Mischung steckt auch im Spekulatiusgewürz der Creme.",
+    "tips": [
+      "Sahne und Frischkäse sollten gut gekühlt sein – dann wird die Creme stabiler und lässt sich leichter aufschlagen.",
+      "Den Frischkäse nur kurz glatt rühren; zu langes Rühren macht ihn flüssig.",
+      "Den Keksboden kräftig andrücken, sonst zerbröselt er beim Anschneiden.",
+      "Für saubere Stücke das Messer vor jedem Schnitt in heißes Wasser tauchen und abwischen.",
+      "Die Kekse zum Dekorieren erst kurz vor dem Servieren auflegen, damit sie knusprig bleiben."
+    ],
+    "faq": [
+      { "q": "Kann ich den Kuchen am Vortag zubereiten?", "a": "Ja, das ist sogar ideal. Über Nacht wird die Creme fest und das Gewürzaroma zieht gut durch. Abgedeckt hält der Kuchen im Kühlschrank 2–3 Tage." },
+      { "q": "Was kann ich statt Spekulatiusgewürz nehmen?", "a": "Eine Mischung aus Zimt mit je einer Prise gemahlener Nelke, Kardamom und Muskat kommt dem Geschmack sehr nahe." },
+      { "q": "Brauche ich unbedingt Gelatine?", "a": "Nein. Doppelrahmfrischkäse und Sahnesteif machen die Creme in der Regel fest genug. Gelatine lohnt sich nur, wenn der Kuchen länger außerhalb des Kühlschranks stehen soll." },
+      { "q": "Kann ich den Kuchen einfrieren?", "a": "Ja, gut verpackt bis zu einem Monat. Zum Auftauen über Nacht in den Kühlschrank stellen und erst danach dekorieren." }
+    ]
+  }
+}

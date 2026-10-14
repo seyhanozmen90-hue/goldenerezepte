@@ -1,0 +1,59 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\14.10.2026\\227\\Herzhafte Soljanka mit Gulasch und Würstchen-yatay.png",
+  "recipe": {
+    "slug": "soljanka-mit-gulasch-und-wuerstchen",
+    "title": "Soljanka mit Gulasch und Würstchen",
+    "description": "Eine deftige Soljanka mit zartem Gulaschfleisch, Fleischwurst, Wiener Würstchen, Paprika und Gewürzgurken – säuerlich-würzig, sättigend und ideal für einen großen Topf.",
+    "category": "Suppen",
+    "prepTime": 25,
+    "cookTime": 100,
+    "servings": 8,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "500 g gemischtes Gulaschfleisch (Rind und Schwein)",
+      "1 Fleischwurst (ca. 300 g)",
+      "300 g Wiener Würstchen (alternativ Mettenden)",
+      "2 mittelgroße Zwiebeln",
+      "2 rote Paprikaschoten",
+      "190 g Gewürzgurken (Abtropfgewicht)",
+      "1 große Dose Erbsen mit Möhren (ca. 800 g Füllgewicht)",
+      "800 g passierte Tomaten",
+      "400 g Tomatenketchup",
+      "4 EL Rapsöl",
+      "400–600 ml Fleischbrühe (je nach gewünschter Konsistenz)",
+      "3–4 EL Gurkenwasser aus dem Glas",
+      "Salz",
+      "Schwarzer Pfeffer",
+      "Zum Servieren nach Belieben",
+      "Schmand oder saure Sahne",
+      "Frische Petersilie",
+      "Baguette oder Bauernbrot"
+    ],
+    "steps": [
+      "Die Zwiebeln schälen und fein würfeln. Die Paprika waschen, entkernen und in mundgerechte Stücke schneiden.",
+      "Fleischwurst und Wiener Würstchen in Scheiben schneiden, die Gewürzgurken in dünne Scheiben oder kleine Würfel. Erbsen und Möhren in einem Sieb abtropfen lassen.",
+      "Das Gulaschfleisch trocken tupfen und größere Stücke bei Bedarf kleiner schneiden, damit alles gleichmäßig gart.",
+      "Das Öl in einem großen Topf oder Bräter erhitzen und das Fleisch portionsweise bei kräftiger Hitze rundherum braun anbraten.",
+      "Zwiebeln und Fleischwurst dazugeben und einige Minuten mitbraten, bis die Zwiebeln glasig sind und die Wurst leicht gebräunt ist.",
+      "Passierte Tomaten, Ketchup, Paprika, Gewürzgurken und zunächst 400 ml Brühe einrühren. Mit etwas Salz und Pfeffer würzen.",
+      "Einmal aufkochen und dann bei niedriger bis mittlerer Hitze mit leicht geöffnetem Deckel 60–90 Minuten köcheln lassen, bis das Fleisch zart ist. Gelegentlich umrühren und bei Bedarf Brühe nachgießen.",
+      "Erbsen, Möhren und Wiener Würstchen dazugeben und weitere 10 Minuten bei niedriger Hitze ziehen lassen.",
+      "Mit Gurkenwasser, Salz und Pfeffer abschmecken – wer es säuerlicher mag, gibt noch etwas mehr Gurkenwasser dazu.",
+      "In tiefe Teller füllen, mit einem Klecks Schmand und gehackter Petersilie garnieren und mit frischem Brot servieren."
+    ],
+    "story": "Soljanka stammt aus der russischen Küche und ist dort eine kräftige, säuerlich-salzige Suppe mit Fleisch oder Fisch, Gewürzgurken und oft Oliven und Zitrone. In der DDR wurde sie zu einem echten Klassiker: Sie stand auf fast jeder Speisekarte von Gaststätten und Kantinen und war beliebt, weil sich darin Wurst- und Fleischreste gut verwerten ließen. Die ostdeutsche Variante ist meist tomatiger und etwas süßlicher – genau wie diese Version mit Ketchup und passierten Tomaten.",
+    "tips": [
+      "Das Fleisch in kleinen Portionen anbraten – so bekommt es Röstaromen und kocht nicht im eigenen Saft.",
+      "Soljanka schmeckt am nächsten Tag noch besser, weil die Aromen dann gut durchgezogen sind.",
+      "Für eine klassischere Note ein paar Oliven, Kapern oder eine Zitronenscheibe pro Teller dazugeben.",
+      "Wenn die Suppe zu dick wird, einfach mit etwas Brühe verlängern.",
+      "Die Wiener Würstchen erst am Ende zugeben, damit sie nicht aufplatzen."
+    ],
+    "faq": [
+      { "q": "Kann ich Soljanka einfrieren?", "a": "Ja, sie lässt sich portionsweise gut einfrieren und hält etwa 3 Monate. Langsam auftauen und vor dem Servieren noch einmal mit Gurkenwasser abschmecken." },
+      { "q": "Kann ich frisches Gemüse statt Dosenerbsen nehmen?", "a": "Ja. Frische oder tiefgekühlte Erbsen und gewürfelte Möhren funktionieren genauso; frische Möhren etwa 20 Minuten vor Ende der Garzeit dazugeben." },
+      { "q": "Geht Soljanka auch ohne Ketchup?", "a": "Ja. Dann etwas Tomatenmark mit anbraten und eine Prise Zucker zugeben, damit die Säure ausgeglichen wird." },
+      { "q": "Welche Wurst eignet sich noch?", "a": "Geeignet sind fast alle Brüh- und Räucherwürste, zum Beispiel Jagdwurst, Salami, Kasseler oder Mettenden." }
+    ]
+  }
+}

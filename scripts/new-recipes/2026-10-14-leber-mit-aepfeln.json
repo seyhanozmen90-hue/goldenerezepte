@@ -1,0 +1,49 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\14.10.2026\\225\\Elmalı Soğanlı Et Sote Tavası-yatay.png",
+  "recipe": {
+    "slug": "leber-mit-aepfeln-und-zwiebeln",
+    "title": "Leber mit Äpfeln und Zwiebeln aus der Pfanne",
+    "description": "Zarte Leberscheiben mit goldbraunen Zwiebelringen und leicht säuerlichen Apfelscheiben – ein Klassiker der deutschen Hausmannskost, in rund 35 Minuten fertig.",
+    "category": "Hauptgerichte",
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 2,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "400 g Schweineleber (alternativ Rinderleber)",
+      "2 feste, leicht säuerliche Äpfel (z. B. Boskoop oder Elstar)",
+      "2 mittelgroße Zwiebeln",
+      "2 EL Butter (alternativ Butterschmalz)",
+      "2–3 EL Weizenmehl (Type 405) zum Bestäuben",
+      "Salz",
+      "Schwarzer Pfeffer, frisch gemahlen",
+      "Zum Servieren nach Belieben",
+      "Kartoffelpüree, Kartoffelpuffer, Reis oder frisches Bauernbrot",
+      "Frische Petersilie"
+    ],
+    "steps": [
+      "Die Leber nicht unter Wasser abwaschen, sondern mit Küchenpapier gründlich trocken tupfen. Falls nötig, Häutchen und Sehnen entfernen und die Leber in etwa 1 cm dicke Scheiben schneiden.",
+      "Die Leberscheiben leicht pfeffern und von beiden Seiten dünn mit Mehl bestäuben. Überschüssiges Mehl vorsichtig abklopfen.",
+      "Die Zwiebeln schälen und in feine Ringe schneiden. Die Äpfel waschen, nach Wunsch schälen, entkernen und in etwa 1 cm dicke Scheiben schneiden.",
+      "Die Hälfte der Butter in einer großen Pfanne bei mittlerer Hitze erhitzen. Die Zwiebelringe darin langsam goldbraun braten, bis sie weich und leicht karamellisiert sind.",
+      "Die Apfelscheiben dazugeben und 2–3 Minuten mitbraten, bis sie leicht gebräunt sind, aber noch ihre Form behalten. Die Zwiebel-Apfel-Mischung aus der Pfanne nehmen und warm halten.",
+      "Die restliche Butter in derselben Pfanne erhitzen. Die Leberscheiben bei mittlerer bis hoher Hitze je nach Dicke 2–4 Minuten pro Seite braten, bis sie außen gebräunt und innen durchgegart sind.",
+      "Äpfel und Zwiebeln wieder in die Pfanne geben und alles kurz gemeinsam erwärmen. Erst jetzt mit Salz und frisch gemahlenem Pfeffer abschmecken.",
+      "Auf Tellern anrichten, mit gehackter Petersilie bestreuen und mit Kartoffelpüree, Kartoffelpuffern oder Bauernbrot servieren."
+    ],
+    "story": "In vielen Kochbüchern heißt dieses Gericht „Leber Berliner Art“: gebratene Leber mit Apfel- und Zwiebelringen, traditionell mit Kartoffelpüree serviert. Die Kombination ist typisch für die deutsche Küche, in der Äpfel gern mit herzhaften Speisen zusammenkommen – ähnlich wie bei „Himmel und Erde“ mit Blutwurst. Die Säure der Äpfel und die Süße der karamellisierten Zwiebeln gleichen den kräftigen Eigengeschmack der Leber aus.",
+    "tips": [
+      "Salz erst zum Schluss zugeben – zu früh gesalzen kann die Leber zäh werden.",
+      "Die Leber nicht zu lange braten. Sobald sie innen nicht mehr rosa ist, ist sie fertig; jede weitere Minute macht sie trocken.",
+      "Säuerliche, feste Apfelsorten wie Boskoop oder Elstar zerfallen nicht und geben den besten Kontrast.",
+      "Wer den Geschmack milder mag, legt die Leber vorher 30 Minuten in Milch ein und tupft sie danach gut trocken.",
+      "Die Leber in mehreren Portionen braten, damit die Pfanne heiß bleibt und die Scheiben nicht im eigenen Saft garen."
+    ],
+    "faq": [
+      { "q": "Welche Leber eignet sich am besten?", "a": "Schweineleber ist günstig und kräftig im Geschmack. Kalbsleber ist besonders zart und mild, Rinderleber etwas fester und intensiver." },
+      { "q": "Warum wird die Leber zäh?", "a": "Meist wurde sie zu lange gebraten oder zu früh gesalzen. Kurz bei kräftiger Hitze braten und erst am Ende salzen." },
+      { "q": "Kann ich das Gericht aufwärmen?", "a": "Am besten schmeckt es frisch. Reste lassen sich kurz in der Pfanne mit etwas Butter erwärmen; die Leber wird dabei aber fester." },
+      { "q": "Muss ich die Äpfel schälen?", "a": "Nein. Mit Schale behalten die Apfelscheiben besser ihre Form und sehen in der Pfanne schöner aus." }
+    ]
+  }
+}

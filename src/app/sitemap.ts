@@ -1,7 +1,8 @@
 import { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
 
-export const revalidate = 3600;
+// ISR'de takılı kalıp yeni tarifleri göstermiyordu; her istekte güncel üretilsin.
+export const dynamic = "force-dynamic";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const recipes = await prisma.recipe.findMany({
