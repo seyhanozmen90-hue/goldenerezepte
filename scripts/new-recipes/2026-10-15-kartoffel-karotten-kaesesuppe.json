@@ -1,0 +1,51 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\15.10.2026\\228\\Winterliche Käsesuppe – cremig & wärmend-yatay.png",
+  "recipe": {
+    "slug": "kaesesuppe-mit-kartoffeln-und-karotten",
+    "title": "Käsesuppe mit Kartoffeln und Karotten",
+    "description": "Eine cremige Käsesuppe mit Kartoffeln, Karotten und vielen Zwiebeln – in rund 40 Minuten fertig, sättigend und ideal für kalte Tage. Wer mag, gibt Würstchen oder Lauch dazu.",
+    "category": "Suppen",
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 6,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "500 g Kartoffeln (vorwiegend festkochend)",
+      "400 g Karotten",
+      "5 Zwiebeln",
+      "1 EL Öl",
+      "1–1,2 l Wasser oder Gemüsebrühe",
+      "250 ml Sahne",
+      "1 Packung Schmelzkäse (ca. 200 g)",
+      "Salz",
+      "Pfeffer",
+      "Optional",
+      "Würstchen in Scheiben (z. B. Wiener oder Mettenden)",
+      "1 Stange Lauch",
+      "Frische Petersilie"
+    ],
+    "steps": [
+      "Kartoffeln und Karotten schälen und in kleine Würfel schneiden. Die Zwiebeln grob würfeln.",
+      "Das Öl in einem großen Topf erhitzen und die Zwiebeln darin glasig dünsten.",
+      "Kartoffeln und Karotten dazugeben und 2–3 Minuten mitrösten, damit sich die Aromen entfalten. Wer Lauch verwendet, gibt ihn in Ringen jetzt mit hinein.",
+      "Mit 1–1,2 l Wasser oder Gemüsebrühe aufgießen und 15–20 Minuten sanft köcheln lassen, bis das Gemüse weich ist.",
+      "Die Sahne einrühren. Den Schmelzkäse in Stücke teilen und unter ständigem Rühren in der heißen, nicht mehr kochenden Suppe schmelzen lassen, bis sie cremig ist.",
+      "Nach Belieben die Würstchenscheiben zugeben und einige Minuten darin erwärmen.",
+      "Mit Salz und Pfeffer abschmecken, mit gehackter Petersilie bestreuen und heiß servieren."
+    ],
+    "story": "Schmelzkäse, der dieser Suppe ihre Cremigkeit gibt, wurde 1911 in Thun in der Schweiz entwickelt: Walter Gerber und Fritz Stettler suchten nach einer Möglichkeit, Käse für den Export in warme Länder haltbarer zu machen. Dazu wird gereifter Käse mit Schmelzsalzen erhitzt, bis er glatt und streichfähig wird. Genau diese Eigenschaft macht ihn in Suppen so praktisch – er löst sich gleichmäßig auf und flockt nicht aus wie mancher Hartkäse.",
+    "tips": [
+      "Die Suppe nach Zugabe des Käses nicht mehr kochen lassen – so bleibt sie glatt und setzt nicht am Topfboden an.",
+      "Für eine sämigere Konsistenz einen Teil des Gemüses vor dem Käse mit dem Stabmixer pürieren.",
+      "Kräuterschmelzkäse oder Schmelzkäse mit Schinken geben der Suppe eine andere Note.",
+      "Die vielen Zwiebeln langsam und ohne Farbe dünsten – dann werden sie süßlich und mild.",
+      "Dazu passt frisches Bauernbrot oder geröstetes Brot mit Knoblauch."
+    ],
+    "faq": [
+      { "q": "Kann ich die Käsesuppe aufwärmen?", "a": "Ja. Langsam bei niedriger Hitze unter Rühren erwärmen und bei Bedarf einen Schuss Brühe oder Milch zugeben, da die Suppe beim Abkühlen eindickt." },
+      { "q": "Welchen Käse kann ich statt Schmelzkäse nehmen?", "a": "Geriebener Gouda oder Bergkäse funktioniert auch. Ihn bei niedriger Hitze nach und nach einrühren, damit er nicht klumpt; die Suppe wird dann etwas würziger und weniger glatt." },
+      { "q": "Ist die Suppe vegetarisch?", "a": "Ohne Würstchen und mit Gemüsebrühe ja. Bei Schmelzkäse lohnt sich ein Blick auf die Zutatenliste, da nicht jeder Käse mit mikrobiellem Lab hergestellt wird." },
+      { "q": "Kann ich die Suppe einfrieren?", "a": "Das ist möglich, aber Kartoffeln werden nach dem Auftauen oft etwas mehlig und die Creme kann sich leicht trennen. Kräftig umrühren hilft." }
+    ]
+  }
+}

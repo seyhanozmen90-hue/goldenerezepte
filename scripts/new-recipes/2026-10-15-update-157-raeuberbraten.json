@@ -1,0 +1,46 @@
+{
+  "id": 157,
+  "recipe": {
+    "title": "Räuberbraten mit Senf-Ketchup-Kruste und Rahmsoße",
+    "description": "Ein eingeschnittener Schweinelachsbraten mit würziger Senf-Ketchup-Zwiebel-Marinade, kräftig angebraten und im Ofen geschmort – zum Schluss entsteht im Bräter eine cremige Rahmsoße. Passt zu Kartoffeln, Spätzle oder Klößen.",
+    "prepTime": 20,
+    "cookTime": 120,
+    "servings": 8,
+    "ingredients": [
+      "1,5–2 kg Schweinelachsbraten (roh, ohne Knochen)",
+      "1 große Zwiebel",
+      "4 EL Senf (mittelscharf)",
+      "3 EL Tomatenketchup",
+      "200 ml Schlagsahne",
+      "1 Becher saure Sahne (200 g)",
+      "80–100 ml Brühe oder Wasser",
+      "Salz",
+      "Pfeffer",
+      "Etwas Öl zum Anbraten"
+    ],
+    "steps": [
+      "Den Backofen auf 180 °C Ober-/Unterhitze vorheizen.",
+      "Die Zwiebel fein hacken und mit Senf und Ketchup verrühren. Kräftig mit Salz und Pfeffer abschmecken.",
+      "Den Braten im Abstand von 2–3 cm quer einschneiden, dabei nicht ganz durchschneiden. Die Marinade großzügig in die Einschnitte und rundum auf das Fleisch streichen.",
+      "Etwas Öl in einem großen Bräter stark erhitzen und den Braten von allen Seiten kräftig anbraten, bis sich Röstaromen bilden.",
+      "80–100 ml Brühe oder Wasser angießen, damit nichts anbrennt. Den Deckel aufsetzen und den Braten je nach Größe 70–90 Minuten im Ofen schmoren.",
+      "Schlagsahne und saure Sahne angießen, mit dem Bratensaft verrühren und den Braten ohne Deckel weitere 15–20 Minuten garen, bis eine cremige Soße entstanden ist.",
+      "Den Braten herausnehmen und 5–10 Minuten ruhen lassen. Die Soße inzwischen mit Salz und Pfeffer abschmecken.",
+      "In Scheiben schneiden, mit der Soße überziehen und heiß servieren."
+    ],
+    "story": "Für den Räuberbraten wird meist ein Schweinelachsbraten verwendet – das magere, knochenlose Stück aus dem Kotelettstrang. Typisch ist, dass das Fleisch fächerartig eingeschnitten und mit einer Marinade aus Senf, Zwiebeln und Ketchup gefüllt wird, bevor es im Bräter schmort. Da Lachsbraten kaum Fett hat, sorgen das Schmoren mit Deckel und die Sahnesoße am Ende dafür, dass er nicht trocken wird. Senf und Ketchup ziehen beim Garen in die Einschnitte und geben jeder Scheibe eine würzige, leicht süßliche Kruste.",
+    "tips": [
+      "Den Braten am Vortag marinieren und abgedeckt im Kühlschrank ziehen lassen – so wird er besonders würzig. Vor dem Anbraten 30 Minuten Zimmertemperatur annehmen lassen.",
+      "Das scharfe Anbraten nicht auslassen: Es sorgt für Röstaromen, die später auch die Soße kräftiger machen.",
+      "Mit einem Fleischthermometer gelingt der Braten sicher: Bei etwa 68–70 °C Kerntemperatur ist Schweinelachs gar und noch saftig.",
+      "Den Braten vor dem Anschneiden ruhen lassen, damit der Fleischsaft nicht ausläuft.",
+      "Dazu passen Kartoffelpüree, Spätzle, Kartoffelklöße oder Salzkartoffeln und ein grüner Salat."
+    ],
+    "faq": [
+      { "q": "Was ist ein Räuberbraten?", "a": "Ein Schweinebraten, der eingeschnitten, mit einer würzigen Senf-Ketchup-Zwiebel-Marinade gefüllt und im Bräter geschmort wird. Zum Schluss entsteht mit Sahne und saurer Sahne eine cremige Soße." },
+      { "q": "Kann ich auch Schweinenacken verwenden?", "a": "Ja. Nacken ist durchwachsener und wird dadurch noch saftiger. Er braucht etwas länger, etwa 90–110 Minuten mit Deckel." },
+      { "q": "Kann ich bereits gegartes Fleisch oder Kasseler nehmen?", "a": "Nein, das Rezept ist für rohes Fleisch gedacht. Bereits gegartes Fleisch würde beim langen Schmoren trocken werden." },
+      { "q": "Wie bewahre ich Reste auf?", "a": "Braten und Soße abgedeckt im Kühlschrank 2–3 Tage aufbewahren. Die Scheiben am besten in der Soße langsam erwärmen; der Braten lässt sich auch kalt gut als Aufschnitt verwenden." }
+    ]
+  }
+}
