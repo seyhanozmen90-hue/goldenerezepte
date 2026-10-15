@@ -1,0 +1,51 @@
+{
+  "image": "C:\\Users\\SEYHAN~2\\AppData\\Local\\Temp\\claude\\C--goldenerezepte\\8a907d5d-5241-4585-bdef-cee4a19f5713\\images\\9.webp",
+  "recipe": {
+    "slug": "bananentorte-mit-puddingcreme",
+    "title": "Bananentorte mit Puddingcreme auf Mürbeteig",
+    "description": "Ein knuspriger Mürbeteigboden, frische Bananen und eine luftige Creme aus Bananenpudding und Schlagschaum – eine einfache Bananentorte nach Art des amerikanischen Banana Cream Pie.",
+    "category": "Backen",
+    "prepTime": 25,
+    "cookTime": 15,
+    "servings": 8,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für den Boden",
+      "130 g Mehl",
+      "½ TL Salz",
+      "6 EL kalte Butter (ca. 85 g)",
+      "4 EL eiskaltes Wasser",
+      "Für die Füllung",
+      "1 Päckchen Bananenpudding zum Aufschlagen (ohne Kochen)",
+      "400 ml kalte Milch",
+      "1 Päckchen Schlagschaum (Pulver)",
+      "80 ml kalte Milch",
+      "3 Bananen"
+    ],
+    "steps": [
+      "Mehl und Salz mischen. Die kalte Butter in kleinen Stücken zugeben und mit einer Gabel oder den Fingerspitzen einarbeiten, bis eine krümelige Masse entsteht.",
+      "Das eiskalte Wasser nach und nach zugeben und alles rasch zu einem glatten Teig verkneten. Zu einer Kugel formen.",
+      "Den Teig auf einer leicht bemehlten Fläche ausrollen, in eine Tarte- oder Tortenform (ca. 24 cm) legen, den Rand andrücken und den Boden mehrmals mit einer Gabel einstechen.",
+      "Im vorgeheizten Backofen bei 200 °C Ober-/Unterhitze 10–15 Minuten goldgelb backen und vollständig auskühlen lassen.",
+      "Zwei Bananen in kleine Stücke schneiden und auf dem kalten Boden verteilen.",
+      "Den Bananenpudding mit 400 ml Milch nach Packungsanleitung cremig aufschlagen. Den Schlagschaum mit 80 ml Milch nach Anleitung zubereiten.",
+      "Zwei Drittel des Schlagschaums vorsichtig unter die Puddingcreme heben, die Creme auf den Bananen verteilen und glatt streichen.",
+      "Die Torte mindestens 1 Stunde im Kühlschrank fest werden lassen.",
+      "Vor dem Servieren den restlichen Schlagschaum darauf verteilen und mit der dritten Banane in Scheiben belegen."
+    ],
+    "story": "Diese Torte ist eine Variante des Banana Cream Pie, eines Klassikers der amerikanischen Küche: ein einzelner Mürbeteigboden, gefüllt mit Vanille- oder Bananencreme und frischen Bananen. Bekannt wurde er mit der Verbreitung der Banane in den USA um die Wende zum 20. Jahrhundert. Mit Instant-Pudding und Schlagschaumpulver wird daraus ein schneller Kuchen, bei dem nur der Boden kurz in den Ofen muss.",
+    "tips": [
+      "Butter und Wasser sollten wirklich kalt sein – dann wird der Mürbeteig mürbe und knusprig.",
+      "Den Teig nur kurz kneten; zu viel Kneten macht ihn zäh.",
+      "Damit die Bananen nicht braun werden, die Scheiben für die Deko kurz mit etwas Zitronensaft beträufeln und erst kurz vor dem Servieren auflegen.",
+      "Wer keinen Bananenpudding findet, nimmt Vanillepudding zum Aufschlagen – die frischen Bananen geben genug Aroma.",
+      "Statt Schlagschaumpulver kann man 200 ml Sahne mit 1 Päckchen Sahnesteif steif schlagen."
+    ],
+    "faq": [
+      { "q": "Kann ich fertigen Mürbeteig nehmen?", "a": "Ja, ein ausgerollter Mürbeteig aus dem Kühlregal spart Zeit. Nach Packungsangabe blind backen und gut auskühlen lassen." },
+      { "q": "Wie lange hält sich die Torte?", "a": "Am besten am selben oder am nächsten Tag essen. Im Kühlschrank hält sie 1–2 Tage; der Boden wird mit der Zeit weicher und die Bananen dunkler." },
+      { "q": "Wie verhindere ich, dass der Boden durchweicht?", "a": "Den Boden vollständig auskühlen lassen und die Torte erst einige Stunden vor dem Servieren füllen. Eine dünne Schicht geschmolzene weiße Schokolade auf dem Boden wirkt zusätzlich als Schutz." },
+      { "q": "Kann ich die Torte am Vortag vorbereiten?", "a": "Den Boden ja – luftdicht verpackt bleibt er knusprig. Füllung und Bananen am besten erst am Serviertag zugeben." }
+    ]
+  }
+}
