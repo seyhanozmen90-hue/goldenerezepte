@@ -1,0 +1,54 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\15.10.2026\\231\\Kiesgrubenkuchen – saftig, cremig & schokoladig-yatay.png",
+  "recipe": {
+    "slug": "kiesgrubenkuchen-mit-mandarinen-und-schokolade",
+    "title": "Kiesgrubenkuchen mit Mandarinen und Schokoladenguss",
+    "description": "Ein saftiger Mandelboden mit Schokostückchen wird ausgehöhlt und mit einer Sahne-Mandarinen-Füllung samt Kuchenbröseln gefüllt. Ein Guss aus Zartbitterkuvertüre hält alles zusammen.",
+    "category": "Backen",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 12,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für den Boden",
+      "5 Eier",
+      "200 g Zucker",
+      "200 g gemahlene Mandeln",
+      "30 g Mehl",
+      "1 TL Backpulver",
+      "100 g Zartbitterkuvertüre, grob gehackt",
+      "Für die Füllung",
+      "250 ml Schlagsahne, gut gekühlt",
+      "20 g Sahnesteif (ca. 2–3 Päckchen)",
+      "2 Dosen Mandarinen (Abtropfgewicht je 175 g)",
+      "Für den Guss",
+      "200 g Zartbitterkuvertüre"
+    ],
+    "steps": [
+      "Den Backofen auf 180 °C Ober-/Unterhitze (Umluft 160 °C) vorheizen. Eine Springform (26 cm) fetten und den Boden mit Backpapier auslegen.",
+      "Die Eier mit dem Zucker mehrere Minuten sehr schaumig schlagen, bis die Masse hell und cremig ist.",
+      "Mandeln, Mehl und Backpulver mischen und vorsichtig unterheben. Die 100 g gehackte Kuvertüre unterrühren.",
+      "Den Teig in die Form füllen und etwa 45 Minuten backen (Stäbchenprobe). Vollständig auskühlen lassen.",
+      "Rundherum einen Rand von etwa 2 cm stehen lassen, innen einen Kreis einschneiden und den Kuchen mit einem Löffel vorsichtig aushöhlen, ohne den Boden zu durchbrechen. Die herausgelösten Stücke fein zerbröseln.",
+      "Die Mandarinen in einem Sieb sehr gut abtropfen lassen.",
+      "Die Sahne mit Sahnesteif steif schlagen. Kuchenbrösel und Mandarinen vorsichtig unterheben.",
+      "Die Masse kuppelförmig in den ausgehöhlten Boden füllen, glatt streichen und mindestens 30 Minuten kalt stellen.",
+      "Die Kuvertüre für den Guss über einem heißen Wasserbad schmelzen, leicht abkühlen lassen und gleichmäßig über die Kuppel gießen.",
+      "Den Kuchen mehrere Stunden im Kühlschrank fest werden lassen, bis die Schokolade ausgehärtet ist."
+    ],
+    "story": "Der Kiesgrubenkuchen gehört zur Familie der ausgehöhlten Kuchen, zu der auch der bekannte Maulwurfkuchen zählt: Der gebackene Boden wird ausgehöhlt, und die Krümel wandern in die Sahnefüllung. Beim Anschneiden ergeben die dunklen Schokostückchen, die Brösel und die Mandarinen eine gesprenkelte Struktur, die an Kies erinnert – daher der Name. Weil der Boden fast nur aus gemahlenen Mandeln und Eiern besteht, bleibt er auch nach Tagen im Kühlschrank saftig.",
+    "tips": [
+      "Die Eier-Zucker-Masse wirklich lange aufschlagen (5–8 Minuten) – die Luft darin ist das Wichtigste für einen lockeren Boden.",
+      "Die Mandarinen auf Küchenpapier gut abtropfen lassen, sonst wird die Sahne wässrig.",
+      "Den Schokoladenguss nicht heiß auf die Sahne gießen. Er sollte nur noch lauwarm und gerade flüssig sein.",
+      "Für einen weicheren Guss, der beim Schneiden nicht bricht, 1 EL neutrales Öl oder Kokosfett mit der Kuvertüre schmelzen.",
+      "Zum Schneiden das Messer in heißes Wasser tauchen und abtrocknen."
+    ],
+    "faq": [
+      { "q": "Kann ich statt Mandarinen anderes Obst nehmen?", "a": "Ja. Gut abgetropfte Pfirsiche, Aprikosen oder Sauerkirschen aus der Dose passen ebenfalls; frische Himbeeren sind eine fruchtig-säuerliche Alternative." },
+      { "q": "Wie lange hält sich der Kuchen?", "a": "Wegen der Sahnefüllung im Kühlschrank etwa 2–3 Tage." },
+      { "q": "Kann ich den Kuchen vorbereiten?", "a": "Ja. Den Boden einen Tag vorher backen und luftdicht verpacken. Füllung und Guss am nächsten Tag zubereiten." },
+      { "q": "Kann ich die Mandeln durch Haselnüsse ersetzen?", "a": "Ja, gemahlene Haselnüsse funktionieren genauso und geben dem Kuchen einen kräftigeren, nussigen Geschmack." }
+    ]
+  }
+}
