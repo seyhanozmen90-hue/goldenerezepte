@@ -1,0 +1,51 @@
+{
+  "id": 25,
+  "recipe": {
+    "title": "Vanillecreme-Kuchen ohne Backen mit Sahnehaube",
+    "description": "Ein Kühlschrankkuchen aus Butterkeksboden, luftiger Vanillecreme aus Pudding und Sahne und einer Sahnehaube mit Schokoraspeln. Lässt sich gut am Vortag vorbereiten und gelingt ganz ohne Ofen.",
+    "prepTime": 25,
+    "cookTime": 10,
+    "servings": 12,
+    "ingredients": [
+      "Für den Boden",
+      "250 g Butterkekse",
+      "60 g Butter, geschmolzen",
+      "2–3 EL Milch (nur bei Bedarf)",
+      "Für die Vanillecreme",
+      "1 Päckchen Vanillepuddingpulver (zum Kochen)",
+      "500–550 ml Milch",
+      "3 EL Zucker",
+      "220 ml Schlagsahne",
+      "Für die Sahnehaube",
+      "220 ml Schlagsahne",
+      "1 Päckchen Vanillezucker",
+      "2 EL Puderzucker",
+      "Zum Dekorieren",
+      "Schokoraspeln oder Kakaopulver"
+    ],
+    "steps": [
+      "Aus 500–550 ml Milch, Zucker und Puddingpulver nach Packungsanleitung einen festen Pudding kochen. Sofort Frischhaltefolie direkt auf die Oberfläche legen, damit sich keine Haut bildet, und vollständig auskühlen lassen.",
+      "Die Butterkekse fein zerbröseln und mit der geschmolzenen Butter zu einer sandigen, formbaren Masse vermengen. Nur wenn sie zu trocken ist, 2–3 EL Milch zugeben – nicht mehr.",
+      "Eine Springform (26–28 cm) oder eine eckige Form ähnlicher Größe mit Backpapier auslegen. Die Keksmasse darin verteilen, mit einem Glas oder Löffel fest andrücken und kalt stellen.",
+      "220 ml Sahne steif schlagen. Den kalten Pudding kurz glatt rühren und die Sahne vorsichtig unterheben, bis eine luftige Creme entsteht.",
+      "Die Vanillecreme gleichmäßig auf dem gekühlten Boden verstreichen.",
+      "Die übrige Sahne mit Vanillezucker und Puderzucker steif schlagen und glatt auf der Creme verteilen.",
+      "Mit Schokoraspeln oder Kakao bestreuen und mindestens 4 Stunden, besser über Nacht, im Kühlschrank fest werden lassen.",
+      "In Stücke schneiden und gut gekühlt servieren."
+    ],
+    "story": "Kühlschrankkuchen aus Butterkeksen und Pudding sind in Deutschland und Osteuropa seit Jahrzehnten beliebt, weil sie ohne Backofen gelingen. Den klassischen Butterkeks mit gezacktem Rand gibt es in Deutschland seit 1891 – damals brachte ihn Bahlsen in Hannover auf den Markt. Dass die Creme schnittfest wird, liegt an der Speisestärke im Puddingpulver: Beim Kochen bindet sie die Milch, beim Abkühlen wird der Pudding fest. Die untergehobene Sahne macht ihn anschließend luftig, ohne dass er seine Stabilität verliert.",
+    "tips": [
+      "Den Pudding wirklich vollständig auskühlen lassen – warmer Pudding lässt die Sahne zusammenfallen.",
+      "Den kalten Pudding vor dem Unterheben kurz mit dem Schneebesen glatt rühren, dann wird die Creme ohne Klümpchen.",
+      "Für eine festere Creme etwas weniger Milch nehmen (eher 500 ml als 550 ml).",
+      "Den Keksboden kräftig andrücken, sonst zerbröselt er beim Anschneiden.",
+      "Für saubere Stücke das Messer zwischendurch in heißes Wasser tauchen und abwischen."
+    ],
+    "faq": [
+      { "q": "Kann ich Schokopudding verwenden?", "a": "Ja. Mit Schokopudding wird es ein Schokocreme-Kuchen; für eine Marmorvariante je eine halbe Portion Vanille- und Schokopudding kochen." },
+      { "q": "Wie lange hält sich der Kuchen?", "a": "Abgedeckt im Kühlschrank 2–3 Tage. Der Boden wird mit der Zeit etwas weicher." },
+      { "q": "Kann ich Sahnesteif verwenden?", "a": "Ja, ein Päckchen Sahnesteif in der oberen Sahneschicht sorgt dafür, dass sie länger stabil bleibt – praktisch, wenn der Kuchen mitgenommen wird." },
+      { "q": "Welche Form eignet sich?", "a": "Eine Springform mit 26–28 cm oder eine eckige Auflaufform etwa 20 × 30 cm. In der eckigen Form lassen sich gleichmäßige Stücke schneiden." }
+    ]
+  }
+}
