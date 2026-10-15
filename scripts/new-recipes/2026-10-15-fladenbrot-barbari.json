@@ -1,0 +1,51 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\15.10.2026\\234\\Dieses schnelle Fladenbrot brauchst du nur mit Meh-yatay.png",
+  "recipe": {
+    "slug": "fladenbrot-mit-sesam-und-mehlglasur",
+    "title": "Fladenbrot mit Sesam und Mehlglasur",
+    "description": "Ein einfaches Hefe-Fladenbrot aus Mehl, Wasser, Hefe und Öl: außen goldbraun, innen weich. Die gekochte Mehlglasur nach persischem Vorbild sorgt für Farbe und Glanz. Passt zu Suppen, Dips und zum Grillen.",
+    "category": "Backen",
+    "prepTime": 25,
+    "cookTime": 15,
+    "servings": 2,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für den Teig",
+      "500 g Mehl (Type 550 oder 405, ca. 4 Tassen)",
+      "450 ml lauwarmes Wasser (ca. 2 Tassen)",
+      "2 TL Trockenhefe",
+      "2 EL Zucker",
+      "1 TL Salz",
+      "2 EL Öl",
+      "Für die Mehlglasur",
+      "250 ml Wasser (ca. 1 Tasse)",
+      "2 EL Mehl",
+      "Zum Bestreuen",
+      "Sesam"
+    ],
+    "steps": [
+      "Trockenhefe, Zucker und die Hälfte des lauwarmen Wassers verrühren und 10–15 Minuten stehen lassen, bis sich Bläschen bilden.",
+      "Salz und Öl zur Hefemischung geben und kurz verrühren.",
+      "Das Mehl in eine große Schüssel geben, die Hefemischung hineingießen und nach und nach das restliche Wasser einarbeiten. Etwa 8–10 Minuten zu einem glatten, elastischen Teig kneten. Der Teig ist weich und leicht klebrig; nur wenn er sich gar nicht formen lässt, esslöffelweise Mehl zugeben.",
+      "Den Teig in eine leicht geölte Schüssel legen, abdecken und an einem warmen Ort etwa 1 Stunde gehen lassen, bis er sich deutlich vergrößert hat.",
+      "Für die Glasur Wasser und Mehl in einem kleinen Topf unter Rühren erhitzen, bis die Mischung leicht andickt. Etwas abkühlen lassen.",
+      "Den Backofen auf 200 °C Ober-/Unterhitze vorheizen. Den Teig auf einer bemehlten Fläche kurz durchkneten, halbieren und zu zwei runden oder ovalen Fladen formen.",
+      "Die Fladen auf ein mit Backpapier belegtes Blech legen und großzügig mit der Glasur bestreichen. Mit den Fingerspitzen tiefe Längsrillen in den Teig drücken und mit Sesam bestreuen.",
+      "Etwa 15 Minuten goldbraun backen und warm servieren."
+    ],
+    "story": "Die gekochte Mehlglasur und die tiefen Längsrillen sind typisch für Nan-e Barbari, eines der bekanntesten Fladenbrote aus dem Iran. Dort wird die Glasur „Roomal“ genannt: Mehl wird mit Wasser kurz aufgekocht und vor dem Backen auf den Teig gestrichen. Sie sorgt für die goldbraune Farbe und eine leicht glänzende Kruste, ganz ohne Ei. Die Rillen verhindern, dass der Fladen im Ofen zu stark aufgeht, und geben dem Brot seine charakteristische Form.",
+    "tips": [
+      "Das Wasser sollte lauwarm sein, nicht heiß – über etwa 40 °C wird die Hefe geschwächt.",
+      "Die Rillen ruhig kräftig eindrücken; beim Backen gehen sie wieder etwas auf.",
+      "Für eine knusprigere Kruste ein ofenfestes Schälchen mit Wasser auf den Ofenboden stellen.",
+      "Statt Sesam passen auch Schwarzkümmel oder eine Mischung aus beidem.",
+      "Übriges Brot kurz im Ofen aufbacken – dann schmeckt es wieder wie frisch."
+    ],
+    "faq": [
+      { "q": "Kann ich frische Hefe verwenden?", "a": "Ja. 2 TL Trockenhefe entsprechen etwa einem halben Würfel (21 g) frischer Hefe. Diese im lauwarmen Wasser mit dem Zucker auflösen." },
+      { "q": "Wozu dient die Mehlglasur?", "a": "Sie gibt dem Brot beim Backen eine schöne goldbraune Farbe und eine glänzende, leicht knusprige Oberfläche – ganz ohne Ei oder Milch. Das Brot ist dadurch auch vegan." },
+      { "q": "Kann ich das Brot einfrieren?", "a": "Ja, vollständig ausgekühlt und gut verpackt bis zu 3 Monate. Bei 180 °C einige Minuten im Ofen aufbacken." },
+      { "q": "Kann ich den Teig am Vortag vorbereiten?", "a": "Ja. Nach dem Kneten abgedeckt über Nacht im Kühlschrank gehen lassen und vor dem Formen etwa 30 Minuten Zimmertemperatur annehmen lassen." }
+    ]
+  }
+}
