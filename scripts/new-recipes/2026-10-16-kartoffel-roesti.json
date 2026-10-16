@@ -1,0 +1,50 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\16.10.2026\\241\\Kartoffel-Rösti – der knusprige Geheimtipp aus der-yatay.png",
+  "recipe": {
+    "slug": "kartoffel-roesti-mit-kraeutern-und-fruehlingszwiebeln",
+    "title": "Kartoffel-Rösti mit Kräutern und Frühlingszwiebeln",
+    "description": "Kleine, knusprige Rösti aus geriebenen Kartoffeln, Ei und Speisestärke, gewürzt mit Petersilie, Frühlingszwiebel und Paprika. In der Pfanne in etwa 20 Minuten fertig – als Beilage oder Snack mit Joghurt-Dip.",
+    "category": "Vorspeisen",
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 2,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "2 große Kartoffeln (ca. 500 g, vorwiegend festkochend)",
+      "2 Eier",
+      "40 g Speisestärke (ca. 4 EL)",
+      "1 Frühlingszwiebel",
+      "1 kleines Bund Petersilie",
+      "½ TL Paprikapulver edelsüß",
+      "1 Prise gemahlener Koriander",
+      "Salz",
+      "Pfeffer",
+      "Öl zum Braten",
+      "Zum Servieren",
+      "Naturjoghurt oder Kräuterquark"
+    ],
+    "steps": [
+      "Die Kartoffeln schälen und grob reiben.",
+      "Die geriebenen Kartoffeln in ein sauberes Küchentuch geben und kräftig ausdrücken, bis kaum noch Flüssigkeit austritt. Je trockener die Masse, desto knuspriger werden die Rösti.",
+      "Frühlingszwiebel und Petersilie fein hacken.",
+      "Kartoffeln, Eier, Kräuter, Paprikapulver, Koriander, Salz, Pfeffer und Speisestärke in einer Schüssel gut vermengen.",
+      "Reichlich Öl (etwa 3–4 mm hoch) in einer großen Pfanne erhitzen. Je einen gehäuften Esslöffel Masse hineingeben und mit dem Löffelrücken flach drücken.",
+      "Bei mittlerer Hitze 3–4 Minuten braten, bis die Unterseite goldbraun ist. Wenden und die zweite Seite ebenfalls knusprig ausbacken.",
+      "Auf Küchenpapier abtropfen lassen und heiß mit Joghurt oder Kräuterquark servieren."
+    ],
+    "story": "Streng genommen sind diese kleinen Fladen eine Mischung aus zwei Klassikern: Die Schweizer Rösti wird nur aus geriebenen Kartoffeln und Fett als großer Fladen gebraten, ganz ohne Ei. Kartoffelpuffer – im Rheinland Reibekuchen genannt – bekommen dagegen Ei und etwas Bindung und werden portionsweise ausgebacken. In der Schweiz ist die Rösti so typisch für den deutschsprachigen Teil, dass die Sprachgrenze zur französischen Schweiz scherzhaft „Röstigraben“ heißt.",
+    "tips": [
+      "Das Ausdrücken ist der wichtigste Schritt: Nasse Kartoffeln spritzen im Öl und werden weich statt knusprig.",
+      "Die Kartoffeln erst kurz vor dem Braten reiben – sonst werden sie an der Luft grau.",
+      "Das Öl muss richtig heiß sein: Ein Holzlöffelstiel, den man hineinhält, sollte kleine Bläschen bilden.",
+      "Die fertigen Rösti im Ofen bei 100 °C auf einem Gitter warm halten, bis alle gebraten sind.",
+      "Für Abwechslung etwas geriebenen Käse oder eine geraspelte Zucchini (gut ausgedrückt) unter die Masse mischen."
+    ],
+    "faq": [
+      { "q": "Was ist der Unterschied zwischen Rösti und Kartoffelpuffern?", "a": "Klassische Schweizer Rösti bestehen nur aus Kartoffeln und Fett. Kartoffelpuffer enthalten Ei und oft Mehl oder Stärke. Dieses Rezept liegt dazwischen: kleine Fladen mit Ei und Speisestärke." },
+      { "q": "Welche Kartoffeln eignen sich?", "a": "Vorwiegend festkochende Kartoffeln. Sie halten gut zusammen und werden trotzdem knusprig." },
+      { "q": "Kann ich die Rösti im Ofen backen?", "a": "Ja. Auf einem geölten Blech bei 220 °C etwa 20–25 Minuten backen und nach der Hälfte wenden. Sie werden etwas weniger knusprig als in der Pfanne." },
+      { "q": "Wozu passen die Rösti?", "a": "Zu Fleisch, Fisch oder Spiegelei, als Snack mit Joghurt-Dip oder süß mit Apfelmus." }
+    ]
+  }
+}
