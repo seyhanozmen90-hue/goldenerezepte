@@ -1,0 +1,52 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\16.10.2026\\240\\Apfelkuchen ohne Butter – extra weich & saftig-yatay.png",
+  "recipe": {
+    "slug": "apfelkuchen-ohne-butter-mit-sahne-und-schokotropfen",
+    "title": "Apfelkuchen ohne Butter mit Sahne und Schokotropfen",
+    "description": "Ein weicher Apfelkuchen, bei dem Sahne und etwas Öl die Butter ersetzen. Apfelwürfel und Schokotropfen im Teig, oben ein Fächer aus Apfelscheiben – gebacken in einer kleinen 20-cm-Springform.",
+    "category": "Backen",
+    "prepTime": 20,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "200 g Weizenmehl (Type 405)",
+      "16 g Backpulver (1 Päckchen)",
+      "150 g Zucker",
+      "2 Eier",
+      "170 ml Schlagsahne",
+      "50 g Sonnenblumenöl",
+      "1 TL Vanilleextrakt",
+      "Abrieb von 1 Bio-Zitrone",
+      "3–4 Äpfel (z. B. Golden Delicious)",
+      "100 g Schokotropfen",
+      "Außerdem",
+      "Butter oder Öl und Mehl für die Form"
+    ],
+    "steps": [
+      "Den Backofen auf 180 °C Ober-/Unterhitze vorheizen. Eine Springform (ca. 20 cm) fetten und mit Mehl ausstäuben.",
+      "Eier, Zucker, Vanilleextrakt und Zitronenabrieb mit dem Handmixer mehrere Minuten aufschlagen, bis die Masse hell und luftig ist. Das Öl langsam einlaufen lassen und weiterschlagen.",
+      "Die Sahne in einer zweiten Schüssel leicht anschlagen, bis sie etwas Volumen hat, aber noch nicht steif ist. Vorsichtig unter die Eiermasse heben.",
+      "Mehl und Backpulver darübersieben und nach und nach unterrühren, bis ein glatter, eher fester Teig entsteht.",
+      "Einen Apfel schälen, klein würfeln und zusammen mit zwei Dritteln der Schokotropfen unter den Teig heben.",
+      "Den Teig in die Form füllen und glatt streichen.",
+      "Die übrigen Äpfel schälen, in dünne Spalten schneiden und fächerförmig auf den Teig legen. Mit den restlichen Schokotropfen bestreuen.",
+      "Etwa 45 Minuten backen, bis ein Holzstäbchen sauber herauskommt. Wird die Oberfläche zu dunkel, nach 30 Minuten mit Alufolie abdecken.",
+      "In der Form etwas abkühlen lassen, dann herauslösen und vollständig auskühlen lassen."
+    ],
+    "story": "Rührkuchen mit Sahne statt Butter sind vor allem in Italien als „Torta di mele alla panna“ verbreitet. Schlagsahne enthält rund 30 % Fett und bringt damit genug Fett für einen saftigen Teig mit – die Butter muss weder geschmolzen noch schaumig gerührt werden. Leicht angeschlagen gibt die Sahne dem Teig zusätzlich Luft, sodass die Krume besonders fein und weich wird. Die Schokotropfen sind eine moderne Ergänzung zum klassischen Apfelkuchen.",
+    "tips": [
+      "Eier und Zucker wirklich mehrere Minuten aufschlagen – die eingeschlagene Luft macht den Kuchen locker.",
+      "Die Sahne nur anschlagen, nicht steif schlagen, sonst lässt sie sich schlecht unterheben.",
+      "Schokotropfen vor dem Unterheben in etwas Mehl wenden, dann sinken sie nicht auf den Boden.",
+      "Säuerlichere Äpfel wie Boskoop oder Elstar geben einen schönen Kontrast zur süßen Schokolade.",
+      "Für eine 26-cm-Springform die Zutaten um die Hälfte erhöhen und die Backzeit im Auge behalten."
+    ],
+    "faq": [
+      { "q": "Kann ich die Schokotropfen weglassen?", "a": "Ja. Dann einfach etwas mehr Apfel nehmen oder 1 TL Zimt in den Teig geben – so wird es ein klassischer Apfelkuchen." },
+      { "q": "Kann ich statt Sahne Milch verwenden?", "a": "Nur bedingt. Milch hat viel weniger Fett; dann sollte die Ölmenge auf etwa 100 g erhöht werden, sonst wird der Kuchen trockener." },
+      { "q": "Wie lange bleibt der Kuchen saftig?", "a": "Abgedeckt bei Zimmertemperatur 2–3 Tage. Durch die Äpfel bleibt er auch am zweiten Tag weich." },
+      { "q": "Kann ich den Kuchen einfrieren?", "a": "Ja, in Stücken gut verpackt bis zu 3 Monate. Bei Zimmertemperatur auftauen lassen." }
+    ]
+  }
+}
