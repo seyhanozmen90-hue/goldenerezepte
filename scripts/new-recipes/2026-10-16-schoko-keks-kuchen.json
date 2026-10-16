@@ -30,8 +30,8 @@
       "Bei mittlerer Hitze unter ständigem Rühren erhitzen, bis die Creme deutlich andickt. Noch etwa 1 Minute weiterrühren, damit der Mehlgeschmack verschwindet.",
       "Vom Herd nehmen und die Butter einrühren, bis sie vollständig geschmolzen ist.",
       "Eine eckige Form (ca. 20 × 20 cm) mit Backpapier auslegen und den Boden mit Schokoladenkeksen belegen.",
-      "Die Hälfte der warmen Creme gleichmäßig darauf verstreichen und mit einer zweiten Lage Kekse abdecken. Wer eine höhere Form nimmt, wiederholt die Schichten und schließt mit Keksen ab.",
-      "Die restliche Creme auf die Kekse streichen, abdecken und mindestens 1 Stunde kalt stellen.",
+      "Die warme Creme gleichmäßig darauf verstreichen und mit einer zweiten Lage Kekse abdecken. Wer eine höhere Form nimmt, verteilt die Creme auf mehrere Schichten und schließt immer mit Keksen ab.",
+      "Den Kuchen abdecken und mindestens 1 Stunde kalt stellen.",
       "Die Milchschokolade über einem Wasserbad schmelzen und mit dem Öl glatt verrühren.",
       "Die Glasur gleichmäßig über den gekühlten Kuchen gießen und noch einmal etwa 1 Stunde kalt stellen, bis sie fest ist.",
       "Mit einem heißen Messer in Stücke schneiden und servieren."
@@ -45,10 +45,22 @@
       "Zum Schneiden das Messer in heißes Wasser tauchen und abtrocknen; dann bleiben die Kanten sauber."
     ],
     "faq": [
-      { "q": "Kann ich Puddingpulver statt der selbstgemachten Creme verwenden?", "a": "Ja. Ein Päckchen Vanillepuddingpulver mit 500 ml Milch und 50 g Zucker kochen und die Butter einrühren – die Schichten bleiben gleich." },
-      { "q": "Welche Kekse eignen sich?", "a": "Am besten dünne, trockene Kekse wie Kakao-Butterkekse. Mit hellen Butterkeksen funktioniert der Kuchen genauso, er sieht dann nur anders aus." },
-      { "q": "Wie lange hält sich der Kuchen?", "a": "Abgedeckt im Kühlschrank 2–3 Tage. Am zweiten Tag sind die Kekse besonders weich." },
-      { "q": "Warum kommt Öl in die Schokolade?", "a": "Das Öl macht die Glasur geschmeidiger, sodass sie beim Schneiden nicht splittert. Statt Öl kann auch 1 EL Kokosfett verwendet werden." }
+      {
+        "q": "Kann ich Puddingpulver statt der selbstgemachten Creme verwenden?",
+        "a": "Ja. Ein Päckchen Vanillepuddingpulver mit 500 ml Milch und 50 g Zucker kochen und die Butter einrühren – die Schichten bleiben gleich."
+      },
+      {
+        "q": "Welche Kekse eignen sich?",
+        "a": "Am besten dünne, trockene Kekse wie Kakao-Butterkekse. Mit hellen Butterkeksen funktioniert der Kuchen genauso, er sieht dann nur anders aus."
+      },
+      {
+        "q": "Wie lange hält sich der Kuchen?",
+        "a": "Abgedeckt im Kühlschrank 2–3 Tage. Am zweiten Tag sind die Kekse besonders weich."
+      },
+      {
+        "q": "Warum kommt Öl in die Schokolade?",
+        "a": "Das Öl macht die Glasur geschmeidiger, sodass sie beim Schneiden nicht splittert. Statt Öl kann auch 1 EL Kokosfett verwendet werden."
+      }
     ]
   }
 }
