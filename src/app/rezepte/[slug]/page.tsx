@@ -64,12 +64,17 @@ export default async function RezeptDetailPage({ params }: Props) {
   const tips: string[] = parseJson<string[]>(recipe.tips) ?? [];
   const faq: { q: string; a: string }[] = parseJson<{ q: string; a: string }[]>(recipe.faq) ?? [];
 
-  const similarRecipes = await prisma.recipe.findMany({
-    where: { published: true, category: recipe.category, slug: { not: slug } },
-    orderBy: { views: "desc" },
-    take: 3,
-    select: { slug: true, title: true, description: true, category: true, prepTime: true, cookTime: true, imageUrl: true },
+  // Die nächsten drei Rezepte derselben Kategorie (zyklisch nach ID), damit jedes Rezept
+  // von anderen Rezeptseiten verlinkt wird – nicht immer nur die meistgelesenen.
+  const sameCategory = await prisma.recipe.findMany({
+    where: { published: true, category: recipe.category },
+    orderBy: { id: "asc" },
+    select: { id: true, slug: true, title: true, description: true, category: true, prepTime: true, cookTime: true, imageUrl: true },
   });
+  const ownIndex = sameCategory.findIndex((r) => r.slug === slug);
+  const similarRecipes = Array.from({ length: Math.min(3, sameCategory.length - 1) }, (_, i) =>
+    sameCategory[(ownIndex + 1 + i) % sameCategory.length]
+  );
 
   const recipeUrl = `${BASE_URL}/rezepte/${slug}`;
   const stepImage = recipe.imageUrl ? [{ "@type": "ImageObject", url: recipe.imageUrl }] : undefined;
