@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
+import CookieSettingsLink from "@/components/CookieSettingsLink";
 
 export const metadata: Metadata = {
   title: "Datenschutz – GoldeneRezepte",
@@ -63,8 +64,9 @@ export default function Datenschutz() {
             personalisierte Werbung.
           </p>
           <p>
-            Du kannst deine Auswahl jederzeit ändern oder widerrufen, indem du die Cookies dieser Website
-            in deinem Browser löschst – beim nächsten Besuch wird die Abfrage erneut angezeigt.
+            Du kannst deine Auswahl jederzeit ändern oder widerrufen – über den Link
+            „Cookie-Einstellungen“ unten auf jeder Seite oder indem du die Cookies dieser Website
+            in deinem Browser löschst; beim nächsten Besuch wird die Abfrage dann erneut angezeigt.
           </p>
 
           <h2>5. Google Analytics</h2>
@@ -154,7 +156,7 @@ export default function Datenschutz() {
 
       <footer>
         <div className="footer-bottom" style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
-          © {new Date().getFullYear()} GoldeneRezepte
+          © {new Date().getFullYear()} GoldeneRezepte · <CookieSettingsLink />
         </div>
       </footer>
     </>

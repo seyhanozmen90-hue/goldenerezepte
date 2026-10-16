@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
+import CookieSettingsLink from "@/components/CookieSettingsLink";
 
 export const metadata: Metadata = {
   title: "Über uns – GoldeneRezepte",
@@ -35,8 +36,8 @@ export default function UeberUns() {
           <h2 className="section-title">Hallo, ich bin Seyhan!</h2>
           <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1.5rem", fontSize: "1rem" }}>
             Hinter GoldeneRezepte stecke ich. Ich koche und backe leidenschaftlich gern – die ersten
-            Handgriffe habe ich bei meiner Mutter in der Küche gelernt, und viele deutsche Klassiker
-            haben mir später unsere deutschen Nachbarn gezeigt.
+            Handgriffe habe ich bei meiner Mutter in der Küche gelernt. Später kam meine Begeisterung
+            für die deutsche Hausmannskost dazu, die ich seitdem mit viel Freude nachkoche.
           </p>
           <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1rem", fontSize: "1rem" }}>
             So ist meine Küche eine Mischung aus zwei Welten: türkische Wurzeln, in denen ein reich
@@ -88,7 +89,7 @@ export default function UeberUns() {
           }}
         >
           {[
-            { icon: "🏡", title: "Authentizität", text: "Rezepte so, wie sie in deutschen Haushalten wirklich gekocht werden." },
+            { icon: "🏡", title: "Hausmannskost", text: "Bewährte Alltagsrezepte aus der deutschen und türkischen Küche." },
             { icon: "📖", title: "Einfachheit", text: "Klare Anleitungen, verständliche Zutaten – für jeden nachkochbar." },
             { icon: "🌿", title: "Qualität", text: "Genaue Mengen, klare Zeiten und Tipps zu jedem Rezept." },
             { icon: "❤️", title: "Leidenschaft", text: "Kochen ist mehr als Nahrung – es ist Kultur, Familie und Freude." },
@@ -127,6 +128,7 @@ export default function UeberUns() {
               <li><Link href="/kontakt">Kontakt</Link></li>
               <li><Link href="/impressum">Impressum</Link></li>
               <li><Link href="/datenschutz">Datenschutz</Link></li>
+              <li><CookieSettingsLink /></li>
             </ul>
           </div>
         </div>

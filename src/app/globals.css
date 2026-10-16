@@ -942,3 +942,14 @@ footer {
   from { opacity: 0; transform: translateY(8px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+.footer-links button {
+  font-size: 0.9rem !important;
+  font-family: system-ui, sans-serif !important;
+  color: var(--muted2) !important;
+  transition: color 0.2s;
+}
+.footer-links button:hover,
+.footer-bottom button:hover { color: var(--gold) !important; }
+a.cat-btn { display: inline-block; text-decoration: none; }
+.pagination-btn.disabled { opacity: 0.35; cursor: not-allowed; }

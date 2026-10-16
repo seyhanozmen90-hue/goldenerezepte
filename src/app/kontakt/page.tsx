@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
+import CookieSettingsLink from "@/components/CookieSettingsLink";
 
 export const metadata: Metadata = {
   title: "Kontakt – GoldeneRezepte",
@@ -70,6 +71,7 @@ export default function Kontakt() {
               <li><Link href="/kontakt">Kontakt</Link></li>
               <li><Link href="/impressum">Impressum</Link></li>
               <li><Link href="/datenschutz">Datenschutz</Link></li>
+              <li><CookieSettingsLink /></li>
             </ul>
           </div>
         </div>

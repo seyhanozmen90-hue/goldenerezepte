@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
+import CookieSettingsLink from "@/components/CookieSettingsLink";
 
 export const metadata: Metadata = {
   title: "Impressum – GoldeneRezepte",
@@ -15,7 +16,7 @@ export default function Impressum() {
       <div className="container section" style={{ maxWidth: "700px" }}>
         <h1 className="section-title">Impressum</h1>
         <div className="legal-body">
-          <h2>Angaben gemäß § 5 TMG</h2>
+          <h2>Angaben gemäß § 5 DDG</h2>
           <p>
             <strong style={{ color: "var(--text)" }}>Seyhan Özmen</strong><br />
             1847/3 Sokak No:26, Kat:3<br />
@@ -27,14 +28,14 @@ export default function Impressum() {
           <p>E-Mail: goldene.rezepte@gmail.com</p>
 
           <h2>Verantwortlich für den Inhalt</h2>
-          <p>Seyhan Özmen (gemäß § 55 Abs. 2 RStV)</p>
+          <p>Seyhan Özmen (gemäß § 18 Abs. 2 MStV)</p>
 
           <h2>Haftung für Inhalte</h2>
           <p>
-            Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen
-            Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir
-            als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde
-            Informationen zu überwachen.
+            Als Diensteanbieter bin ich für eigene Inhalte auf diesen Seiten nach den allgemeinen
+            Gesetzen verantwortlich. Für übermittelte oder gespeicherte fremde Informationen besteht
+            jedoch keine allgemeine Pflicht zur Überwachung. Sobald mir Rechtsverletzungen bekannt
+            werden, entferne ich die betreffenden Inhalte umgehend.
           </p>
 
           <h2>Urheberrecht</h2>
@@ -53,7 +54,7 @@ export default function Impressum() {
 
       <footer>
         <div className="footer-bottom" style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
-          © {new Date().getFullYear()} GoldeneRezepte
+          © {new Date().getFullYear()} GoldeneRezepte · <CookieSettingsLink />
         </div>
       </footer>
     </>

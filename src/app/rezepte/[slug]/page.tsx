@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import NavBar from "@/components/NavBar";
 import ViewTracker from "@/components/ViewTracker";
 import { formatMinutes } from "@/lib/utils";
+import CookieSettingsLink from "@/components/CookieSettingsLink";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -238,6 +239,7 @@ export default async function RezeptDetailPage({ params }: Props) {
               <li><Link href="/kontakt">Kontakt</Link></li>
               <li><Link href="/impressum">Impressum</Link></li>
               <li><Link href="/datenschutz">Datenschutz</Link></li>
+              <li><CookieSettingsLink /></li>
             </ul>
           </div>
         </div>

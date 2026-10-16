@@ -4,6 +4,7 @@ import Image from "next/image";
 import { prisma } from "@/lib/prisma";
 import { formatMinutes } from "@/lib/utils";
 import NavBar from "@/components/NavBar";
+import CookieSettingsLink from "@/components/CookieSettingsLink";
 
 export const revalidate = 60;
 
@@ -58,8 +59,8 @@ export default async function HomePage() {
       <div className="container section" style={{ maxWidth: "760px", paddingTop: "3rem", paddingBottom: "3rem", textAlign: "center" }}>
         <h2 className="section-title">Hallo, ich bin Seyhan!</h2>
         <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1.25rem", fontSize: "1rem" }}>
-          Kochen habe ich bei meiner Mutter gelernt, viele deutsche Klassiker bei unseren deutschen
-          Nachbarn. Hier sammle ich alltagstaugliche Rezepte – von Aufläufen und Suppen bis zu Kuchen
+          Kochen habe ich bei meiner Mutter gelernt, die deutsche Hausmannskost später für mich
+          entdeckt. Hier sammle ich alltagstaugliche Rezepte – von Aufläufen und Suppen bis zu Kuchen
           und Desserts – mit genauen Mengen, Zeiten und Tipps, damit sie dir sicher gelingen.
         </p>
         <Link href="/ueber-uns" style={{ display: "inline-block", marginTop: "1rem", color: "var(--gold)", fontFamily: "system-ui, sans-serif" }}>
@@ -168,6 +169,7 @@ export default async function HomePage() {
               <li><Link href="/kontakt">Kontakt</Link></li>
               <li><Link href="/impressum">Impressum</Link></li>
               <li><Link href="/datenschutz">Datenschutz</Link></li>
+              <li><CookieSettingsLink /></li>
             </ul>
           </div>
         </div>
