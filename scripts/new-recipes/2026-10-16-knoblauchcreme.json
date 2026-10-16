@@ -1,0 +1,44 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\16.10.2026\\233\\Hausgemachte Knoblauchcreme – cremig & aromatisch-yatay.png",
+  "recipe": {
+    "slug": "knoblauchcreme-ohne-ei-mit-milch",
+    "title": "Knoblauchcreme ohne Ei – mit Milch und Zitrone",
+    "description": "Eine cremige Knoblauchcreme wie Aioli, aber ohne Ei: Milch, Öl, Knoblauch und Zitronensaft werden mit dem Stabmixer aufgeschlagen. In fünf Minuten fertig – als Dip, Brotaufstrich oder zum Grillen.",
+    "category": "Vorspeisen",
+    "prepTime": 5,
+    "cookTime": 0,
+    "servings": 8,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "3 Knoblauchzehen",
+      "100 ml Milch (Zimmertemperatur)",
+      "200 ml neutrales Öl (z. B. Sonnenblumenöl oder mildes Olivenöl)",
+      "Saft von ½ Zitrone",
+      "½ TL Salz",
+      "1 EL frische Petersilie, gehackt",
+      "1 TL–1 EL Paprikapulver edelsüß (nach Geschmack)"
+    ],
+    "steps": [
+      "Die Knoblauchzehen schälen und grob hacken.",
+      "Knoblauch, Milch, Zitronensaft und Salz in einen hohen, schmalen Mixbecher geben und mit dem Stabmixer kurz pürieren.",
+      "Bei laufendem Mixer das Öl langsam in einem dünnen Strahl einfließen lassen. Es entsteht eine dicke, cremige Emulsion wie bei einer Aioli. Das Öl wirklich langsam zugeben, damit die Creme stabil wird.",
+      "Petersilie und Paprikapulver zugeben und noch einmal kurz mixen.",
+      "Abschmecken und bei Bedarf mit etwas Salz oder Zitronensaft nachwürzen.",
+      "In ein sauberes Glas füllen, im Kühlschrank aufbewahren und vor dem Servieren kurz umrühren."
+    ],
+    "story": "Das Prinzip dieser Creme ist in Spanien als „Lactonesa“ bekannt, in Portugal und Brasilien als „Maionese de leite“ – eine Mayonnaise, bei der Milch statt Eigelb als Emulgator dient. Die Eiweiße der Milch umhüllen die feinen Öltröpfchen und halten sie in der Schwebe, sodass eine stabile, cremige Masse entsteht. Mit Knoblauch und Zitrone erinnert sie an Aioli, ist aber milder und kommt ohne rohe Eier aus.",
+    "tips": [
+      "Milch und Öl sollten etwa gleich temperiert sein – am besten beides bei Zimmertemperatur. Kalte Milch emulgiert schlechter.",
+      "Ein hoher, schmaler Mixbecher, in den der Stabmixer gerade hineinpasst, macht das Aufschlagen viel leichter.",
+      "Wird die Creme zu dick, einen Teelöffel Milch unterrühren; ist sie zu flüssig, noch etwas Öl einmixen.",
+      "Kräftiges Olivenöl kann bitter werden, wenn man es mit dem Mixer aufschlägt – deshalb lieber ein mildes Öl verwenden.",
+      "Für eine Kräutervariante zusätzlich Dill oder Schnittlauch untermixen."
+    ],
+    "faq": [
+      { "q": "Warum wird meine Knoblauchcreme nicht fest?", "a": "Meist wurde das Öl zu schnell zugegeben. Neu anfangen mit 2 EL Milch im Becher und die flüssige Masse langsam einmixen – so lässt sich die Creme meist retten." },
+      { "q": "Wie lange hält sich die Knoblauchcreme?", "a": "In einem sauberen, verschlossenen Glas im Kühlschrank etwa 3–4 Tage." },
+      { "q": "Kann ich pflanzliche Milch verwenden?", "a": "Ja, ungesüßte Sojamilch funktioniert sehr gut, weil sie viel Eiweiß enthält. Damit wird die Creme vegan. Hafer- oder Mandelmilch emulgieren schlechter." },
+      { "q": "Wozu passt die Creme?", "a": "Zu Brot und Rohkost, als Aufstrich für Sandwiches und Burger, zu Ofenkartoffeln, Gegrilltem, Fleisch oder Falafel." }
+    ]
+  }
+}
