@@ -1,0 +1,23 @@
+[
+ {
+  "id": 25,
+  "oldUrl": "https://yjevzbgycfwpcrkmfgqi.supabase.co/storage/v1/object/public/recipe-images/1782581147385.png",
+  "newUrl": "https://yjevzbgycfwpcrkmfgqi.supabase.co/storage/v1/object/public/recipe-images/1792150711956-25.jpg",
+  "oldKB": 2406,
+  "newKB": 207
+ },
+ {
+  "id": 157,
+  "oldUrl": "https://yjevzbgycfwpcrkmfgqi.supabase.co/storage/v1/object/public/recipe-images/1787234150922.png",
+  "newUrl": "https://yjevzbgycfwpcrkmfgqi.supabase.co/storage/v1/object/public/recipe-images/1792150713079-157.jpg",
+  "oldKB": 4144,
+  "newKB": 279
+ },
+ {
+  "id": 163,
+  "oldUrl": "https://yjevzbgycfwpcrkmfgqi.supabase.co/storage/v1/object/public/recipe-images/1788177190466.png",
+  "newUrl": "https://yjevzbgycfwpcrkmfgqi.supabase.co/storage/v1/object/public/recipe-images/1792150712069-163.jpg",
+  "oldKB": 2757,
+  "newKB": 266
+ }
+]
