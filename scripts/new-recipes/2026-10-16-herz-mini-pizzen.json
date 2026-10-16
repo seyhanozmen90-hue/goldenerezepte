@@ -1,0 +1,55 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\16.10.2026\\236\\Herz-Mini-Pizzen – Liebe aus dem Ofen-yatay.png",
+  "recipe": {
+    "slug": "mini-pizzen-in-herzform-ohne-hefe",
+    "title": "Mini-Pizzen in Herzform ohne Hefe",
+    "description": "Kleine Pizza-Herzen aus einem schnellen Teig mit Backpulver statt Hefe – ohne Gehzeit, belegt mit Tomatensauce, Oregano und Mozzarella. Ideal für den Valentinstag, Kindergeburtstage oder als Fingerfood.",
+    "category": "Backen",
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für den Teig",
+      "280 g Weizenmehl (Type 405)",
+      "12 g Backpulver (ca. ¾ Päckchen)",
+      "15 g Zucker",
+      "4 g Salz (ca. ¾ TL)",
+      "160 ml Wasser",
+      "15 ml Olivenöl (1 EL)",
+      "Für den Belag",
+      "100 g Tomatensauce (z. B. passierte Tomaten)",
+      "Getrockneter Oregano",
+      "1 Prise Salz",
+      "1 Schuss Olivenöl",
+      "125 g Mozzarella (1 Kugel)",
+      "Frisches Basilikum zum Garnieren",
+      "Außerdem",
+      "Herz-Ausstecher (ca. 6–8 cm)"
+    ],
+    "steps": [
+      "Den Backofen auf 180 °C Ober-/Unterhitze vorheizen und ein Blech mit Backpapier auslegen.",
+      "Mehl, Backpulver und Zucker in einer Schüssel mischen. Salz, Wasser und Olivenöl zugeben und verrühren, bis ein Teig entsteht. Mit den Händen kurz zu einem glatten, kompakten Teig kneten.",
+      "Den Teig auf einer leicht bemehlten Fläche etwa 1 cm dick ausrollen und mit dem Ausstecher Herzen ausstechen. Die Reste zusammenkneten, erneut ausrollen und ausstechen.",
+      "Die Herzen mit etwas Abstand auf das Blech legen.",
+      "Tomatensauce mit Oregano, einer Prise Salz und einem Schuss Olivenöl verrühren und dünn auf die Herzen streichen. Dabei einen kleinen Rand frei lassen.",
+      "Die Mini-Pizzen etwa 15 Minuten backen.",
+      "Den Mozzarella in kleine Würfel schneiden oder zupfen, auf die Herzen verteilen und weitere 5 Minuten backen, bis der Käse geschmolzen ist.",
+      "Mit frischem Basilikum garnieren und warm servieren."
+    ],
+    "story": "Der Teig für diese Mini-Pizzen kommt ohne Hefe aus: Backpulver lockert ihn direkt im Ofen, deshalb muss er nicht gehen und ist in wenigen Minuten verarbeitet. Backpulver in Päckchen wurde in Deutschland Ende des 19. Jahrhunderts populär und machte schnelles Backen im Haushalt deutlich einfacher. Der Boden wird dadurch eher weich und brötchenartig als dünn und knusprig wie bei einer neapolitanischen Pizza – für kleine Pizza-Herzen genau richtig. Der Mozzarella kommt erst zum Schluss dazu, damit er schmilzt, aber nicht austrocknet.",
+    "tips": [
+      "Den Teig nur kurz kneten – zu langes Kneten macht Backpulverteig fest.",
+      "Die Tomatensauce dünn auftragen, sonst wird der Boden in der Mitte weich.",
+      "Mozzarella vorher gut abtropfen lassen und trocken tupfen, damit die Pizzen nicht wässrig werden.",
+      "Wer keinen Herz-Ausstecher hat, schneidet die Herzen mit einer Papierschablone und einem Messer aus oder nimmt runde Ausstecher.",
+      "Nach Belieben vor dem Käse mit Salami, Schinken, Paprika oder Oliven belegen."
+    ],
+    "faq": [
+      { "q": "Kann ich die Mini-Pizzen vorbereiten?", "a": "Ja. Die Herzen mit Tomatensauce vorbacken, auskühlen lassen und kurz vor dem Servieren mit Mozzarella belegen und 5–7 Minuten fertig backen." },
+      { "q": "Kann ich den Teig mit Hefe machen?", "a": "Ja, mit etwa 7 g Trockenhefe statt Backpulver. Der Teig muss dann rund 1 Stunde gehen und wird etwas luftiger." },
+      { "q": "Lassen sich die Mini-Pizzen einfrieren?", "a": "Ja, fertig gebacken und ausgekühlt bis zu 2 Monate. Aus dem Gefrierfach direkt bei 180 °C etwa 8–10 Minuten aufbacken." },
+      { "q": "Wie viele Herzen ergibt der Teig?", "a": "Je nach Größe des Ausstechers etwa 16–20 Mini-Pizzen." }
+    ]
+  }
+}
