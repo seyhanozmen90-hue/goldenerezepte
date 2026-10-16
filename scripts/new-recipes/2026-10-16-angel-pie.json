@@ -1,0 +1,50 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\16.10.2026\\239\\Angel Pie ohne Backen – luftig, cremig & himmlisch-yatay.png",
+  "recipe": {
+    "slug": "angel-pie-ohne-backen-mit-ricotta-und-kokos",
+    "title": "Angel Pie ohne Backen mit Ricotta und Kokos",
+    "description": "Ein Boden aus Digestive-Keksen und Butter, gefüllt mit einer leichten Creme aus Ricotta, Sahne und Kokosraspeln. Die kleine Kühlschranktorte kommt ganz ohne Ofen aus und ist nach einer Stunde schnittfest.",
+    "category": "Desserts",
+    "prepTime": 20,
+    "cookTime": 0,
+    "servings": 8,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für den Boden",
+      "200 g Digestive-Kekse (alternativ Vollkornkekse oder Butterkekse)",
+      "100 g Butter",
+      "Für die Füllung",
+      "250 g Ricotta aus Kuhmilch (alternativ Mascarpone)",
+      "125 ml Schlagsahne, gut gekühlt",
+      "40 g Puderzucker",
+      "20 g Kokosraspeln",
+      "Zum Garnieren",
+      "Kokosraspeln",
+      "Zuckerstreusel nach Belieben"
+    ],
+    "steps": [
+      "Die Kekse grob zerbrechen und im Mixer fein mahlen, alternativ in einem Gefrierbeutel mit dem Nudelholz zerbröseln.",
+      "Die Butter schmelzen und gründlich mit den Bröseln vermengen, bis eine gleichmäßig feuchte Masse entsteht.",
+      "Eine kleine Springform (18–20 cm) mit Frischhaltefolie auslegen. Die Keksmasse auf dem Boden und etwa 3 cm hoch am Rand verteilen und mit den Fingern oder einem Glasboden fest andrücken. 30 Minuten kalt stellen.",
+      "Die Sahne mit dem Puderzucker steif schlagen.",
+      "Ricotta zugeben und bei niedriger Geschwindigkeit nur kurz unterrühren, bis eine glatte Creme entsteht. Die Kokosraspeln vorsichtig unterheben.",
+      "Die Creme in den gekühlten Keksboden füllen und glatt streichen.",
+      "Mindestens 1 Stunde, besser 3–4 Stunden, im Kühlschrank fest werden lassen.",
+      "Vorsichtig aus der Form lösen, auf eine Platte setzen und mit Kokosraspeln und nach Belieben Zuckerstreuseln bestreuen."
+    ],
+    "story": "Der Boden dieser Torte besteht aus Digestive-Keksen, einem britischen Klassiker aus Weizenvollkornmehl. Ihren Namen tragen sie, weil man dem enthaltenen Natron früher eine verdauungsfördernde Wirkung zuschrieb; bekannt wurden sie Ende des 19. Jahrhunderts durch den schottischen Bäcker Alexander Grant. Im Vereinigten Königreich sind sie bis heute die Standardgrundlage für Cheesecake-Böden. Der Name „Angel Pie“ bezieht sich auf die schneeweiße, besonders leichte Füllung.",
+    "tips": [
+      "Den Ricotta vorher in einem Sieb 15–20 Minuten abtropfen lassen – dann wird die Creme fester.",
+      "Die Creme nach Zugabe des Ricottas nur kurz rühren; zu langes Schlagen macht die Sahne flüssig.",
+      "Mit Mascarpone wird die Füllung reichhaltiger und noch schnittfester.",
+      "Die Kokosraspeln für die Deko kurz in einer trockenen Pfanne rösten – das gibt mehr Aroma.",
+      "Für eine größere Form (26 cm) alle Zutaten verdoppeln."
+    ],
+    "faq": [
+      { "q": "Kann ich statt Ricotta Frischkäse nehmen?", "a": "Ja, Doppelrahmfrischkäse funktioniert gut. Die Creme wird etwas säuerlicher und fester." },
+      { "q": "Wie lange hält sich die Angel Pie?", "a": "Abgedeckt im Kühlschrank 2 Tage. Danach wird der Keksboden zunehmend weich." },
+      { "q": "Wird die Füllung ohne Gelatine fest?", "a": "Ja, steif geschlagene Sahne und gut abgetropfter Ricotta reichen aus. Wer sie besonders schnittfest möchte, schlägt die Sahne mit 1 Päckchen Sahnesteif auf." },
+      { "q": "Was kann ich statt Digestive-Keksen nehmen?", "a": "Butterkekse, Vollkornkekse oder Spekulatius. Bei sehr süßen Keksen etwas weniger Puderzucker in die Creme geben." }
+    ]
+  }
+}
