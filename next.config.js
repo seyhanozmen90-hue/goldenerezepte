@@ -28,6 +28,12 @@ const nextConfig = {
         destination: "/rezepte/erdbeer-raffaello-tiramisu-cremiges-sommerdessert-mit-kokos-und-frischen-erdbeeren",
         permanent: true,
       },
+      // Slug was accidentally generated from the "Zutaten" heading.
+      {
+        source: "/rezepte/zutaten",
+        destination: "/rezepte/fluffige-dinner-rolls-weiche-broetchen-aus-hefeteig",
+        permanent: true,
+      },
     ];
   },
 };

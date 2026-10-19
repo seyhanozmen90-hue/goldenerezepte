@@ -1,0 +1,151 @@
+{
+  "titles": {
+    "29": "Regenbogen-Cheesecake ohne Backen",
+    "47": "Joghurtkuchen mit Heidelbeeren und Zuckerguss",
+    "48": "Hähnchenstreifen mit Pasta in Sahnesauce",
+    "52": "Joghurt-Bombe mit Erdbeerspiegel",
+    "56": "Kirsch-Pfirsich-Galette mit Mürbeteig",
+    "57": "Himbeer-Quark-Kuchen",
+    "58": "Tiramisu French Toast mit Mascarponecreme und Kaffeesauce",
+    "59": "Zitronendessert mit nur drei Zutaten",
+    "60": "Rindersteak-Würfel mit Chimichurri und Kartoffelpüree",
+    "61": "Hähnchen in Pilzrahmsauce mit Kartoffelpüree und Knoblauch-Bohnen",
+    "62": "Heidelbeer-Cheesecake ohne Backen",
+    "64": "Schneewittchen-Dessert mit Eierlikör und Sahne",
+    "65": "Mascarpone-Himbeer-Quark-Dessert",
+    "67": "Aufgeschlagener Kaffee-Schaum – heiß oder kalt",
+    "68": "Lángos mit Knoblauchcreme und Käse",
+    "69": "Erdbeer-Joghurt-Dessert",
+    "71": "Thunfisch-Gurkensalat",
+    "72": "Schinken-Käse-Calzones mit Tomatensauce",
+    "73": "Quark-Pfannkuchen ohne Mehl",
+    "74": "Kokos-Kühlschrankkuchen mit Butterkeksen",
+    "75": "Himbeer-Cheesecake-Donuts aus Hefeteig",
+    "76": "Heidelbeer-Pfannkuchen mit griechischem Joghurt",
+    "77": "Krempita – Blätterteigschnitten mit Vanillecreme",
+    "79": "Übernacht-Brötchen",
+    "81": "Erdbeer-Schmand-Schnitten vom Blech",
+    "83": "Überbackene Hackfleischbrötchen mit Käse",
+    "85": "Sauerkirschkuchen vom Blech mit Nusshaube",
+    "88": "Mini-Würstchen im Blätterteig",
+    "91": "Cheeseburger-Bowl mit knusprigen Kartoffeln",
+    "92": "Überbackenes Knoblauchbrot mit Hähnchen und Alfredo-Sauce",
+    "94": "Cremiges Salatdressing",
+    "95": "Nutella-Likör",
+    "97": "Tortellinisalat mit Schinken und Emmentaler",
+    "98": "Erdbeer-Raffaello-Tiramisu mit Kokos",
+    "104": "Zitronen-Joghurt-Torte ohne Backen",
+    "105": "Hähnchen-Burger aus dem Ofen",
+    "106": "Zitronen-Porridge mit Cheesecake-Geschmack",
+    "107": "Ricotta-Kugeln mit Schokolade",
+    "121": "Geröstete Paprika in Knoblauchmarinade",
+    "123": "Hähnchen-Pasta in Sahnesoße",
+    "124": "Weiße Schokoladen-Pralinen mit Mandeln",
+    "126": "Apfel-Haferflocken-Kekse ohne Mehl",
+    "129": "Backfisch im Teigmantel ohne Ei und Milch",
+    "130": "Apfelkuchen vom Blech mit Zimt und Zuckerguss",
+    "131": "Rindergulasch aus dem Slow Cooker",
+    "133": "Mexikanischer Käse-Dip",
+    "136": "Weiße Schokoladen-Karamell-Fudge",
+    "137": "Zitronenlimonade mit Vanilleeis",
+    "138": "Bauernsuppe mit Bratwurst und Kartoffeln",
+    "140": "Eier in Senfsauce",
+    "141": "Erdbeer-Tiramisu",
+    "142": "Gebackene Bananen im Teigmantel",
+    "143": "Flammkuchen-Schnecken mit Schinken und Schmand",
+    "144": "Friss-dich-dumm-Suppe mit Hackfleisch",
+    "145": "Pflaumenkuchen mit Rührteig",
+    "147": "Kleine Kuchen im Waffelbecher",
+    "148": "Zucchini-Bällchen aus dem Ofen",
+    "165": "Zitronen-Joghurt-Torte mit Zitronenspiegel",
+    "182": "Thunfisch-Blätterteigtaschen mit Käse",
+    "194": "Möhrenkuchen mit Frischkäse-Frosting",
+    "196": "Ofenpfannkuchen mit Gemüse und Feta",
+    "197": "Lammragout mit Tomaten und Pasta",
+    "198": "Ofenspargel mit Hähnchenschnitzel und Schwarzwälder Sahnesoße",
+    "200": "Apfel-Quark-Pfannkuchen",
+    "202": "Chinakohl-Salat über Nacht",
+    "205": "Überbackenes Kartoffelgratin mit Schinken",
+    "209": "Schnitzelpizza vom Blech",
+    "211": "Gemüse-Strudel mit Kresse-Béchamel",
+    "213": "Hüttenkäse-Taler mit Haferflocken",
+    "216": "Hühner-Mais-Eintopf aus dem Schmortopf",
+    "219": "Apfel-Haferflocken-Kuchen ohne Zucker",
+    "224": "Makkaroni mit Jagdwurst nach DDR-Art"
+  },
+  "ingredients": {
+    "5": {
+      "1 Tasse frische Erdbeeren": "1 Tasse frische Erdbeeren (ca. 150 g)",
+      "1 Tasse Schlagsahne": "1 Tasse Schlagsahne (ca. 240 ml)",
+      "1 Tasse Frischkäse, weich": "1 Tasse Frischkäse, weich (ca. 225 g)",
+      "1/2 Tasse gesüßte Kondensmilch": "1/2 Tasse gesüßte Kondensmilch (ca. 150 g)"
+    },
+    "12": {
+      "1 1/2 Tassen Allzweckmehl": "1 1/2 Tassen Weizenmehl Type 405 (ca. 190 g)",
+      "1/2 Tasse ungesalzene Butter, kalt und gewürfelt": "1/2 Tasse ungesalzene Butter, kalt und gewürfelt (ca. 115 g)",
+      "1/4 Tasse Zucker": "1/4 Tasse Zucker (ca. 50 g)",
+      "1 Tasse Zucker": "1 Tasse Zucker (ca. 200 g)",
+      "1/4 Tasse Maisstärke": "1/4 Tasse Speisestärke (ca. 30 g)",
+      "2 Tassen Vollmilch": "2 Tassen Vollmilch (ca. 480 ml)",
+      "1/2 Tasse Zucker": "1/2 Tasse Zucker (ca. 100 g)"
+    },
+    "13": {
+      "2 1/2 Tassen Weizenmehl": "2 1/2 Tassen Weizenmehl (ca. 315 g)",
+      "1/2 Tasse kalte Butter, gewürfelt": "1/2 Tasse kalte Butter, gewürfelt (ca. 115 g)",
+      "1/3 Tasse kaltes Wasser": "1/3 Tasse kaltes Wasser (ca. 80 ml)"
+    },
+    "14": {
+      "2 Tassen Weizenmehl": "2 Tassen Weizenmehl (ca. 250 g)",
+      "1/2 Tasse kalte Butter oder Margarine": "1/2 Tasse kalte Butter oder Margarine (ca. 115 g)"
+    },
+    "15": {
+      "3 Tassen Weizenmehl": "3 Tassen Weizenmehl (ca. 375 g)",
+      "1 Tasse warme Milch": "1 Tasse warme Milch (ca. 240 ml)",
+      "1/4 Tasse Butter, geschmolzen": "1/4 Tasse Butter, geschmolzen (ca. 55 g)"
+    },
+    "19": {
+      "2 Tassen Weizenmehl": "2 Tassen Weizenmehl (ca. 250 g)",
+      "3/4 Tasse warmes Wasser": "3/4 Tasse warmes Wasser (ca. 180 ml)",
+      "1/2 Tasse Pizzasauce": "1/2 Tasse Pizzasauce (ca. 125 ml)",
+      "1–1 1/2 Tassen Mozzarella, gerieben": "1–1 1/2 Tassen Mozzarella, gerieben (ca. 100–150 g)"
+    },
+    "36": {
+      "1/2 Tasse Popcornmais": "1/2 Tasse Popcornmais (ca. 100 g)"
+    },
+    "41": {
+      "2 Tassen Graham-Cracker-Brösel": "2 Tassen Graham-Cracker-Brösel (ca. 200 g, alternativ Butterkeks- oder Vollkornkeksbrösel)",
+      "3 Tassen Mini-Marshmallows": "3 Tassen Mini-Marshmallows (ca. 150 g)"
+    },
+    "42": {
+      "1 1/2 Tassen Graham-Cracker-Krümel": "1 1/2 Tassen Graham-Cracker-Krümel (ca. 150 g, alternativ Butterkeksbrösel)",
+      "1/4 Tasse Zucker": "1/4 Tasse Zucker (ca. 50 g)",
+      "3/4 Tasse Zucker": "3/4 Tasse Zucker (ca. 150 g)",
+      "3/4 Tasse saure Sahne": "3/4 Tasse saure Sahne (ca. 180 g)",
+      "1/3 Tasse frisch gepresster Zitronensaft": "1/3 Tasse frisch gepresster Zitronensaft (ca. 80 ml)",
+      "1 Tasse frische Himbeeren": "1 Tasse frische Himbeeren (ca. 125 g)"
+    },
+    "91": {
+      "5–6 Tassen Eisbergsalat, fein geschnitten": "5–6 Tassen Eisbergsalat, fein geschnitten (ca. ½ Kopf)"
+    },
+    "108": {
+      "2 Tassen Cornflakes": "2 Tassen Cornflakes (ca. 60 g)"
+    },
+    "150": {
+      "1 Tasse Salatgurken, geschält und gewürfelt": "1 Tasse Salatgurken, geschält und gewürfelt (ca. 150 g)",
+      "1 Tasse Zwiebeln, gewürfelt": "1 Tasse Zwiebeln, gewürfelt (ca. 150 g)",
+      "1 Tasse Mayonnaise": "1 Tasse Mayonnaise (ca. 230 g)",
+      "1 Tasse Kartoffeln, gekocht und gewürfelt": "1 Tasse Kartoffeln, gekocht und gewürfelt (ca. 160 g)",
+      "1 Tasse gekochter Schinken, gewürfelt": "1 Tasse gekochter Schinken, gewürfelt (ca. 150 g)",
+      "1 Tasse gekochte Eier, gewürfelt": "1 Tasse gekochte Eier, gewürfelt (ca. 3 Eier)",
+      "1 Tasse Äpfel, geschält, entkernt und gewürfelt": "1 Tasse Äpfel, geschält, entkernt und gewürfelt (ca. 1 großer Apfel)"
+    },
+    "216": {
+      "3 Tassen gekochtes, zerkleinertes Hühnerfleisch": "3 Tassen gekochtes, zerkleinertes Hühnerfleisch (ca. 400 g)",
+      "4 Tassen Hühnerbrühe": "4 Tassen Hühnerbrühe (ca. 1 l)",
+      "1 Tasse gehackte Karotten": "1 Tasse gehackte Karotten (ca. 130 g)",
+      "1 Tasse gehackter Sellerie": "1 Tasse gehackter Sellerie (ca. 100 g)",
+      "1 Tasse Milch": "1 Tasse Milch (ca. 240 ml)",
+      "1 Tasse geriebener Cheddar-Käse": "1 Tasse geriebener Cheddar-Käse (ca. 100 g)"
+    }
+  }
+}
