@@ -1,0 +1,53 @@
+{
+  "image": "C:/Users/Seyhan ÖZMEN/OneDrive/Desktop/TOLGA-GOLDREZ/EKİM/19.10.2026/246/Berliner – klassisch gefüllt mit Erdbeermarmelade1-yatay.png",
+  "recipe": {
+    "slug": "berliner-pfannkuchen-mit-erdbeermarmelade",
+    "title": "Berliner Pfannkuchen mit Erdbeermarmelade",
+    "description": "Klassische Berliner aus Hefeteig, in Butterschmalz goldbraun ausgebacken, mit Erdbeermarmelade gefüllt und mit Puderzucker bestäubt. Ergibt 12–14 Stück – ideal für Fasching, Silvester oder die Kaffeetafel.",
+    "category": "Backen",
+    "prepTime": 40,
+    "cookTime": 20,
+    "servings": 12,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für den Hefeteig",
+      "500 g Weizenmehl (Type 405 oder 550)",
+      "21 g frische Hefe (½ Würfel)",
+      "200 ml lauwarme Milch",
+      "50 g Zucker",
+      "50 g weiche Butter",
+      "1 Ei",
+      "1 Prise Salz",
+      "1 TL Vanillezucker",
+      "Abrieb von ½ Bio-Zitrone (oder ½ Päckchen Zitronenschale)",
+      "Zum Ausbacken und Füllen",
+      "ca. 500 g Butterschmalz",
+      "ca. 200 g Erdbeermarmelade (glatt, ohne Stücke)",
+      "Puderzucker zum Bestäuben"
+    ],
+    "steps": [
+      "Das Mehl in eine große Schüssel geben und eine Mulde in die Mitte drücken. Die Hefe hineinbröseln, mit etwas lauwarmer Milch und 1 TL Zucker verrühren und etwa 15 Minuten gehen lassen, bis sich Bläschen bilden.",
+      "Restliche Milch, Zucker, Salz, Vanillezucker, Zitronenabrieb, Butter und Ei zugeben und etwa 8 Minuten zu einem glatten, geschmeidigen Teig kneten, der sich vom Schüsselrand löst.",
+      "Abdecken und an einem warmen Ort etwa 1 Stunde gehen lassen, bis sich das Volumen deutlich vergrößert hat.",
+      "Den Teig auf einer bemehlten Fläche etwa 1,5 cm dick ausrollen und Kreise von ca. 7 cm Durchmesser ausstechen. Auf ein bemehltes Tuch legen und zugedeckt weitere 15–20 Minuten gehen lassen.",
+      "Das Butterschmalz in einem Topf auf etwa 170 °C erhitzen. Die Teiglinge portionsweise mit der Oberseite nach unten hineinlegen und abgedeckt etwa 2–3 Minuten backen, dann wenden und ohne Deckel weitere 2–3 Minuten goldbraun ausbacken.",
+      "Auf Küchenpapier abtropfen und etwas abkühlen lassen.",
+      "Die Marmelade glatt rühren, in einen Spritzbeutel mit Fülltülle geben und seitlich in die Berliner spritzen. Wer es wie auf dem Foto mag, füllt von oben, sodass ein Klecks Marmelade sichtbar bleibt.",
+      "Großzügig mit Puderzucker bestäuben und am selben Tag genießen."
+    ],
+    "story": "Was in den meisten Teilen Deutschlands „Berliner“ heißt, nennen die Berliner selbst einfach „Pfannkuchen“. In Bayern und Österreich sagt man „Krapfen“, in Teilen Hessens „Kreppel“. Traditionell werden sie zu Silvester und in der Faschingszeit gebacken – als letzte üppige Mahlzeit vor der Fastenzeit. Ein bekannter Scherz zu Silvester: Einzelne Berliner werden statt mit Marmelade mit Senf gefüllt. Der helle Ring rund um die Mitte entsteht, wenn der Teig gut gegangen ist und hoch im Fett schwimmt – er gilt als Zeichen für einen gelungenen Berliner.",
+    "tips": [
+      "Die Fetttemperatur ist entscheidend: Bei zu kaltem Fett saugen sich die Berliner voll, bei zu heißem werden sie außen dunkel und bleiben innen roh. Ein Küchenthermometer hilft.",
+      "Die ersten Minuten mit Deckel backen – der Dampf lässt die Berliner aufgehen und sorgt für den typischen hellen Rand.",
+      "Glatte Marmelade ohne Fruchtstücke verwenden, damit die Fülltülle nicht verstopft.",
+      "Teigreste nicht neu ausrollen, sondern zu kleinen Kugeln formen und ebenfalls ausbacken.",
+      "Butterschmalz lässt sich nach dem Abkühlen durch ein Sieb gießen und noch einmal verwenden."
+    ],
+    "faq": [
+      { "q": "Kann ich Trockenhefe verwenden?", "a": "Ja. ½ Würfel Frischhefe entspricht einem Päckchen Trockenhefe (7 g). Diese direkt unter das Mehl mischen." },
+      { "q": "Wie lange halten sich Berliner?", "a": "Am besten schmecken sie am Backtag. Luftdicht verpackt halten sie 1–2 Tage, werden aber etwas fester." },
+      { "q": "Kann ich Berliner im Backofen backen?", "a": "Ja, bei 180 °C Ober-/Unterhitze etwa 15 Minuten. Sie werden dann eher wie weiche Brötchen; danach mit flüssiger Butter bestreichen und in Zucker wälzen." },
+      { "q": "Welche Füllung passt noch?", "a": "Pflaumenmus, Aprikosen- oder Kirschmarmelade, Vanillepudding oder Eierlikörcreme." }
+    ]
+  }
+}
