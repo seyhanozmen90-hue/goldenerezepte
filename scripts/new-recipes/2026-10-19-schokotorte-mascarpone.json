@@ -1,0 +1,61 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\19.10.2026\\243\\Schokotorte mit Mascarpone – dreifach geschichtet & schokoladig überzogen-yatay.png",
+  "recipe": {
+    "slug": "schokotorte-mit-mascarpone-creme-und-ganache",
+    "title": "Schokotorte mit Mascarpone-Creme und Ganache",
+    "description": "Drei saftige Schokoladenböden, zwei Schichten Mascarpone-Sahne-Creme und ein Überzug aus Zartbitter-Ganache: eine Schichttorte für Geburtstage und Feiertage, gebacken in einer 24-cm-Springform.",
+    "category": "Backen",
+    "prepTime": 45,
+    "cookTime": 35,
+    "servings": 12,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für den Schokoladenboden",
+      "200 g Zartbitterschokolade",
+      "150 g Butter",
+      "200 g Zucker",
+      "4 Eier",
+      "200 g Mehl",
+      "1 Päckchen Backpulver",
+      "2 EL Backkakao",
+      "Für die Mascarpone-Creme",
+      "400 g Mascarpone",
+      "250 ml Schlagsahne, gut gekühlt",
+      "40 g Puderzucker",
+      "1 Päckchen Vanillezucker",
+      "Für die Ganache",
+      "200 g Zartbitterschokolade",
+      "150 ml Schlagsahne",
+      "Zum Garnieren",
+      "1–2 EL Backkakao zum Bestäuben",
+      "Frische Minze nach Belieben"
+    ],
+    "steps": [
+      "Den Backofen auf 180 °C Ober-/Unterhitze vorheizen. Den Boden einer Springform (24 cm) mit Backpapier auslegen.",
+      "Schokolade und Butter über einem Wasserbad schmelzen und leicht abkühlen lassen.",
+      "Eier und Zucker mehrere Minuten hell und cremig aufschlagen. Die Schokoladen-Butter-Mischung unterrühren.",
+      "Mehl, Backpulver und Kakao mischen, darübersieben und vorsichtig unterheben.",
+      "Den Teig in die Form füllen und 30–35 Minuten backen (Stäbchenprobe). Vollständig auskühlen lassen, am besten einige Stunden oder über Nacht.",
+      "Den Kuchen mit einem langen Messer waagerecht in drei gleich dicke Böden schneiden.",
+      "Für die Creme die Sahne steif schlagen. Mascarpone mit Puderzucker und Vanillezucker glatt rühren und die Sahne vorsichtig unterheben.",
+      "Den ersten Boden auf eine Tortenplatte legen und die Hälfte der Creme darauf verstreichen. Den zweiten Boden auflegen, die restliche Creme verteilen und mit dem dritten Boden abschließen. 30 Minuten kalt stellen.",
+      "Für die Ganache die Sahne erhitzen, aber nicht kochen lassen, und über die gehackte Schokolade gießen. 1 Minute stehen lassen, dann glatt rühren und abkühlen lassen, bis sie dickflüssig ist.",
+      "Die Torte rundherum gleichmäßig mit der Ganache überziehen und mindestens 1 Stunde kühlen.",
+      "Vor dem Servieren mit Kakao bestäuben und nach Belieben mit Minze garnieren."
+    ],
+    "story": "Die Ganache – eine Mischung aus Schokolade und heißer Sahne – ist eine der Grundzubereitungen der Konditorei. Der Legende nach entstand sie im 19. Jahrhundert in Frankreich durch ein Missgeschick: Ein Lehrling soll heiße Sahne über Schokolade gegossen haben, und sein Meister beschimpfte ihn als „ganache“, was so viel wie „Dummkopf“ bedeutet. Belegt ist die Geschichte nicht, aber der Name ist geblieben. Je nach Verhältnis von Schokolade zu Sahne wird Ganache als Glasur, Füllung oder für Trüffelpralinen verwendet.",
+    "tips": [
+      "Den Boden am Vortag backen: Gut ausgekühlt lässt er sich viel leichter und gleichmäßiger in drei Böden schneiden.",
+      "Zum Schneiden rundherum mit einem langen Messer 1–2 cm tief einschneiden und dann Stück für Stück zur Mitte arbeiten.",
+      "Mascarpone und Sahne gut gekühlt verwenden und den Mascarpone nur kurz glatt rühren – zu langes Rühren macht die Creme flüssig.",
+      "Die Ganache erst verstreichen, wenn sie dickflüssig ist; zu warm läuft sie von der Torte.",
+      "Für eine feine Kaffeenote die Böden vor dem Füllen mit etwas kaltem Espresso beträufeln."
+    ],
+    "faq": [
+      { "q": "Kann ich die Torte am Vortag zubereiten?", "a": "Ja. Gefüllt und mit Ganache überzogen hält sie abgedeckt im Kühlschrank 2–3 Tage. Erst kurz vor dem Servieren mit Kakao bestäuben." },
+      { "q": "Was kann ich statt Mascarpone nehmen?", "a": "Doppelrahmfrischkäse funktioniert gut; die Creme wird etwas frischer und leicht säuerlich." },
+      { "q": "Kann ich die Torte einfrieren?", "a": "Ja, ohne Kakao-Deko bis zu 2 Monate. Über Nacht im Kühlschrank auftauen lassen." },
+      { "q": "Mein Boden ist beim Schneiden zerbrochen – was tun?", "a": "Die Stücke einfach wieder zusammensetzen und mit Creme bestreichen. Nach dem Kühlen hält die Torte trotzdem gut zusammen, und der Überzug verdeckt die Bruchstellen." }
+    ]
+  }
+}
