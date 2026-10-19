@@ -1,0 +1,49 @@
+{
+  "image": "C:/Users/Seyhan ÖZMEN/OneDrive/Desktop/TOLGA-GOLDREZ/EKİM/19.10.2026/247/Apfel-Mutzen – knusprig & mit saftigen Apfelstückchen-yatay.png",
+  "recipe": {
+    "slug": "apfel-mutzen-mit-apfelstueckchen-und-zimt",
+    "title": "Apfel-Mutzen mit Apfelstückchen und Zimt",
+    "description": "Kleine, frittierte Teigküchlein aus einem schnellen Rührteig mit Apfelsaft, Apfelwürfeln und Zimt – außen knusprig, innen saftig und mit Puderzucker bestäubt. Ohne Hefe, in etwa 40 Minuten fertig.",
+    "category": "Desserts",
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 6,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "250 g Weizenmehl (Type 405)",
+      "100 g Zucker",
+      "1 Päckchen Backpulver",
+      "1 Prise Salz",
+      "2 Eier",
+      "200 ml Apfelsaft",
+      "2 Äpfel (ca. 300 g), geschält und klein gewürfelt",
+      "1 TL Zimt",
+      "Außerdem",
+      "Neutrales Öl zum Frittieren (ca. 1 l)",
+      "Puderzucker zum Bestäuben"
+    ],
+    "steps": [
+      "Mehl, Zucker, Backpulver und Salz in einer großen Schüssel mischen.",
+      "Eier und Apfelsaft zugeben und mit dem Schneebesen oder Handrührgerät zu einem glatten, dickflüssigen Teig verrühren.",
+      "Die Apfelwürfel und den Zimt vorsichtig unterheben.",
+      "Das Öl in einem tiefen Topf auf 170–175 °C erhitzen. Es ist heiß genug, wenn an einem hineingehaltenen Holzlöffelstiel kleine Bläschen aufsteigen.",
+      "Mit zwei Esslöffeln walnussgroße Teigportionen ins Öl geben und portionsweise rundherum in 3–4 Minuten goldbraun ausbacken. Nicht zu viele auf einmal frittieren, damit das Öl heiß bleibt.",
+      "Mit einer Schaumkelle herausnehmen und auf Küchenpapier abtropfen lassen.",
+      "Noch warm mit Puderzucker bestäuben und frisch servieren."
+    ],
+    "story": "Mutzen sind ein traditionelles Schmalzgebäck aus dem Rheinland, wo sie vor allem in der Karnevalszeit gebacken werden. Der klassische Mutzen ist ein rautenförmiges Stück Mürbeteig, das in Fett ausgebacken und in Zucker gewälzt wird. Die runden „Mutzenmandeln“ aus Rührteig werden mit zwei Löffeln portioniert – genau wie diese Variante, bei der Apfelstücke und Apfelsaft für eine fruchtige Note sorgen. Auf vielen Weihnachtsmärkten werden ähnliche Apfelküchle frisch aus dem Fett verkauft.",
+    "tips": [
+      "Die Äpfel sehr klein würfeln (etwa 5 mm) – große Stücke garen nicht durch und machen den Teig wässrig.",
+      "Säuerliche Äpfel wie Boskoop oder Elstar geben einen schönen Kontrast zum süßen Teig.",
+      "Die Öltemperatur mit einem Thermometer prüfen: Zu kaltes Öl macht die Mutzen fettig, zu heißes lässt sie außen verbrennen, während sie innen roh bleiben.",
+      "Den ersten Mutzen probeweise durchschneiden, um zu prüfen, ob er innen gar ist.",
+      "Statt Puderzucker schmecken sie auch in Zimtzucker gewälzt."
+    ],
+    "faq": [
+      { "q": "Kann ich die Mutzen im Backofen backen?", "a": "Bedingt. Bei 200 °C etwa 15 Minuten auf Backpapier werden sie eher wie kleine Muffins, nicht knusprig wie frittiert." },
+      { "q": "Kann ich den Apfelsaft durch Milch ersetzen?", "a": "Ja, mit Milch wird der Teig milder und etwas heller. Mit Apfelsaft schmecken die Mutzen fruchtiger." },
+      { "q": "Wie lange halten sich Apfel-Mutzen?", "a": "Frisch schmecken sie am besten. Am nächsten Tag lassen sie sich kurz im Ofen bei 180 °C aufbacken, damit sie wieder knusprig werden." },
+      { "q": "Was passt dazu?", "a": "Vanillesoße, Vanilleeis oder Apfelmus." }
+    ]
+  }
+}
