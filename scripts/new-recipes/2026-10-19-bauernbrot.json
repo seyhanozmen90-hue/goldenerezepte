@@ -1,0 +1,47 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\19.10.2026\\244\\Bauernbrot – rustikal & knusprig gebacken-yatay.png",
+  "recipe": {
+    "slug": "bauernbrot-mit-roggen-und-weizenmehl-und-brotgewuerz",
+    "title": "Bauernbrot mit Roggen- und Weizenmehl und Brotgewürz",
+    "description": "Ein großes Mischbrot aus Roggen- und Weizenmehl mit Hefe und klassischem Brotgewürz aus Koriander, Fenchel und Kümmel – mit kräftiger Kruste und saftiger Krume, ohne Sauerteig gebacken.",
+    "category": "Backen",
+    "prepTime": 25,
+    "cookTime": 50,
+    "servings": 20,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "500 g Roggenmehl (Type 960 oder 997)",
+      "500 g Weizenmehl (Type 1050)",
+      "1 Würfel Frischhefe (42 g)",
+      "700 ml lauwarmes Wasser",
+      "20 g Brotgewürz (Koriander, Fenchel, Kümmel)",
+      "1 EL Salz (ca. 18 g)",
+      "Außerdem",
+      "Mehl zum Bestäuben"
+    ],
+    "steps": [
+      "Roggen- und Weizenmehl in eine große Schüssel geben und eine Mulde in die Mitte drücken. Die Hefe hineinbröseln, mit etwa 200 ml lauwarmem Wasser verrühren und 10 Minuten stehen lassen, bis sich Bläschen bilden.",
+      "Brotgewürz und Salz auf den Mehlrand streuen. Das restliche Wasser nach und nach zugeben und alles etwa 8–10 Minuten zu einem gleichmäßigen Teig kneten. Durch den Roggen bleibt der Teig weich und etwas klebrig – das ist richtig.",
+      "Abdecken und an einem warmen Ort etwa 60 Minuten gehen lassen, bis sich das Volumen deutlich vergrößert hat.",
+      "Den Teig auf eine bemehlte Fläche geben, kurz durchkneten und zu einem runden oder länglichen Laib formen. Mit Mehl bestäuben und zugedeckt weitere 25 Minuten gehen lassen.",
+      "Den Backofen auf 180 °C Ober-/Unterhitze vorheizen, ein Backblech mit Backpapier auslegen und eine ofenfeste Schale mit Wasser auf den Ofenboden stellen.",
+      "Den Laib auf das Blech setzen, mit einem scharfen Messer kreuz- oder rautenförmig einschneiden und leicht mit Wasser bestreichen.",
+      "Etwa 50 Minuten backen. Für die letzten 10–15 Minuten die Temperatur auf 200 °C erhöhen, damit die Kruste kräftig wird.",
+      "Das Brot klingt hohl, wenn man auf die Unterseite klopft. Auf einem Gitter vollständig auskühlen lassen, bevor es angeschnitten wird."
+    ],
+    "story": "Brotgewürz aus Kümmel, Fenchel und Koriander – manchmal ergänzt durch Anis – gehört in Deutschland traditionell in Brote mit Roggenanteil. Die Gewürze geben den typischen herzhaft-würzigen Geschmack und gelten seit Langem als bekömmlich. Reine Roggenbrote werden meist mit Sauerteig gebacken, weil Roggen ohne Säure eine klebrige Krume bekommt. Bei einem Mischbrot mit gleichen Teilen Roggen- und Weizenmehl gelingt die Lockerung auch allein mit Hefe – deshalb ist dieses Rezept ein guter Einstieg ins Brotbacken.",
+    "tips": [
+      "Den Teig mit leicht angefeuchteten Händen formen – Roggenteig klebt weniger an nassen Händen als an bemehlten.",
+      "Das Wasser in der Schale sorgt in den ersten Minuten für Dampf; so kann das Brot gut aufgehen und bekommt eine glänzende, knusprige Kruste.",
+      "Das Brot erst anschneiden, wenn es vollständig ausgekühlt ist – Roggenbrot gart beim Abkühlen noch nach und wird sonst klitschig.",
+      "Wer kein fertiges Brotgewürz hat, mischt je 1 TL gemahlenen Koriander, Fenchel und Kümmel.",
+      "In einem Leinenbeutel oder Brotkasten bleibt das Brot 3–4 Tage frisch."
+    ],
+    "faq": [
+      { "q": "Kann ich Trockenhefe verwenden?", "a": "Ja. Ein Würfel Frischhefe entspricht etwa 2 Päckchen Trockenhefe (14 g). Diese direkt unter das Mehl mischen." },
+      { "q": "Kann ich das Brot einfrieren?", "a": "Ja, am besten in Scheiben geschnitten. So lassen sich einzelne Scheiben direkt im Toaster auftauen." },
+      { "q": "Warum ist mein Brot innen feucht?", "a": "Meist war es nicht lange genug im Ofen oder wurde zu früh angeschnitten. Mit der Klopfprobe prüfen: Klingt die Unterseite hohl, ist es durchgebacken." },
+      { "q": "Kann ich nur Weizenmehl nehmen?", "a": "Ja, dann wird das Brot heller und luftiger. Die Wassermenge um etwa 50–100 ml reduzieren, da Weizenmehl weniger Wasser aufnimmt als Roggenmehl." }
+    ]
+  }
+}
