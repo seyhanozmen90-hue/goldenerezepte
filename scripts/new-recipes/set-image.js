@@ -5,6 +5,7 @@ const path = require("path");
 const sharp = require("sharp");
 const { createClient } = require("@supabase/supabase-js");
 const { PrismaClient } = require("@prisma/client");
+const { revalidate } = require("./revalidate");
 
 const prisma = new PrismaClient();
 const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
@@ -29,6 +30,7 @@ async function main() {
   if (error) throw error;
   const { data } = supabase.storage.from("recipe-images").getPublicUrl(fileName);
   await prisma.recipe.update({ where: { id }, data: { imageUrl: data.publicUrl } });
+  await revalidate([`/rezepte/${recipe.slug}`, "/rezepte", "/"]);
   console.log(`Görsel güncellendi (${Math.round(buffer.length / 1024)} KB): #${id} → ${data.publicUrl}`);
 }
 

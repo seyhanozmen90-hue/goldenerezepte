@@ -5,6 +5,7 @@ const path = require("path");
 const sharp = require("sharp");
 const { createClient } = require("@supabase/supabase-js");
 const { PrismaClient } = require("@prisma/client");
+const { revalidate } = require("./revalidate");
 
 const prisma = new PrismaClient();
 const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
@@ -47,6 +48,7 @@ async function main() {
     },
   });
   console.log(`Tarif eklendi: #${created.id} /rezepte/${created.slug}`);
+  await revalidate([`/rezepte/${created.slug}`, "/rezepte", "/"]);
 }
 
 main()

@@ -3,6 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 const { PrismaClient } = require("@prisma/client");
+const { revalidate } = require("./revalidate");
 
 const prisma = new PrismaClient();
 const jsonFields = ["ingredients", "steps", "tips", "faq"];
@@ -21,6 +22,7 @@ async function main() {
   for (const f of jsonFields) if (data[f]) data[f] = JSON.stringify(data[f]);
   const updated = await prisma.recipe.update({ where: { id }, data });
   console.log(`Tarif güncellendi: #${updated.id} /rezepte/${updated.slug}`);
+  await revalidate([`/rezepte/${updated.slug}`, "/rezepte", "/"]);
 }
 
 main()
