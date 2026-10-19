@@ -1,6 +1,7 @@
 // Canlı sitede verilen sayfaların önbelleğini hemen yeniler.
 // Kullanım (modül): await revalidate(["/rezepte/slug", "/rezepte", "/"])
-// Kullanım (CLI):   node --env-file=.env scripts/new-recipes/revalidate.js /rezepte/slug ...
+// Kullanım (CLI):   node --env-file=.env scripts/new-recipes/revalidate.js rezepte/slug rezepte ""
+//                   (Git Bash "/..." argümanlarını Windows yoluna çevirdiği için baştaki "/" yazılmaz)
 const SITE = "https://goldene-rezepte.com";
 
 async function revalidate(paths) {
@@ -18,4 +19,4 @@ async function revalidate(paths) {
 
 module.exports = { revalidate };
 
-if (require.main === module) revalidate(process.argv.slice(2));
+if (require.main === module) revalidate(process.argv.slice(2).map((p) => "/" + p.replace(/^\/+/, "")));
