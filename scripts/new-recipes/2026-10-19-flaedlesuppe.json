@@ -1,0 +1,54 @@
+{
+  "image": "C:\Users\SEYHAN~2\AppData\Local\Temp\claude\C--goldenerezepte\8a907d5d-5241-4585-bdef-cee4a19f5713\images\37.webp",
+  "recipe": {
+    "slug": "flaedlesuppe-mit-pfannkuchenstreifen-und-gemuese",
+    "title": "Flädlesuppe mit Pfannkuchenstreifen und Gemüse",
+    "description": "Die schwäbische Flädlesuppe: dünne Pfannkuchen, in feine Streifen geschnitten, in einer kräftigen Gemüsebrühe mit Möhre, Sellerie und Lauch. Einfach, wärmend und in etwa 45 Minuten fertig.",
+    "category": "Suppen",
+    "prepTime": 30,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für die Flädle",
+      "100 g Weizenmehl (Type 405)",
+      "125 ml Milch",
+      "2 Eier (Größe M)",
+      "1 Prise Salz",
+      "1 Prise Pfeffer",
+      "1 EL Sonnenblumenöl zum Ausbacken",
+      "Für die Suppe",
+      "1 Möhre",
+      "100 g Knollensellerie",
+      "1 Stange Lauch",
+      "1 EL Sonnenblumenöl",
+      "1,5 l kräftige Gemüsebrühe",
+      "Frisch geriebene Muskatnuss",
+      "Salz und Pfeffer",
+      "1 Bund Schnittlauch"
+    ],
+    "steps": [
+      "Für die Flädle Mehl, Milch, Eier, Salz und Pfeffer zu einem glatten Teig verrühren und 20 Minuten quellen lassen.",
+      "Eine Pfanne mit wenig Öl erhitzen und aus dem Teig 3–4 sehr dünne Pfannkuchen backen. Etwas abkühlen lassen.",
+      "Die Pfannkuchen übereinanderlegen, eng aufrollen und quer in feine Streifen schneiden.",
+      "Möhre und Sellerie schälen und in feine Streifen schneiden. Den Lauch gründlich waschen und in dünne Ringe schneiden. Den Schnittlauch in Röllchen schneiden.",
+      "Das Öl in einem großen Topf erhitzen und Möhre, Sellerie und Lauch kurz andünsten.",
+      "Mit der Brühe aufgießen, aufkochen und etwa 10 Minuten sanft köcheln lassen, bis das Gemüse weich ist. Mit Salz, Pfeffer und Muskat abschmecken.",
+      "Die Pfannkuchenstreifen in tiefe Teller verteilen, die heiße Suppe darübergießen und mit Schnittlauch bestreuen."
+    ],
+    "story": "„Flädle“ ist das schwäbische Wort für kleine, dünne Pfannkuchen. Die Flädlesuppe ist in Baden-Württemberg ein Klassiker und wird oft als Vorspeise zum Sonntagsessen oder auf Hochzeiten serviert. In Bayern und Österreich kennt man dieselbe Suppe als „Frittatensuppe“. Ursprünglich war sie ein Weg, übrig gebliebene Pfannkuchen vom Vortag zu verwerten.",
+    "tips": [
+      "Die Flädle erst in den Teller geben und die Suppe darübergießen – im Topf mitgekocht werden sie schnell weich.",
+      "Den Teig ruhig dünnflüssig lassen; je dünner die Pfannkuchen, desto feiner die Streifen.",
+      "Die Pfannkuchen lassen sich gut vorbereiten: aufgerollt und abgedeckt halten sie 2 Tage im Kühlschrank.",
+      "Für eine kräftigere Variante Rinder- oder Hühnerbrühe statt Gemüsebrühe verwenden.",
+      "Fein gehackte Petersilie im Teig gibt den Flädle eine schöne grüne Farbe."
+    ],
+    "faq": [
+      { "q": "Was ist der Unterschied zwischen Flädlesuppe und Frittatensuppe?", "a": "Es ist dieselbe Suppe. In Schwaben heißt sie Flädlesuppe, in Bayern und Österreich Frittatensuppe." },
+      { "q": "Kann ich die Flädle einfrieren?", "a": "Ja, in Streifen geschnitten bis zu 3 Monate. Gefroren direkt in die heiße Suppe geben." },
+      { "q": "Kann ich die Suppe ohne Gemüse machen?", "a": "Ja, klassisch ist sie auch nur mit klarer Brühe, Flädle und Schnittlauch." },
+      { "q": "Wie bleiben die Flädle beim Aufwärmen fest?", "a": "Suppe und Flädle getrennt aufbewahren und erst beim Servieren zusammengeben." }
+    ]
+  }
+}
