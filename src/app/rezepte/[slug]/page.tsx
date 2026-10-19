@@ -30,6 +30,30 @@ function isGroupHeading(line: string): boolean {
   return !/^\d/.test(line) && (/:$/.test(line) || /^(Für|Zum|Zur|Außerdem)\b/.test(line) || /^Optional$/i.test(line) || /^\(.*\)$/.test(line)) && line.length < 60;
 }
 
+// Kurze Zeilen ohne Satzzeichen ("Teig vorbereiten", "Backen") sind Zwischenüberschriften, keine Schritte.
+function isStepHeading(line: string): boolean {
+  return line.length < 45 && line.split(/\s+/).length <= 5 && !/[.!?]$/.test(line);
+}
+
+// Abschnitte wie "Tipp" oder "Serviertipps" am Ende sind Hinweise, keine Arbeitsschritte.
+const NOTE_HEADING = /^(unser\s+)?(tipp|tipps|hinweis|hinweise|serviertipp|serviertipps|servierempfehlung)\s*:?$/i;
+const NOTE_LINE = /^(unser\s+)?(tipp|hinweis)\s*:/i;
+
+type StepGroup = { title: string | null; steps: string[] };
+
+function structureSteps(lines: string[]): { groups: StepGroup[]; notes: string[] } {
+  const groups: StepGroup[] = [{ title: null, steps: [] }];
+  const notes: string[] = [];
+  let inNotes = false;
+  for (const line of lines) {
+    if (NOTE_HEADING.test(line)) { inNotes = true; continue; }
+    if (inNotes || NOTE_LINE.test(line)) { notes.push(line.replace(NOTE_LINE, "").trim()); continue; }
+    if (isStepHeading(line)) { groups.push({ title: line.replace(/:$/, ""), steps: [] }); continue; }
+    groups[groups.length - 1].steps.push(line);
+  }
+  return { groups: groups.filter((g) => g.steps.length > 0), notes };
+}
+
 function parseJson<T>(value: string | null): T | null {
   if (!value) return null;
   try { return JSON.parse(value) as T; } catch { return null; }
@@ -60,7 +84,9 @@ export default async function RezeptDetailPage({ params }: Props) {
   if (!recipe) notFound();
 
   const ingredients: string[] = JSON.parse(recipe.ingredients).map(cleanLine).filter(Boolean);
-  const steps: string[] = JSON.parse(recipe.steps).map(cleanLine).filter(Boolean);
+  const { groups: stepGroups, notes: stepNotes } = structureSteps(
+    JSON.parse(recipe.steps).map(cleanLine).filter(Boolean)
+  );
   const tips: string[] = parseJson<string[]>(recipe.tips) ?? [];
   const faq: { q: string; a: string }[] = parseJson<{ q: string; a: string }[]>(recipe.faq) ?? [];
 
@@ -78,6 +104,22 @@ export default async function RezeptDetailPage({ params }: Props) {
 
   const recipeUrl = `${BASE_URL}/rezepte/${slug}`;
   const stepImage = recipe.imageUrl ? [{ "@type": "ImageObject", url: recipe.imageUrl }] : undefined;
+  let stepNo = 0;
+  const howToSteps = stepGroups.map((g) => ({
+    title: g.title,
+    steps: g.steps.map((s) => {
+      stepNo += 1;
+      return {
+        "@type": "HowToStep",
+        position: stepNo,
+        name: s.split(" ").slice(0, 6).join(" ").replace(/[,.]$/, "") || `Schritt ${stepNo}`,
+        text: s,
+        url: `${recipeUrl}#schritt-${stepNo}`,
+        ...(stepImage ? { image: stepImage } : {}),
+      };
+    }),
+  }));
+  const hasSections = stepGroups.some((g) => g.title);
   const schemaOrg = {
     "@context": "https://schema.org",
     "@type": "Recipe",
@@ -89,14 +131,14 @@ export default async function RezeptDetailPage({ params }: Props) {
     recipeCuisine: "Deutsche Küche",
     keywords: `${recipe.category}, Rezept, Deutsche Küche, Hausmannskost, GoldeneRezepte`,
     recipeIngredient: ingredients.filter((ing) => !isGroupHeading(ing)),
-    recipeInstructions: steps.map((s, i) => ({
-      "@type": "HowToStep",
-      position: i + 1,
-      name: s.split(" ").slice(0, 6).join(" ").replace(/[,.]$/, "") || `Schritt ${i + 1}`,
-      text: s,
-      url: `${recipeUrl}#schritt-${i + 1}`,
-      ...(stepImage ? { image: stepImage } : {}),
-    })),
+    recipeInstructions: hasSections
+      ? howToSteps.map((g, i) => ({
+          "@type": "HowToSection",
+          name: g.title ?? "Vorbereitung",
+          position: i + 1,
+          itemListElement: g.steps,
+        }))
+      : howToSteps.flatMap((g) => g.steps),
     // Times and yield are often unset (0); omit them rather than claiming "0 Minuten".
     ...(recipe.prepTime > 0 ? { prepTime: `PT${recipe.prepTime}M` } : {}),
     ...(recipe.cookTime > 0 ? { cookTime: `PT${recipe.cookTime}M` } : {}),
@@ -154,13 +196,26 @@ export default async function RezeptDetailPage({ params }: Props) {
         </ul>
 
         <h2 className="recipe-section-title">Zubereitung</h2>
-        <ul className="steps-list">
-          {steps.map((step, i) => (
-            <li key={i} id={`schritt-${i + 1}`}>
-              <span>{step}</span>
-            </li>
-          ))}
-        </ul>
+        {howToSteps.map((g, gi) => (
+          <div key={gi}>
+            {g.title && <h3 className="steps-subtitle">{g.title}</h3>}
+            <ol className="steps-list" start={g.steps[0].position}>
+              {g.steps.map((s) => (
+                <li key={s.position} id={`schritt-${s.position}`}>
+                  <span className="step-no" aria-hidden="true">{s.position}</span>
+                  <span>{s.text}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        ))}
+
+        {stepNotes.length > 0 && (
+          <div className="steps-note">
+            <strong>Tipp</strong>
+            {stepNotes.map((n, i) => <p key={i}>{n}</p>)}
+          </div>
+        )}
 
         {recipe.story && (
           <>
