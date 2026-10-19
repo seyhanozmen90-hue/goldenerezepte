@@ -1,0 +1,56 @@
+{
+  "image": "C:\\Users\\Seyhan ÖZMEN\\OneDrive\\Desktop\\TOLGA-GOLDREZ\\EKİM\\19.10.2026\\242\\Chili con Carne – würzig & herzhaft geschmort-yatay.png",
+  "recipe": {
+    "slug": "chili-con-carne-mit-rinderhack-bohnen-und-mais",
+    "title": "Chili con Carne mit Rinderhack, Bohnen und Mais",
+    "description": "Ein klassisches Chili con Carne aus Rinderhack, Paprika, Kidneybohnen und Mais in würziger Tomatensoße – in rund 45 Minuten fertig und ideal für Familie, Gäste oder zum Vorkochen.",
+    "category": "Hauptgerichte",
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "500 g Rinderhackfleisch",
+      "1 Zwiebel",
+      "1 große Knoblauchzehe",
+      "1–2 rote Paprikaschoten (ca. 250–300 g)",
+      "2 EL Olivenöl",
+      "50 g Tomatenmark",
+      "1–2 TL Paprikapulver edelsüß",
+      "800 g passierte Tomaten",
+      "1 Dose Kidneybohnen (Abtropfgewicht ca. 250 g)",
+      "1 Dose Mais (Abtropfgewicht ca. 140 g)",
+      "¼ TL Cayennepfeffer (oder nach Geschmack mehr)",
+      "1 Prise Zucker",
+      "Salz",
+      "Zum Servieren",
+      "Crème fraîche",
+      "Tabasco",
+      "Frische Petersilie oder Koriander"
+    ],
+    "steps": [
+      "Zwiebel und Knoblauch schälen und fein würfeln. Die Paprika waschen, entkernen und klein würfeln. Bohnen und Mais in einem Sieb abspülen und abtropfen lassen.",
+      "Das Öl in einem großen Topf erhitzen und Zwiebel und Knoblauch bei mittlerer Hitze glasig dünsten.",
+      "Das Hackfleisch zugeben und bei hoher Hitze krümelig braten, bis es gut gebräunt ist. Mit einer kräftigen Prise Salz würzen.",
+      "Paprikapulver und Tomatenmark einrühren und 1–2 Minuten mitrösten, damit sich Röstaromen bilden.",
+      "Die Paprikawürfel zugeben und einige Minuten mitbraten.",
+      "Passierte Tomaten, Bohnen und Mais einrühren. Mit Cayennepfeffer, Salz und einer Prise Zucker würzen.",
+      "Mit leicht aufgelegtem Deckel bei mittlerer Hitze 20–25 Minuten köcheln lassen, bis die Soße etwas eindickt. Gelegentlich umrühren.",
+      "Abschmecken, in Schalen füllen und mit einem Klecks Crème fraîche und frischen Kräutern servieren. Tabasco zum Nachschärfen dazustellen."
+    ],
+    "story": "Chili con Carne – spanisch für „Chili mit Fleisch“ – stammt aus dem Südwesten der USA. Bekannt wurde es Ende des 19. Jahrhunderts in San Antonio, Texas, wo die sogenannten „Chili Queens“ es an Ständen auf öffentlichen Plätzen verkauften. In Texas ist es bis heute das offizielle Staatsgericht, und viele Texaner kochen es traditionell ganz ohne Bohnen. Die europäische Variante mit Kidneybohnen, Mais und Paprika ist milder und wird gern als großer Topf für Gäste gekocht.",
+    "tips": [
+      "Das Hackfleisch in einem großen Topf bei hoher Hitze braten und nicht zu oft rühren – so bräunt es, statt im eigenen Saft zu garen.",
+      "Für ein klassischeres Aroma 1 TL gemahlenen Kreuzkümmel mit dem Paprikapulver anrösten.",
+      "Chili schmeckt aufgewärmt am nächsten Tag noch besser, weil die Gewürze durchziehen.",
+      "Die Schärfe vorsichtig dosieren – nachschärfen geht mit Tabasco am Tisch jederzeit.",
+      "Dazu passen Reis, Baguette, Tortilla-Chips oder eine Ofenkartoffel."
+    ],
+    "faq": [
+      { "q": "Kann ich Chili con Carne einfrieren?", "a": "Ja, portionsweise eingefroren hält es etwa 3 Monate. Langsam im Topf auftauen und bei Bedarf einen Schuss Wasser zugeben." },
+      { "q": "Kann ich gemischtes Hackfleisch nehmen?", "a": "Ja, gemischtes Hack funktioniert genauso. Rinderhack schmeckt etwas kräftiger und ist klassisch." },
+      { "q": "Wie mache ich das Chili vegetarisch?", "a": "Das Hackfleisch durch eine zweite Dose Bohnen, rote Linsen oder Sojagranulat ersetzen und mit Gemüsebrühe etwas verlängern." },
+      { "q": "Wie scharf ist dieses Chili?", "a": "Mit ¼ TL Cayennepfeffer ist es mild bis mittelscharf und auch für Kinder meist gut geeignet. Wer es schärfer mag, nimmt mehr Cayenne oder eine frische Chilischote." }
+    ]
+  }
+}
