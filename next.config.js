@@ -39,6 +39,12 @@ const nextConfig = {
         destination: "/rezepte/hackfleisch-pizzarolle-aus-dem-ofen",
         permanent: true,
       },
+      // Slug belonged to a different recipe; the page is the ice-cream sandwiches.
+      {
+        source: "/rezepte/zitronen-baiser-cannoli",
+        destination: "/rezepte/erdbeer-kaesekuchen-eiscreme-sandwiches",
+        permanent: true,
+      },
       // Slug was accidentally generated from the "Zutaten" heading.
       {
         source: "/rezepte/zutaten",
