@@ -111,20 +111,36 @@ export default function Datenschutz() {
             du den Link anklickst und Facebook besuchst.
           </p>
 
-          <h2>8. Kontakt per E-Mail</h2>
+          <h2>8. Affiliate-Links (Awin)</h2>
+          <p>
+            Einige Rezepte enthalten als „Anzeige“ gekennzeichnete Affiliate-Links zu Online-Shops. Diese
+            Links laufen über das Partnernetzwerk Awin AG, Eichhornstraße 3, 10785 Berlin. Auf dieser
+            Website selbst werden dafür keine Cookies gesetzt und keine Daten erhoben. Erst wenn du einen
+            solchen Link anklickst, setzt Awin bzw. der jeweilige Shop ein Tracking-Cookie, um einen
+            späteren Kauf meiner Website zuordnen zu können; dabei werden u. a. Zeitpunkt des Klicks, eine
+            Klick-ID und die verweisende Seite verarbeitet. Kaufst du darüber ein, erhalte ich eine kleine
+            Provision – für dich ändert sich der Preis nicht. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f
+            DSGVO bzw., soweit Cookies gesetzt werden, deine Einwilligung gegenüber Awin bzw. dem Shop.
+            Weitere Informationen findest du in der Datenschutzerklärung von Awin auf{" "}
+            <a href="https://www.awin.com/de" target="_blank" rel="noopener noreferrer" style={linkStyle}>
+              www.awin.com
+            </a>.
+          </p>
+
+          <h2>9. Kontakt per E-Mail</h2>
           <p>
             Wenn du mir eine E-Mail schreibst, verwende ich deine Angaben ausschließlich, um deine Anfrage
             zu beantworten (Art. 6 Abs. 1 lit. f DSGVO). Die Nachricht wird gelöscht, sobald sie nicht mehr
             benötigt wird.
           </p>
 
-          <h2>9. Cookies</h2>
+          <h2>10. Cookies</h2>
           <p>
             Diese Website verwendet technisch notwendige Session-Cookies für den Adminbereich sowie, nach
             deiner Einwilligung, Cookies von Google Analytics und Google AdSense (siehe Abschnitte 4–6).
           </p>
 
-          <h2>10. Deine Rechte</h2>
+          <h2>11. Deine Rechte</h2>
           <p>Du hast jederzeit das Recht auf:</p>
           <ul>
             <li>Auskunft über deine gespeicherten Daten (Art. 15 DSGVO)</li>
@@ -139,14 +155,14 @@ export default function Datenschutz() {
             Schreib mir dazu einfach eine E-Mail an goldene.rezepte@gmail.com.
           </p>
 
-          <h2>11. Beschwerderecht</h2>
+          <h2>12. Beschwerderecht</h2>
           <p>
             Du hast das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, insbesondere in
             dem Land bzw. Bundesland deines Wohnsitzes.
           </p>
 
-          <h2>12. Aktualität dieser Datenschutzerklärung</h2>
-          <p>Stand: Oktober 2026</p>
+          <h2>13. Aktualität dieser Datenschutzerklärung</h2>
+          <p>Stand: November 2026</p>
         </div>
 
         <Link href="/" className="btn btn-outline" style={{ marginTop: "2rem" }}>

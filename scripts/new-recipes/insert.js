@@ -44,6 +44,7 @@ async function main() {
       steps: JSON.stringify(recipe.steps),
       tips: JSON.stringify(recipe.tips),
       faq: JSON.stringify(recipe.faq),
+      ...(recipe.products ? { products: JSON.stringify(recipe.products) } : {}),
       published: true,
     },
   });

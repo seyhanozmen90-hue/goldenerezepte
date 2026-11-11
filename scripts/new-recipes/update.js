@@ -6,7 +6,7 @@ const { PrismaClient } = require("@prisma/client");
 const { revalidate } = require("./revalidate");
 
 const prisma = new PrismaClient();
-const jsonFields = ["ingredients", "steps", "tips", "faq"];
+const jsonFields = ["ingredients", "steps", "tips", "faq", "products"];
 
 async function main() {
   const file = process.argv[2];

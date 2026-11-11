@@ -988,3 +988,31 @@ a.cat-btn { display: inline-block; text-decoration: none; }
 }
 .steps-note strong { color: var(--gold); display: block; margin-bottom: 0.35rem; }
 .steps-note p + p { margin-top: 0.35rem; }
+
+.product-box {
+  border: 1px solid var(--border);
+  background: var(--bg2);
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  margin-bottom: 2.5rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+.product-box-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 0.5rem; }
+.product-box-head strong { color: var(--gold); }
+.product-box-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.05rem 0.4rem;
+}
+.product-box ul { list-style: none; margin: 0; padding: 0; }
+.product-box li + li { margin-top: 0.75rem; }
+.product-box li a { color: var(--gold); font-weight: 600; text-decoration: underline; }
+.product-box-shop { color: var(--muted); }
+.product-box li p { margin: 0.2rem 0 0; color: var(--muted); }
+.product-box-disclaimer { margin: 0.9rem 0 0; font-size: 0.78rem; color: var(--muted); }

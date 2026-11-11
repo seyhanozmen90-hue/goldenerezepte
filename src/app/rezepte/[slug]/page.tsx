@@ -89,6 +89,9 @@ export default async function RezeptDetailPage({ params }: Props) {
   );
   const tips: string[] = parseJson<string[]>(recipe.tips) ?? [];
   const faq: { q: string; a: string }[] = parseJson<{ q: string; a: string }[]>(recipe.faq) ?? [];
+  // Affiliate-Empfehlungen (Awin), als „Anzeige“ gekennzeichnet.
+  const products: { name: string; shop: string; url: string; note: string }[] =
+    parseJson<{ name: string; shop: string; url: string; note: string }[]>(recipe.products) ?? [];
 
   // Die nächsten drei Rezepte derselben Kategorie (zyklisch nach ID), damit jedes Rezept
   // von anderen Rezeptseiten verlinkt wird – nicht immer nur die meistgelesenen.
@@ -215,6 +218,28 @@ export default async function RezeptDetailPage({ params }: Props) {
             <strong>Tipp</strong>
             {stepNotes.map((n, i) => <p key={i}>{n}</p>)}
           </div>
+        )}
+
+        {products.length > 0 && (
+          <aside className="product-box" aria-label="Empfohlene Küchenhelfer (Anzeige)">
+            <div className="product-box-head">
+              <strong>Empfohlene Küchenhelfer</strong>
+              <span className="product-box-label">Anzeige</span>
+            </div>
+            <ul>
+              {products.map((p, i) => (
+                <li key={i}>
+                  <a href={p.url} target="_blank" rel="sponsored nofollow noopener">{p.name}*</a>
+                  <span className="product-box-shop"> bei {p.shop}</span>
+                  {p.note && <p>{p.note}</p>}
+                </li>
+              ))}
+            </ul>
+            <p className="product-box-disclaimer">
+              *Affiliate-Link: Kaufst du über diesen Link ein, erhalte ich eine kleine Provision. Für dich
+              ändert sich der Preis nicht.
+            </p>
+          </aside>
         )}
 
         {recipe.story && (
