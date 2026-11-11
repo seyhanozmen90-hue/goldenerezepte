@@ -45,6 +45,12 @@ const nextConfig = {
         destination: "/rezepte/erdbeer-kaesekuchen-eiscreme-sandwiches",
         permanent: true,
       },
+      // White caramel fudge merged into the chocolate fudge recipe as a variant.
+      {
+        source: "/rezepte/weisse-schokoladen-karamell-fudge-cremig-zartschmelzend-und-ohne-backen",
+        destination: "/rezepte/schokoladen-fudge-wie-vom-confiserie-einfach-selbst-gemacht",
+        permanent: true,
+      },
       // Truncated links Google found (e.g. cut off when shared); each prefix matches exactly one recipe.
       {
         source: "/rezepte/zartes-",
