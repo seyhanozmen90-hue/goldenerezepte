@@ -45,6 +45,17 @@ const nextConfig = {
         destination: "/rezepte/erdbeer-kaesekuchen-eiscreme-sandwiches",
         permanent: true,
       },
+      // Truncated links Google found (e.g. cut off when shared); each prefix matches exactly one recipe.
+      {
+        source: "/rezepte/zartes-",
+        destination: "/rezepte/zartes-rindergulasch-aus-dem-slow-cooker-butterweich-und-herrlich-wuerzig",
+        permanent: true,
+      },
+      {
+        source: "/rezepte/friss-",
+        destination: "/rezepte/friss-dich-dumm-suppe-mit-hackfleisch-cremig-herzhaft-und-richtig-saettigend",
+        permanent: true,
+      },
       // Slug was accidentally generated from the "Zutaten" heading.
       {
         source: "/rezepte/zutaten",
