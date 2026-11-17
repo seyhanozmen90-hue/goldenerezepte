@@ -89,16 +89,22 @@ export default async function RezeptePage({ searchParams }: { searchParams: Sear
               ) : (
                 <span className="pagination-btn disabled">← Zurück</span>
               )}
-              {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-                <Link
-                  key={p}
-                  href={href(category, p)}
-                  className={`pagination-btn${p === page ? " active" : ""}`}
-                  aria-current={p === page ? "page" : undefined}
-                >
-                  {p}
-                </Link>
-              ))}
+              {Array.from({ length: totalPages }, (_, i) => i + 1)
+                .filter((p) => p === 1 || p === totalPages || Math.abs(p - page) <= 1)
+                .flatMap((p, i, arr) => {
+                  const gap = i > 0 && p - arr[i - 1] > 1;
+                  const link = (
+                    <Link
+                      key={p}
+                      href={href(category, p)}
+                      className={`pagination-btn${p === page ? " active" : ""}`}
+                      aria-current={p === page ? "page" : undefined}
+                    >
+                      {p}
+                    </Link>
+                  );
+                  return gap ? [<span key={`gap-${p}`} className="pagination-gap">…</span>, link] : [link];
+                })}
               {page < totalPages ? (
                 <Link className="pagination-btn" href={href(category, page + 1)} rel="next">Weiter →</Link>
               ) : (

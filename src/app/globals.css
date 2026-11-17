@@ -953,6 +953,10 @@ footer {
 .footer-bottom button:hover { color: var(--gold) !important; }
 a.cat-btn { display: inline-block; text-decoration: none; }
 .pagination-btn.disabled { opacity: 0.35; cursor: not-allowed; }
+.pagination-gap { color: var(--muted); font-family: system-ui, sans-serif; padding: 0 0.15rem; }
+.pagination { gap: 0.4rem; margin-bottom: 0.5rem; }
+.pagination-btn { padding: 0 0.75rem; white-space: nowrap; }
+@media (max-width: 480px) { .pagination-btn { min-width: 34px; height: 34px; padding: 0 0.55rem; } }
 
 /* Nummerierte Arbeitsschritte, Zwischenüberschriften und Tipp-Box */
 .steps-list li { display: flex; gap: 0.75rem; align-items: flex-start; }
