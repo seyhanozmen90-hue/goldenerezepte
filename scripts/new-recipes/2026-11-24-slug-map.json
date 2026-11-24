@@ -1,0 +1,366 @@
+{
+ "dieser-nutella-schokokuchen-ist-unwiderstehlich-saftig-cremig-voller-schokolade": {
+  "id": 4,
+  "to": "nutella-schokokuchen-mit-vanillecreme"
+ },
+ "diese-zitronen-baiser-cannoli-sind-ein-highlight-knusprig-cremig-herrlich-frisch": {
+  "id": 10,
+  "to": "zitronen-baiser-cannoli-mit-zitronencreme"
+ },
+ "diese-schokoladen-baiser-torte-ist-ein-traum-cremig-schokoladig-himmlisch-luftig": {
+  "id": 12,
+  "to": "schokoladen-baiser-torte"
+ },
+ "diese-knusprigen-rindfleisch-empanadas-sind-unwiderstehlich-herzhaft-wuerzig-goldbraun-gebacken": {
+  "id": 13,
+  "to": "rindfleisch-empanadas-aus-dem-ofen"
+ },
+ "diese-kartoffel-curry-paeckchen-sind-ein-genuss-wuerzig-knusprig-goldbraun-gebacken": {
+  "id": 14,
+  "to": "kartoffel-curry-paeckchen-aus-muerbeteig"
+ },
+ "diese-mini-pizzen-sind-ein-hit-knusprig-kaesig-einfach-gemacht": {
+  "id": 19,
+  "to": "mini-pizzen-fuer-partys-und-kindergeburtstage"
+ },
+ "dieser-himbeer-split-kuchen-ohne-backen-ist-himmlisch-cremig-fruchtig-herrlich-erfrischend": {
+  "id": 22,
+  "to": "himbeer-split-kuchen-ohne-backen"
+ },
+ "dieser-quark-puddingkuchen-ist-ein-klassiker-cremig-luftig-in-nur-10-minuten-vorbereitet": {
+  "id": 23,
+  "to": "quark-puddingkuchen-mit-baiserhaube"
+ },
+ "dieser-vanillecreme-kuchen-ohne-backen-ist-ein-traum-cremig-zart-herrlich-erfrischend": {
+  "id": 25,
+  "to": "vanillecreme-kuchen-ohne-backen-mit-sahnehaube"
+ },
+ "diese-erdbeerwellen-mit-pudding-sahne-creme-sind-ein-highlight-fruchtig-cremig-herrlich-schokoladig": {
+  "id": 26,
+  "to": "erdbeerwellen-mit-pudding-sahne-creme"
+ },
+ "kokos-pralinen-nur-3-zutaten-in-10-minuten-fertig-absolut-suechtig-machend": {
+  "id": 30,
+  "to": "kokos-pralinen-aus-drei-zutaten"
+ },
+ "bananen-zimt-schnecken-aus-blaetterteig-suess-saftig-einfach-unwiderstehlich": {
+  "id": 31,
+  "to": "bananen-zimt-schnecken-aus-blaetterteig"
+ },
+ "diese-kokos-pfirsich-rolle-ist-ein-highlight-luftig-cremig-herrlich-fruchtig": {
+  "id": 32,
+  "to": "kokos-pfirsich-biskuitrolle"
+ },
+ "dieses-rote-gruetze-dessert-schmilzt-auf-der-zunge": {
+  "id": 33,
+  "to": "rote-gruetze-mit-vanillesauce"
+ },
+ "dieses-jaegerschnitzel-schmeckt-wie-im-besten-gasthaus-knusprig-saftig-mit-cremiger-champignonsosse": {
+  "id": 34,
+  "to": "jaegerschnitzel-mit-cremiger-champignonsosse"
+ },
+ "diese-frikadellen-schmecken-wie-bei-oma-aussen-knusprig-innen-wunderbar-saftig": {
+  "id": 35,
+  "to": "klassische-frikadellen-aus-gemischtem-hack"
+ },
+ "dieses-hausgemachte-popcorn-ist-der-perfekte-snack-knusprig-frisch-in-wenigen-minuten-fertig": {
+  "id": 36,
+  "to": "hausgemachtes-popcorn-aus-dem-topf"
+ },
+ "dieser-zitronenkuchen-begeistert-mit-jedem-bissen-cremig-frisch-unwiderstehlich": {
+  "id": 37,
+  "to": "zitronenkuchen-mit-kondensmilch-und-keksboden"
+ },
+ "diese-cremige-tortellini-suppe-will-jeder-ein-zweites-mal-herzhaft-wuerzig-unglaublich-lecker": {
+  "id": 38,
+  "to": "tortellini-suppe-mit-salsiccia-und-tomaten"
+ },
+ "diese-zimtschnecken-mit-frischkaese-frosting-schmecken-besser-als-vom-cinnabon": {
+  "id": 40,
+  "to": "zimtschnecken-mit-frischkaese-frosting"
+ },
+ "diese-s-mores-riegel-machen-suechtig-schokoladig-knusprig-herrlich-klebrig": {
+  "id": 41,
+  "to": "s-mores-riegel-mit-keksboden"
+ },
+ "dieser-zitronen-himbeer-kaesekuchen-bringt-alle-zum-schwaermen-cremig-fruchtig-herrlich-erfrischend": {
+  "id": 42,
+  "to": "zitronen-himbeer-kaesekuchen"
+ },
+ "diese-creamy-lemon-bars-schmecken-wie-aus-der-konditorei-herrlich-zitronig-cremig-unwiderstehlich": {
+  "id": 43,
+  "to": "lemon-bars-mit-muerbeteigboden"
+ },
+ "dieses-paprika-zucchini-sahne-haehnchen-macht-suechtig-cremig-saftig-voller-geschmack": {
+  "id": 44,
+  "to": "paprika-zucchini-haehnchen-in-sahnesosse"
+ },
+ "diese-vanillekekse-mit-marmelade-werden-immer-als-erstes-vernascht-buttrig-zart-herrlich-fruchtig": {
+  "id": 45,
+  "to": "vanillekekse-mit-marmelade"
+ },
+ "dieser-3-zutaten-pizzaboden-aus-huettenkaese-ueberrascht-einfach-jeden": {
+  "id": 46,
+  "to": "pizzaboden-aus-huettenkaese-mit-nur-3-zutaten"
+ },
+ "dieses-brot-ist-in-5-minuten-vorbereitet-knusprig-fluffig-unglaublich-gut": {
+  "id": 49,
+  "to": "einfaches-brot-aus-der-springform"
+ },
+ "omas-quarkkuchen-in-5-minuten-vorbereitet-ultracremig-leicht-einfach-genial": {
+  "id": 50,
+  "to": "schneller-quarkkuchen"
+ },
+ "diese-milch-schnitten-sind-besser-als-gekauft-cremig-weich-einfach-genial": {
+  "id": 51,
+  "to": "milch-schnitten-selbst-gemacht"
+ },
+ "baileys-kirsch-creme-cremig-fruchtig-ein-echter-desserttraum": {
+  "id": 53,
+  "to": "baileys-kirsch-schichtdessert-mit-mascarpone"
+ },
+ "dieses-philly-cheesesteak-sandwich-mit-cremiger-cheddar-sosse-schmeckt-besser-als-im-restaurant": {
+  "id": 55,
+  "to": "philly-cheesesteak-sandwich-mit-cremiger-cheddar-sosse"
+ },
+ "so-hast-du-schnitzel-noch-nie-gegessen-einfach-genial": {
+  "id": 63,
+  "to": "ueberbackene-schnitzel-mit-champignons-und-porree"
+ },
+ "schneewittchens-zauber-cremiges-eierlikoer-dessert-mit-luftig-geschlagener-sahne-in-nur-wenigen-minuten": {
+  "id": 64,
+  "to": "schneewittchen-dessert-mit-eierlikoer-und-sahne"
+ },
+ "erdbeertraum-ohne-backen-cremiger-kuehlschrankkuchen-mit-frischen-erdbeeren-und-knusprigem-keksboden": {
+  "id": 66,
+  "to": "erdbeer-kuehlschrankkuchen-ohne-backen-mit-keksboden"
+ },
+ "erdbeer-joghurt-dessert-cremig-fruchtig-und-in-wenigen-minuten-zubereitet": {
+  "id": 69,
+  "to": "erdbeer-joghurt-dessert"
+ },
+ "cremiger-thunfisch-gurkensalat-frisch-proteinreich-und-in-wenigen-minuten-zubereitet": {
+  "id": 71,
+  "to": "thunfisch-gurkensalat"
+ },
+ "schneekuchen-mit-vanillecreme-locker-cremig-und-himmlisch-lecker": {
+  "id": 82,
+  "to": "schneekuchen-mit-vanillecreme"
+ },
+ "knusprige-hackfleisch-pasteten-mit-kaese-goldbraun-herzhaft-und-unglaublich-lecker": {
+  "id": 89,
+  "to": "hackfleisch-pasteten-mit-kaese"
+ },
+ "biscoff-bananenbrot-mit-schokostueckchen-saftig-aromatisch-und-unglaublich-lecker": {
+  "id": 90,
+  "to": "biscoff-bananenbrot-mit-schokostueckchen"
+ },
+ "zarte-kokos-sahne-kipferl-muerbe-buttrig-und-einfach-himmlisch": {
+  "id": 93,
+  "to": "kokos-sahne-kipferl"
+ },
+ "cremiger-zucchini-auflauf-mit-schinken-und-mozzarella-herzhaft-kaesig-und-unglaublich-cremig": {
+  "id": 99,
+  "to": "zucchini-auflauf-mit-schinken-und-mozzarella"
+ },
+ "schokoladiger-saftkuchen-mit-knusprigem-schoko-topping-unglaublich-saftig-und-unwiderstehlich": {
+  "id": 108,
+  "to": "schokoladiger-saftkuchen-mit-knusprigem-schoko-topping"
+ },
+ "maulwurfkuchen-vom-blech-unglaublich-saftig-und-herrlich-cremig": {
+  "id": 109,
+  "to": "maulwurfkuchen-vom-blech"
+ },
+ "kreppizza-aus-dem-ofen-schnell-knusprig-und-unglaublich-lecker": {
+  "id": 110,
+  "to": "kreppizza-aus-dem-ofen"
+ },
+ "zitronen-plaetzchen-mit-weisser-schokolade-herrlich-saftig-und-unwiderstehlich-cremig": {
+  "id": 112,
+  "to": "zitronen-plaetzchen-mit-weisser-schokolade"
+ },
+ "knuspriger-blaetterteigstrudel-mit-schinken-und-kaese-schnell-einfach-und-unglaublich-lecker": {
+  "id": 117,
+  "to": "blaetterteigstrudel-mit-schinken-und-kaese"
+ },
+ "ueberbackene-schweinemedaillons-auf-toast-mit-champignon-rahm-herzhaft-und-unwiderstehlich-lecker": {
+  "id": 118,
+  "to": "ueberbackene-schweinemedaillons-auf-toast-mit-champignon-rahm"
+ },
+ "fluffige-protein-pfannkuchen-in-nur-10-minuten-fertig": {
+  "id": 119,
+  "to": "protein-pfannkuchen-mit-quark"
+ },
+ "cremige-thunfisch-spaghetti-mit-knoblauch-schnell-aromatisch-und-unglaublich-lecker": {
+  "id": 120,
+  "to": "thunfisch-spaghetti-mit-knoblauch-und-sahne"
+ },
+ "knusprige-blaetterteig-roellchen-mit-kaese-und-speck-einfach-herzhaft-und-unwiderstehlich": {
+  "id": 122,
+  "to": "blaetterteig-roellchen-mit-kaese-und-speck"
+ },
+ "zimtschnecken-kaesekuchen-unglaublich-cremig-mit-knusprigem-zimt-topping": {
+  "id": 125,
+  "to": "zimtschnecken-kaesekuchen-mit-knusprigem-zimt-topping"
+ },
+ "mexikanischer-kaese-dip-extra-cremig-wuerzig-und-in-wenigen-minuten-fertig": {
+  "id": 133,
+  "to": "mexikanischer-kaese-dip"
+ },
+ "knuspriger-cracker-salat-mit-ei-und-tomaten-in-10-minuten-fertig": {
+  "id": 135,
+  "to": "cracker-salat-mit-ei-und-tomaten"
+ },
+ "cremige-zitronenlimonade-mit-vanilleeis-erfrischend-und-in-5-minuten-fertig": {
+  "id": 137,
+  "to": "zitronenlimonade-mit-vanilleeis"
+ },
+ "eier-in-cremiger-senfsauce-klassisch-einfach-und-in-20-minuten-fertig": {
+  "id": 140,
+  "to": "eier-in-senfsauce"
+ },
+ "gebackene-bananen-im-knusprigen-teigmantel-schnell-suess-und-in-10-minuten-fertig": {
+  "id": 142,
+  "to": "gebackene-bananen-im-teigmantel"
+ },
+ "diese-gebratenen-nudeln-mit-haehnchen-schmecken-besser-als-vom-asia-imbiss": {
+  "id": 149,
+  "to": "gebratene-nudeln-mit-haehnchen-nach-asia-art"
+ },
+ "dieser-7-tassen-salat-hat-absoluten-suchtfaktor-besser-geht-s-nicht": {
+  "id": 150,
+  "to": "7-tassen-salat-geschichteter-partysalat"
+ },
+ "diese-pizzasuppe-ist-so-gut-dass-garantiert-nichts-uebrig-bleibt": {
+  "id": 151,
+  "to": "pizzasuppe-mit-hackfleisch-und-gemuese"
+ },
+ "dieses-faule-knoblauchbrot-gelingt-immer-aussen-knusprig-innen-herrlich-weich": {
+  "id": 152,
+  "to": "faules-knoblauchbrot-ohne-kneten"
+ },
+ "dieser-paprika-gouda-salat-steht-in-15-minuten-auf-dem-tisch-cremig-herzhaft": {
+  "id": 153,
+  "to": "paprika-gouda-salat-mit-fleischwurst"
+ },
+ "diese-schnellen-pizza-baellchen-haben-garantierten-suchtfaktor-aussen-goldbraun-innen-saftig": {
+  "id": 154,
+  "to": "pizza-baellchen-mit-quark-oel-teig-schinken-und-kaese"
+ },
+ "diese-quark-pfannkuchen-ohne-mehl-sind-in-5-minuten-fertig-leicht-saettigend": {
+  "id": 155,
+  "to": "quark-pfannkuchen-mit-puddingpulver-ohne-mehl"
+ },
+ "dieser-gefuellte-blaetterteigstrudel-ist-in-10-minuten-vorbereitet-herzhaft-unwiderstehlich": {
+  "id": 156,
+  "to": "blaetterteigstrudel-mit-kraeuterfrischkaese"
+ },
+ "dieser-raeuberbraten-ist-so-zart-dass-er-auf-der-zunge-zergeht": {
+  "id": 157,
+  "to": "raeuberbraten-mit-senf-ketchup-kruste-und-rahmsosse"
+ },
+ "blaubeerkuchen-vom-blech-cremig-fruchtig-einfach-unwiderstehlich": {
+  "id": 158,
+  "to": "blaubeerkuchen-vom-blech-mit-sahnehaube"
+ },
+ "dieser-kokos-schoko-kuchen-macht-suechtig-saftig-schokoladig-exotisch-gut": {
+  "id": 161,
+  "to": "kokos-schoko-kuchen"
+ },
+ "dieser-ofenlachs-macht-alle-verrueckt-saftig-voller-geschmack": {
+  "id": 162,
+  "to": "ofenlachs-mit-gemuese-und-honig-senf-dressing"
+ },
+ "dieses-pfannen-rezept-macht-alle-verrueckt-knusprig-einfach-genial": {
+  "id": 163,
+  "to": "bratkartoffeln-mit-leberkaese-und-spiegelei-aus-der-pfanne"
+ },
+ "dieser-erdbeer-gurkensalat-ueberrascht-alle-frisch-leicht-voller-geschmack": {
+  "id": 164,
+  "to": "erdbeer-gurkensalat-mit-feta-und-minze"
+ },
+ "diese-hackfleisch-gemuese-pfanne-lieben-alle-schnell-wuerzig-unglaublich-lecker": {
+  "id": 166,
+  "to": "hackfleisch-gemuese-pfanne"
+ },
+ "dieser-nusszopf-sieht-aus-wie-vom-baecker-fluffig-nussig-mit-feinem-zuckerguss": {
+  "id": 169,
+  "to": "nusszopf-mit-zuckerguss"
+ },
+ "dieser-kuchen-macht-suechtig-knusprig-cremig-einfach-der-beste": {
+  "id": 170,
+  "to": "baiserkuchen-mit-mandeln-und-sahnefuellung"
+ },
+ "dieses-trilece-sieht-aus-wie-aus-der-konditorei-ultra-saftig-karamellig-perfekt-gemustert": {
+  "id": 171,
+  "to": "trilece-milchkuchen-mit-karamellschicht"
+ },
+ "diese-maulwurf-muffins-sind-der-star-auf-jedem-tisch-fluffig-cremig-schokoladig": {
+  "id": 172,
+  "to": "maulwurf-muffins"
+ },
+ "dieses-knoblauchbutter-haehnchen-mit-parmesan-pasta-macht-alle-verrueckt-cremig-saftig-wie-im-restaurant": {
+  "id": 173,
+  "to": "knoblauchbutter-haehnchen-mit-parmesan-pasta"
+ },
+ "dieser-gyros-auflauf-ist-der-wahnsinn-cremig-wuerzig-perfekt-ueberbacken": {
+  "id": 174,
+  "to": "gyros-auflauf-mit-kartoffeln"
+ },
+ "dieses-butter-chicken-mit-knoblauchsauce-macht-suechtig-cremig-wuerzig-perfekt-mit-pommes": {
+  "id": 175,
+  "to": "butter-chicken-mit-knoblauchsauce-und-pommes"
+ },
+ "diese-kartoffelknoedel-gelingen-immer-weich-locker-einfach-gemacht": {
+  "id": 176,
+  "to": "kartoffelknoedel-aus-gekochten-kartoffeln"
+ },
+ "diese-blaetterteig-schinken-kaese-haeppchen-sind-sofort-weg-knusprig-kaesig-perfekt-fuer-gaeste": {
+  "id": 177,
+  "to": "blaetterteig-schinken-kaese-haeppchen-fuer-gaeste"
+ },
+ "diese-berliner-schrippen-sind-wie-vom-baecker-knusprig-luftig-einfach-genial": {
+  "id": 178,
+  "to": "berliner-schrippen"
+ },
+ "dieses-familiengericht-aus-dem-ofen-ist-sofort-weg-cremig-saftig-perfekt-ueberbacken": {
+  "id": 179,
+  "to": "kartoffel-hackfleisch-auflauf-mit-kaesekruste"
+ },
+ "selterskuchen-vom-blech-unfassbar-locker-saftig-immer-wieder-gebacken": {
+  "id": 180,
+  "to": "selterskuchen-vom-blech"
+ },
+ "mini-fruchttoertchen-knusprig-cremig-einfach-unwiderstehlich": {
+  "id": 181,
+  "to": "mini-fruchttoertchen-mit-vanillecreme"
+ },
+ "schokokuchen-in-kurzer-zeit-fertig-unglaublich-saftig": {
+  "id": 183,
+  "to": "schneller-schokokuchen-mit-sahne"
+ },
+ "cremige-tortellini-mit-haehnchen-schmand-in-nur-10-minuten-fertig": {
+  "id": 187,
+  "to": "tortellini-mit-haehnchen-paprika-und-schmand"
+ },
+ "ein-geschmack-der-suechtig-macht-cremiger-kartoffel-zwiebel-auflauf": {
+  "id": 188,
+  "to": "kartoffel-zwiebel-auflauf"
+ },
+ "apfel-quark-pfannkuchen-fluffig-fruchtig-in-wenigen-minuten-gemacht": {
+  "id": 200,
+  "to": "apfel-quark-pfannkuchen"
+ },
+ "kaese-lauch-suppe-mit-hackfleisch-cremig-wuerzig-echter-suchtfaktor": {
+  "id": 201,
+  "to": "kaese-lauch-suppe-mit-hackfleisch"
+ },
+ "brokkoli-kartoffel-auflauf-cremig-herzhaft-einfach-unglaublich-lecker": {
+  "id": 206,
+  "to": "brokkoli-kartoffel-auflauf"
+ },
+ "orangen-schmandkuchen-mit-suchtfaktor-cremig-fruchtig-absolut-gelingsicher": {
+  "id": 223,
+  "to": "orangen-schmandkuchen"
+ }
+}

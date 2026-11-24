@@ -1053,3 +1053,17 @@ a.cat-btn { display: inline-block; text-decoration: none; }
   font-size: 0.75rem;
   color: var(--muted);
 }
+
+.photo-invite {
+  margin: 2rem 0 1rem;
+  padding: 1.1rem 1.25rem;
+  background: var(--bg2);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+.photo-invite strong { color: var(--gold); display: block; margin-bottom: 0.35rem; }
+.photo-invite p { margin: 0; color: var(--muted); }
+.photo-invite a { color: var(--gold); text-decoration: underline; }

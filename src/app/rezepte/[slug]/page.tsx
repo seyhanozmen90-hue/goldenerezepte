@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
 import Link from "next/link";
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
+import { slugRedirects } from "@/lib/slugRedirects";
+import PhotoInvite from "@/components/PhotoInvite";
 import NavBar from "@/components/NavBar";
 import ViewTracker from "@/components/ViewTracker";
 import { formatMinutes } from "@/lib/utils";
@@ -109,7 +111,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function RezeptDetailPage({ params }: Props) {
   const { slug } = await params;
   const recipe = await prisma.recipe.findUnique({ where: { slug, published: true } });
-  if (!recipe) notFound();
+  if (!recipe) {
+    // Old, long slugs were shortened: send visitors and crawlers to the new URL (301).
+    const target = slugRedirects[slug];
+    if (target) permanentRedirect(`/rezepte/${target}`);
+    notFound();
+  }
 
   const ingredients: string[] = JSON.parse(recipe.ingredients).map(cleanLine).filter(Boolean);
   const { groups: stepGroups, notes: stepNotes } = structureSteps(
@@ -211,9 +218,6 @@ export default async function RezeptDetailPage({ params }: Props) {
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", fontSize: "5rem" }} aria-label="Kein Bild verfügbar">🍽️</div>
         )}
       </div>
-      {recipe.imageUrl && (
-        <p className="recipe-image-caption">Illustration (KI-generiert) · Serviervorschlag</p>
-      )}
 
       <div className="recipe-detail-body">
         <div className="recipe-card-category" style={{ marginBottom: "0.5rem" }}>{recipe.category}</div>
@@ -327,6 +331,8 @@ export default async function RezeptDetailPage({ params }: Props) {
             ))}
           </>
         )}
+
+        <PhotoInvite title={recipe.title} />
 
         <Link href="/rezepte" className="btn btn-outline" style={{ marginTop: "1rem" }}>
           ← Zurück zur Übersicht

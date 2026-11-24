@@ -46,6 +46,14 @@ export default function Kontakt() {
             .
           </p>
 
+          <h2>Dein Foto auf GoldeneRezepte</h2>
+          <p>
+            Du hast eines der Rezepte nachgekocht? Schick mir dein Foto per E-Mail oder als
+            Kommentar auf Facebook. Mit deiner Erlaubnis zeige ich es bei dem passenden Rezept.
+            Bitte nur Fotos senden, die du selbst gemacht hast. Wenn du später möchtest, dass
+            ein Foto wieder entfernt wird, schreib mir einfach kurz.
+          </p>
+
           <h2>Anschrift</h2>
           <p>
             Die vollständige Anschrift findest du im <Link href="/impressum" style={{ color: "var(--gold)" }}>Impressum</Link>.

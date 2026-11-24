@@ -84,10 +84,11 @@ export default function UeberUns() {
         <div style={{ marginBottom: "4rem" }}>
           <h2 className="section-title">Zu den Bildern</h2>
           <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1.5rem", fontSize: "1rem" }}>
-            Die Fotos auf dieser Seite sind mit Hilfe von KI erstellte Illustrationen. Sie zeigen,
-            wie das Gericht aussehen kann, und sind als Serviervorschlag gedacht. Die Rezepte, Mengen
-            und Zeiten stammen von mir und sind für die Küche zu Hause gedacht. Wenn du ein Rezept
-            nachgekocht hast, freue ich mich über dein Foto – am liebsten als Kommentar auf{" "}
+            Die Bilder auf dieser Seite zeigen, wie ein Gericht aussehen kann, und sind als
+            Serviervorschlag gedacht. Die Rezepte, Mengen und Zeiten sind für die Küche zu Hause
+            gedacht. Am schönsten wäre es, wenn auch du deine Version zeigst: Wenn du ein Rezept
+            nachgekocht hast, schick uns dein Foto – wir veröffentlichen es mit deiner Erlaubnis
+            auf der Seite. Am liebsten als Kommentar auf{" "}
             <a
               href="https://www.facebook.com/profile.php?id=61588997481232"
               target="_blank"
