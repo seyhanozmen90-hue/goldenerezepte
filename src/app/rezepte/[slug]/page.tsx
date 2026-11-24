@@ -54,6 +54,33 @@ function structureSteps(lines: string[]): { groups: StepGroup[]; notes: string[]
   return { groups: groups.filter((g) => g.steps.length > 0), notes };
 }
 
+const STOP_WORDS = new Set([
+  "mit", "und", "ohne", "aus", "dem", "der", "die", "das", "den", "dieser", "dieses", "diese", "vom", "von", "wie", "für", "nur",
+  "ein", "eine", "einfach", "schnell", "saftig", "saftige", "saftiger", "cremig", "cremige", "cremiger", "knusprig", "knusprige",
+  "knuspriger", "herrlich", "lecker", "klassisch", "klassischer", "backofen", "ofen", "backen", "selber", "machen", "minuten", "zutaten",
+]);
+
+// Schlüsselwörter eines Rezepttitels, um thematisch verwandte Rezepte zu finden (z. B. "Apfel", "Haferflocken").
+function titleKeywords(title: string): string[] {
+  return title
+    .toLowerCase()
+    .replace(/[^a-zäöüß\s-]/g, " ")
+    .split(/[\s-]+/)
+    .filter((w) => w.length > 3 && !STOP_WORDS.has(w));
+}
+
+// Küche für das Recipe-Schema; Standard bleibt die deutsche Küche.
+function cuisineFor(title: string): string {
+  const t = title.toLowerCase();
+  if (/soljanka|schaschlik|pelmeni|borschtsch/.test(t)) return "Osteuropäische Küche";
+  if (/burger|brownie|pancake|cheesecake|fudge|s'mores/.test(t)) return "Amerikanische Küche";
+  if (/pizza|pasta|spaghetti|lasagne|tiramisu|mozzarella|calzone|tortellini|cannoli|ricotta|bruschetta/.test(t)) return "Italienische Küche";
+  if (/langos/.test(t)) return "Ungarische Küche";
+  if (/krempita/.test(t)) return "Balkanküche";
+  if (/baguette|brioche|croissant|quiche|crêpe|croque|französisch|flammkuchen/.test(t)) return "Französische Küche";
+  return "Deutsche Küche";
+}
+
 function parseJson<T>(value: string | null): T | null {
   if (!value) return null;
   try { return JSON.parse(value) as T; } catch { return null; }
@@ -93,17 +120,31 @@ export default async function RezeptDetailPage({ params }: Props) {
   const products: { name: string; shop: string; url: string; note: string }[] =
     parseJson<{ name: string; shop: string; url: string; note: string }[]>(recipe.products) ?? [];
 
-  // Die nächsten drei Rezepte derselben Kategorie (zyklisch nach ID), damit jedes Rezept
-  // von anderen Rezeptseiten verlinkt wird – nicht immer nur die meistgelesenen.
-  const sameCategory = await prisma.recipe.findMany({
-    where: { published: true, category: recipe.category },
+  // Verwandte Rezepte: zuerst thematisch passende (gemeinsame Schlüsselwörter im Titel, gleiche Kategorie als Bonus),
+  // danach die nächsten Rezepte derselben Kategorie (zyklisch nach ID), damit jedes Rezept von anderen Seiten verlinkt wird.
+  const pool = await prisma.recipe.findMany({
+    where: { published: true, slug: { not: slug } },
     orderBy: { id: "asc" },
     select: { id: true, slug: true, title: true, description: true, category: true, prepTime: true, cookTime: true, imageUrl: true },
   });
-  const ownIndex = sameCategory.findIndex((r) => r.slug === slug);
-  const similarRecipes = Array.from({ length: Math.min(3, sameCategory.length - 1) }, (_, i) =>
-    sameCategory[(ownIndex + 1 + i) % sameCategory.length]
-  );
+  const ownWords = new Set(titleKeywords(recipe.title));
+  const similarRecipes = pool
+    .map((r) => ({
+      r,
+      score: titleKeywords(r.title).filter((w) => ownWords.has(w)).length * 2 + (r.category === recipe.category ? 1 : 0),
+    }))
+    .filter((x) => x.score >= 2)
+    .sort((a, b) => b.score - a.score || a.r.id - b.r.id)
+    .slice(0, 6)
+    .map((x) => x.r);
+  if (similarRecipes.length < 6) {
+    const sameCategory = pool.filter((r) => r.category === recipe.category && !similarRecipes.includes(r));
+    const start = Math.max(0, sameCategory.findIndex((r) => r.id > recipe.id));
+    for (let i = 0; i < sameCategory.length && similarRecipes.length < 6; i++) {
+      similarRecipes.push(sameCategory[(start + i) % sameCategory.length]);
+    }
+  }
+  const inlineRelated = similarRecipes.slice(0, 3);
 
   const recipeUrl = `${BASE_URL}/rezepte/${slug}`;
   const stepImage = recipe.imageUrl ? [{ "@type": "ImageObject", url: recipe.imageUrl }] : undefined;
@@ -131,7 +172,7 @@ export default async function RezeptDetailPage({ params }: Props) {
     description: recipe.description,
     image: recipe.imageUrl ? [recipe.imageUrl] : undefined,
     recipeCategory: recipe.category,
-    recipeCuisine: "Deutsche Küche",
+    recipeCuisine: cuisineFor(recipe.title),
     keywords: `${recipe.category}, Rezept, Deutsche Küche, Hausmannskost, GoldeneRezepte`,
     recipeIngredient: ingredients.filter((ing) => !isGroupHeading(ing)),
     recipeInstructions: hasSections
@@ -146,7 +187,7 @@ export default async function RezeptDetailPage({ params }: Props) {
     ...(recipe.prepTime > 0 ? { prepTime: `PT${recipe.prepTime}M` } : {}),
     ...(recipe.cookTime > 0 ? { cookTime: `PT${recipe.cookTime}M` } : {}),
     ...(recipe.prepTime + recipe.cookTime > 0 ? { totalTime: `PT${recipe.prepTime + recipe.cookTime}M` } : {}),
-    ...(recipe.servings > 0 ? { recipeYield: `${recipe.servings} Portionen` } : {}),
+    ...(recipe.servings > 0 ? { recipeYield: [String(recipe.servings), `${recipe.servings} Portionen`] } : {}),
     author: { "@type": "Person", name: "Seyhan", url: `${BASE_URL}/ueber-uns` },
     publisher: { "@type": "Organization", name: "GoldeneRezepte", url: BASE_URL },
     datePublished: recipe.createdAt.toISOString().split("T")[0],
@@ -220,6 +261,17 @@ export default async function RezeptDetailPage({ params }: Props) {
           </div>
         )}
 
+        {inlineRelated.length > 0 && (
+          <aside className="related-inline" aria-label="Weitere Rezepte">
+            <strong>Das könnte dir auch schmecken</strong>
+            <ul>
+              {inlineRelated.map((r) => (
+                <li key={r.slug}><Link href={`/rezepte/${r.slug}`}>{r.title}</Link></li>
+              ))}
+            </ul>
+          </aside>
+        )}
+
         {products.length > 0 && (
           <aside className="product-box" aria-label="Empfohlene Küchenhelfer (Anzeige)">
             <div className="product-box-head">
@@ -281,7 +333,7 @@ export default async function RezeptDetailPage({ params }: Props) {
         <div style={{ background: "var(--bg2)", borderTop: "1px solid var(--border)", padding: "3rem 0" }}>
           <div className="container">
             <h2 className="section-title" style={{ marginBottom: "0.5rem" }}>Ähnliche Rezepte</h2>
-            <p className="section-subtitle">Weitere {recipe.category}-Rezepte, die dir gefallen könnten</p>
+            <p className="section-subtitle">Weitere Rezepte, die dir gefallen könnten</p>
             <div className="recipes-grid">
               {similarRecipes.map((r) => (
                 <Link href={`/rezepte/${r.slug}`} key={r.slug}>

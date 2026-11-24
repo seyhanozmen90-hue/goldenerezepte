@@ -1,0 +1,59 @@
+{
+  "image": "HIER-FOTO-PFAD-EINTRAGEN (z. B. C:/Users/Seyhan ÖZMEN/OneDrive/Desktop/mü/TOLGA-GOLDREZ/kasım/<datum>/287/foto.png)",
+  "recipe": {
+    "slug": "cremiger-rosenkohl-eintopf-mit-hackbaellchen",
+    "title": "Cremiger Rosenkohl-Eintopf mit Hackbällchen",
+    "description": "Zarter Rosenkohl und saftige Hackbällchen in einer cremigen Sauce aus Brühe, Mehlschwitze und saurer Sahne. Ein wärmendes Eintopfgericht für kalte Tage, in etwa 45 Minuten fertig.",
+    "category": "Hauptgerichte",
+    "prepTime": 25,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Mittel",
+    "ingredients": [
+      "Für den Rosenkohl",
+      "1 kg Rosenkohl, geputzt",
+      "1 l Gemüsebrühe",
+      "Für die Hackbällchen",
+      "400 g gemischtes Hackfleisch (Rind und Schwein)",
+      "1 Ei (Größe M)",
+      "2 EL Semmelbrösel (ca. 20 g)",
+      "½ TL Brühepulver",
+      "1 TL mittelscharfer Senf",
+      "1 Knoblauchzehe, fein gehackt",
+      "Salz und frisch gemahlener schwarzer Pfeffer",
+      "1 Prise Muskatnuss",
+      "Etwas Pflanzenöl oder Butterschmalz zum Anbraten",
+      "Für die cremige Sauce",
+      "1 EL Butter (ca. 15 g)",
+      "2 EL Weizenmehl (Type 405, ca. 20 g)",
+      "200 g saure Sahne (alternativ Crème fraîche)",
+      "Salz, schwarzer Pfeffer und frisch geriebene Muskatnuss"
+    ],
+    "steps": [
+      "Den Rosenkohl waschen, welke Blätter entfernen und die Strunkenden leicht kürzen. Größere Röschen halbieren, damit alle gleichmäßig garen.",
+      "Die Gemüsebrühe in einem großen Topf zum Kochen bringen. Den Rosenkohl zugeben und bei mittlerer Hitze 10–15 Minuten garen, bis er weich, aber noch bissfest ist.",
+      "Währenddessen Hackfleisch, Ei, Semmelbrösel, Senf, Knoblauch und Brühepulver in einer Schüssel mischen. Mit Salz, Pfeffer und Muskat würzen und gründlich verkneten.",
+      "Mit leicht angefeuchteten Händen etwa 24 kleine Bällchen (je etwa 15–20 g, ungefähr so groß wie ein Röschen) formen.",
+      "Öl oder Butterschmalz in einer großen Pfanne erhitzen und die Hackbällchen bei mittlerer bis hoher Hitze rundherum goldbraun anbraten. Beiseitestellen.",
+      "Den Rosenkohl in ein Sieb abgießen und die Brühe dabei auffangen (etwa 800–900 ml). Bei Bedarf mit etwas Wasser oder Brühe auf 900 ml auffüllen.",
+      "Die Butter im leeren Topf bei mittlerer Hitze schmelzen. Das Mehl zugeben und 1–2 Minuten unter Rühren anschwitzen, ohne es zu bräunen.",
+      "Die aufgefangene Brühe nach und nach zugießen und dabei kräftig mit dem Schneebesen rühren, damit keine Klümpchen entstehen. Die Sauce einige Minuten sanft köcheln lassen, bis sie leicht eindickt.",
+      "Die Hitze reduzieren und die saure Sahne unterrühren. Danach nicht mehr stark kochen lassen, damit die Sauce nicht ausflockt. Mit Salz, Pfeffer und Muskat abschmecken.",
+      "Rosenkohl und Hackbällchen vorsichtig in die Sauce geben und alles bei niedriger Hitze 5–10 Minuten ziehen lassen, bis die Hackbällchen durchgegart sind (Kerntemperatur mindestens 72 °C).",
+      "Gelegentlich vorsichtig umrühren, damit die Röschen ihre Form behalten. Ist die Sauce zu dick, etwas Brühe zugeben.",
+      "Heiß in tiefen Tellern servieren. Dazu passen Bauernbrot oder Baguette."
+    ],
+    "story": "Rosenkohl hat von Herbst bis Februar Saison und schmeckt nach den ersten Frösten besonders mild. In einer cremigen Sauce verliert er seine herbe Note, und die kleinen Hackbällchen machen den Eintopf zu einer vollwertigen Mahlzeit.\n\nDie Sauce entsteht aus der Brühe, in der der Rosenkohl gegart wurde. So bleiben Geschmack und Nährstoffe im Gericht, und die Sauce bekommt ein kräftiges Gemüsearoma. Die saure Sahne gibt am Ende eine leichte Säure, die zu Fleisch und Kohl passt.",
+    "tips": [
+      "Die Hackbällchen vor dem Schmoren kräftig anbraten – die Röstaromen machen den Eintopf deutlich würziger.",
+      "Die Hackbällchen so klein formen wie die Röschen, dann garen beide gleichmäßig.",
+      "Saure Sahne erst bei niedriger Hitze unterrühren und nicht mehr aufkochen, sonst flockt sie aus. Crème fraîche ist hitzestabiler und milder.",
+      "Der Eintopf schmeckt am nächsten Tag noch besser. Beim Aufwärmen etwas Brühe zugeben und langsam erhitzen."
+    ],
+    "faq": [
+      { "q": "Kann ich TK-Rosenkohl verwenden?", "a": "Ja, er muss nicht aufgetaut werden und braucht etwa 10–12 Minuten Garzeit in der Brühe." },
+      { "q": "Warum flockt meine Sauce aus?", "a": "Meist wurde die saure Sahne zu heiß oder die Sauce danach noch einmal gekocht. Die Sahne bei niedriger Hitze unterrühren und nur noch erwärmen." },
+      { "q": "Kann ich den Eintopf einfrieren?", "a": "Ja, bis zu 2 Monate. Wegen der Sahne kann die Sauce beim Auftauen etwas körnig werden, gut umrühren hilft." }
+    ]
+  }
+}

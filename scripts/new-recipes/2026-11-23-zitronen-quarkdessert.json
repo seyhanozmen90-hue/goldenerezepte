@@ -1,0 +1,46 @@
+{
+  "image": "C:/Users/Seyhan ÖZMEN/OneDrive/Desktop/mü/TOLGA-GOLDREZ/kasım/23.11.2026/285/Limonlu Köpük Tatlısı ve Taze Limonlar.png",
+  "recipe": {
+    "slug": "luftiges-zitronen-quarkdessert-ohne-backen",
+    "title": "Luftiges Zitronen-Quarkdessert ohne Backen",
+    "description": "Leichte Creme aus Magerquark, Zitronensaft und Eischnee, in fünf Minuten angerührt und nach kurzer Kühlzeit servierbereit. Wenig Zucker, ganz ohne Backen.",
+    "category": "Desserts",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für die Zitronen-Quarkcreme",
+      "500 g Magerquark",
+      "2 pasteurisierte Eiweiß (ca. 60 g)",
+      "Saft von 1 Zitrone (ca. 3–4 EL)",
+      "Abrieb von ½ Bio-Zitrone (optional)",
+      "40 g Erythrit oder Zucker (nach Geschmack, ca. 2–3 EL)",
+      "Zum Dekorieren",
+      "Etwas frisch geriebene Zitronenschale"
+    ],
+    "steps": [
+      "Das pasteurisierte Eiweiß in eine saubere, fettfreie Schüssel geben und mit dem Handrührgerät zu festem Eischnee schlagen.",
+      "Den Magerquark in einer zweiten Schüssel mit dem frisch gepressten Zitronensaft glatt und cremig rühren.",
+      "Nach Wunsch den Abrieb einer halben Bio-Zitrone zufügen. Dann Erythrit oder Zucker einrühren, bis sich alles verbunden hat.",
+      "Den Eischnee portionsweise zur Quarkmasse geben.",
+      "Mit einem Teigschaber vorsichtig unterheben, damit möglichst viel Luft erhalten bleibt.",
+      "Die Creme in eine Schüssel oder kleine Dessertgläser füllen.",
+      "Die Oberfläche glatt streichen und mit etwas Zitronenschale dekorieren.",
+      "Abdecken und mindestens 30–60 Minuten im Kühlschrank durchkühlen lassen.",
+      "Direkt aus dem Kühlschrank servieren."
+    ],
+    "story": "Ein Quarkdessert mit Zitrone ist schnell gemacht und kommt mit wenigen Zutaten aus. Der Eischnee macht die Creme leichter als eine reine Quarkspeise. Die Säure der Zitrone sorgt für Frische, die Süße lässt sich beliebig anpassen.\n\nWeil das Eiweiß nicht erhitzt wird, sollte unbedingt pasteurisiertes Eiweiß verwendet werden. Das gibt es als Flüssigeiweiß im Karton im Kühlregal.",
+    "tips": [
+      "Besonders gut schmeckt die Creme mit frischen Himbeeren, Erdbeeren oder Minzblättern.",
+      "Den Eischnee nur vorsichtig unterheben, nicht kräftig verrühren.",
+      "Nur pasteurisiertes Eiweiß verwenden, da es nicht erhitzt wird. Für Schwangere, kleine Kinder und ältere Menschen ist das besonders wichtig.",
+      "Durchgehend gekühlt aufbewahren und möglichst am Tag der Zubereitung essen."
+    ],
+    "faq": [
+      { "q": "Kann ich frisches Eiweiß verwenden?", "a": "Frisches rohes Eiweiß birgt ein Salmonellenrisiko. Verwende deshalb pasteurisiertes Eiweiß aus dem Karton oder lass das Eiweiß weg und hebe stattdessen 150 ml steif geschlagene Sahne unter." },
+      { "q": "Kann ich Zucker statt Erythrit nehmen?", "a": "Ja, etwa 40 g Zucker oder Puderzucker. Die Menge nach Geschmack anpassen." },
+      { "q": "Kann ich das Dessert vorbereiten?", "a": "Ja, bis zu 4–5 Stunden vorher. Länger sollte die Creme nicht stehen, sonst setzt sich Flüssigkeit ab." }
+    ]
+  }
+}

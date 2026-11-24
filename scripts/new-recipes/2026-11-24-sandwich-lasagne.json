@@ -1,0 +1,55 @@
+{
+  "image": "C:/Users/Seyhan ÖZMEN/OneDrive/Desktop/mü/TOLGA-GOLDREZ/kasım/24.11.2026/288/Fırından Çıkan Peynirli Jambonlu Güveç.png",
+  "recipe": {
+    "slug": "schnelle-sandwich-lasagne-mit-schinken-und-mozzarella",
+    "title": "Schnelle Sandwich-Lasagne mit Schinken und Mozzarella",
+    "description": "Überbackenes Toastbrot, Kochschinken und Mozzarella im Wechsel geschichtet, dazu eine cremige Tomaten-Sahne-Sauce. Ohne Nudelplatten, in 15 Minuten vorbereitet und 15–20 Minuten im Ofen.",
+    "category": "Hauptgerichte",
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 6,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für die Sandwich-Lasagne",
+      "1 Packung Toastbrot (ca. 500 g)",
+      "500 g Mozzarella, gut abgetropft",
+      "500 g Kochschinken in Scheiben",
+      "50 g Parmesan, frisch gerieben",
+      "Für die Tomaten-Sahne-Sauce",
+      "250 ml Schlagsahne",
+      "200 ml passierte Tomaten (alternativ Tomatensauce)",
+      "1 Zwiebel, fein gewürfelt",
+      "3 Knoblauchzehen, fein gehackt",
+      "1 EL Pflanzenöl",
+      "Salz und frisch gemahlener schwarzer Pfeffer"
+    ],
+    "steps": [
+      "Die Zwiebel schälen und fein würfeln, den Knoblauch fein hacken.",
+      "Das Öl in einem Topf erhitzen und die Zwiebelwürfel bei mittlerer Hitze goldbraun anbraten.",
+      "Den Knoblauch zugeben und kurz mitdünsten, ohne dass er zu dunkel wird.",
+      "Die passierten Tomaten zugeben, verrühren und kurz aufkochen lassen.",
+      "Die Sahne unterrühren, die Sauce nochmals kurz aufkochen und mit Salz und Pfeffer abschmecken. Den Topf vom Herd nehmen.",
+      "Den Backofen auf 220 °C Ober-/Unterhitze vorheizen.",
+      "Den Mozzarella gut abtropfen lassen und in gleichmäßige Scheiben schneiden.",
+      "Den Boden einer Auflaufform vollständig mit Toastbrot auslegen.",
+      "Etwas Tomaten-Sahne-Sauce gleichmäßig auf dem Toastbrot verteilen.",
+      "Eine Schicht Kochschinken und Mozzarellascheiben darauflegen.",
+      "Die Schichten (Toast, Sauce, Schinken, Mozzarella) wiederholen, bis alles aufgebraucht ist.",
+      "Die oberste Schicht mit Parmesan bestreuen.",
+      "Auf der mittleren Schiene 15–20 Minuten überbacken, bis der Käse geschmolzen und goldbraun ist.",
+      "5 Minuten ruhen lassen, in Portionen schneiden und warm servieren."
+    ],
+    "story": "Die Sandwich-Lasagne verwendet Toastbrot anstelle von Nudelplatten. Das spart das Vorkochen und die Schichten werden im Ofen weich und saugen die Sauce auf. Schinken und Mozzarella sorgen für den herzhaften Geschmack, die Tomaten-Sahne-Sauce hält alles saftig.\n\nDas Gericht ist ein praktisches Resteessen für Familien: Die Zutaten sind schnell besorgt, und die Form lässt sich vorbereiten und erst kurz vor dem Essen in den Ofen schieben.",
+    "tips": [
+      "Den Mozzarella vor der Verwendung gut abtropfen lassen und trocken tupfen, damit der Auflauf nicht zu feucht wird.",
+      "Für mehr Aroma etwas Oregano, Basilikum oder frisch gemahlenen Pfeffer in die Sauce geben.",
+      "Dazu passt ein frischer grüner Salat.",
+      "Die Lasagne lässt sich bis zu einem Tag vorher schichten, abgedeckt im Kühlschrank lagern und erst dann backen. Die Backzeit verlängert sich dann um einige Minuten."
+    ],
+    "faq": [
+      { "q": "Kann ich Vollkorn- oder Sandwichtoast verwenden?", "a": "Ja, jedes Toastbrot eignet sich. Vollkorntoast ist etwas fester und nimmt die Sauce langsamer auf." },
+      { "q": "Kann ich den Schinken ersetzen?", "a": "Ja, gekochter Putenschinken, Salami oder gebratene Champignons passen ebenfalls. Für eine vegetarische Variante einfach Gemüse wie Spinat oder Zucchini verwenden." },
+      { "q": "Kann ich die Sandwich-Lasagne einfrieren?", "a": "Ja, am besten gebacken und in Portionen. Im Ofen bei 180 °C aufwärmen." }
+    ]
+  }
+}

@@ -993,6 +993,19 @@ a.cat-btn { display: inline-block; text-decoration: none; }
 .steps-note strong { color: var(--gold); display: block; margin-bottom: 0.35rem; }
 .steps-note p + p { margin-top: 0.35rem; }
 
+.related-inline {
+  border-left: 3px solid var(--gold);
+  background: var(--bg2);
+  padding: 0.9rem 1.25rem;
+  border-radius: 4px;
+  margin: 1.5rem 0 2rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.related-inline strong { color: var(--gold); display: block; margin-bottom: 0.35rem; }
+.related-inline ul { margin: 0; padding-left: 1.1rem; }
+.related-inline a { color: inherit; text-decoration: underline; }
 .product-box {
   border: 1px solid var(--border);
   background: var(--bg2);

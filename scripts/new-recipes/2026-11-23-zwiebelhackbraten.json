@@ -1,0 +1,58 @@
+{
+  "image": "C:/Users/Seyhan ÖZMEN/OneDrive/Desktop/mü/TOLGA-GOLDREZ/kasım/23.11.2026/284/Karamelize Soğanlı Peynirli Rosto.png",
+  "recipe": {
+    "slug": "franzoesischer-zwiebelhackbraten-mit-kaese",
+    "title": "Französischer Zwiebelhackbraten mit Käse überbacken",
+    "description": "Saftiger Hackbraten mit langsam karamellisierten Zwiebeln, Thymian und einer Kruste aus geschmolzenem Gruyère. Gebacken in Rinderbrühe im Ofen, ein herzhaftes Familiengericht.",
+    "category": "Hauptgerichte",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 4,
+    "difficulty": "Mittel",
+    "ingredients": [
+      "Für den Hackbraten",
+      "500 g gemischtes Hackfleisch (Rind und Schwein)",
+      "3 große Zwiebeln, in feine Ringe geschnitten (ca. 450 g)",
+      "2 Knoblauchzehen, fein gehackt",
+      "1 Ei (Größe M)",
+      "2 EL Semmelbrösel (ca. 20 g)",
+      "1 EL Butter (ca. 15 g)",
+      "1 EL Olivenöl",
+      "100 g Gruyère, gerieben (alternativ Emmentaler)",
+      "100 ml Rinderbrühe",
+      "1 TL mittelscharfer Senf",
+      "1 TL getrockneter Thymian (alternativ frischer Thymian)",
+      "Salz und frisch gemahlener schwarzer Pfeffer",
+      "Etwas Fett für die Auflaufform"
+    ],
+    "steps": [
+      "Den Backofen auf 180 °C Ober-/Unterhitze vorheizen und eine Auflaufform leicht einfetten.",
+      "Die Zwiebeln in feine Ringe schneiden, den Knoblauch fein hacken.",
+      "Butter und Olivenöl in einer großen Pfanne bei mittlerer Hitze erwärmen.",
+      "Die Zwiebelringe zugeben und unter gelegentlichem Rühren 10–15 Minuten langsam braten, bis sie weich und goldbraun sind. Dabei darauf achten, dass sie nicht anbrennen.",
+      "Hackfleisch, Ei, Semmelbrösel, Knoblauch und Senf in einer großen Schüssel mischen. Mit Salz, Pfeffer und Thymian würzen.",
+      "Alles gründlich zu einer gleichmäßigen, gut formbaren Masse verkneten.",
+      "Daraus einen länglichen Braten formen und mittig in die Auflaufform legen.",
+      "Die Hälfte der karamellisierten Zwiebeln auf dem Hackbraten verteilen.",
+      "Die Rinderbrühe seitlich in die Form gießen, damit der Braten saftig bleibt und sich ein Bratensaft bildet.",
+      "Auf der mittleren Schiene etwa 30 Minuten backen.",
+      "Die Form herausnehmen, die restlichen Zwiebeln und den geriebenen Käse auf dem Hackbraten verteilen.",
+      "Weitere 10–15 Minuten backen, bis der Käse geschmolzen und goldbraun ist.",
+      "Mit einem Fleischthermometer prüfen: Im Kern sollten mindestens 72 °C erreicht sein.",
+      "Den Hackbraten 5–10 Minuten ruhen lassen, damit sich der Saft verteilt, dann in Scheiben schneiden.",
+      "Mit den Zwiebeln und dem Bratensaft servieren. Dazu passen Kartoffelpüree, grüne Bohnen, Ofenkartoffeln oder Baguette."
+    ],
+    "story": "Der Name erinnert an die französische Zwiebelsuppe, bei der Zwiebeln langsam karamellisiert und mit Käse überbacken werden. Dieses Rezept überträgt die Idee auf einen klassischen Hackbraten: Die Zwiebeln liefern Süße und Würze, der Gruyère bildet eine goldene Kruste.\n\nDie Rinderbrühe in der Form sorgt dafür, dass der Braten nicht austrocknet und nebenbei ein aromatischer Bratensaft entsteht.",
+    "tips": [
+      "Die Zwiebeln bei mittlerer bis niedriger Hitze langsam braten und regelmäßig umrühren – so karamellisieren sie, statt zu verbrennen.",
+      "Nach Wunsch einen kleinen Schuss Balsamico oder etwas Honig zu den Zwiebeln geben.",
+      "Den Braten nach dem Backen ruhen lassen, damit er beim Anschneiden saftig bleibt.",
+      "Reste halten sich im Kühlschrank 2–3 Tage und schmecken auch kalt auf Brot."
+    ],
+    "faq": [
+      { "q": "Kann ich statt Gruyère einen anderen Käse nehmen?", "a": "Ja, Emmentaler, Bergkäse oder Gouda schmelzen ebenfalls gut." },
+      { "q": "Woran erkenne ich, dass der Hackbraten durch ist?", "a": "Mit dem Fleischthermometer: Im Kern sollten mindestens 72 °C erreicht sein." },
+      { "q": "Kann ich die Zwiebeln vorbereiten?", "a": "Ja, die karamellisierten Zwiebeln lassen sich am Vortag zubereiten und im Kühlschrank aufbewahren." }
+    ]
+  }
+}

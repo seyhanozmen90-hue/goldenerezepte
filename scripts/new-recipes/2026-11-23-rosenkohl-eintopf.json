@@ -1,0 +1,53 @@
+{
+  "image": "C:/Users/Seyhan ÖZMEN/OneDrive/Desktop/mü/TOLGA-GOLDREZ/kasım/23.11.2026/286/Rustik Sosisli Brüksel Lahanası Yahnisi.png",
+  "recipe": {
+    "slug": "rosenkohl-eintopf-mit-kartoffeln-moehren-und-mettwurst",
+    "title": "Rosenkohl-Eintopf mit Kartoffeln, Möhren und Mettwurst",
+    "description": "Deftiger Eintopf mit Rosenkohl, Kartoffelwürfeln, Möhren und Wurstscheiben in würziger Brühe. Ein einfaches Gericht aus einem Topf, in rund 40 Minuten fertig und ideal für kalte Tage.",
+    "category": "Suppen",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für den Eintopf",
+      "500 g Rosenkohl, geputzt",
+      "600 g festkochende Kartoffeln",
+      "300 g Möhren",
+      "1 große Zwiebel",
+      "200–250 g Mettwurst, Mettenden oder Cabanossi",
+      "1 EL Pflanzenöl oder Butterschmalz",
+      "1,2 l Gemüse- oder Fleischbrühe",
+      "2 Lorbeerblätter",
+      "1 TL getrockneter Majoran (alternativ Thymian)",
+      "Salz und frisch gemahlener schwarzer Pfeffer",
+      "Etwas frisch geriebene Muskatnuss",
+      "Optional",
+      "100 g Speckwürfel zum Anbraten",
+      "Frische Petersilie zum Bestreuen"
+    ],
+    "steps": [
+      "Rosenkohl waschen, welke äußere Blätter und den Strunk etwas abschneiden. Größere Röschen halbieren, damit alle gleichmäßig garen.",
+      "Kartoffeln und Möhren schälen und in etwa 2 cm große Würfel bzw. Scheiben schneiden. Die Zwiebel fein würfeln. Die Wurst in etwa 1 cm dicke Scheiben schneiden.",
+      "Das Öl in einem großen Topf erhitzen. Optional zuerst die Speckwürfel auslassen. Die Zwiebel darin 2–3 Minuten glasig dünsten.",
+      "Kartoffeln und Möhren zugeben und etwa 2 Minuten mitdünsten.",
+      "Die Brühe angießen, Lorbeer und Majoran zufügen und alles zum Kochen bringen. Zugedeckt bei mittlerer Hitze etwa 8 Minuten garen.",
+      "Den Rosenkohl zugeben und weitere 12–15 Minuten köcheln lassen, bis Kartoffeln, Möhren und Rosenkohl weich, aber noch nicht zerfallen sind.",
+      "Die Wurstscheiben in den letzten 5–8 Minuten in den Eintopf geben und mit erhitzen.",
+      "Die Lorbeerblätter entfernen. Mit Salz, Pfeffer und Muskat abschmecken. Dabei zurückhaltend salzen, da Brühe und Wurst bereits Salz enthalten.",
+      "Heiß in tiefen Tellern servieren, nach Wunsch mit Petersilie bestreut. Dazu passt Bauernbrot."
+    ],
+    "story": "Rosenkohleintopf mit Kartoffeln und Wurst ist ein typisches Wintergericht der deutschen Hausmannskost. Rosenkohl hat seine Saison von Herbst bis Februar und schmeckt nach den ersten Frösten besonders mild und leicht süßlich.\n\nDie Wurst kommt erst gegen Ende in den Topf. So bleibt sie saftig, gibt aber trotzdem Aroma an die Brühe ab. Die Kartoffeln binden den Eintopf leicht, ohne dass Mehl oder Sahne nötig sind.",
+    "tips": [
+      "Kartoffeln und Rosenkohl nicht zu lange kochen, sonst zerfallen sie. Beides sollte noch Biss haben.",
+      "Wer es sämiger mag, drückt vor dem Servieren einige Kartoffelstücke mit dem Löffel an der Topfwand zu Mus.",
+      "Die Wurst erst in den letzten Minuten zugeben, damit sie nicht zäh wird.",
+      "Der Eintopf schmeckt am nächsten Tag noch aromatischer. Beim Aufwärmen etwas Brühe zugeben."
+    ],
+    "faq": [
+      { "q": "Welche Wurst passt am besten?", "a": "Mettenden, Mettwurst, Cabanossi oder Kasseler eignen sich gut. Mit Wiener Würstchen wird es milder." },
+      { "q": "Kann ich TK-Rosenkohl verwenden?", "a": "Ja, er muss nicht aufgetaut werden und braucht etwa 10–12 Minuten Garzeit." },
+      { "q": "Wie lange hält sich der Eintopf?", "a": "Im Kühlschrank 2–3 Tage, einfrieren ist ebenfalls möglich." }
+    ]
+  }
+}

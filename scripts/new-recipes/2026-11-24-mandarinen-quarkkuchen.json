@@ -1,0 +1,56 @@
+{
+  "image": "C:/Users/Seyhan ÖZMEN/OneDrive/Desktop/mü/TOLGA-GOLDREZ/kasım/24.11.2026/287/Mandarinen-Quarkkuchen mit Rezepttafel.png",
+  "recipe": {
+    "slug": "saftiger-mandarinen-quarkkuchen-ohne-boden",
+    "title": "Saftiger Mandarinen-Quarkkuchen ohne Boden",
+    "description": "Cremiger Quarkkuchen ohne Mürbeteigboden mit Mandarinen, Zitronensaft und weicher Margarine. Der Teig ist in 10 Minuten angerührt, gebacken wird in einer 26-cm-Springform.",
+    "category": "Backen",
+    "prepTime": 15,
+    "cookTime": 60,
+    "servings": 12,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für den Quarkkuchen",
+      "800 g Speisequark (20 % oder 40 % Fett)",
+      "180 g Zucker",
+      "2 Päckchen Vanillezucker (je 8 g)",
+      "5 Eier (Größe M)",
+      "120 g Weizenmehl (Type 405)",
+      "220 g Margarine, weich oder geschmolzen und abgekühlt",
+      "½ Päckchen Backpulver (ca. 8 g)",
+      "1 EL frisch gepresster Zitronensaft (ca. 15 ml)",
+      "2 Dosen Mandarinen (je ca. 175 g Abtropfgewicht), gut abgetropft",
+      "Zum Dekorieren",
+      "Etwas Puderzucker (optional)",
+      "Außerdem",
+      "Etwas Fett oder Backpapier für die Springform (26 cm)"
+    ],
+    "steps": [
+      "Den Backofen auf 170 °C Ober-/Unterhitze vorheizen. Eine Springform (26 cm Durchmesser) einfetten oder mit Backpapier auslegen.",
+      "Die Mandarinen in ein Sieb geben und gründlich abtropfen lassen, damit der Kuchen beim Backen nicht zu feucht wird.",
+      "Margarine, Zucker und Vanillezucker in einer großen Schüssel cremig verrühren.",
+      "Die Eier einzeln zugeben und jeweils gründlich unterrühren, bis eine gleichmäßige Masse entsteht.",
+      "Quark und Zitronensaft zugeben und alles zu einer glatten, cremigen Masse verrühren.",
+      "Mehl und Backpulver in einer separaten Schüssel mischen und nur kurz unter die Quarkmasse rühren.",
+      "Den größten Teil der Mandarinen mit einem Teigschaber vorsichtig unterheben, damit die Stücke ganz bleiben.",
+      "Die Masse in die Form füllen und glatt streichen. Die restlichen Mandarinen gleichmäßig auf der Oberfläche verteilen.",
+      "Auf der mittleren Schiene 50–60 Minuten backen, bis die Oberfläche goldbraun ist. Wird sie zu dunkel, locker mit Alufolie abdecken.",
+      "Den Ofen ausschalten und den Kuchen bei leicht geöffneter Tür noch 10 Minuten darin ruhen lassen.",
+      "Den Kuchen aus dem Ofen nehmen und in der Form vollständig auskühlen lassen.",
+      "Aus der Form lösen, nach Belieben mit Puderzucker bestäuben und vor dem Anschneiden gut durchkühlen lassen."
+    ],
+    "story": "Ein Quarkkuchen ohne Boden spart Zeit: Es gibt keinen Teig, der ausgerollt oder vorgebacken werden muss, alles wird in einer Schüssel verrührt. Durch die Eier und die Margarine wird der Kuchen weich und saftig, der Quark sorgt für die leichte Frische.\n\nMandarinen aus der Dose passen gut dazu, weil sie süß-säuerlich sind und ohne Vorbereitung verwendet werden können. Wichtig ist nur, sie gut abtropfen zu lassen, damit der Teig nicht zu nass wird.",
+    "tips": [
+      "Die Mandarinen wirklich gründlich abtropfen lassen, am besten kurz auf Küchenpapier legen.",
+      "Der Kuchen schmeckt am nächsten Tag besonders saftig. Über Nacht im Kühlschrank wird die Masse fester und lässt sich sauber schneiden.",
+      "Für mehr Zitrusaroma etwas fein geriebene Bio-Zitronenschale unter die Quarkmasse rühren.",
+      "Im Kühlschrank abgedeckt 3–4 Tage haltbar."
+    ],
+    "faq": [
+      { "q": "Warum sinkt der Quarkkuchen nach dem Backen ein?", "a": "Ein leichtes Einsinken beim Abkühlen ist bei Quarkkuchen normal. Hilfreich ist es, den Kuchen nach dem Backen 10 Minuten bei geöffneter Ofentür ruhen zu lassen und die Ofentür nicht zu früh ganz zu öffnen." },
+      { "q": "Kann ich Butter statt Margarine nehmen?", "a": "Ja, gleiche Menge weiche oder geschmolzene, abgekühlte Butter funktioniert ebenfalls und gibt etwas mehr Geschmack." },
+      { "q": "Kann ich frische Mandarinen verwenden?", "a": "Ja, 4–5 geschälte Mandarinen in Stücke teilen und gut abtupfen. Der Kuchen wird dann etwas frischer im Geschmack." },
+      { "q": "Welcher Quark ist geeignet?", "a": "Speisequark mit 20 % oder 40 % Fett. Magerquark macht den Kuchen trockener." }
+    ]
+  }
+}

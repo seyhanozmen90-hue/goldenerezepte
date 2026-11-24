@@ -1,0 +1,51 @@
+{
+  "image": "C:/Users/Seyhan ÖZMEN/OneDrive/Desktop/mü/TOLGA-GOLDREZ/kasım/24.11.2026/289/Rustik Tencerede Akışkan Sos.png",
+  "recipe": {
+    "slug": "braune-sosse-selber-machen-wie-bei-oma",
+    "title": "Braune Soße selber machen wie bei Oma",
+    "description": "Einfache braune Soße aus Butter, Zwiebel, Mehl, Tomatenmark und Rinderbrühe. Sämig, würzig und in 15 Minuten fertig, ganz ohne Fertigprodukt.",
+    "category": "Hauptgerichte",
+    "prepTime": 5,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für die Soße",
+      "2 EL Butter (ca. 30 g)",
+      "1 kleine Zwiebel, fein gewürfelt",
+      "1 TL Tomatenmark (ca. 10 g)",
+      "2 EL Weizenmehl (Type 405, ca. 20 g)",
+      "500 ml Rinderbrühe (alternativ Gemüsebrühe)",
+      "1 Schuss Rotwein (ca. 50 ml, optional)",
+      "Salz und frisch gemahlener schwarzer Pfeffer",
+      "Optional zum Verfeinern",
+      "1 kleines Stück kalte Butter",
+      "1–2 EL Schlagsahne",
+      "Einige Tropfen Worcestersauce oder Sojasauce"
+    ],
+    "steps": [
+      "Die Zwiebel schälen und möglichst fein würfeln.",
+      "Die Butter in einem kleinen Topf bei mittlerer Hitze schmelzen. Die Zwiebelwürfel zugeben und 2–3 Minuten glasig dünsten.",
+      "Das Tomatenmark zugeben und unter gelegentlichem Rühren kurz mitrösten. Das gibt der Soße Farbe und ein kräftigeres Aroma.",
+      "Das Mehl darüberstreuen und unter ständigem Rühren 1–2 Minuten anschwitzen, bis es leicht bräunlich wird.",
+      "Die Brühe nach und nach zugießen und dabei ständig mit dem Schneebesen rühren, damit keine Klümpchen entstehen.",
+      "Nach Wunsch den Rotwein zugeben und die Soße unter Rühren aufkochen.",
+      "Die Hitze reduzieren und die Soße etwa 5 Minuten sanft köcheln lassen, bis sie sämig ist.",
+      "Mit Salz und Pfeffer abschmecken.",
+      "Für besonders feinen Glanz ein kleines Stück kalte Butter unterrühren. Für eine ganz glatte Soße durch ein feines Sieb passieren.",
+      "Heiß servieren, zum Beispiel zu Kartoffelpüree, Semmelknödeln, Frikadellen, Braten oder Gemüse."
+    ],
+    "story": "Braune Soße gehört zur klassischen deutschen Hausmannskost. Sie entsteht aus einer Mehlschwitze: Zwiebel, Butter und Mehl werden angeröstet und mit Brühe aufgegossen. Das Tomatenmark vertieft Farbe und Geschmack, der Rotwein gibt Säure.\n\nMit Zutaten aus dem Vorratsschrank ist die Soße in einer Viertelstunde fertig und passt zu vielen Gerichten, wenn gerade kein Bratensaft zur Hand ist.",
+    "tips": [
+      "Die Brühe langsam zugießen und dabei kräftig rühren, so bleibt die Soße glatt.",
+      "Cremiger wird sie mit 1–2 EL Sahne am Ende.",
+      "Mit Gemüsebrühe und ohne Worcestersauce ist die Soße vegetarisch.",
+      "Im Kühlschrank 3–4 Tage haltbar. Beim Aufwärmen etwas Brühe oder Wasser zugeben."
+    ],
+    "faq": [
+      { "q": "Warum ist meine braune Soße klumpig?", "a": "Meist wurde die Brühe zu schnell zugegeben. Nach und nach zugießen und dabei kräftig rühren. Klümpchen lassen sich auch durch ein Sieb streichen oder mit dem Stabmixer glätten." },
+      { "q": "Wie werde ich die Soße dunkler?", "a": "Das Mehl etwas länger anrösten, das Tomatenmark länger mitbraten oder einen Spritzer Sojasauce zugeben." },
+      { "q": "Kann ich die Soße einfrieren?", "a": "Ja, bis zu 2 Monate. Beim Auftauen langsam erwärmen und gut verrühren." }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "image": "C:/Users/Seyhan ÖZMEN/OneDrive/Desktop/mü/TOLGA-GOLDREZ/kasım/24.11.2026/290/Fırında Peynirli Domatesli Tavuk Göğsü.png",
+  "recipe": {
+    "slug": "haehnchenbrustfilets-aus-dem-ofen-mit-frischkaesesauce",
+    "title": "Hähnchenbrustfilets aus dem Ofen mit Frischkäsesauce",
+    "description": "Saftige Hähnchenbrustfilets mit einer Haube aus Frischkäse, getrockneten Tomaten, Knoblauch und Basilikum. Im Ofen gebacken, ohne Anbraten und mit wenig Aufwand.",
+    "category": "Hauptgerichte",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 6,
+    "difficulty": "Einfach",
+    "ingredients": [
+      "Für das Hähnchen",
+      "8 kleine Hähnchenbrustfilets (ca. 1 kg)",
+      "Salz und frisch gemahlener schwarzer Pfeffer",
+      "Etwas Pflanzenöl für die Form",
+      "Für die Frischkäsemasse",
+      "400 g Frischkäse natur (2 Packungen à 200 g)",
+      "100 g getrocknete Tomaten in Öl, abgetropft",
+      "2–3 Knoblauchzehen, fein gehackt",
+      "60 g Mayonnaise",
+      "1 Zwiebel, fein gewürfelt",
+      "2 Frühlingszwiebeln, in feine Ringe geschnitten",
+      "1 kleine Handvoll frisches Basilikum, fein gehackt",
+      "Salz, frisch gemahlener schwarzer Pfeffer und 1 Prise Muskatnuss"
+    ],
+    "steps": [
+      "Den Backofen auf 210 °C Ober-/Unterhitze vorheizen. Eine große Auflaufform leicht einölen.",
+      "Die Hähnchenbrustfilets mit Küchenpapier trocken tupfen und von beiden Seiten mit Salz und Pfeffer würzen.",
+      "Die Filets nebeneinander in die Form legen.",
+      "Die getrockneten Tomaten abtropfen lassen und klein schneiden. Knoblauch, Zwiebel, Frühlingszwiebeln und Basilikum vorbereiten.",
+      "Den zimmerwarmen Frischkäse mit der Mayonnaise in einer großen Schüssel glatt rühren.",
+      "Tomaten, Knoblauch, Zwiebel, Frühlingszwiebeln und Basilikum untermischen.",
+      "Die Masse mit Salz, Pfeffer und Muskat abschmecken.",
+      "Die Frischkäsemischung großzügig auf den Filets verteilen, sodass sie vollständig bedeckt sind.",
+      "Auf der mittleren Schiene etwa 30 Minuten backen, bis das Fleisch durchgegart und die Oberfläche leicht goldbraun ist.",
+      "Die Kerntemperatur an der dicksten Stelle prüfen: Sie sollte mindestens 74 °C betragen. Je nach Dicke der Filets variiert die Garzeit.",
+      "Die Filets 5 Minuten ruhen lassen und mit der Frischkäsesauce aus der Form servieren. Nach Wunsch mit Basilikum garnieren."
+    ],
+    "story": "Hähnchenbrust wird schnell trocken. Die dicke Haube aus Frischkäse schützt das Fleisch im Ofen und hält es saftig, während sie selbst zu einer cremigen Sauce schmilzt. Getrocknete Tomaten und Knoblauch geben eine kräftige, mediterrane Note, Basilikum und Frühlingszwiebeln bringen Frische.\n\nDas Gericht braucht keine Pfanne und wenig Vorbereitung. Mit Reis, Nudeln oder Kartoffelpüree wird daraus ein vollständiges Familienessen.",
+    "tips": [
+      "Frischkäse vor dem Verrühren Zimmertemperatur annehmen lassen, dann wird er schneller glatt.",
+      "Einen Teelöffel Öl von den getrockneten Tomaten unter die Frischkäsemasse rühren. Das gibt mehr Aroma.",
+      "Dazu passen Reis, Bandnudeln, Kartoffelpüree oder Baguette, um die Sauce aufzunehmen.",
+      "Gleichmäßig dicke Filets garen gleichmäßig. Sehr dicke Filets vorher der Länge nach halbieren."
+    ],
+    "faq": [
+      { "q": "Wie erkenne ich, dass das Hähnchen durch ist?", "a": "Mit einem Fleischthermometer: An der dicksten Stelle sollten mindestens 74 °C erreicht sein. Der austretende Saft ist dann klar." },
+      { "q": "Kann ich die Mayonnaise weglassen?", "a": "Ja, dann einfach etwas mehr Frischkäse oder 1–2 EL Joghurt verwenden. Die Masse wird etwas weniger geschmeidig." },
+      { "q": "Kann ich das Gericht vorbereiten?", "a": "Ja, die Frischkäsemasse hält sich abgedeckt bis zu einem Tag im Kühlschrank. Die Filets erst kurz vor dem Backen damit bestreichen." }
+    ]
+  }
+}
