@@ -39,3 +39,17 @@ model User {
   password String
   name     String
 }
+
+model ReaderPhoto {
+  id        Int      @id @default(autoincrement())
+  recipeId  Int
+  name      String?
+  comment   String?
+  path      String
+  url       String
+  status    String   @default("pending")
+  ipHash    String?
+  createdAt DateTime @default(now())
+
+  @@index([recipeId, status])
+}

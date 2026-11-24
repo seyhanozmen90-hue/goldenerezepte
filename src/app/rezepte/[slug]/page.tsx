@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound, permanentRedirect } from "next/navigation";
 import { slugRedirects } from "@/lib/slugRedirects";
-import PhotoInvite from "@/components/PhotoInvite";
+import ReaderPhotos from "@/components/ReaderPhotos";
 import NavBar from "@/components/NavBar";
 import ViewTracker from "@/components/ViewTracker";
 import { formatMinutes } from "@/lib/utils";
@@ -332,7 +332,7 @@ export default async function RezeptDetailPage({ params }: Props) {
           </>
         )}
 
-        <PhotoInvite title={recipe.title} />
+        <ReaderPhotos recipeId={recipe.id} />
 
         <Link href="/rezepte" className="btn btn-outline" style={{ marginTop: "1rem" }}>
           ← Zurück zur Übersicht

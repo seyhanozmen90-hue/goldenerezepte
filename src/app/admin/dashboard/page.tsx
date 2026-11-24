@@ -235,6 +235,7 @@ export default function Dashboard() {
         <div className="sidebar-logo">🥨 GoldeneRezepte</div>
         <nav className="sidebar-nav">
           <a href="#" className="active">📋 Rezepte (Tarifler)</a>
+          <Link href="/admin/photos">📷 Leserfotos (Okur Fotoğrafları)</Link>
           <Link href="/">🏠 Zur Website (Siteyi Gör)</Link>
           <a href="#" onClick={(e) => { e.preventDefault(); signOut({ callbackUrl: "/admin" }); }} style={{ marginTop: "auto" }}>🚪 Abmelden (Çıkış Yap)</a>
         </nav>
