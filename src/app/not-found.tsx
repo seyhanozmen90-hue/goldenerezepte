@@ -1,6 +1,7 @@
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
 import CookieSettingsLink from "@/components/CookieSettingsLink";
+import ImageNote from "@/components/ImageNote";
 
 export default function NotFound() {
   return (
@@ -54,6 +55,7 @@ export default function NotFound() {
         <div className="footer-bottom" style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
           © {new Date().getFullYear()} GoldeneRezepte · <CookieSettingsLink />
         </div>
+        <ImageNote />
       </footer>
     </>
   );

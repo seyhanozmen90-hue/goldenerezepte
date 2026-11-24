@@ -1033,3 +1033,23 @@ a.cat-btn { display: inline-block; text-decoration: none; }
 .product-box-shop { color: var(--muted); }
 .product-box li p { margin: 0.2rem 0 0; color: var(--muted); }
 .product-box-disclaimer { margin: 0.9rem 0 0; font-size: 0.78rem; color: var(--muted); }
+
+.image-note {
+  max-width: 720px;
+  margin: 1.25rem auto 0;
+  padding: 0 1rem;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.recipe-image-caption {
+  max-width: 900px;
+  margin: 0.5rem auto 0;
+  padding: 0 1rem;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  color: var(--muted);
+}

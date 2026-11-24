@@ -5,6 +5,7 @@ import { prisma } from "@/lib/prisma";
 import NavBar from "@/components/NavBar";
 import RecipeCard from "@/components/RecipeCard";
 import CookieSettingsLink from "@/components/CookieSettingsLink";
+import ImageNote from "@/components/ImageNote";
 import RezepteSearch from "./RezepteClient";
 
 const CATEGORIES = ["Hauptgerichte", "Vorspeisen", "Desserts", "Suppen", "Salate", "Backen"];
@@ -146,6 +147,7 @@ export default async function RezeptePage({ searchParams }: { searchParams: Sear
             </div>
           </div>
           <div className="footer-bottom">© {new Date().getFullYear()} GoldeneRezepte</div>
+          <ImageNote />
         </footer>
       </div>
     </>

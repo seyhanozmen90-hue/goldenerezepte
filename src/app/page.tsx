@@ -5,6 +5,7 @@ import { prisma } from "@/lib/prisma";
 import { formatMinutes } from "@/lib/utils";
 import NavBar from "@/components/NavBar";
 import CookieSettingsLink from "@/components/CookieSettingsLink";
+import ImageNote from "@/components/ImageNote";
 
 export const revalidate = 60;
 
@@ -174,6 +175,7 @@ export default async function HomePage() {
           </div>
         </div>
         <div className="footer-bottom">© {new Date().getFullYear()} GoldeneRezepte – Alle Rechte vorbehalten</div>
+        <ImageNote />
       </footer>
     </>
   );

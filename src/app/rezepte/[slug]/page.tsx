@@ -7,6 +7,7 @@ import NavBar from "@/components/NavBar";
 import ViewTracker from "@/components/ViewTracker";
 import { formatMinutes } from "@/lib/utils";
 import CookieSettingsLink from "@/components/CookieSettingsLink";
+import ImageNote from "@/components/ImageNote";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -210,6 +211,9 @@ export default async function RezeptDetailPage({ params }: Props) {
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", fontSize: "5rem" }} aria-label="Kein Bild verfügbar">🍽️</div>
         )}
       </div>
+      {recipe.imageUrl && (
+        <p className="recipe-image-caption">Illustration (KI-generiert) · Serviervorschlag</p>
+      )}
 
       <div className="recipe-detail-body">
         <div className="recipe-card-category" style={{ marginBottom: "0.5rem" }}>{recipe.category}</div>
@@ -381,6 +385,7 @@ export default async function RezeptDetailPage({ params }: Props) {
           </div>
         </div>
         <div className="footer-bottom">© {new Date().getFullYear()} GoldeneRezepte</div>
+        <ImageNote />
       </footer>
     </>
   );

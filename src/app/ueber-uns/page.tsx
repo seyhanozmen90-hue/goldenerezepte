@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
 import CookieSettingsLink from "@/components/CookieSettingsLink";
+import ImageNote from "@/components/ImageNote";
 
 export const metadata: Metadata = {
   title: "Über uns – GoldeneRezepte",
@@ -68,13 +69,34 @@ export default function UeberUns() {
             GoldeneRezepte ist aus einer einfachen Idee entstanden: Rezepte, die im Alltag
             funktionieren, an einem Ort zu sammeln. Von herzhaften Hausmannsgerichten über Suppen
             und Aufläufe bis zu Kuchen und Desserts – ohne komplizierte Technik und ohne Zutaten,
-            die man lange suchen muss.
+            die man lange suchen muss. Die Rezepte stammen aus meiner Küche sowie von Familie und
+            Freunden.
           </p>
           <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1rem", fontSize: "1rem" }}>
             Zu jedem Rezept findest du genaue Mengenangaben, Zeiten, Schritt-für-Schritt-Anleitungen
             sowie Tipps, Variationen und Antworten auf häufige Fragen – damit es dir gelingt, egal ob
             du gerade erst anfängst oder schon lange in der Küche stehst. Wenn etwas unklar ist,
             schreib mir gern über die <Link href="/kontakt" style={{ color: "var(--gold)" }}>Kontaktseite</Link>.
+          </p>
+        </div>
+
+        {/* Bilder */}
+        <div style={{ marginBottom: "4rem" }}>
+          <h2 className="section-title">Zu den Bildern</h2>
+          <p style={{ fontFamily: "system-ui, sans-serif", color: "var(--muted)", lineHeight: 1.85, marginTop: "1.5rem", fontSize: "1rem" }}>
+            Die Fotos auf dieser Seite sind mit Hilfe von KI erstellte Illustrationen. Sie zeigen,
+            wie das Gericht aussehen kann, und sind als Serviervorschlag gedacht. Die Rezepte, Mengen
+            und Zeiten stammen von mir und sind für die Küche zu Hause gedacht. Wenn du ein Rezept
+            nachgekocht hast, freue ich mich über dein Foto – am liebsten als Kommentar auf{" "}
+            <a
+              href="https://www.facebook.com/profile.php?id=61588997481232"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "var(--gold)" }}
+            >
+              meiner Facebook-Seite
+            </a>
+            .
           </p>
         </div>
 
@@ -135,6 +157,7 @@ export default function UeberUns() {
         <div className="footer-bottom" style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
           © {new Date().getFullYear()} GoldeneRezepte
         </div>
+        <ImageNote />
       </footer>
     </>
   );
